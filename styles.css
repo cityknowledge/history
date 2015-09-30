@@ -1,0 +1,69 @@
+html, body {
+    width: 100%;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline overline;
+    font-variant: small-caps;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+div#nav, div#buttons {
+    text-align: center;
+    position: absolute;
+}
+
+div#nav {
+    top: 75px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+}
+
+div#buttons {
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+div#nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div#timeline {
+    display: block;
+    overflow: visible;
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    top: 100px;
+    bottom: 30px;
+    height: *;
+}
+
+div#timeline article {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 500px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}

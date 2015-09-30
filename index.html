@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='it'>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>La storia Veneziana</title>
+    </head>
+    <body data-ng-app="appTimeline" data-ng-controller="controllerTimeline">
+        <h1>La storia Veneziana</h1>
+        <div id=nav>
+            <a href="">Il <i>Venice Project Center</i></a>
+            <a href="">Il gruppo della cronologia di Venezia</a>
+            <a href="http://www.supernovaedizioni.it">Supernova Edizioni</a>
+        </div>
+        
+        <div id=timeline>
+            <article>
+                Blah, Blah, Blah
+            </article>
+        </div>
+        
+        <div id=timeAxis>
+            
+        </div>
+        <div id=buttons>
+            <button data-ng-click="zoomOut()">Diminuire</button>
+            <button data-ng-click="zoomIn()">Ingrandire</button>
+            Scegli un filter: <select data-ng-model="filter">
+            <option value="'NoFilter'">Nessun Filter</option>
+            <option value="'War'">Guerra</option>
+            <option value="'Italy'">Italia</option>
+            <option value="'Balkans'">Balcani</option>
+            </select>
+            Cerca: <input type="text" data-ng-model="search" data-ng-change="filter=search">
+        </div>
+        <script src="controller.js"></script>
+    </body>
+</html>
