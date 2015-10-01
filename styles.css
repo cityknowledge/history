@@ -1,9 +1,10 @@
 html, body {
-    width: 100%;
+    height: 100%;
 }
 
 body {
     background-color: lightgray;
+    overflow-y: hidden;
 }
 
 h1 {
@@ -48,14 +49,12 @@ div#nav a {
 }
 
 div#timeline {
-    display: block;
     overflow: visible;
     white-space: nowrap;
-    margin: 0;
-    position: relative;
-    top: 100px;
-    bottom: 30px;
-    height: *;
+    height: 100%;
+    padding-top: 130px;
+    padding-bottom: 60px;
+    box-sizing: padding-box;
 }
 
 div#timeline article {
@@ -66,4 +65,5 @@ div#timeline article {
     border: 10px solid black;
     border-radius: 20px;
     padding: 20px;
+    height: 0px;
 }
