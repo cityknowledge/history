@@ -2,13 +2,16 @@
 <html lang='it'>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
-        <script src="sizing.js"></script>
+        <script src="size.js"></script>
+        <script src="draw.js"></script>
+        <script src="windowattr.js"></script>
         <link rel="stylesheet" href="styles.css">
         <title>La storia Veneziana</title>
     </head>
     <body data-ng-app="appTimeline" data-ng-controller="controllerTimeline">
         <h1>La storia Veneziana</h1>
         <div id=nav>
+            <a href="http://wpi.edu">Il <i>Worcester Polytechnic Institute</i></a>
             <a href="">Il <i>Venice Project Center</i></a>
             <a href="">Il gruppo della cronologia di Venezia</a>
             <a href="http://www.supernovaedizioni.it">Supernova Edizioni</a>
@@ -21,7 +24,7 @@
         </div>
         
         <div id=timeAxis>
-            
+            <canvas id="axis" width="100" height="30"></canvas>
         </div>
         <div id=buttons>
             <button data-ng-click="zoomOut()">Diminuire</button>
