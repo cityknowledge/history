@@ -1,7 +1,6 @@
 /*
 This code is taken from the Mozilla developer wiki page at https://developer.mozilla.org/en-US/docs/Web/Events/wheel
-This code is written by Mozilla Contributors, and is available under the CC-BY-SA 2.5 license, available at http://creativecommons.org/licenses/by-sa/2.5/
-This code must be sourced in the credits/attribution page.
+This code is written by Mozilla Contributors, and is available under the CC-0 license, available at http://creativecommons.org/licenses/zero/1.0
 */
 
 (function(window,document) {
