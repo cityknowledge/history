@@ -14,6 +14,8 @@ app.controller("controllerTimeline", function ($scope, $http) {
     }
     $http.get("data.json").success( function(response) {
         'use strict';
-        $scope.events = response.data;
+        $scope.events = response.events;
     });
 });
+
+window.onload();

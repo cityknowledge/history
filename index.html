@@ -11,15 +11,16 @@
     <body data-ng-app="appTimeline" data-ng-controller="controllerTimeline">
         <h1>La storia Veneziana</h1>
         <div id=nav>
-            <a href="http://wpi.edu">Il <i>Worcester Polytechnic Institute</i></a>
-            <a href="">Il <i>Venice Project Center</i></a>
-            <a href="">Il gruppo della cronologia di Venezia</a>
-            <a href="http://www.supernovaedizioni.it">Supernova Edizioni</a>
+            <a href="http://wpi.edu" target="_blank">Il <i>Worcester Polytechnic Institute</i></a>
+            <a href="" target="_blank">Il <i>Venice Project Center</i></a>
+            <a href="" target="_blank">Il gruppo della cronologia di Venezia</a>
+            <a href="http://www.supernovaedizioni.it" target="_blank">Supernova Edizioni</a>
         </div>
         
         <div id=timeline>
-            <article>
-                Blah, Blah, Blah
+            <article data-ng-repeat="event in events | orderBy:'Year' | filter:search">
+                <h2 data-ng-bind="event.Date || event.Year + ': ' + event.Title"></h2>
+                <p data-ng-bind="event.Content"></p>
             </article>
         </div>
         
