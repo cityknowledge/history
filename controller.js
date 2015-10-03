@@ -16,9 +16,7 @@ app.controller("controllerTimeline", function ($scope, $http) {
         'use strict';
         $scope.events = response.events;
     });
-    $scope.mouseEvent = function() {
-        
-    };
+    //$scope.mouseEvent = onAxisClick;
 });
 
 window.onload();
