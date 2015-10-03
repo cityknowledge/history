@@ -1,4 +1,4 @@
-function scroll() {
+function scroll(event) {
     'use strict';
-    window.scrollBy(100, 0);
+    window.scrollBy(event.deltaY || event.wheelDeltaY, 0);
 }

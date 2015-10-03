@@ -10,9 +10,4 @@ window.onresize = function () {
     draw();
 };
 
-if (window.onwheel) {
-    window.addEventListener('wheel', scroll)
-}
-else if (window.onmousewheel) {
-    window.addEventListener('mousewheel', scroll);
-}
+window.addWheelListener(window, scroll);
