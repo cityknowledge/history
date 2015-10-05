@@ -1,6 +1,10 @@
 function scroll(event) {
     'use strict';
-	var isIE = ((navigator.appName == 'Microsoft Internet Explorer') || ((navigator.appName == 'Netscape') && (new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent) != null)));
-    if (!isIE) { window.scrollBy(event.deltaY || event.wheelDeltaY, 0); }
-	if (isIE) { window.scrollBy(event.deltaY * 120, 0); }
+	if (event.deltaMode === 0) { // DOM_DELTA_PIXEL
+		window.scrollBy(event.deltaY, 0);
+	} else if (event.deltaMode === 1) { // DOM_DELTA_LINE
+		window.scrollBy(event.deltaY * 30, 0);
+	} else if (event.deltaMode === 2) { // DOM_DELTA_PAGE
+		window.scrollBy(event.deltaY * 120, 0);
+	}
 }
