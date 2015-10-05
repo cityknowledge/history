@@ -3,12 +3,12 @@ This code is taken from the Mozilla developer wiki page at https://developer.moz
 This code is written by Mozilla Contributors, and is available under the CC-0 license, available at http://creativecommons.org/licenses/zero/1.0
 */
 
-(function(window,document) {
-
+function (window, document) {
+    'use strict';
     var prefix = "", _addEventListener, onwheel, support;
 
     // detect event model
-    if ( window.addEventListener ) {
+    if (window.addEventListener) {
         _addEventListener = "addEventListener";
     } else {
         _addEventListener = "attachEvent";
@@ -65,3 +65,5 @@ This code is written by Mozilla Contributors, and is available under the CC-0 li
     }
 
 })(window,document);
+
+null;

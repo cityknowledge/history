@@ -1,5 +1,4 @@
 /*global size, draw, scroll*/
-
 window.onload = function () {
     'use strict';
     size();

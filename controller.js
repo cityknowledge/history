@@ -1,3 +1,5 @@
+/*global angular*/
+/*jslint plusplus: true*/
 var app = new angular.module('appTimeline', []);
 var maxZoom = 2;
 app.controller("controllerTimeline", function ($scope, $http) {
@@ -6,14 +8,16 @@ app.controller("controllerTimeline", function ($scope, $http) {
     $scope.search = "";
     $scope.filter = "";
     $scope.zoomIn = function () {
-        if ($scope.zoom !== maxZoom) $scope.zoom++;
+        if ($scope.zoom !== maxZoom) {
+            $scope.zoom++;
+        }
     };
     $scope.zoomOut = function () {
-        'use strict';
-        if ($scope.zoom  !== 0) $scope.zoom--;   
+        if ($scope.zoom  !== 0) {
+            $scope.zoom--;
+        }
     };
-    $http.get("data.json").success( function(response) {
-        'use strict';
+    $http.get("data.json").success(function (response) {
         $scope.events = response.events;
     });
     //$scope.mouseEvent = onAxisClick;

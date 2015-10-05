@@ -1,3 +1,4 @@
+/*jslint plusplus: true*/
 function size() {
     'use strict';
     
@@ -9,10 +10,11 @@ function size() {
         y = w.innerHeight || e.clientHeight || g.clientHeight,
         articles = document.getElementsByTagName("article"),
         canvas = document.getElementById("axis"),
-        x;
+        x,
+        n;
     
     for (x = 0; x < articles.length; x++) {
-        var n = y - 280;
+        n = y - 280;
         articles[x].style.height = n.toString() + "px";
         articles[x].setAttribute("style", "height: " + n.toString() + "px;");
     }
