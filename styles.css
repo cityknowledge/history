@@ -3,6 +3,23 @@ html, body {
 }
 
 body {
+    position: relative !important;
+    top: 0px !important;
+}
+
+#google_translate_element {
+    height: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+iframe {
+    visibility: hidden !important;
+    display: none !important;
+    height: 0px !important
+}
+
+body {
     background-color: lightgray;
     overflow-y: hidden;
     margin-left: 8px;
@@ -19,6 +36,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     height: 50px;
+    z-index: 0;
 }
 
 div {
@@ -62,9 +80,9 @@ div#nav a {
 div#timeline {
     overflow: visible;
     white-space: nowrap;
+    position: absolute;
     height: 100%;
-    padding-top: 130px;
-    padding-bottom: 60px;
+    top: 130px;
     box-sizing: padding-box;
 }
 
