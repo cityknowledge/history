@@ -23,4 +23,4 @@ app.controller("controllerTimeline", function ($scope, $http) {
     //$scope.mouseEvent = onAxisClick;
 });
 
-window.onload();
+window.controllerLoad();

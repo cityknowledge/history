@@ -1,5 +1,6 @@
-/*global size, draw, scroll*/
-window.onload = function () {
+/*global size, draw, scroll, $*/
+
+window.controllerLoad = function () {
     'use strict';
     size();
     draw();

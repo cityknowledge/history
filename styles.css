@@ -2,6 +2,25 @@ html, body {
     height: 100%;
 }
 
+#zoom_in {
+    background-image: url("zoomin.png");
+}
+
+#zoom_out {
+    background-image: url("zoomout.png");
+}
+
+#zoom_in, #zoom_out {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
 body {
     position: relative !important;
     top: 0px !important;
@@ -20,7 +39,7 @@ iframe {
 }
 
 body {
-    background-color: lightgray;
+    background-color: darkgray;
     overflow-y: hidden;
     margin-left: 8px;
 }
@@ -90,9 +109,8 @@ div#timeline article {
     display: inline-block;
     box-sizing: border-box;
     width: 500px;
-    background-color: white;
-    border: 10px solid black;
-    border-radius: 20px;
+    color: rgba(256, 256, 256, 256);
+    background-color: rgba(50,50,50,100);
     padding: 20px;
     height: 0px;
 }
@@ -106,4 +124,10 @@ article {
     margin-right: 10px;
     white-space: normal;
     vertical-align: text-top;
+}
+
+img {
+    max-width: 460px;
+    max-height: none;
+    margin: auto;
 }
