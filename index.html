@@ -28,8 +28,8 @@
         </div>
         
         <div id=timeline>
-            <article data-ng-repeat="event in events | orderBy:'parseAsInt(Year)' | filter:search">
-                <h2 data-ng-bind="event.Date || event.Year + ': ' + event.Title"></h2>
+            <article data-ng-repeat="event in events | filter:search">
+                <h2 data-ng-bind="(event.Date || event.Year) + ': ' + event.Title"></h2>
                 <p data-ng-bind="event.Content" data-ng-if="!event.Image"></p>
                 <img data-ng-if="event.Image" src="{{ event.Image }}">
             </article>
