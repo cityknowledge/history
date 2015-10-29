@@ -1,70 +1,82 @@
 {
-"events": [
-    {
-        "Year" : "755",
-        "Title" : "Election of the 5th doge Galla Gaulo:",
-        "Content" : "Si elegge il 5° doge, Galla Gaulo [alcune cronache lo chiamano Galla Lupanio], che dopo aver ordito una congiura filo-franca contro il doge precedente, di cui era un fedelissimo e averlo fatto abbacinare ed esiliare, si era imposto alla volontà dei venetici con una elezione pilotata."
-    },
-    {
-        "Year" : "768",
-        "Title" : "War agains the Lombard king Desiderius:",
-        "Content" : "Il re longobardo Desiderio attacca l’Istria perché vuole sottometterla. I venetici accorrono in difesa di un territorio con il quale sentono di avere un legame spirituale grazie alla comune sede patriarcale di Grado,  ma devono subire il distacco territoriale e religioso. I longobardi sottomettono l’Istria, ma pochi anni dopo (774) devono a loro volta cederla ai franchi. Con la caduta dell’Istria diminuisce l’influenza bizantina nell’Adriatico."
-    },
-    {
-        "Year" : "811",
-        "Title" : "Peace talks between the Byzzantine and Venice:",
-        "Content" : "Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814."
-    },
-    {
-        "Year" : "815",
-        "Title" : "Giorgio di Venezi makes hydraulic organ:",
-        "Content" : "Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814."
-    },
-    {
-        "Year" : "827",
-        "Title" : "Death of Angelo Partecipazio 5th Doge of the Republic of Venice:",
-        "Content" : "Muore il vecchio doge Angelo Parteci-pazio ed è sepolto nella Chiesa di S. Bene-detto, vicino al complesso di Sant’Ilario, che lui stesso ha fatto costruire come Cappella Ducale. La Chiesa di S. Benedetto, diventa il primo pantheon della Repubblica perché vi troveranno sepoltura cinque dogi, molti Procuratori di S. Marco [v. 832] e altri illustri membri del patriziato [Cfr. Da Mosto 36]."
-    },
-    {
-        "Year" : "828",
-        "Title" : "Oratory of St. Mark in Torcello:",
-        "Content" : "A Torcello, dietro la cattedrale, viene eretto il piccolissimo Oratorio di S. Marcò Evangelista a ricordo del trasporto in laguna del corpo del santo."
-    },
-    {
-        "Year" : "863",
-        "Title" : "Emperor Lodovico tries to mary his daugther:",
-        "Content" : "L’imperatore Lodovico II viene in laguna con la consorte Engilberga per visitare la città e tenere a battesimo la figlia del co-reggente Giovanni. Gli ospiti si fermano per tre giorni nel Monastero di S. Michele e dopo la loro partenza Giovanni improvvisamente muore. Scoppiano disordini e il vecchio doge non riesce a tenere la situazione sotto controllo per cui incapace d’imporre la sua autorità subisce una congiura che porrà fine alla sua esistenza [v. 864]."
-    },
-    {
-        "Year" : "883",
-        "Title" : "Charles the Fat ",
-        "Date" : "10 maggio 883",
-        "Content" : "Il nuovo imperatore Carlo il Grosso (839-88) conferma al doge i benefici feudali, ovvero la libera circolazione commerciale e la piena esenzione dai dazi, inclusa l’incolumità del doge, da considerarsi un protetto dell’imperatore. Dopo la scomunica un gran conforto"
-    },
-    {
-        "Year" : "885",
-        "Title" : "Flooding",
-        "Content" : "Acqua altissima che inonda la città, penetra nelle chiese e nelle case."
-    },
-    {
-        "Year" : "1494",
-        "Title" : "Miraculous Healing",
-        "Image" : "imgs/1494_miraculoushealing.png"
-    },
-    {
-        "Year" : "1496",
-        "Title" : "Procession",
-        "Image" : "imgs/1496_procession.jpg"
-    },
-    {
-        "Year" : "1565",
-        "Title" : "Birds Eye",
-        "Image" : "imgs/1565_birdseye.jpg"
-    },
-    { 
-        "Year" : "1627",
-        "Title" : "Badoer",
-        "Image" : "imgs/1627_badoer.jpg"
+    "events": [
+        {
+            "Year" : "755",
+            "Title" : "Election of the 5th doge Galla Gaulo:",
+            "Content" : "Si elegge il 5° doge, Galla Gaulo [alcune cronache lo chiamano Galla Lupanio], che dopo aver ordito una congiura filo-franca contro il doge precedente, di cui era un fedelissimo e averlo fatto abbacinare ed esiliare, si era imposto alla volontà dei venetici con una elezione pilotata."
+        },
+        {
+            "Year" : "768",
+            "Title" : "War agains the Lombard king Desiderius:",
+            "Content" : "Il re longobardo Desiderio attacca l’Istria perché vuole sottometterla. I venetici accorrono in difesa di un territorio con il quale sentono di avere un legame spirituale grazie alla comune sede patriarcale di Grado,  ma devono subire il distacco territoriale e religioso. I longobardi sottomettono l’Istria, ma pochi anni dopo (774) devono a loro volta cederla ai franchi. Con la caduta dell’Istria diminuisce l’influenza bizantina nell’Adriatico."
+        },
+        {
+            "Year" : "811",
+            "Title" : "Peace talks between the Byzzantine and Venice:",
+            "Content" : "Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814."
+        },
+        {
+            "Year" : "815",
+            "Title" : "Giorgio di Venezi makes hydraulic organ:",
+            "Content" : "Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814."
+        },
+        {
+            "Year" : "827",
+            "Title" : "Death of Angelo Partecipazio 5th Doge of the Republic of Venice:",
+            "Content" : "Muore il vecchio doge Angelo Parteci-pazio ed è sepolto nella Chiesa di S. Bene-detto, vicino al complesso di Sant’Ilario, che lui stesso ha fatto costruire come Cappella Ducale. La Chiesa di S. Benedetto, diventa il primo pantheon della Repubblica perché vi troveranno sepoltura cinque dogi, molti Procuratori di S. Marco [v. 832] e altri illustri membri del patriziato [Cfr. Da Mosto 36]."
+        },
+        {
+            "Year" : "828",
+            "Title" : "Oratory of St. Mark in Torcello:",
+            "Content" : "A Torcello, dietro la cattedrale, viene eretto il piccolissimo Oratorio di S. Marcò Evangelista a ricordo del trasporto in laguna del corpo del santo."
+        },
+        {
+            "Year" : "863",
+            "Title" : "Emperor Lodovico tries to mary his daugther:",
+            "Content" : "L’imperatore Lodovico II viene in laguna con la consorte Engilberga per visitare la città e tenere a battesimo la figlia del co-reggente Giovanni. Gli ospiti si fermano per tre giorni nel Monastero di S. Michele e dopo la loro partenza Giovanni improvvisamente muore. Scoppiano disordini e il vecchio doge non riesce a tenere la situazione sotto controllo per cui incapace d’imporre la sua autorità subisce una congiura che porrà fine alla sua esistenza [v. 864]."
+        },
+        {
+            "Year" : "883",
+            "Title" : "Charles the Fat ",
+            "Date" : "10 maggio 883",
+            "Content" : "Il nuovo imperatore Carlo il Grosso (839-88) conferma al doge i benefici feudali, ovvero la libera circolazione commerciale e la piena esenzione dai dazi, inclusa l’incolumità del doge, da considerarsi un protetto dell’imperatore. Dopo la scomunica un gran conforto"
+        },
+        {
+            "Year" : "885",
+            "Title" : "Flooding",
+            "Content" : "Acqua altissima che inonda la città, penetra nelle chiese e nelle case."
+        },
+        {
+            "Year" : "1494",
+            "Title" : "Miraculous Healing",
+            "Image" : "imgs/1494_miraculoushealing.png"
+        },
+        {
+            "Year" : "1496",
+            "Title" : "Procession",
+            "Image" : "imgs/1496_procession.jpg"
+        },
+        {
+            "Year" : "1565",
+            "Title" : "Birds Eye",
+            "Image" : "imgs/1565_birdseye.jpg"
+        },
+        { 
+            "Year" : "1627",
+            "Title" : "Badoer",
+            "Image" : "imgs/1627_badoer.jpg"
+        }
+    ],
+    "example" : {
+        "Year" : "Year of event / Required",
+        "Date" : "Date of event if known / Optional",
+        "Title" : "Title of event / Required",
+        "Content" : "Text of event / Required",
+        "Image" : "URL of image if present / Optional",
+        "Links" : [
+            "URL of first link",
+            "URL of second link",
+            "Further reading for this event / Optional"
+        ]
     }
-]
 }
