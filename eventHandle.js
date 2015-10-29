@@ -85,10 +85,9 @@ function CanvasState(canvas) {
             my = mouse.y,
             mySel = null;
         
-        alert(mx + " " + my);
-        alert(myState.slider.contains(mx, my));
+
         if (myState.slider.contains(mx, my)) {
-            alert("yo2");
+            
             mySel = myState.slider;
             //begin to move
             myState.dragoffx = mx - mySel.x;
