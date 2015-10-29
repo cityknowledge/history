@@ -1,13 +1,107 @@
+/* Animation definitions */
+
+@-webkit-keyframes hover {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+        background-color: rgba(120, 120, 120, 1);
+    }
+}
+
+@keyframes hover {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+        background-color: rgba(120, 120, 120, 1);
+    }
+}
+
+@-webkit-keyframes unhover {
+    from {
+        background-color: rgba(120, 120, 120, 1);
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+@keyframes unhover {
+    from {
+        background-color: rgba(120, 120, 120, 1);
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+@-webkit-keyframes fadein {
+    0%, 50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    0%, 50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes gt_slidein {
+    0%, 50% {
+        top: -20px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+
+@keyframes gt_slidein {
+    0%, 50% {
+        top: -25px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+
+@-webkit-keyframes ar_fadein {
+    0%, 50% {
+        background-color: rgba(64, 64, 64, .8);
+    }
+    100% {
+        background-color: rgba(25, 25, 25, .8);
+    }
+}
+
+@keyframes ar_fadein {
+    0%, 50% {
+        background-color: rgba(64, 64, 64, .8);
+    }
+    100% {
+        background-color: rgba(25, 25, 25, .8);
+    }
+}
+
+/* Styling information */
 html, body {
     height: 100%;
 }
 
-#zoom_in {
-    background-image: url("zoomin.png");
-}
-
-#zoom_out {
-    background-image: url("zoomout.png");
+body {
+    position: relative !important;
+    top: 0px !important;
+    color: rgba(256, 256, 256, 1);
+    background-color: rgba(64, 64, 64, 1);
+    overflow-y: hidden;
+    margin-left: 8px;
 }
 
 #zoom_in, #zoom_out {
@@ -19,29 +113,35 @@ html, body {
     vertical-align: middle;
     width: 40px;
     height: 40px;
+    animation-duration: 1s;
+    cursor: pointer;
 }
 
-body {
-    position: relative !important;
-    top: 0px !important;
+#zoom_in {
+    background-image: url("zoomin.png");
+}
+
+#zoom_out {
+    background-image: url("zoomout.png");
+}
+
+a {
+    color: rgba(96, 96, 256, 1);
 }
 
 #google_translate_element {
     height: 0px;
     position: fixed;
+    top: 10px;
     z-index: 1;
+    animation-name: gt_slidein;
+    animation-duration: 2s;
 }
 
 iframe {
     visibility: hidden !important;
     display: none !important;
     height: 0px !important
-}
-
-body {
-    background-color: darkgray;
-    overflow-y: hidden;
-    margin-left: 8px;
 }
 
 h1 {
@@ -61,6 +161,11 @@ h1 {
 div {
     margin: 0;
     padding: 0;
+}
+
+div#nav, div#timeline, div#timeAxis, div#buttons, h1 {
+    animation-name: fadein;
+    animation-duration: 2s;
 }
 
 div#nav, div#buttons, div#timeAxis {
@@ -96,12 +201,41 @@ div#nav a {
     padding-right: 10px;
 }
 
+div.arrow {
+    position: fixed;
+    background-color: rgba(25, 25, 25, .8);
+    width: 60px;
+    top: 138px;
+    z-index: 3;
+    cursor: pointer;
+    animation-name: ar_fadein;
+    animation-duration: 2s;
+}
+
+div.arrow:hover {
+    background-color: rgba(12, 12, 12, .8);
+}
+
+div.arrow:active {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+div.arrow#larr {
+    left: 0px;
+}
+
+div.arrow#rarr {
+    right: 0px;
+}
+
 div#timeline {
     overflow: visible;
     white-space: nowrap;
     position: absolute;
     height: 100%;
     top: 130px;
+    left: 60px;
+    padding-right: 60px;
     box-sizing: padding-box;
 }
 
@@ -109,10 +243,11 @@ div#timeline article {
     display: inline-block;
     box-sizing: border-box;
     width: 500px;
-    color: rgba(256, 256, 256, 256);
-    background-color: rgba(50,50,50,100);
-    padding: 20px;
+    color: rgba(256, 256, 256, 1);
+    background-color: rgba(25, 25, 25, .5);
+    padding: 10px 30px;
     height: 0px;
+    z-index: 2;
 }
 
 canvas {
@@ -127,7 +262,7 @@ article {
 }
 
 img {
-    max-width: 460px;
+    max-width: 440px;
     max-height: none;
     margin: auto;
 }

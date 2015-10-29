@@ -2,6 +2,7 @@
 /*jslint plusplus: true*/
 var app = new angular.module('appTimeline', []);
 var maxZoom = 2;
+var scrollVal = 0;
 app.controller("controllerTimeline", function ($scope, $http) {
     'use strict';
     $scope.zoom = 0;
@@ -20,7 +21,17 @@ app.controller("controllerTimeline", function ($scope, $http) {
     $http.get("data.json").success(function (response) {
         $scope.events = response.events;
     });
-    //$scope.mouseEvent = onAxisClick;
+    $scope.scroll = function (val) {
+        scrollVal = val;
+    };
+    $scope.stopScroll = function () {
+        scrollVal = 0;
+    };
 });
+
+window.setInterval(function () {
+    "use strict";
+    window.scrollBy(scrollVal, 0);
+}, 5);
 
 window.controllerLoad();

@@ -9,6 +9,7 @@
         <script src="scroll.js"></script>
         <script src="windowattr.js"></script>
         <script src="eventHandle.js"></script>
+        <script src="animations.js"></script>
         <link rel="stylesheet" href="styles.css">
         <title>La storia Veneziana</title>
     </head>
@@ -34,13 +35,15 @@
                 <img data-ng-if="event.Image" src="{{ event.Image }}">
             </article>
         </div>
+        <div class="arrow" id="larr" data-ng-mouseenter="scroll(-1)" data-ng-mouseleave="stopScroll()" data-ng-mousedown="scroll(-3)" data-ng-mouseup="scroll(-1)"></div>
+        <div class="arrow" id="rarr" data-ng-mouseenter="scroll(1)" data-ng-mouseleave="stopScroll()" data-ng-mousedown="scroll(3)" data-ng-mouseup="scroll(1)"></div>
         
         <div id=timeAxis>
             <canvas id="axis" width="100" height="30"></canvas>
         </div>
         <div id=buttons>
-            <button data-ng-click="zoomOut()" id="zoom_out"></button>
-            <button data-ng-click="zoomIn()" id="zoom_in"></button>
+            <button data-ng-click="zoomOut()" onmouseover="hover('zoom_out');" onmouseout="unhover('zoom_out');" id="zoom_out"></button>
+            <button data-ng-click="zoomIn()" onmouseover="hover('zoom_in');" onmouseout="unhover('zoom_in');" id="zoom_in"></button>
             Scegli un filter: <select data-ng-model="filter">
             <option value="" selected>Nessun Filter</option>
             <option value="'War'">Guerra</option>
