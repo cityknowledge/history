@@ -204,11 +204,14 @@ div#nav a {
 div.arrow {
     position: fixed;
     background-color: rgba(25, 25, 25, .8);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 60px;
     top: 138px;
     z-index: 3;
     cursor: pointer;
-    animation-name: ar_fadein;
+    animation-name: fadein;
     animation-duration: 2s;
 }
 
@@ -222,10 +225,12 @@ div.arrow:active {
 
 div.arrow#larr {
     left: 0px;
+    background-image: url("larrow.png");
 }
 
 div.arrow#rarr {
     right: 0px;
+    background-image: url("rarrow.png");
 }
 
 div#timeline {

@@ -148,7 +148,7 @@ function CanvasState(canvas) {
             draw();
             
             //draw the schroller
-            shape.drawRect(ctx);
+            //TODO shape.drawRect(ctx);
             
             
             //check to see if selected
