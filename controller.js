@@ -1,8 +1,8 @@
-/*global angular*/
+/*global angular, scrollVal: true*/
 /*jslint plusplus: true*/
+
 var app = new angular.module('appTimeline', []);
 var maxZoom = 2;
-var scrollVal = 0;
 app.controller("controllerTimeline", function ($scope, $http) {
     'use strict';
     $scope.zoom = 0;
@@ -28,10 +28,5 @@ app.controller("controllerTimeline", function ($scope, $http) {
         scrollVal = 0;
     };
 });
-
-window.setInterval(function () {
-    "use strict";
-    window.scrollBy(scrollVal, 0);
-}, 5);
 
 window.controllerLoad();
