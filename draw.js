@@ -1,4 +1,5 @@
 /*jslint plusplus: true*/
+/*global Rectangle, $*/
 
 var drawTick, drawTicks;
 
@@ -18,6 +19,7 @@ function draw() {
         bottom = 30,
         vctr = 25,
         hctr = right / 2;
+        
     
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 	ctx.beginPath();
@@ -27,6 +29,8 @@ function draw() {
     ctx.stroke();
     
     drawTicks(left, right - 10, ctx);
+    
+    
 }
 
 // Calculates how many ticks get drawn, where they get drawn, and what years are displayed.

@@ -1,15 +1,17 @@
-/*global size, draw, scroll, $*/
+/*global size, draw, scroll, $, CanvasState*/
 
 window.controllerLoad = function () {
     'use strict';
     size();
-    draw();
+    var state = new CanvasState($('canvas')[0]);
+    state.drawState();
 };
 
 window.onresize = function () {
     'use strict';
     size();
-    draw();
+    var state = new CanvasState($('canvas')[0]);
+    state.drawState();
 };
 
 window.addWheelListener(window, scroll);
