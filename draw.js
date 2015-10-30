@@ -13,8 +13,8 @@ function draw() {
         e = d.documentElement,
         g = d.getElementsByTagName('body')[0],
         t = w.innerWidth || e.clientWidth || g.clientWidth,
-        left = 10,
-        right = t - 50,
+        left = 22,
+        right = t - 38,
         top = 0,
         bottom = 30,
         vctr = 25,
@@ -28,7 +28,7 @@ function draw() {
     ctx.lineTo(right, vctr);
     ctx.stroke();
     
-    drawTicks(left, right - 10, ctx);
+    drawTicks(left, right - 22, ctx);
     
     
 }

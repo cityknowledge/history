@@ -58,7 +58,8 @@ function CanvasState(canvas) {
         n = y - 280,
         imgs = $("img"),
         h = n - 100,
-        myState = this;
+        myState = this,
+        body = document.getElementsByTagName("body")[0];
     
     if (document.defaultView && document.defaultView.getComputedStyle) {
         this.stylePaddingLeft = parseInt(document.defaultView.getComputedStyle(canvas, null).paddingLeft, 10) || 0;
@@ -71,11 +72,12 @@ function CanvasState(canvas) {
         
     //keep track of state!
     this.valid = false; //redraw variable
-    this.slider = new Rectangle(0, 0, 15, 15);
+    this.slider = new Rectangle(30, 17, 30, 15);
     this.dragging = false; //keeps track of when dragging occurs
     this.selection = null;
     this.dragoffx = 0;
     this.dragoffy = 0;
+    
     
     
     canvas.addEventListener('mousedown', function (e) {
@@ -91,7 +93,7 @@ function CanvasState(canvas) {
             mySel = myState.slider;
             //begin to move
             myState.dragoffx = mx - mySel.x;
-            myState.dragoffy = my - mySel.y;
+            myState.dragoffy = mySel.y;
             myState.dragging = true;
             myState.selection = mySel;
             myState.valid = false;
@@ -109,21 +111,34 @@ function CanvasState(canvas) {
         
     }, true);
     
-    canvas.addEventListener('mousemove', function (e) {
+    body.addEventListener('mousemove', function (e) {
         if (myState.dragging) {
-            var mouse = myState.getMouse(e);
+            var mouse = myState.getMouse(e),
+                left = 22,
+                right = t - 38;
             
+            //add functionality to scrooll timeline here
             myState.selection.x = mouse.x - myState.dragoffx;
-            myState.selection.y = mouse.y - myState.dragoffy;
-            
             myState.valid = false;
+            
+            if (myState.selection.x < left - (myState.selection.w / 2)) {
+                
+                myState.selection.x = left - (myState.selection.w / 2);
+                
+            } else if (myState.selection.x > right - (myState.selection.w / 2)) {
+                
+                myState.selection.x = right - (myState.selection.w / 2);
+                
+            } 
             
         }//!endif
         
     }, true);
     
-    canvas.addEventListener('mouseup', function (e) {
+    body.addEventListener('mouseup', function (e) {
         myState.dragging = false;
+
+        
     }, true);
     
     //options
@@ -150,15 +165,9 @@ function CanvasState(canvas) {
             //draw the schroller
             shape.drawRect(ctx);
             
-            
             //check to see if selected
             if (this.selection !== null) {
-                ctx.strokeStyle = this.selectionColor;
-                ctx.lineWidth = this.selectionWidth;
                 mySel = this.selection;
-                
-                ctx.strokeRect(mySel.x, mySel.y, mySel.w, mySel.h);
-                
             }
             
             this.valid = true;
@@ -170,6 +179,7 @@ function CanvasState(canvas) {
         var element = this.canvas,
             offsetX = 0,
             offsetY = 0,
+            scrollOffSet = 0,
             mx,
             my;
             
@@ -181,8 +191,10 @@ function CanvasState(canvas) {
             element = element.offsetParent;
         }
         
+        scrollOffSet = document.documentElement.scrollLeft || document.body.scrollLeft;
+        
         //Add padding
-        offsetX += this.stylePaddingLeft + this.styleBorderLeft +  this.styleLeft;
+        offsetX += this.stylePaddingLeft + this.styleBorderLeft +  this.styleLeft + scrollOffSet;
         offsetY += this.stylePaddingTop + this.styleBorderTop +  this.styleTop;
     
         mx = e.pageX - offsetX - 8;
@@ -193,3 +205,4 @@ function CanvasState(canvas) {
     };
     
 }//!CanvasState
+ 
