@@ -69,10 +69,11 @@
     ],
     "example" : {
         "Year" : "Year of event / Required",
-        "Date" : "Date of event if known / Optional",
+        "Date" : "Date of event if known (more specific than year) / Optional",
         "Title" : "Title of event / Required",
         "Content" : "Text of event / Required",
         "Image" : "URL of image if present / Optional",
+        "Location" : "Location of event if known / Optional",
         "Filter" : "Filter1 war nitaly",
         "Links" : [
             "URL of first link",
