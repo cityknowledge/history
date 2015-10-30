@@ -198,26 +198,32 @@ div#timeAxis {
 div#nav a {
     padding-left: 10px;
     padding-right: 10px;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 #wpilink {
-    
+    background-image: url("wpilogo.png");
 }
 
 #vpclink {
-    
+    background-image: url("vpclogo.png");
 }
 
 #teamlink {
-    
+    background-image: url("chronlogo.png");
 }
 
 #selink {
-    
+    background-image: url("selogo.png");
 }
 
 #credlink {
-    
+    background-image: url("aboutlogo.png");
 }
 
 div.arrow {
