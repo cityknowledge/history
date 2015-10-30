@@ -149,7 +149,7 @@ h1 {
     text-decoration: underline overline;
     font-variant: small-caps;
     position: fixed;
-    top: 0px;
+    top: 20px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -174,8 +174,7 @@ div#nav, div#buttons, div#timeAxis {
 }
 
 div#nav {
-    top: 75px;
-    left: 0;
+    top: 10px;
     right: 0;
     margin-left: auto;
     margin-right: auto;
@@ -199,6 +198,26 @@ div#timeAxis {
 div#nav a {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#wpilink {
+    
+}
+
+#vpclink {
+    
+}
+
+#teamlink {
+    
+}
+
+#selink {
+    
+}
+
+#credlink {
+    
 }
 
 div.arrow {
