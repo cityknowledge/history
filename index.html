@@ -30,7 +30,7 @@
         </div>
         
         <div id=timeline>
-            <article data-ng-repeat="event in events | filter:search" data-ng-mouseup="displayInfoPanel($event);obscure();">
+            <article data-ng-repeat="event in events | filter:search | filter: {Filter: filter}" data-ng-mouseup="displayInfoPanel($event);obscure();">
                 <h2 data-ng-bind="(event.Date || event.Year) + ': ' + event.Title"></h2>
                 <p data-ng-bind="event.Content" data-ng-if="!event.Image"></p>
                 <img data-ng-if="event.Image" src="{{ event.Image }}">
@@ -49,9 +49,9 @@
             <button data-ng-click="zoomIn()" onmouseover="hover('zoom_in');" onmouseout="unhover('zoom_in');" id="zoom_in"></button>
             Scegli un filtro: <select data-ng-model="filter">
             <option value="" selected>Nessun Filtro</option>
-            <option value="'War'">Guerra</option>
-            <option value="'Italy'">Italia</option>
-            <option value="'Balkans'">Balcani</option>
+            <option value="War">Guerra</option>
+            <option value="Italy">Italia</option>
+            <option value="Balkans">Balcani</option>
             </select>
             Cerca: <input type="text" data-ng-model="search">
         </div>

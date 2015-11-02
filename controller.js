@@ -39,6 +39,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.displayInfoPanel = function (mouseEvt) {
         var panelNo,
             events,
+            event,
             scrollOffset = document.documentElement.scrollLeft || document.body.scrollLeft;
         panelNo = mouseEvt.x + scrollOffset;
         panelNo -= parseInt($("div#timeline").css("left"), 10);
@@ -47,11 +48,13 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         
         events = $scope.events;
         events = $scope.search ? $filter('filter')(events, $scope.search) : events;
-        events = $scope.filter ? $filter('filter')(events, "Filter: " + $scope.filter) : events;
+        events = $scope.filter ? $filter('filter')(events, {Filter: $scope.filter}) : events;
+        
+        event = events[panelNo - 1];
         
         $("div#infopanel").css("display", "block");
         document.getElementById("infopanel").innerHTML = "Hello! " + panelNo + "<br> \n\
-            Title: " + ($scope.search ? $filter('filter')($scope.events, $scope.search)[panelNo - 1].Title : $scope.events[panelNo - 1].Title);
+            Title: " + event.Title;
     };
     
     $scope.hideInfoPanel = function () {
