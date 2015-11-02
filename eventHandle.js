@@ -129,7 +129,7 @@ function CanvasState(canvas) {
                 
                 myState.selection.x = right - (myState.selection.w / 2);
                 
-            } 
+            }
             
         }//!endif
         

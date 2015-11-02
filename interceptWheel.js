@@ -3,6 +3,10 @@ This code is taken from the Mozilla developer wiki page at https://developer.moz
 This code is written by Mozilla Contributors, and is available under the CC-0 license, available at http://creativecommons.org/licenses/zero/1.0
 */
 
+/*
+IGNORE JSLINT WARNINGS FOR THIS SECTION OF CODE.
+*/
+
 /*jslint nomen: true*/
 
 (function (window, document) {

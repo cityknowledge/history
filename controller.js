@@ -5,25 +5,33 @@ var app = new angular.module('appTimeline', []);
 var maxZoom = 2;
 app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate) {
     'use strict';
+    
+    // Define scope variables
     $scope.zoom = 0;
     $scope.search = "";
     $scope.filter = "";
+    
+    // HTTP Request for the JSON data.
+    $http.get("data.json").success(function (response) {
+        $scope.events = response.events;
+    });
+    
     $scope.zoomIn = function () {
         if ($scope.zoom !== maxZoom) {
             $scope.zoom++;
         }
     };
+
     $scope.zoomOut = function () {
         if ($scope.zoom  !== 0) {
             $scope.zoom--;
         }
     };
-    $http.get("data.json").success(function (response) {
-        $scope.events = response.events;
-    });
+    
     $scope.scroll = function (val) {
         scrollVal = val;
     };
+    
     $scope.stopScroll = function () {
         scrollVal = 0;
     };
