@@ -30,12 +30,14 @@
         </div>
         
         <div id=timeline>
-            <article data-ng-repeat="event in events | filter:search">
+            <article data-ng-repeat="event in events | filter:search" data-ng-mouseup="displayInfoPanel($event);obscure();">
                 <h2 data-ng-bind="(event.Date || event.Year) + ': ' + event.Title"></h2>
                 <p data-ng-bind="event.Content" data-ng-if="!event.Image"></p>
                 <img data-ng-if="event.Image" src="{{ event.Image }}">
             </article>
         </div>
+        <div id="obscure" data-ng-mouseup="hideInfoPanel();unobscure();"></div>
+        <div id="infopanel"></div>
         <div class="arrow" id="larr" data-ng-mouseenter="scroll(-1)" data-ng-mouseleave="stopScroll()" data-ng-mousedown="scroll(-3)" data-ng-mouseup="scroll(-1)"></div>
         <div class="arrow" id="rarr" data-ng-mouseenter="scroll(1)" data-ng-mouseleave="stopScroll()" data-ng-mousedown="scroll(3)" data-ng-mouseup="scroll(1)"></div>
         
