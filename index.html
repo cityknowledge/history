@@ -76,7 +76,7 @@
             <article data-ng-repeat="event in events | filter:search | filter: {Filter: filter}" data-ng-mouseup="displayInfoPanel($event);obscure();">
                 <!--Display the content's date (or year) and its title-->       <h2 data-ng-bind="(event.Date || event.Year) + ': ' + event.Title"></h2>
                 <!--Display the event's content iff no image-->                 <p data-ng-bind="event.Content" data-ng-if="!event.Image"></p>
-                <!--Display the event's image iff present-->                    <img data-ng-if="event.Image" src="{{ event.Image }}">
+                <!--Display the event's image iff present-->                    <img data-ng-if="event.Image" data-ng-repeat="image in event.Image" src="{{ image }}">
             </article>
         </div>
         <!--END CONTENT PANEL COMPONENT-->

@@ -58,25 +58,33 @@
             "Year" : "1494",
             "Title" : "Miraculous Healing",
             "Filter" : "",
-            "Image" : "imgs/1494_miraculoushealing.png"
+            "Image" : [
+                "imgs/1494_miraculoushealing.png"
+            ]
         },
         {
             "Year" : "1496",
             "Title" : "Procession",
             "Filter" : "",
-            "Image" : "imgs/1496_procession.jpg"
+            "Image" : [
+                "imgs/1496_procession.jpg"
+            ]
         },
         {
             "Year" : "1565",
             "Title" : "Birds Eye",
             "Filter" : "",
-            "Image" : "imgs/1565_birdseye.jpg"
+            "Image" : [
+                "imgs/1565_birdseye.jpg"
+            ]
         },
         { 
             "Year" : "1627",
             "Title" : "Badoer",
             "Filter" : "",
-            "Image" : "imgs/1627_badoer.jpg"
+            "Image" : [ 
+                "imgs/1627_badoer.jpg" 
+            ]
         }
     ],
     "example" : {
@@ -84,7 +92,12 @@
         "Date" : "Date of event if known (more specific than year) / Optional",
         "Title" : "Title of event / Required",
         "Content" : "Text of event / Required",
-        "Image" : "URL of image if present / Optional",
+        "Zoom" : 0,
+        "Zoom__COMMENT" : "0, 1, 2, or 3, the minimum zoom level at which to display the thing.",
+        "Image" : [
+            "URL of image if present / Optional",
+            "URL 2"
+        ],
         "Location" : {
             "Lat" : "Latitude",
             "Lon" : "Longitude",
