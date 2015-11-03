@@ -342,7 +342,7 @@ div#timeline article {
     z-index: 2;
     cursor: pointer;
     overflow-y: hidden;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 canvas {
@@ -359,5 +359,6 @@ article {
 img {
     max-width: 440px;
     max-height: none;
+    min-width: 0px;
     margin: auto;
 }

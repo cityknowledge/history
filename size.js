@@ -10,7 +10,7 @@ function size() {
         t = w.innerWidth || e.clientWidth || g.clientWidth,
         y = w.innerHeight || e.clientHeight || g.clientHeight,
         n = y - 280,
-        h = n - 100;
+        h = n - 140;
     
     /*
     for (x = 0; x < articles.length; x++) {
