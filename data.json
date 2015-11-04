@@ -2,7 +2,6 @@
     "events": [
         {
             "Year" : "755",
-            "Title" : "Election of the 5th doge Galla Gaulo:",
             "Content" : "Si elegge il 5° doge, Galla Gaulo [alcune cronache lo chiamano Galla Lupanio], che dopo aver ordito una congiura filo-franca contro il doge precedente, di cui era un fedelissimo e averlo fatto abbacinare ed esiliare, si era imposto alla volontà dei venetici con una elezione pilotata.",
             "Filter" : ""
         },
@@ -68,7 +67,8 @@
             "Title" : "Procession",
             "Filter" : "",
             "Image" : [
-                "imgs/1496_procession.jpg"
+                "imgs/1496_procession.jpg",
+                "imgs/1565_birdseye.jpg"
             ]
         },
         {

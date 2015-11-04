@@ -15,3 +15,19 @@ function unhover(id) {
         .css('background-color', 'rgba(0, 0, 0, 0)');
 }
 
+function unobscure() {
+    'use strict';
+    $("#obscure")
+        .css("animation-name", "unobscure");
+    setTimeout(function () {
+        $("#obscure")
+            .css("display", "none");
+    }, 1000);
+}
+
+function hideInfoPanel() {
+    'use strict';
+    $("div#infopanel_wrap")
+        .css("display", "none");
+    document.getElementById("infopanel").innerHTML = "";
+}

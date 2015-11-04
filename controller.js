@@ -1,4 +1,4 @@
-/*global angular, scrollVal: true, $*/
+/*global angular, scrollVal: true, $, hideInfoPanel, unobscure*/
 /*jslint plusplus: true, es5: true*/
 
 var app = new angular.module('appTimeline', []);
@@ -10,6 +10,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.zoom = 0;
     $scope.search = "";
     $scope.filter = "";
+    $scope.ipevent = 0;
     
     // HTTP Request for the JSON data.
     $http.get("data.json").success(function (response) {
@@ -36,15 +37,14 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         scrollVal = 0;
     };
     
-    $scope.displayInfoPanel = function (mouseEvt) {
-        var panelNo,
-            events,
+    $scope.displayInfoPanel = function (panelNo) {
+        var events,
             event,
-            scrollOffset = document.documentElement.scrollLeft || document.body.scrollLeft;
-        panelNo = mouseEvt.x + scrollOffset;
-        panelNo -= parseInt($("div#timeline").css("left"), 10);
-        panelNo /= parseInt($("article").css("width"), 10) + parseInt($("article").css("margin-right"), 10);
-        panelNo = Math.ceil(panelNo);
+            image,
+            i,
+            string = "";
+        
+        $scope.ipevent = panelNo;
         
         events = $scope.events;
         events = $scope.search ? $filter('filter')(events, $scope.search) : events;
@@ -52,16 +52,36 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         
         event = events[panelNo - 1];
         
-        $("div#infopanel").css("display", "block");
-        document.getElementById("infopanel").innerHTML = "Hello! " + panelNo + "<br> \n\
-            Title: " + event.Title;
+        $("div#infopanel_wrap").css("display", "block");
+        
+        if (event.Image) {
+            string += "<div style=\"float:right;width:50%;display:block;\">";
+            for (i = 0; i < event.Image.length; i++) {
+                string += "<img src=\"" + event.Image[i] + "\" style=\"width:100%;\">";
+            }
+            string += "</div>";
+        }
+        
+        string += "<h2>" + (event.Date || event.Year) + ": " + event.Title + "</h1>";
+        
+        string += "<p>" + event.Content + "</p>";
+        
+        document.getElementById("infopanel").innerHTML = string;
     };
     
-    $scope.hideInfoPanel = function () {
-        $("div#infopanel")
-            .css("display", "none");
-        document.getElementById("infopanel").innerHTML = "";
+    $scope.mouseEventToPanelNo = function (mouseevent) {
+        var panelNo,
+            scrollOffset = document.documentElement.scrollLeft || document.body.scrollLeft;
+    
+        panelNo = mouseevent.x + scrollOffset;
+        panelNo -= parseInt($("div#timeline").css("left"), 10);
+        panelNo /= parseInt($("article").css("width"), 10) + parseInt($("article").css("margin-right"), 10);
+        panelNo = Math.ceil(panelNo);
+
+        return panelNo;
     };
+    
+    $scope.hideInfoPanel = window.hideInfoPanel;
     
     $scope.obscure = function () {
         $("#obscure")
@@ -69,13 +89,28 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             .css("display", "block");
     };
 
-    $scope.unobscure = function () {
-        $("#obscure")
-            .css("animation-name", "unobscure");
-        setTimeout(function () {
-            $("#obscure")
-                .css("display", "none");
-        }, 1000);
+    $scope.unobscure = window.unobscure;
+    
+    $scope.barAct = function (key) {
+        switch (key) {
+        case "close":
+            $scope.unobscure();
+            $scope.hideInfoPanel();
+            break;
+        case "last":
+            $scope.hideInfoPanel();
+            $scope.displayInfoPanel($scope.ipevent - 1);
+            break;
+        case "next":
+            $scope.hideInfoPanel();
+            $scope.displayInfoPanel($scope.ipevent + 1);
+            break;
+        case "back":
+            break;
+        default:
+            break;
+        }
+
     };
 });
 

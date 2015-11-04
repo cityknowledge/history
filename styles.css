@@ -254,7 +254,7 @@ div#nav a {
     z-index: 6;
 }
 
-#infopanel {
+#infopanel_wrap {
     background-color: rgba(256, 256, 256, 1);
     width: 80%;
     height: 80%;
@@ -356,9 +356,26 @@ article {
     vertical-align: text-top;
 }
 
-img {
+img.ipimg {
     max-width: 440px;
     max-height: none;
     min-width: 0px;
     margin: auto;
+}
+
+div.bar img {
+    float: right;
+    margin: 10px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+div.bar {
+    height: 52px;
+    width: 100%;
+}
+
+div#infopanel {
+    overflow: auto;
 }

@@ -73,10 +73,10 @@
         -->
         <div id=timeline>
             <!--For each event in the JSON file, display it iff its content matches the search, if present, and its taglist (Filter) contains the selected filter, if any.-->
-            <article data-ng-repeat="event in events | filter:search | filter: {Filter: filter}" data-ng-mouseup="displayInfoPanel($event);obscure();">
-                <!--Display the content's date (or year) and its title-->       <h2 data-ng-bind="(event.Date || event.Year) + ': ' + event.Title"></h2>
+            <article data-ng-repeat="event in events | filter:search | filter: {Filter: filter}" data-ng-mouseup="displayInfoPanel(mouseEventToPanelNo($event));obscure();">
+                <!--Display the content's date (or year) and its title-->       <h2 data-ng-bind="(event.Date || event.Year) +  (event.Title ? ': ' + event.Title : '')"></h2>
                 <!--Display the event's content iff no image-->                 <p data-ng-if="!event.Image">{{ (event.Content.length > 200) ? event.Content.substr(0, 200) + "..." : event.Content }}</p>
-                <!--Display the event's image iff present-->                    <img data-ng-if="event.Image" data-ng-repeat="image in event.Image" src="{{ image }}">
+                <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-repeat="image in event.Image" src="{{ image }}">
             </article>
         </div>
         <!--END CONTENT PANEL COMPONENT-->
@@ -88,7 +88,16 @@
         The obscure layer defines an eventListener for mouseup, which calls the functions at controller.js::$scope.hideInfoPanel() and controller.js::$scope.unobscure().
         -->
         <div id="obscure" data-ng-mouseup="hideInfoPanel();unobscure();"></div>
-        <div id="infopanel"></div>
+        <div id="infopanel_wrap">
+            <div class="bar">
+                <img src="pclose.png" data-ng-mouseup="barAct('close');">
+                <img src="pright.png" data-ng-mouseup="barAct('next');">
+                <img src="pleft.png" data-ng-mouseup="barAct('last');">
+                <img src="pback.png" data-ng-mouseup="barAct('back');">
+            </div>
+            <div id="infopanel">
+            </div>
+        </div>
         <!--END INFOPANEL COMPONENT-->
         
         <!--BEGIN SCROLL ARROW COMPONENTS

@@ -28,5 +28,5 @@ function size() {
     $("article").css('height', n.toString() + "px");
     $(".arrow").css("height", n.toString() + "px");
     $("canvas")[0].setAttribute("width", t.toString());
-    $("img").css("max-height", h.toString() + "px");
+    $("img.ipimg").css("max-height", h.toString() + "px");
 }
