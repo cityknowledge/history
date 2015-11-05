@@ -377,5 +377,11 @@ div.bar {
 }
 
 div#infopanel {
+    font-size: 200%;
+}
+
+
+div#infopanel {
     overflow: auto;
+    height: calc(100% - 52px);
 }

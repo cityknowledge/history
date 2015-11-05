@@ -3,18 +3,24 @@
         {
             "Year" : "755",
             "Content" : "Si elegge il 5° doge, Galla Gaulo [alcune cronache lo chiamano Galla Lupanio], che dopo aver ordito una congiura filo-franca contro il doge precedente, di cui era un fedelissimo e averlo fatto abbacinare ed esiliare, si era imposto alla volontà dei venetici con una elezione pilotata.",
-            "Filter" : ""
+            "Filter" : "",
+            "Image" : [
+                "imgs/map1.png"
+            ]
         },
         {
             "Year" : "768",
             "Title" : "War agains the Lombard king Desiderius:",
             "Content" : "Il re longobardo Desiderio attacca l’Istria perché vuole sottometterla. I venetici accorrono in difesa di un territorio con il quale sentono di avere un legame spirituale grazie alla comune sede patriarcale di Grado,  ma devono subire il distacco territoriale e religioso. I longobardi sottomettono l’Istria, ma pochi anni dopo (774) devono a loro volta cederla ai franchi. Con la caduta dell’Istria diminuisce l’influenza bizantina nell’Adriatico.",
-            "Filter" : "War"
+            "Filter" : "War",
+            "Image" : [
+                "imgs/map2.png"
+            ]
         },
         {
             "Year" : "811",
             "Title" : "Peace talks between the Byzzantine and Venice:",
-            "Content" : "Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814.",
+            "Content" : "Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814. Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814. Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814. Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814. Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814. Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814. Iniziano le trattative di pace fra il messo bizantino Arsafio e i franchi nella sede di Aquisgrana. Le clausole di pace sono subito confermate da Carlo Magno ed hanno pronta attuazione anche se il negoziato diplomatico si rivela assai complesso poten dosi concludere soltanto nel 1814.",
             "Filter" : "War"
         },
         {
@@ -91,10 +97,10 @@
     "example" : {
         "Year" : "Year of event / Required",
         "Date" : "Date of event if known (more specific than year) / Optional",
-        "Title" : "Title of event / Required",
+        "Title" : "Title of event / Optional",
         "Content" : "Text of event / Required",
         "Zoom" : 0,
-        "Zoom__COMMENT" : "0, 1, 2, or 3, the minimum zoom level at which to display the thing.",
+        "Zoom__COMMENT" : "0, 1, 2, or 3, the minimum zoom level at which to display the thing. / Optional, 3 assumed",
         "Image" : [
             "URL of image if present / Optional",
             "URL 2"
@@ -104,7 +110,7 @@
             "Lon" : "Longitude",
             "Island" : "Island name / Optional"
         },
-        "Filter" : "Filter1 war nitaly",
+        "Filter" : "Filter1 war nitaly / Required,
         "Links" : [
             "URL of first link",
             "URL of second link",

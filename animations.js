@@ -1,4 +1,4 @@
-/*global $*/
+/*global $, shouldScroll: true*/
 /*jslint plusplus: true*/
 
 function hover(id) {
@@ -30,4 +30,5 @@ function hideInfoPanel() {
     $("div#infopanel_wrap")
         .css("display", "none");
     document.getElementById("infopanel").innerHTML = "";
+    shouldScroll = true;
 }

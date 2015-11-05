@@ -1,4 +1,4 @@
-/*global angular, scrollVal: true, $, hideInfoPanel, unobscure*/
+/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true*/
 /*jslint plusplus: true, es5: true*/
 
 var app = new angular.module('appTimeline', []);
@@ -42,7 +42,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             event,
             image,
             i,
+            toRet,
             string = "";
+        
+        shouldScroll = false;
         
         $scope.ipevent = panelNo;
         
@@ -50,7 +53,16 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         events = $scope.search ? $filter('filter')(events, $scope.search) : events;
         events = $scope.filter ? $filter('filter')(events, {Filter: $scope.filter}) : events;
         
-        event = events[panelNo - 1];
+        if (panelNo < 1) {
+            event = events[0];
+            toRet = false;
+        } else if (panelNo > events.length) {
+            event = events[events.length - 1];
+            toRet = false;
+        } else {
+            event = events[panelNo - 1];
+            toRet = true;
+        }
         
         $("div#infopanel_wrap").css("display", "block");
         
@@ -62,11 +74,13 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             string += "</div>";
         }
         
-        string += "<h2>" + (event.Date || event.Year) + ": " + event.Title + "</h1>";
+        string += "<h2>" + (event.Date || event.Year) + (event.Title ? (": " + event.Title + "</h2>") : "</h2>");
         
         string += "<p>" + event.Content + "</p>";
         
         document.getElementById("infopanel").innerHTML = string;
+        
+        return toRet;
     };
     
     $scope.mouseEventToPanelNo = function (mouseevent) {
@@ -99,11 +113,15 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             break;
         case "last":
             $scope.hideInfoPanel();
-            $scope.displayInfoPanel($scope.ipevent - 1);
+            if (!$scope.displayInfoPanel($scope.ipevent - 1)) {
+                $scope.ipevent++;
+            }
             break;
         case "next":
             $scope.hideInfoPanel();
-            $scope.displayInfoPanel($scope.ipevent + 1);
+            if (!$scope.displayInfoPanel($scope.ipevent + 1)) {
+                $scope.ipevent--;
+            }
             break;
         case "back":
             break;
