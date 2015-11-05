@@ -3,7 +3,7 @@
 
 var app = new angular.module('appTimeline', []);
 var maxZoom = 2;
-app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate) {
+app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate, $sce) {
     'use strict';
     
     // Define scope variables
@@ -27,6 +27,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         if ($scope.zoom  !== 0) {
             $scope.zoom--;
         }
+    };
+    
+    $scope.renderHtml = function(html_code) {
+        return $sce.trustAsHtml(html_code);
     };
     
     $scope.scroll = function (val) {
