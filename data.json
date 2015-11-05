@@ -110,7 +110,7 @@
             "Lon" : "Longitude",
             "Island" : "Island name / Optional"
         },
-        "Filter" : "Filter1 war nitaly / Required,
+        "Filter" : "Filter1 war nitaly / Required",
         "Links" : [
             "URL of first link",
             "URL of second link",
