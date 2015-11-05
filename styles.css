@@ -154,11 +154,11 @@ body {
 }
 
 #zoom_in {
-    background-image: url("zoomin.png");
+    background-image: url("icons/zoomin.png");
 }
 
 #zoom_out {
-    background-image: url("zoomout.png");
+    background-image: url("icons/zoomout.png");
 }
 
 a {
@@ -269,23 +269,23 @@ div#nav a {
 }
 
 #wpilink {
-    background-image: url("wpilogo.png");
+    background-image: url("icons/wpilogo.png");
 }
 
 #vpclink {
-    background-image: url("vpclogo.png");
+    background-image: url("icons/vpclogo.png");
 }
 
 #teamlink {
-    background-image: url("chronlogo.png");
+    background-image: url("icons/chronlogo.png");
 }
 
 #selink {
-    background-image: url("selogo.png");
+    background-image: url("icons/selogo.png");
 }
 
 #credlink {
-    background-image: url("aboutlogo.png");
+    background-image: url("icons/aboutlogo.png");
 }
 
 div.arrow {
@@ -312,12 +312,12 @@ div.arrow:active {
 
 div.arrow#larr {
     left: 0px;
-    background-image: url("larrow.png");
+    background-image: url("icons/larrow.png");
 }
 
 div.arrow#rarr {
     right: 0px;
-    background-image: url("rarrow.png");
+    background-image: url("icons/rarrow.png");
 }
 
 div#timeline {
@@ -378,10 +378,11 @@ div.bar {
 
 div#infopanel {
     font-size: 200%;
-}
-
-
-div#infopanel {
     overflow: auto;
     height: calc(100% - 52px);
+}
+
+div#infopanel h2 {
+    padding-top: 0;
+    margin-top: 0;
 }
