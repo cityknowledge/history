@@ -192,6 +192,7 @@ h1 {
     margin-right: auto;
     height: 50px;
     z-index: 0;
+    font-size: 50px;
 }
 
 div {
@@ -360,7 +361,7 @@ img.ipimg {
     max-width: 440px;
     max-height: none;
     min-width: 0px;
-    margin: auto;
+    margin: auto;vertical-align: top;
 }
 
 div.bar img {

@@ -69,7 +69,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         if (event.Image) {
             string += "<div style=\"float:right;width:50%;display:block;\">";
             for (i = 0; i < event.Image.length; i++) {
-                string += "<img src=\"" + event.Image[i] + "\" style=\"width:100%;\">";
+                string += "<img src=\"" + event.Image[i] + "\" style=\"max-width:100%;vertical-align:top;\">";
             }
             string += "</div>";
         }

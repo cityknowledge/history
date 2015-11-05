@@ -49,9 +49,13 @@
         },
         {
             "Year" : "883",
-            "Title" : "Charles the Fat ",
+            "Title" : "Charles il Grosso",
             "Date" : "10 maggio 883",
             "Filter" : "",
+            "Image" : [ 
+                "imgs/885_carlo_grosso.png",
+                "imgs/853_carlo_grosso_2.jfif" 
+            ],
             "Content" : "Il nuovo imperatore Carlo il Grosso (839-88) conferma al doge i benefici feudali, ovvero la libera circolazione commerciale e la piena esenzione dai dazi, inclusa l’incolumità del doge, da considerarsi un protetto dell’imperatore. Dopo la scomunica un gran conforto"
         },
         {
