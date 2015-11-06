@@ -8,7 +8,11 @@ File which defines the slider
 Author: August Beers
 */
 
-//Class which defines the shape of a rectangle
+/*
+Class which defines the shape of a rectangle
+This enttiry class deliminates the atributes of a
+rectangle on a canvas
+*/
 function Rectangle(x, y, w, h, fill) {
     'use strict';
     this.x = x || 0;
@@ -38,12 +42,19 @@ function onAxisClick() {
     'use strict';
 }
 
+
+/*
+Class which difines the current state of a canvas
+*/
 function CanvasState(canvas) {
     'use strict';
-    
+    //a copy of the givent canvas
     this.canvas = canvas;
+    //the width of the canvas
     this.width = canvas.width;
+    //the height of a canvas
     this.height = canvas.height;
+    //the ctx of the canvas
     this.ctx = canvas.getContext('2d');
     
     //account for doc padding
@@ -62,48 +73,68 @@ function CanvasState(canvas) {
         body = document.getElementsByTagName("body")[0];
     
     if (document.defaultView && document.defaultView.getComputedStyle) {
+        //left padding of the canvas
         this.stylePaddingLeft = parseInt(document.defaultView.getComputedStyle(canvas, null).paddingLeft, 10) || 0;
+        //top padding of the canvas
         this.stylePaddingTop  = parseInt(document.defaultView.getComputedStyle(canvas, null).paddingTop, 10) || 0;
+        //left border of the canvas(may allways resolve to 0)
         this.styleBorderLeft  = parseInt(document.defaultView.getComputedStyle(canvas, null).borderLeftWidth, 10) || 0;
+        //top border of the canvas(may allways resolve to 0)
         this.styleBorderTop   = parseInt(document.defaultView.getComputedStyle(canvas, null).borderTopWidth, 10) || 0;
+        //Fixed position top
         this.styleTop         = y - parseInt($("#timeAxis").css("bottom"), 10) - parseInt($("canvas")[0].getAttribute("height"), 10) || 0;
+        //Fixed position left
         this.styleLeft        = parseInt($("#timeAxis").css("margin-left"), 10) || 0;
     }//!if
         
     //keep track of state!
+    //if false the canvas must redraw
     this.valid = false; //redraw variable
+    
+    /*
+    Initialize all rectangles here, could be an arrray of sliders instead of one
+    */
     this.slider = new Rectangle(30, 17, 30, 15);
-    this.dragging = false; //keeps track of when dragging occurs
+    //keep trac of if something is being dragged
+    this.dragging = false;
+    //keep track of current selection
     this.selection = null;
+    //location of drag change x
     this.dragoffx = 0;
+    //location of drage change y
     this.dragoffy = 0;
     
     
-    
+    /*
+    Event listener for mouse press
+    */
     canvas.addEventListener('mousedown', function (e) {
         
+        //get the mouse press position
         var mouse = myState.getMouse(e),
             mx = mouse.x,
             my = mouse.y,
             mySel = null;
         
-
+        //did the mouse press occur on a slider?
         if (myState.slider.contains(mx, my)) {
+            //A selection has occured
             
             mySel = myState.slider;
             //begin to move
             myState.dragoffx = mx - mySel.x;
-            myState.dragoffy = mySel.y;
+            myState.dragoffy = mySel.y; //do not change Y
+            //set dragging to true
             myState.dragging = true;
+            //Save the selction
             myState.selection = mySel;
-            myState.valid = false;
+            //
             myState.valid = false;
             return;
         }//!if
     
     
-    //if no return no selection has occured
-                            
+    //if no return no selection has occurs then we have unselected        
         if (myState.selection) {
             myState.selection = null;
             myState.valid = false;
@@ -111,16 +142,21 @@ function CanvasState(canvas) {
         
     }, true);
     
+    /*
+    Mouse listener which lisens for a mouse move
+    */
     body.addEventListener('mousemove', function (e) {
+        //If the mouse has something slected move that selection
         if (myState.dragging) {
             var mouse = myState.getMouse(e),
                 left = 22,
                 right = t - 38;
             
-            //add functionality to scrooll timeline here
+            //try to move the slider
             myState.selection.x = mouse.x - myState.dragoffx;
             myState.valid = false;
             
+            //check to so if slider has gone off the timeline on left or right side
             if (myState.selection.x < left - (myState.selection.w / 2)) {
                 
                 myState.selection.x = left - (myState.selection.w / 2);
@@ -131,20 +167,35 @@ function CanvasState(canvas) {
                 
             }
             
+            //add functionality to scrooll timeline here
+            
         }//!endif
         
     }, true);
     
+    /*
+    Mouse listener which listens for mouse release
+    */
     body.addEventListener('mouseup', function (e) {
+        
+        //On mouse release the slider is no longer being dragged
         myState.dragging = false;
 
         
     }, true);
     
-    //options
-    
+    /*
+    More Canvas State varia le
+    */
+    //outline of a selection
     this.selectionColor = '#CC0000';
     this.selectionWidth = 2;
+    
+    /*
+    Interval timer to check if the canvas must redraw, calls draw state
+    every 30 milliseconds
+    */
+    
     this.interval = 30;
     setInterval(function () { myState.drawState(); }, myState.interval);
     
@@ -152,8 +203,13 @@ function CanvasState(canvas) {
         this.ctx.clearRect(0, 0, this.width, this.height);
     };
     
+    /*
+    Function which checks to see if the Canvas must be redrawn and
+    does so if nessisary
+    */
     this.drawState = function () {
         
+        //If current canvas does not represent canvas state redraw
         if (!this.valid) {
             
             var ctx = this.ctx, shape = this.slider, mySel;
@@ -175,6 +231,10 @@ function CanvasState(canvas) {
         }
     };
     
+    /*
+    Mehthod which returns the current position of the mouse in the
+    Canvas
+    */
     this.getMouse = function (e) {
         var element = this.canvas,
             offsetX = 0,
