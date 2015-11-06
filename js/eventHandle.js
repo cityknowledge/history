@@ -1,5 +1,5 @@
 /*jslint plusplus: true*/
-/*global $, draw*/
+/*global $, draw, scrollToYear, sliderPosToYear*/
 
 //http://simonsarris.com/blog/510-making-html5-canvas-useful
 
@@ -178,9 +178,13 @@ function CanvasState(canvas) {
     */
     body.addEventListener('mouseup', function (e) {
         
+        if (myState.dragging) {
+            scrollToYear(sliderPosToYear(myState.slider.x));
+            myState.getMouse(e);
+        }
+        
         //On mouse release the slider is no longer being dragged
         myState.dragging = false;
-
         
     }, true);
     

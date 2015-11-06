@@ -1,4 +1,4 @@
-/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true*/
+/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo*/
 /*jslint plusplus: true, es5: true*/
 
 var app = new angular.module('appTimeline', []);
@@ -29,7 +29,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         }
     };
     
-    $scope.renderHtml = function(html_code) {
+    $scope.renderHtml = function (html_code) {
         return $sce.trustAsHtml(html_code);
     };
     
@@ -87,17 +87,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         return toRet;
     };
     
-    $scope.mouseEventToPanelNo = function (mouseevent) {
-        var panelNo,
-            scrollOffset = document.documentElement.scrollLeft || document.body.scrollLeft;
-    
-        panelNo = mouseevent.x + scrollOffset;
-        panelNo -= parseInt($("div#timeline").css("left"), 10);
-        panelNo /= parseInt($("article").css("width"), 10) + parseInt($("article").css("margin-right"), 10);
-        panelNo = Math.ceil(panelNo);
-
-        return panelNo;
-    };
+    $scope.mouseEventToPanelNo = mouseEventToPanelNo;
     
     $scope.hideInfoPanel = window.hideInfoPanel;
     
@@ -134,6 +124,9 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         }
 
     };
+    
+    window.$scope = $scope;
+    window.$filter = $filter;
 });
 
 window.controllerLoad();
