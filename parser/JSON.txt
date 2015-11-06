@@ -1,0 +1,312 @@
+﻿{
+  "Year" : "0",
+  "Date" : "",
+  "Content" : "",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "27 marzo",
+  "Content" : "rinfresco in onore del principe Antonio, fratello del duca di Parma ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "5 luglio",
+  "Content" : "muore il doge Silvestro Valier ed è sepolto nella Chiesa di S. Giovanni e Paolo nello stesso sepolcro del padre progettato d Andrea Tirali, ma realizzato da vari artisti ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Si elegge Alvise Mocenigo II. È il 110° doge (16 luglio 1700-6 maggio 1709). Ha 7 anni ed è ricchissimo. Non parla mai d donne. È vergine. Durante il suo dogad scoppia la guerra di successione spagnol (1701-14) in cui sono coinvolte tutte le potenz europee. Gli eserciti in guerra fann scorrerie nel territorio della Repubblica che riesce però a mantenere la propria neutralit armata ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "30 dicembre",
+  "Content" : "non s’inventino nuovi nomi per medicamenti consueti e sia vietat agli speziali fare regali ai medici ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Si creano tre Procuratori di S. Marco: Andrea Soranzo (7 marzo), Lorenzo Soranz (9 maggio) e Gabriele Zorzi (6 giugno) 170 ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "24 febbraio",
+  "Content" : "si stipula il Trattato di Venezia in cui si negozia l’alleanza della Franci e della Spagna col duca di Mantova. Si stabilisc che qualora l’esercito dell’imperator e dei suoi alleati dovesse marciare sull’Italia duemila francesi e altrettanti spagnol entraranno in Mantova per difenderla se Mantova dovesse essere assediata Francia e Spagna accorreranno immediatament con tutte le loro forze; se invec Mantova dovesse arrendersi, le due potenz non concluderebbero la pace senza risarcir il duca con un’altra città o un altr stato equivalente al mantovano, fino all restituzione di questo [Cfr. E. Militare] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "26 febbraio",
+  "Content" : "proteste contro il principe Eugenio di Savoia violatore della neutralit veneziana. Rimostranze per il non rispett della neutralità verranno presentate anch a Parigi (30 marzo) e poi a Vienna, e po ancora a Parigi (27 aprile 1702) per la violazion delle acque del Golfo di Venezia, m non sortiranno alcun effetto concreto ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "3 marzo",
+  "Content" : "si decide l’abbattimento della Chiesa della Fava [sestiere di S. Marco] e l sua ricostruzione ex novo s progetto di Antonio Gaspar [v. 1500] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Si delibera l’istituzione di una Fraterna dei poveri i ogni contrada (2 aprile)  pochi giorni dopo (7 aprile si ordina l’allontanament dei questuanti esteri o suddit entro otto giorni. I nativ sono tollerati, ma devon portare il simbolo di S. Marco, mentre  tutti si vieta di alloggiare vagabondi, pitocchi birbanti ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "28 aprile",
+  "Content" : "i fanciulli vagabondi siano distribuiti come mozzi sulle navi ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "30 aprile",
+  "Content" : "si deplora l’eccessivo lusso delle gondole e delle livree ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "4 maggio",
+  "Content" : "si limitino le spese per i regali in occasione di nozze ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "7 maggio",
+  "Content" : "si propone una tassa sulle parrucche ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "15 ottobre",
+  "Content" : "Mustafà II proibisce ai corsari di attaccare le navi della Repubblica ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "27 dicembre",
+  "Content" : "non sono ammessi brogli nelle votazioni ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Nel corso dell’anno si creano due Procuratori di S. Marco: Pietro Pisani (10 aprile e Pietro Contarini (17 maggio) 170 ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "La navigazione nel Mediterraneo è ostacolata dalla guerra di successione spagnola tuttavia il Senato tenta di ridar vit alla muda di Fiandre e d’Inghilterra e invi nove navi a Londra cariche di uva sultanina la merce più richiesta dal mercato d lusso, prelevata dalle isole dello Jonio. U disastro. Solo due vascelli effettuano i viaggio con successo: cinque sono persi i mare, uno si ferma per riparazioni e uno  catturato dai francesi ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "30 luglio",
+  "Content" : "disposizioni per invogliare i patrizi ad accettare le cariche ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "30 agosto",
+  "Content" : "doni al duca di Guastalla e al duchino della Mirandola ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "30 novembre",
+  "Content" : "elezione di un Provveditore ed Inquisitore sopra Boschi ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Nel corso dell’anno si creano due Procuratori di S. Marco: Francesco Loredan ( giugno) e Gerolamo Canal (13 agosto) Alvis Mocenig (1700-1709 La Chiesett di S. Gall in un immagin del 21 secol La Chies dell Penitent in du immagini de 21° secol 170 ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "27 marzo",
+  "Content" : "l’acqua dei pozzi pubblici si usi per il vitto e non per esercitare mestier o trarne guadagno ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "7 maggio",
+  "Content" : "anche gli ebrei possono attingere acqua dai pozzi pubblici ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "27 maggio",
+  "Content" : "Luca Carlevarijs dedica al doge Alvise Mocenigo Le fabbriche e vedut di Venezia, 103 incisioni per far conoscer agli stranieri le magnificenze della Serenissim alla fine del Seicento ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "14 agosto",
+  "Content" : "visita del principe Giuseppe di Lorena ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Viene ricostruita la piccolissima Chiesa di S. Gallo [sestiere di S. Marco], edificata i seguito all’abbattimento (1581) dell’antic ospizio che sorgeva in Piazz S. Marco, a fianco del Campanile ad uso dei pellegrini dirett in Terrasanta. L’istituzion della carità legata a quell’ospizi si era dunque trasferita i Campo S. Gallo erigendo appunt una chiesetta, che adess viene rinnovata, ma sul finir del Novecento sarà chiusa al culto pe essere trasformata in magazzino e quind in saletta di esposizione amministrata dall Curia ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Si istituisce in una casa a S. Giovanni e Paolo [sestiere di Castello] un ospizio pe donne traviate e pentite, dett Ospizio delle Penitenti. Cresciut in brevissimo tempo il numer delle penitenti si dovrà trovar un nuovo e più grande ospizi a Cannaregio. Qui si costruir anche la Chiesa di S.M. dell Penitenti (1730-38), su progett di Giorgio Massari, che sar aperta al culto nel 1744, ma consacrata ne 1763. La facciata rimarrà incompleta, arrestandos all’altezza dei plinti delle colonne Nel 21° sec. l’edificio sacro è in attesa d restauri più volte annunciati ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Nel corso dell’anno si creano due Procuratori di S. Marco Uno è Alvise Contarini (4 marzo) l’altro è Bortolo Gradenig (13 dicembre) 50 170 ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "26 marzo",
+  "Content" : "i patrizi non devono vestire il tabarro, sotto pena di multa e carcere ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Aprile: una tempesta scardina la porta della Chiesa di S. Pantalon e l’organo che s trovava sopra l’ingresso precipita a terra ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "11 luglio",
+  "Content" : "i medici devono scrivere le ricette in latino ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "29 settembre",
+  "Content" : "nel Ghetto Vecchio la Repubblica fa murare una lapide contenent prescrizioni antiebraiche: «che sia rigorosament proibito a qualunque ebreo od ebre doppo fatti christiani il capitare e praticar sotto qualsivoglia pretesto nei ghetti d questa città di introdursi nelle case particolar d’alcuno delli ebrei od ebree sotto pen [...] Il presente proclama sia publicato scolpit in pietra nel luogo più frequentato» ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "30 dicembre",
+  "Content" : "sia bandito il gioco dai Casini privati, cioè i luoghi di ritrovo di compagni che hanno funzioni molto diverse dalla conversazione al banchetto alla prostituzione per coppie o per sole donne  per soli uomini. In un catastico del 174 saranno censiti 118 Casini, la maggior part affittati e gestiti da donne, lungo l’ass principale che da Piazza S. Marco e dai numeros caffè delle Procuratie si allunga vers la zona di S. Moisè e delle Frezzerie. I seguito ad un’inchiesta, il Consiglio dei  farà chiudere (1774) i Casini delle nobildonne fra cui si distingue quello tenuto a S Zulian da Caterina Dolfin 170 ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "7 aprile",
+  "Content" : "si offrano doni alla regina vedova di Polonia e alla duchessa di Baviera ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "",
+  "Content" : "Divieto di pescare nel Canal Orfano e nei pressi dei Lazzaretti ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "11 ottobre",
+  "Content" : "solenne consacrazione della Chiesa degli Scalzi ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "25 ottobre",
+  "Content" : "Daniele Dolfin viene eletto procuratore di S. Marco ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
+{
+  "Year" : "700",
+  "Date" : "20 novembre",
+  "Content" : "si inaugura il Conservatorio delle Penitenti a Cannaregio nell’omonim Ospizio [v. 1703] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+},
