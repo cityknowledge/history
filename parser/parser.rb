@@ -19,47 +19,74 @@ class Event
 end
 
 
-
-year = 700
 $events = Array.new
 $current_event = Event.new
+#initialize first page and year of text extraction
+#note these value are one less than the actual starts
+$current_page = '23'
+$current_year = '421'
+
 $line = '0'
 
 
 
-File.open('Extracted_Text.txt', 'r:utf-8').each_line do |line|
+File.open('Page24-74.txt', 'r:utf-8').each_line do |line|
 
-  if(/\d+\Z/.match(line))
+  if(/\A\d+\Z/.match(line))
+    test_page = $current_page.to_i + 1
 
+    if(test_page == line.to_i)
+      $current_page = line[0, line.length - 1]
+
+    elsif(line.to_i - $current_year.to_i < 40)
+      $current_year = line[0, line.length - 1]
+
+
+    end
 
   #At this point we have found content that is part of an event
+
+  #Event start with a date
   elsif(/\A\.(?<date>(\d+\s{1}\w+))/.match(line))
     data = /\A\.(?<date>(\d+\s{1}\w+))/.match(line)
     $current_event
     $events << $current_event
-    $current_event = Event.new(year)
+    $current_event = Event.new($current_year)
     $current_event.date = data[:date]
-    $current_event.content =  line[data[:date].length + 3, (line.length - (data[:date].length + 4))] + ' '
+    $current_event.page = $current_page
 
+    #if the line contains more information than just the date it is content.
+    if(line.length - (data[:date].length + 3) > 0)
+      $current_event.content =  line[data[:date].length + 3, (line.length - (data[:date].length + 4))] + ' '
+
+    else
+      $current_event.content = ''
+    end
+
+  #Event start without a date
   elsif(/\A\./.match(line))
+
     $events << $current_event
-    $current_event = Event.new(year)
+    $current_event = Event.new($current_year)
+    $current_event.page = $current_page
     $current_event.content =  line[1, line.length - 2] + ' '
 
+  #mid event content
   else
     $current_event.content = $current_event.content + line[0, line.length - 2] + ' '
 
   end
 
 end
-
+#add last event ot event list
+$events << $current_event
 
 #now print the result of parsing
 out_file = File.new('JSON.txt', 'w:utf-8')
 
 $events.each do |event|
   out_file.print "{\n"
-  out_file.print '  "Year" : "' + event.year.to_s + %Q[",\n]
+  out_file.print '  "Year" : "' + event.year + %Q[",\n]
   out_file.print '  "Date" : "' + event.date + %Q[",\n]
   out_file.print '  "Content" : "' + event.content + %Q[",\n]
   out_file.print '  "Location" : "' + %Q[",\n]
