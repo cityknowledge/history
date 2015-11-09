@@ -1,8 +1,9 @@
-/*global size, draw, scroll, $, CanvasState*/
+/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown*/
 /*jslint plusplus: true*/
 
 // Global scroll delta.
 var scrollVal = 0;
+var relocate = true;
 
 // Function called after the controller is loaded.
 // This is necessary in order to let the controller load before resizing content panels.
@@ -19,6 +20,8 @@ window.controllerLoad = function () {
     // Draw the slider
     state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
     state.drawState();
+    
+    document.getElementById("axis").canvasState = state;
     
     // Prevent the user from selecting text on the page with a click that started on the slider.
     canvasEls = document.getElementsByTagName('canvas');
@@ -46,6 +49,21 @@ window.onresize = function () {
     // Generate a new canvas state from the newly resized canvas and draw it.
     state = new CanvasState($('canvas')[0]);
     state.drawState();
+    
+    document.getElementById("axis").canvasState = state;
+};
+
+window.onscroll = function () {
+    'use strict';
+    var npos = yearToSliderPos(parseInt(window.$scope.events[getFirstEventShown()].Year, 10));
+    
+    // Move the slider to npos.
+    if (relocate) {
+        document.getElementById("axis").canvasState.slider.x = npos;
+        document.getElementById("axis").canvasState.valid = false;
+    }
+    
+    return true;
 };
 
 // Adds the scroll function as a wheel listener.

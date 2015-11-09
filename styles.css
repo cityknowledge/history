@@ -163,6 +163,7 @@ body {
 
 a {
     color: rgba(96, 96, 256, 1);
+    z-index: 6;
 }
 
 #google_translate_element {
@@ -216,6 +217,7 @@ div#nav {
     margin-left: auto;
     margin-right: auto;
     height: 32px;
+    z-index: 8;
 }
 
 div#buttons {
@@ -252,14 +254,14 @@ div#nav a {
     left: 0px;
     display: none;
     animation-duration: 1s;
-    z-index: 6;
+    z-index: 9;
 }
 
 #infopanel_wrap {
     background-color: rgba(256, 256, 256, 1);
     width: 80%;
     height: 80%;
-    z-index: 7;
+    z-index: 710;
     position:fixed;
     left: 10%;
     top: 10%;
@@ -330,6 +332,7 @@ div#timeline {
     left: 60px;
     padding-right: 60px;
     box-sizing: padding-box;
+    z-index: 2;
 }
 
 div#timeline article {

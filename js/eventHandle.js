@@ -1,5 +1,5 @@
 /*jslint plusplus: true*/
-/*global $, draw, scrollToYear, sliderPosToYear*/
+/*global $, draw, scrollToYear, sliderPosToYear, relocate:true*/
 
 //http://simonsarris.com/blog/510-making-html5-canvas-useful
 
@@ -114,7 +114,10 @@ function CanvasState(canvas) {
         var mouse = myState.getMouse(e),
             mx = mouse.x,
             my = mouse.y,
-            mySel = null;
+            mySel = null,
+            npos,
+            oldScroll,
+            nscroll;
         
         //did the mouse press occur on a slider?
         if (myState.slider.contains(mx, my)) {
@@ -126,12 +129,18 @@ function CanvasState(canvas) {
             myState.dragoffy = mySel.y; //do not change Y
             //set dragging to true
             myState.dragging = true;
+            relocate = false;
             //Save the selction
             myState.selection = mySel;
             //
             myState.valid = false;
             return;
-        }//!if
+        } else {
+            relocate = false;
+            myState.slider.x = mx - myState.slider.w / 2;
+            scrollToYear(sliderPosToYear(mx));
+            myState.valid = false;
+        }
     
     
     //if no return no selection has occurs then we have unselected        
@@ -168,6 +177,10 @@ function CanvasState(canvas) {
             }
             
             //add functionality to scrooll timeline here
+            if (myState.dragging) {
+                scrollToYear(sliderPosToYear(myState.slider.x));
+                myState.getMouse(e);
+            }
             
         }//!endif
         
@@ -177,14 +190,10 @@ function CanvasState(canvas) {
     Mouse listener which listens for mouse release
     */
     body.addEventListener('mouseup', function (e) {
-        
-        if (myState.dragging) {
-            scrollToYear(sliderPosToYear(myState.slider.x));
-            myState.getMouse(e);
-        }
-        
         //On mouse release the slider is no longer being dragged
         myState.dragging = false;
+        relocate = true;
+        
         
     }, true);
     

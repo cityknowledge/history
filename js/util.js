@@ -71,3 +71,8 @@ function mouseEventToPanelNo(mouseevent) {
 
     return panelNo;
 }
+
+function getFirstEventShown() {
+    'use strict';
+    return xPosToPanelNo(document.documentElement.scrollLeft || document.body.scrollLeft);
+}
