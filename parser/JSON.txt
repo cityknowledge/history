@@ -1,312 +1,904 @@
-﻿{
+{
   "Year" : "0",
   "Date" : "",
-  "Content" : "",
+  "Content" : "﻿tes All’alba del 400 Alarico, re dei visigoti (un ramo dei goti che l’imperatore romano Teodosi (347-95) aveva stanziato nei balcani, accettando per primo i barbari all’intern dell’impero e promuovendone il massiccio arruolamento), dopo aver depredato l’Orient entra in Italia (401) e avanza su Milano (capitale dell’impero d’Occidente), costringend l’imperatore Onorio a riparare a Ravenna (402), che diventa la nuova capitale, ma vien sconfitto (403) dal generale barbaro-romano Stilicone e si rifugia in Illiria. Qualche ann dopo, ricostituito l’esercito, Alarico ritorna in Italia, invade la pianura veneta (408), saccheggi Roma (410) e poi muore presso Cosenza (la leggenda narra che viene sepolto sott il Busento, il mitico magico fiume che la storia vuole custode delle sue spoglie e del su tesoro). I visigoti poi lasciano l’Italia, diretti prima in Francia e quindi in Spagna. Dietr di loro altri barbari/germani e asiatici invadono la pianura veneta e intanto si sfascia l’imper romano. Dalla terraferma molti si rifugiano nelle isolette della laguna difese dall’acqua Grado, sulla foce dell’Isonzo, accoglie i fuggitivi di Aquileia. Caorle, sull’estuario de Livenza, quelli di Concordia, anch’essi al seguito del loro vescovo. Melidissa (poi Eraclea) tra le bocche del Livenza e del Piave, e Jesolo, vicino al Piave, offrono riparo alla popolazion e al vescovo di Oderzo. Gli abitanti di Altino, con il loro vescovo, trovano rifugio  Torcello, ma anche a Burano, Mazzorbo, Murano, mentre chi proviene dalla zona d Treviso si spinge a Rialto o fino a Malamocco. Quelli dei colli Euganei, di Monselice e d Padova si stabiliscono a Malamocco e a Chioggia, mentre alcuni si rifugiano nell’arcipelag di isolette che si chiamano Rialto, Olivolo, Dorsoduro, Spinalunga (poi Giudecca). Tr questi rifugi lagunari emergono per importanza Melidissa, Grado e Torcello. Melidiss come sede politica e militare, ovvero residenza del magister militum, che coordina i vari tribun eletti nelle singole isole o raggruppamenti di isolette, ma che dipendono dall’esarc di Ravenna, rappresentante dell’imperatore d’Oriente. Grado come centro religioso. Torcello «profetessa della grande Venezia», come centro commerciale. Passato il pericolo dell invasioni alcuni profughi ritornano alle loro case, altri decidono di rimanere in lagun ed iniziare una nuova vita. Nella grande regione della Venetia romana comincia così a sorger una nuova Venezia marittima formata da tante piccole isole sperdute nelle lagune tr le foci dell’Isonzo e del Po: isolette che vanno da Grado a Cavarzere e dove adesso sempr più spesso pulsa la vita. È la Venezia anfibia di cui parla Plinio, abitata dai veneti, dagl esuli troiani in fuga verso la libertà, Antenore ed Enea .. Gli immigrati si adattano alle nuove condizioni di vita che l’ambiente offre (pesca, caccia pastorizia, ortocultura, saline, navigazione fluviale e costiera, commercio), ma portan anche le loro conoscenze, la loro economia fatta di agricoltura, allevamento di animali  di artigianato, e portano infine, essendo fuggiti in maggioranza in gruppi compatti e organizzati le loro strutture sociali, per cui danno vita alla civiltà lagunare, difesa dalle su invalicabili mura d’acqua. Pertanto, ogni isola o arcipelago di isolette diviene il centr autonomo e indipendente di una precisa comunità, che ruota attorno ad una o più famigli importanti. Ciascuna isoletta-comunità si organizza così socialmente, politicamente  amministrativamente, governandosi cioè da sé, dotandosi in primis di una chiesa attorn alla quale sorgono palafitte e capanne di giunco, o i casoni spesso a pianta rettangolare co muri di fango e tetti di paglia. I rappresentanti di queste isole-comunità si riuniscono  Grado (466) per dar vita ad una Federazione delle isole, e così meglio difendersi dai pericol comuni rappresentati dai pirati, giacché, nella grande confusione prodottasi in seguit alle invasioni, Padova e Altino, i due municipi romani che si dividevano la giurisdizion sulla laguna, non sono più in grado di garantire un controllo del territorio. Poi cade (476 l’impero romano d’Occidente e la laguna rimane legata all’impero d’Oriente .. ",
   "Location" : "",
   "Filter" : "",
   "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
 },
 {
-  "Year" : "700",
-  "Date" : "27 marzo",
-  "Content" : "rinfresco in onore del principe Antonio, fratello del duca di Parma ",
+  "Year" : "421",
+  "Date" : "",
+  "Content" : "Leggendaria fondazione della prima chiesa e leggendaria nascita di Venezia. È i 25 marzo, giorno in cui si celebra la creazion del mondo, l’Annunciazione a Maria e l crocifissione di Cristo: a Rialto si dà solennement l’avvio alla prima costruzion sacra, dedicata al beato Giacomo Apostolo cioè la chiesetta di S. Giacomo o Giacomett alla presenza di quattro vescovi: Severian di Padova, Ilario di Altino, Epodio d Oderzo e Giocondo di Treviso, che si dividon territorialmente la cura delle anim dei venetici (o venétikoi), gli abitanti dell isole così chiamati per distinguerli dai venet che abitano la terraferma. Assieme ai vescov ci sono anche i rappresentanti de potere politico, tre consoli inviati da Padova la città che stende la sua giurisdizione s gran parte del territorio lagunare e in particolar sul sito dove la chiesa verrà costruita Sommando la data del mese di fondazion della Chiesa di S. Giacometto (25) o l’ann (421) si ottiene sempre 7, un numero che ritroverem come somma (1204) o come cifr finale nei momenti critici della storia dell Repubblica (697, 1177, 1297, 1797). In aggiunta nell’area lagunare si contano 7 insediament importanti: Grado, Caorle, Melidiss (poi Eraclea), Equilo (poi Jesolo) Torcello, Malamocco, Clugia major (po Chioggia). Ci sono poi 7 grandi fiumi (Isonzo Tagliamento, Livenza, Piave, Brenta Adige, Po) e 7 porti: Chioggia, Pastene (po Portosecco), Malamocco, S. Erasmo, S. Nicol (poi detto porto del Lido), Lio Maggior (o Equilano), Treporti [Cfr. Molmenti  35]; per non parlare dell’abilità degli abitant della laguna (pescatori, salinai, costruttor di barche, barcaioli, mercanti) capaci d saper navigare i Septem Maria, cioè i 7 mar cui accenna Plinio, ovvero i 7 specchi lagunar che si stendono dal delta del Reno appena sopra Ravenna, al delta dell’Isonzo Reno-Po (1), Po-Adige (2), Adige-Brenta (3) Brenta-Piave (4), Piave-Livenza (5), Livenza-Tagliament (6), Tagliamento-Isonzo (7) Ricostruita nel 1071 e consacrata il 25 lugli 1177 da papa Alessandro III, la Chies di S. Giacometto è dotata (14° sec.) di u orologio, sistemato sulla facciata, mentr nel 15° sec. si costruisce il porticato ligne retto da cinque colonnine filiformi di stil gotico. Salvatasi da un incendio, che coinvolg tutta la zona di Rialto (1514), la chies viene subito restaurata, conservand l’originaria forma, mentre il campanile  danneggiato irreparabilmente per cui s preferisce demolirlo (1515). In seguito, l chiesa subisce ancora una ristrutturazion e un rinnovamento architettonico, prim nel 1531 e poi nel 1601, mentre nel 174 viene rifatto l’orologio e nel 1792, in line con la facciata, si erige un piccolo campanil a vela con tre piccole campane La laguna è dunque un territorio roman amministrato in prevalenza da due municipi Padova e Altino, la cui linea di division è rappresentata dal Canal Grande, che i origine non si chiama così, avendo ogni tratt un suo nome preciso. Il Canal Grande nasc come un ramo del fiume Brenta (o Medoacus cioè tra due laghi), che i padovan navigano per giungere a Methamaucus (po Malamocco), dove tengono i loro fondachi  da qui veleggiano la laguna fino a Ravenna dove prendono la strada per Roma. Malamocco peraltro, nata dal delta del Brenta esiste già nel 302 a.C., quando vi è sconfitt Cleonimo re di Sparta, secondo le testimonianz dello storico latino padovano Tit Livio, che nelle sue Historie descrive dettagliatament questa vicenda PADOVA ha origini che si perdono nella leggenda L’Ariosto nell’Orlando furioso (c XLI) la dice fondata da Antenore, in fug da Troia, ai piedi dei colli Euganei su fiume Brenta e non sul Bacchiglione perch solo dal 582 d.C. a causa della rotta dell Cucca (589) il Brenta non bagna più Padova sostituito appunto dal Bacchiglione ai tempi in cui l’angolo nord orientale dell pianura Padana abitato dai veneti è dett appunto Venetorum angulus Fra l’Adige e il Brenta, a’ piè de’coll Che al trojano Antenor piacquer tanto Con le sulfuree vene e rivi molli Con lieti solchi e prati ameni a canto Che con l’alta Ida volentier mutoll Col sospirato Ascanio e caro Xanto La Chiesa d S. Giacomett in un’incision di Carlevarijs Pataviu (Padova collegat a sud a Atri (Adria)  a nord a Altinu (Altino Nel 226 a.C. Padova, «segnalata per la coltur del fertile territorio, e per le sue lan [...] e per molte altre manifatture, e merc che i Padovani spedivano fino a Roma mentre per lo fiume Medoaco ne traevan da oltre mare» [Crivelli 234], stringe rapport di alleanza con i romani, spintisi pe la prima volta a nord della penisola all scopo di espandersi nella Gallia Cisalpin (cioè l’Italia settentrionale escluso il Veneto) In seguito, la città è dichiarata coloni romana (89 a.C.) e infine municipio (4 a.C.), avente cioè un’ampia autonomia amministrativa Incendiata e distrutta prim da Alarico (409 d.C.) e poi da Attila (455), l città è abbandonata da molti abitanti ch cercano rifugio in laguna ALTINO o Altinum, fondata dagli euganei  dai veneti, comincia a subire il processo d romanizzazione dal 131 a.C., diventand città satellite della città fortezza di Aquileia ovvero centro delle attività logistiche sede di magazzini per gli approvvigionament e residenza delle famiglie dei pendolar delle armate. Altino è quindi anche luog di soggiorno di nobili e funzionari romani crocevia di strade romane che la collegan a Roma, a Genova, alla Germania  all’Istria. Circondata da un anello di fium e canali che garantiscono il ricambio continu delle acque, la città arriva a contar fino a centomila abitanti distribuiti nei suo ricchi quartieri e viene innalzata a municipi romano tra il 49 e il 42 a.C., divenend uno dei maggiori scali dell’alto Adriatico Marziale [40-104 a.C.] la paragona  Baia (in Campania) per lo splendore dell sue ville. Invasa e distrutta da Attila ne 452, Altino è definitivamente abbandonat a seguito dell’invasione longobarda (639)  i resti della città romana diventano cava d materiale da costruzione per le isole dell laguna perché Altino, caso unico nel Veneto non sarà più abitata nel corso dei secoli fino a quando agli inizi del 20° sec. imponent opere di bonifica non renderanno i sito nuovamente vivibile RAVENNA, «fabbricata su palafitte e attraversat da corsi d’acqua», scrive Strabone viene fondata durante l’invasione gallic dagli umbri in fuga verso le isole. Diventat municipio romano autonomo, viene dotat del porto di Classe, fatto costruire d Augusto (I sec. a.C.), per ospitare l’armat navale dell’Adriatico. Onorio la sceglie com capitale dell’impero d’Occidente ne 402, anno in cui vi si rifugia perché la ritien città sicura, imprendibile, circondata d vaste lagune tra i fiumi Ronco e Montone  per di più fortificata. Ma Odoacre la vinc (476) e anche lui la sceglie come capitale come fa Teodorico (493-526), re degli ostrogoti grazie al quale la città raggiunge il su massimo splendore. Conquistata da Belisari e Narsete (552), Ravenna diventa l sede degli esarchi bizantini fino al 752 anno in cui il re longobardo Astolfo (749 756) la conquista: la città passa ai franch (754) che la danno alla Chiesa (756), finch non viene sottomessa da Venezia (1441 anche se per breve tempo. Aggredita dall’avanzar delle coste, la sua primitiva lagun scompare e svanisce anche la sua importanz navale a tutto vantaggio della nascent Venezia ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 25"
 },
 {
-  "Year" : "700",
-  "Date" : "5 luglio",
-  "Content" : "muore il doge Silvestro Valier ed è sepolto nella Chiesa di S. Giovanni e Paolo nello stesso sepolcro del padre progettato d Andrea Tirali, ma realizzato da vari artisti ",
+  "Year" : "421",
+  "Date" : "",
+  "Content" : "Il timore delle invasioni barbariche, che si erano susseguite in ondate minacciose aveva convinto i padovani ad organizzar un rifugio in laguna. Nel 401 erano scesi  visigoti guidati da Alarico, fermati da u altro barbaro al servizio di Roma, Stilicone salutato come il liberatore d’Italia, che l aveva vinti a Verona (403). Pochi anni dop aveva imperversato Radagaiso con le su orde gote e sveve (407), subito imitato d vandali e alani (408), mentre nel 413 er sceso ancora Alarico, arrivando a saccheggiar Padova, e nel 414 il suo successor Ataulfo. Sei consoli sono quindi incaricat di soprintendere alla costruzione dell Chiesa di S. Giacometto, pensata come il centr della futura comunità lagunare padovana tre per assistere all’esecuzione dell’oper e altri tre per controllarne, due ann dopo, la realizzazione e avviare l’insediamento come recita il documento sulla fondazion della città, salvato dall’incendio ( febbraio 1420) del Palazzo della Ragione d Padova, un documento che è da taluni considerat falso, obiettando che nel 421 i consol siedono soltanto a Ravenna e a Rom [Molmenti I 499] Anno a nativitate Christi. In ultimo ann Innocentij pape primi nativitate abuensi patris Innocentij, regno Pataviensium felicite et copiose florente, regentibus re publicam Galiano de Fontana, Simeone d Glanconibus et Antonio Calvo de Manis consulibus imperante Honorio cu Theodosio filio Archadij, decretum est pe Consules pataviensium et sancitum, a per electos primarios seniores populariu edificare urbem circa Rivum altum et gente circumstantium insularum congregar ibidem terram unam, potius quam plure portualem habere, clasem paratam tenere exercere et maria perlustrare. Et si casu bellorum accideret hostiumve potenti cogeret, sotiorum illic habere refugium, e vissa Gothorum insania et moltitudine verebantur et recordabantur quod in ann Christi ccccxiii ipsi Gothi cum eorum reg Alarico venerunt in Italiam, et ipsam provintia igne et ferro vastatam reliquerun et ad urbem processerunt, spoliantes eamde et cetera que alibi scribuntur. Und Patavienses, motum Gothorum alias factu et qui eo tempore fiebat a part australi et occidentali metuentes, ann predicto scilicet 421 die XVI martij decreverun urbem portualem et refugiale construere circa hostia fluvij Realti, ub dicitur Rivus altus, quem quia ex collecti multis insulis maris et lacunarum et gentibu de provintia Venutie fuerunt, voluerun Venetias appellare. Et missis illuc tribu consulibus qui super fuerunt per bienniu dispositioni operis die xxv marti principium fondamenti actum fuit circ horam meridiei Nomina consulum quos miserunt sun haec, de 421 Albertus Fallarus, Thoma Candianus, Genus Daulus. Consule missi de 423 fuerunt Lucianus Gixi Maximum Lucius, Ugo Fususcus Nell’anno della nascita di Cristo ultimo ann del pontificato di Innocenzo I originario d Abano per nascita dal padre Innocenzo, mentr lo stato di Padova era fiorente in modo prosper e ricco. Reggevano lo stato i consol Galiano de Fontana, Simone de Glauconibus  Antonio Calvo de Lovanis, erano imperator Onorio e Teodosio, figlio di Arcadio, fu decretat dai consoli e dal Senato di Padova e da primati eletti dal popolo di costruire una citt lungo Rivum Altum (Rialto) e di radunare l stesso le popolazioni delle isole circostanti e d avere una sola zona portuale piuttosto ch parecchie, di tenere una flotta preparata, d esercitarla, di perlustrare i mari e, se si presentav un motivo di guerra o l’aggressivit dei nemici li spingesse, avessero lì un rifugi sicuro. E, visto il gran numero e la follia de goti, temevano e ricordavano il fatto che nell’ann della nascita di Cristo ccccxiii gli stess goti con il loro re Alarico vennero in Itali e lasciarono la stessa provincia dopo averl messa a ferro e fuoco e procedettero vers Roma spogliandola. Per cui i padovani temend l’avanzata dei goti già altrove avvenuta  che in quel tempo si faceva dalla parte austral e occidentale, nell’anno detto prima, cio 421, il giorno 15 marzo, decretarono d costruire una città portuale che venisse utilizzat come rifugio lungo la foce del fiume Riv Alto, per cui viene detta Rialto, e la fecero co molte isole collegate del mare e della laguna  con gente della regione veneta, e la voller chiamare Venezia, e, dopo aver inviato colà tr consoli, che sovrintendessero per due ann all’esecuzione dell’opera, il giorno 25 marz furono gettate le fondamenta verso mezzogiorno Ecco i nominativi dei consoli inviati: nell’ann 421 Albertus Fallarus, Thomas Candianus Genus Daulus; nell’anno 42 Lucianus Gixi, Maximum Lucius, Ug Fususcus Il reticolo d collegament tra Ravenna Padova  la lagun [Fonte: Museo civico, PD, arch. Civ., Libe partium consilii magnifice comunitati Padue. (“Liber Tabularum” o “Liber A.”  1494, c. 165 v.)] La colonna d Marciano  Costantinopol Esiste un’altra versione sulla fondazion della Chiesa di S. Giacometto: la si vuole edificat come voto di un costruttore di barche un greco chiamato Entinopo. All scoppio di un incendio (418), che coinvolg 24 case di legno nell’isola di Rialto, egl esprime assieme agli astanti un voto augurale promette di costruire una chiesa affinch un episodio del genere non abbi più a ripetersi. Non fa in tempo ad esprimer il voto che «s’estingue la fiamma d una repentina pioggia» [Sansovino 2]. Ora che siano stati i padovani a costruire S. Giacomett o che sia stato un ricco costruttor poco importa. La cosa davvero important è che con la fondazione di S. Giacometto s comincia a parlare della storia di Venezia nella data 25 marzo 421 si fondono storia  leggenda. Quanto poi al resoconto storic della fondazione di S. Giacometto, bisogn dire che l’insediamento nelle molte isol della laguna, anche in quelle minori, segu lo stesso canovaccio: prima sorge l’edifici religioso, rappresentato da una torre, l Torre di preghiera come luogo privilegiat per la famiglia titolare dell’insediamento poi segue la costruzione della residenz della stessa famiglia e contestualment quella della comunità. In altre parole, dop la costruzione della chiesa prende corp l’urbs, la forma urbana. Per esempio ne contesto della città futura le chiese di S Pietro di Castello e S. Angelo Raffaele segnerann in seguito i due punti estrem dell’insediamento, i confini entro cui ess dovrà prendere forma, il perimetro sacr della città, che un’altra leggenda più tard dice voluta da Dio, per cui nascerà il mit di Venezia come creazione divina ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 26"
+},
+{
+  "Year" : "431",
+  "Date" : "",
+  "Content" : "L’imperatore d’Oriente Teodosio II convoca il Concilio ecumenico di Efeso (antica citt sulla costa dell’Asia Minore) per cercare d mettere d’accordo Cirillo (patriarca d Alessandria) e Nestorio (patriarca di Costantinopoli) che si erano inutilmente rivolt al papa per decidere se in Cristo preval la natura divina o quella umana. Alla presenz di 200/250 rappresentanti ecclesiastic si condanna la dottrina di Nestorio – prevalenz in Cristo della natura umana – e s accetta invece la formulazione sostenuta d Cirillo, che peraltro era stata approvata ne primo Concilio di Nicea (325) – unità e trinit di Dio e quindi prevalenza in Cristo dell natura divina. La risoluzione del Concilio  accettata da cattolici e ortodossi [v. 451] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 28"
+},
+{
+  "Year" : "451",
+  "Date" : "",
+  "Content" : "L’imperatore d’Oriente Flavio Marciano convoca il Concilio di Calcedonia (press Costantinopoli). Alla presenza di oltre 50 partecipanti si condanna la dottrina monofisit e si accetta invece quella agostinian della duplice natura (due naturae, una persona) formulata da papa Leone I (440-61) I monofisiti, invece, che appartengono a tr chiese distinte (copta, siriaca giacobita armena) credono che nella persona storic di Gesù Cristo esista una sola natura, quell divina del Figlio di Dio. Essi, cioè credon che l’umanità di Gesù è solo apparente o per lo meno totalmente ‘dissolta’ nell sua divinità. Le risultanze del Concilio son accolte da anglicani, cattolici, luterani ortodossi, ma il papa si rifiuta di accettar il 28° canone del Concilio che sancisce l’uguaglianz fra la sede apostolica di Roma  il patriarcato di Costantinopoli, assegnand a quest’ultimo il primato ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 28"
+},
+{
+  "Year" : "452",
+  "Date" : "",
+  "Content" : "Le isole della laguna diventano la meta di chi teme e fugge l’incursione in terraferm di Attila, re degli Unni (434), che sconfitt (451) a Chalons-sur-Marne, nella Gallia dal generale romano Ezio, ricompone i suo esercito in Pannonia (la parte occidental dell’Ungheria, il Burgenland, poi Lan Austriaco, una parte di Vienna e anche l Slovenia), scende in Italia attraverso le Alp Giulie, assedia Aquileia – la città che ne suoi 632 anni di esistenza nessuno era riuscit a conquistare – e la prende dopo tr mesi, distruggendola in gran parte; po entra nella terraferma veneta, provocand nuove fughe nelle isole della laguna dop quelle verificatesi ad inizio secolo con l precedenti incursioni di Alarico e altri barbari sotto la spinta di Attila emìgrano co effetto domino oltre agli abitanti di Aqui leia, anche quelli di Concordia, Oderzo, Altino Padova ed Este. Il trasferimento interess probabilmente gruppi appartenent ad un determinato ambiente, che ricrean nelle isolette della laguna più prossime a loro paese da cui sono in fuga le propri strutture sociali Ecco come Giovanni Diacono descrive l 12 più importanti isole del futuro Dogad nella sua Cronaca veneziana che va dall’invasion longobarda all’anno 1008 [i De Biasi La cronaca ... I, 23-4]: «La prima s chiama Grado: è dotata di alte mura, abbellit di molte chiese ed inoltre ricca d corpi di santi e, come Aquileia è stat capitale e metropoli dell’antica Venezia così pure essa lo sarà della nuova Seconda è l’isola di Bibione La terza si chiama Caorle; il vescovo d Concordia, quivi giunto coi suoi fedeli pe timore dei Longobardi, col consenso d papa Teodato (Adeodato I, 615-618), decis di stabilire in quest’isola per il futuro l sede del suo episcopato e di risiedervi Quarta è l’isola, nella quale un tempo f fatta costruire con grande cura dall’imperator Eraclio una città, ma in seguito consunta dal tempo, i Venetici la ricostruiron in piccole proporzioni; e dop che la città di Oderzo fu conquistata da re Rotari, il vescovo di quella città, co ‘privilegio’ di papa Severino, volle riparar in questa città di Eraclea e fissar quivi la sua sede La quinta isola si chiama Equilo; in quest poiché la popolazione che vi risiedev mancava della sede episcopale, fu istituito per decisione apostolica, un nuov episcopato Sesta è l’isola di Torcello la quale, bench non sia affatto dotata di mura cittadine tuttavia, circondata com’è dalla protezion delle altre isole [Burano, Mazzorbo Costanziaca, Ammiana e altre minori] giace in mezzo ad esse assai sicura La settima isola si chiama Murano Ottava è l’isola di Rialto, la quale, anch se la popolazione ha cominciato ad abitarl per ultima, tuttavia è la più ricca  la più esaltata fra tutte, perché non sol si distingue per la bellezza delle su chiese e delle sue case, ma anche perch è la capitale del ducato e la sede [futura ca. 7756-776] dell’episcopato [di Olivolo che Diacono considera un tutt’uno co Rialto] Nona è l’isola di Metamauco, la qual non manca di quelle fortificazioni che son proprie della città, ma è (anche) cint quasi da ogni parte da un bel lido. Quiv la popolazione ottenne, per disposizion dell’autorità apostolica, di avere la sed episcopale Decima è l’isola di Poveglia Undicesima è la Chioggia Minor (Sottomarina? [o una delle isole che poi unit formeranno Pellestrina?], nella quale c’ il bel monastero di S. Michele La dodicesima isola è denominata Chioggi Maggiore C’è infine, all’estremo confine della Venezia un castello che si chiama Cavarzere vi sono inoltre, nella medesima provincia moltissime isole abitabili» Tuttavia, questo elenco non rappresent compiutamente la situazione delle lagun nei primi tempi della formazione de ducato, sia per le isole che non vi sono ricordat come Ammiana, Costanziaca  Burano per esempio, sia per alcune che v sono citate, come Poveglia, ma che avrann una certa importanza solo in temp successivi. In ogni caso, nel Patto lotarian [v. 840] saranno citati 18 centri abitati Le 12 isole de futuro Dogado Grad Bibion Caorl Eracle Equil Torcell Muran Rialt Metamauc Povegli Chioggia Mino Chioggia Maggior “I Venet riparano nell isolett della lagun per la irruzion di Attila” disegno d Gatteri, 186 Gli abitanti in fuga da Aquileia trovano ripar a Grado, loro isola e porto, dove si trasferiscon anche altri friulani, che si distribuiscon pure nell’isola di Bibiana (o Bibione) alle foci del Tagliamento, o in quell chiamata Caprulae, alle foci del Livenza A Caprulae (poi Caorle), così detta perch qui i caprai di Concordia tengono le capre giungono anche i più agiati concordiesi, oltr ad alcuni opitergini, ovvero gli abitant di Oderzo, che in massima parte preferiscon riversarsi nell’isola di Melidissa (po Eraclea). Chi fugge da Feltre e Belluno popol l’isola posta tra le foci dei fiumi Piav e Livenza, detta Equilo o Equilio (poi Jesolo perché terra di cavalli allevati dai colon che qui in precedenza si sono rifugiati.  fuorusciti di Altino preferiscono riparar nelle isole della laguna nord che prenderann i nomi delle sei antiche porte dell città: Torcellum (Torcello), Majorbium (Mazzorbo) Buranium (Burano), perché quell porta guardava verso tramontana (o bòrea quae versus boreas respiciebat), Amorianu (Murano), Costantiacum (Costanziaco), Ammianu (Ammiana). Chi proviene dall parti di Este, Padova, Monselice o dai coll Euganei si sistema nelle isolette della lagun sud, cioè si ferma a Chioggia oppure s spinge fino a Lido Pristino o Pastria (poi Pellestrina) fino a Metamauco (poi Malamocco) porto fluviale e marittimo di Padova,  sbarca a Popilia (poi Poveglia) o ancora pi dentro nell’arcipelago di isolette della zon di Olivolo (poi Castello) e Rivoalto (poi Rialto) comprendente Luprio (poi Santa Croce) Gemini (o Gemelle) e Dorsoduro AQUILEIA fondata secondo la leggenda d Aquilo, compagno di Antenore, o forse d Marco (uno dei quattro evangelisti con Luca Matteo e Giovanni), seguace prima dell’apostol Paolo e poi di Pietro, che lo invi qui nel 46 d.C. per evangelizzare il Nord Est. Agli effetti storici Aquileia sorge grazi ai romani nel 181 a.C., sul fiume Aquili (poi Natisone), un subaffluente dell’Isonzo come fortezza-sentinella d’Italia per mantener il possesso della zona minacciat dalla presenza dei galli, impedire la disces di altri barbari, servire infine com punto di partenza delle truppe per ulterior conquiste verso la Germania, la Pannoni e i Balcani. La difesa di Aquileia cominci però dall’Istria, provincia roman dal 177, dove vengono fondate Trieste  Pola ed erette fortificazioni lungo il confine un doppio vallo fortificato contro  barbari a protezione di tre strade, la Flavia la Gemina (da Aquileia a Trieste e oltre e la Postumia. Nel tempo Aquileia divent municipio (89 a.C.) e una delle pi forti e più ricche città dell’impero, addirittur la capitale della X Regione, chiamat Venetia et Histria, sotto Augusto (8 a.C.). L Venetia ha come confini tre fiumi, a ovest i Tartaro, ad est il Timavo e a sud il Po, mentr l’Histria è compresa tra i fiumi Timav e Arsia. Nella fortezza di Aquileia c’è i comando strategico, mentre nella vicin Concordia c’è il lusso romano delle famigli dei funzionari e dei generali. A Grad e ad Altino, le prime isole che daranno vit al futuro Dogado e quindi a Venezia, c sono anche i lucrosi commerci. Danneggiat nel 401 da Alarico (370-410), re dei visigoti Aquileia è distrutta nel 452 da Attil (406-53), re degli unni. In seguito, la citt tenta di risorgere, ma al passaggio degl ostrogoti con Teodorico (489) e dei longobard (569) la popolazione ripara nelle isol della laguna di Grado e l’importanza dell città diminuisce CONCORDIA sorge nel 42 a.C., a metà strad tra Aquileia e Altino, col nome di Juli Concordia in onore di Cesare e della concordi raggiunta tra i triumviri. È quind una colonia militare romana, residenza  luogo di villeggiatura di nobili romani  funzionari, ma soprattutto sede di una important fabbrica di frecce (sagitte), dond l’appellativo, datole nel 1800, di Sagittari per cui verrà a chiamarsi appunto Concordi Sagittaria. Distrutta da Attila (452), ch nella sua visione di barbaro considera l città un attentato alla natura, alla campagn aperta, Concordia è ricostruita nel 494 quindi occupata e usata prima dai barbari/german come centro militare e poi da longobardi. Il progressivo interrament della laguna la spinge lontano dal mare Concordia tra Altino e Aquilei GRADO è in origine lo scalo (gradus) di A quileia, costruito tra l’estuario del Tagliament e quello dell’Isonzo, su un arcipelag di isolette molte delle quali poi inghiottit dall’acqua e dal mistero. Fino a quand Aquileia rimane sentinella e fortezza romana Grado ha un’importanza secondaria Con l’invasione di Alarico (401) e di Attil (452) essa diventa il naturale rifugio de profughi della grande città, finché con l’arriv dei longobardi (569), che vi si stanziano il patriarca Paolino non abbandona A quileia per mettere al sicuro i tesori dell sua chiesa nell’isola di Grado, determinand una divisione del patriarcato di Aquileia dando cioè origine a due patriarcat (riconosciuti dal papa nel 698), quello di A quileia e quello di Grado, in continuo conflitt religioso: Aquileia accetta lo Scism dei tre Capitoli [v. 545], Grado invece riman ‘ortodossa’ ed entra così nell’orbita del domini veneziano di cui seguirà le vicend storiche fino al 1797 ODERZO è fondata dai veneti col nome d Opitergium, poi colonia romana (88 a.C.) distrutta da Pompeo perché ha parteggiat per Cesare durante la guerra civile del 4 a.C., ma dallo stesso riconoscente Cesare ricostruit e ampliata. Viene poi devastat dalle tribù germaniche dei quadi e dei marcomann in lotta contro i romani in terr veneta (373) e più tardi dagli unni di Attila Restaurata dal re degli ostrogoti Teodoric (495) diventa roccaforte bizantina fino a 639, quando cade per mano dei re longobard Rotari e Grimoaldo; il primo la distrugge il secondo ne smembra il territorio dividendolo fra Treviso, Ceneda e Cividale le autorità politico-militari bizantine  la popolazione trovano rifugio ad Eraclea ma tenacemente la città rinasce e viene ancor conquistata e smantellata delle su fortificazioni (997) dalla Repubblica d Venezia. In seguito cade nelle mani di var signori, tra cui i signori di Padova (Carraresi e di Verona (Scaligeri), e quind diventa possedimento di Venezia (1337) seguendone le sorti ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 28"
+},
+{
+  "Year" : "452",
+  "Date" : "",
+  "Content" : "I fuggiaschi dunque occupano le principali isole che punteggiano le lagune e ch vanno da Grado a Cavarzere. In questo territori anfibio la gente sopravvive pescando cacciando, allevando animali, coltivand orti, frutteti e vigneti, trafficando con  paesi lungo i fiumi e la costa per procacciars quanto manca, cedendo in cambi sale e pesce, poi s’ammazza di fatica inu Ipotesi d migrazion dall terraferm alla lagun [Perocco 1, 35 Oderz press Trevis Grad Attila in u dipint di Mór Tha e sott il su leggendari trono d pietra  Torcell Caorl in un disegn di Giusepp Rosaccio mana e diuturna per strappare all’acqua  conservare il proprio lembo di terra su quale costruisce le proprie abitazioni: «d legname la maggior parte, coperte di pagli e di tavole (scandole), fondate su gruppi d travicelli e fasci di canne legate con vimin poiché il terreno molle, composto di fango di torba, di sabbie acquifere non consent troppo la pietra, usata invece a Grado,  Torcello, a Eraclea, a Equilio, per la maggio solidezza del suolo e per l’opportunit di trovare nelle antiche patrie, particolarment ad Aquileia e ad Altino, pietre e mattoni [Molmenti I 270] La prima grande ricchezza da sfruttare i laguna sono le saline, tante, comprendent quelle grandi nell’estuario, e quell domestiche all’interno degli stessi insediamenti fossati poco profondi di terr battuta (in seguito di mattoni) «a pian inclinato, con argini e scanni, canali per l scolo delle acque» [Molmenti I 44] Poi si troverà anche il modo di mettere  profitto l’acqua per far lavorare i mulini si sfrutterà cioè la corrente dei fiumi ch entrano in laguna, o si sistemeranno degl argini, formando un lago di modo ch l’acqua fatta uscire da un’apertura metter in azione le ruote dei mulini, oppure s costruiranno i mulini mobili su barcon (detti sandonos) che sfrutteranno le maree per cui ogni sei ore si gireranno i barcon e la corrente dell’acqua in entrata o i uscita farà girare le ruote. Infine, ingegnos e mai domi, i venetici impianterann anche i mulini a vento. Intanto, canali largh e rivi piccoli si intersecheranno dappertutt e sarà giocoforza girare in barc da un’isoletta all’altra, da una riva all’altra finché non si useranno tavolati pe fare da ponte. In seguito, a spese dell comunità circostante, si costruiranno sempre in legno, dei ponti leggerment arcuati per consentire il passaggio dell barche Aquesto punto, cominciano a nascere  nomi: fondamenta per indicare la strad che costeggia un canale; riva per una fondament che ha dei gradini verso l’acqu allo scopo di favorire l’imbarco o lo sbarc di merci e persone; calle per intender la via tra le case, che possono essere allineat in fila e allora la calle si chiam ruga; campi o campielli (a seconda dell’estensione per gli spazi erbosi davanti all chiese usati per pasturare i cavalli e i gregge minuto; corti per le piazzole interne Accanto a questi nomi gli appellativi i campi di solito prendono i nomi dell chiese che vi sorgono (Campo S.M. Formosa) come accade anche per i nomi de teatri (Teatro San Giovanni Grisostomo per intendere che il teatro si trova in quell parrocchia); le calli quelli di una famigli importante (Calle Tron) o di mestier (Calle dei Fabbri) o botteghe (Frezzerie perché vi si vendevano frecce) o perch vie molto trafficate e coperte prima d mattoni e poi di masegni, perciò dette salizad [selciate, da selce] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 31"
+},
+{
+  "Year" : "452",
+  "Date" : "",
+  "Content" : "La marcia di Attila si arresta a Govèrnolo, presso Mantova, alla confluenza de Mincio col Po, dove il papa Leone I l convince a lasciare l’Italia per le patri sponde del Danubio. Su di lui diverse leggende Chiamato flagello di Dio per le spaventos devastazioni provocate dal su passaggio e per aver distrutto Aquileia Altino e Concordia, Attila viene assimilat dai tedeschi ad Etzel [piccolo padre dal gotico atta], l’eroe nella saga dei Nibelunghi Il suo biografo Prisco lo present come un uomo rozzo, ma di grande intelligenz e umanità, assai superstizioso però, come i suoi uomini del resto: n l’uno né gli altri volevano in effetti andar a Roma, memori di quanto era succes so ad Alarico e ai suoi, puniti da Dio morti per aver saccheggiato Roma (410).  le premesse sembrano far presagire a Attila e ai suoi la stessa fine perché  scoppiato (452) un tremendo morbo nell pianura Padana e l’Italia si trova in u periodo di carestia micidiale: i 70mila barbar della steppa sono costretti a mangiare come le vacche ai bordi delle strade radici, erba e germogli per cui il famos detto dove passa Attila non cresce più l’erb sembra molto verosimile. Ma ci son anche altri motivi: i suoi uomini premon per tornarsene a casa e non perdere il bottin già messo insieme e che si portan sempre appresso; l’Italia, poi, stretta com’ non dà sbocco per una eventuale fug in caso di ritirata. Insomma, alla vista d papa Leone, Attila deve aver pensato  tutto ciò, decidendo di tornarsene nell sua amata Pannonia, dove morirà l’ann seguente (453). Un’ultima leggenda raccont che Attila ritorna in laguna e qu viene sepolto, non lontano dal suo tron di pietra a Torcello, in una piccola isol poi staccatasi dall’arcipelago di Torcello  sommersa, ma di quando in quando u dosso, un piccolo monte affiora, il Mont dell’Oro, che indicherebbe il sito del su favoloso tesoro ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 32"
+},
+{
+  "Year" : "455",
+  "Date" : "",
+  "Content" : "I vandali di Genserico, provenienti dall’Africa, entrano a Roma. La notizi ‘viaggia’ assieme ad agiate e nobili famigli romane in fuga dall’antica capital dell’impero, che sbarcano nelle isole dell laguna dove sanno di essere al sicuro. Dop la venuta dei reduci romani, nasce i laguna l’idea che ogni insediamento elegg il proprio tribuno in vista della formazion di una Federazione [v. 466] a scop difensivo fra le 12 isole più popolate ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 33"
+},
+{
+  "Year" : "458",
+  "Date" : "",
+  "Content" : "La paura di nuove, terribili invasioni spinge altra gente in laguna ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 33"
+},
+{
+  "Year" : "466",
+  "Date" : "",
+  "Content" : "I rappresentanti delle isole lagunari, s’incontrano a Grado per mettere in att «un sistema di autogoverno» basato sull’elezion annuale dei tribuni, scelti molt probabilmente fra le famiglie dominant delle isole, o forse eletti dagli abitanti, ch si dividono in maiores, mediocres e minore con riguardo alla singola situazione economica Si forma la Federazione delle isole e s istituisce l’Arengo o Concio generalis o Concione ovvero un’assemblea popolare general in cui risiede la sovranità del giovan Stato lagunare: la necessità della difesa in Il regno d Odoacr Odoacr (434-493 Insediament originari lagunare Tommas Diplovataccio Tractatus d Veneta urbi libertade .. conservat alla Marcian duce i maggiorenti a parificare le class sociali perché tutti possano partecipare all discussione dei pubblici affari. Dell’Arengo che discute, tratta i comuni interessi elegge i funzionari locali o tribuni, fa le legg principali, troviamo una celebrazion nella letteratura del 20° secolo con La Nav di Gabriele D’Annunzio: «Appare il pubblic arengo, il cuore operoso della città novella che i popolo libero dei Profughi sfuggito al ferro e a fuoco dei Barbari, francato dalle leggi dell patria illustre costruisce sulle velme, su l tumbe e su le barene col legname delle foreste  col pietrame delle ruine». Con la Federazion delle isole comincia la storia del futur Dogado, che finirà per estendersi da Grad fino a Cavarzere e alla foce dell’Adige, i fiume che garantisce ai barcaioli e battellier lagunari la libera navigazione fluviale  quindi la possibilità di commerciare co l’entroterra sale e pesce, le basi della futur ricchezza veneziana. Il commercio è il baluard della finanza, della ricchezza e dell futura potenza veneziana. In prima line c’è il sale, prodotto nelle isole delle laguna ma in seguito, per soddisfare le richieste,  importato dall’Istria, dalla Romagna, dall Sicilia, da Cipro, dalla Sardegna, dalle isol Baleari ... E il sale, prodotto o importato diviene la moneta di scambio per fare arrivar nelle isole della laguna il frumento  gli altri prodotti agricoli necessari al viver quotidiano, assieme alla legna da costruzion e da ardere, ai metalli, alla lana e all materie tintorie, alle pelli .. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 33"
+},
+{
+  "Year" : "476",
+  "Date" : "",
+  "Content" : "Fine dell’impero d’Occidente per mano di Odoacre che era già stato al seguit di Attila. Odoacre depone l’imperator Romolo Augustolo (475-76) e si chiude cos la serie degli imperatori romani d’Occident che pone fine all’evo antico. Cominci il medioevo Odoacre viene acclamato re dalle su truppe, un’accozzaglia di barbari provenient da varie tribù germaniche, e mand all’imperatore d’Oriente Zenone (474-91 le insegne del deposto imperatore d’Occidente dichiarandosi umile servitore  chiedendogli di essere nominato patrizi e poter governare in nome suo l’Italia, ov vero ciò che resta dell’impero d’Occident dopo la perdita dell’Africa settentrionale della Britannia, della Spagna e della Gallia Zenone non risponde in modo dirett e nelle more di una decisione, che non arriver mai, Odoacre governa a nome dell’imperator tutta l’Italia continentale, lasciand in pace gli abitanti delle isol lagunari ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 34"
+},
+{
+  "Year" : "479",
+  "Date" : "",
+  "Content" : "Da quest’anno l’imperatore d’Oriente riceve la corona direttamente dal papa. L Chiesa è un fattore di potenza ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 35"
+},
+{
+  "Year" : "489",
+  "Date" : "",
+  "Content" : "L’imperatore d’Oriente Zenone, insoddisfatto del vicariato di Odoacre [v. 476], d fatto indipendente, non ha rinunciato a riaffermar sull’Italia una giurisdizione pi diretta. Entrano così in scena gli ostrogoti barbari germanici bisognosi di nuove terr per espandersi e che da tempo si sono stanziat come federati dell’impero d’Orient nella penisola balcanica. Sono in general tranquilli, ma potenzialmente pericolos vicini di Costantinopoli. Il loro re Teodorico, è stato alla corte dell’imperator d’Oriente come ostaggio e lì ha sviluppat la sua educazione politica e affermato la su duplice posizione di capo barbarico e magiste militum dell’impero. Zenone decide d usarlo sia per allontanare gli ostrogoti da suoi confini, sia per liberarsi di Odoacre Teodorico allora passa i confini orientali d’Italia sconfigge Odoacre e lo costringe  chiudersi prima ad Aquileia e infine a Ravenna che pone in stato di assedio [v. 493] COSTANTINOPOLI fu fatta costruire dall’imperator romano Costantino il Grande Figlio dell’imperatore Costanzo Cloro e d Elena, Costantino era nato a Naisso, i Serbia, ed educato a Nicomedia presso l corte di Diocleziano. Alla morte del padr si trovava a Eburacum (York) dove er stato acclamato imperatore (20 luglio 306) Detestando Roma, che considerava corrott e depravata, aveva pensato di trasferirs a Troia, farla rinascere per l’ennesima volta ma i consiglieri, a lavori già iniziati, lo avevan dissuaso perché Ilio era troppo ricc di tradizioni pagane, mentre Costantin voleva che il cristianesimo fosse un element essenziale del nuovo stato. Egli scels allora Calcedonia, ma gli indovini e gl interpreti del volo degli uccelli sconsigliaron quella scelta, puntando su Bisanzi (da Byzas, il leggendario fondatore) perch delle aquile avevano rubato la funicella d misurazione ai progettisti che stavan lavorando a Calcedonia e l’avevano portat sull’altra sponda, a Bisanzio, appunto La scelta definitiva era stata fatta. La nuov capitale era stata infine trovata, non avev agganci ad avvenimenti mitologici importanti per i cristiani era il posto migliore Per abbellirla si spogliano le città più ricch dell’impero, mandando le opere d’arte pe mare o per terra, un furto senza precedent [il sacco di Costantinopoli da parte dei crociat nel 1204 sarà una sorta nemesi]. Ha 1 quartieri come Roma e gli abitanti presi d Roma con la forza o con allettamenti vari ma anche da altre parti (interi villaggi furon deportati) la fanno diventare il prim melting pot o crogiolo di razze della storia Il suo nome rimarrà Costantinopoli finch non sarà sostituito da quello turco d Istanbul (eis tin polin: vi state recando all città), due anni dopo la nascita della Repubblic turca (1923) con Atatürk Teodoric (454-526 Ravenna e i suo Port di Class ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 35"
+},
+{
+  "Year" : "493",
+  "Date" : "",
+  "Content" : "Marzo: Ravenna si trova assediata da quasi quattro anni (489-93). Odoacre tent una disperata sortita, ma viene subito ricacciat dentro le mura e allora decide d arrendersi a Teodorico, convinto soprattutt dalla promessa di avere salva la vita  una compartecipazione al potere. Però durante il banchetto che deve celebrar l’accordo, Odoacre viene pugnalato a mort dallo stesso Teodorico, che fonda così i regno degli ostrogoti in Italia con capital Ravenna, centro strategico non solo militare ma anche mercantile e commerciale emporio marittimo di tutta la costa da Rimin a Grado, un vero e proprio baluard da dove si può controllare la Via Popilia ch mette in comunicazione la Padania e l’Itali insulare. Ai suoi soldati, Teodorico dice ch lo scudo dell’esercito ostrogoto deve crear la tranquillità dei romani. E così sarà: a servizio dell’impero d’Oriente, Teodoric fa fiorire l’Italia e si fa amare dagli italici Egli, però, a differenza di Odoacre, prend possesso della penisola con il consens completo dell’imperatore d’Oriente [v 489], che adesso è Anastasio I (491-518) Teodorico riceve cioè una concessione formal del potere (497) e attua una politica d coesistenza, assumendo la difesa militar del regno e lasciando agli italici l’amministrazion civile ed economica, ma non un politica di assimilazione, perché i matrimon misti, per esempio, sono vietati, sicurament a motivo dei due differenti cred religiosi: ariani gli ostrogoti, cattolici gli italici L’eresia degli ariani, che negano l divinità di Gesù Cristo [Gesù è un uom adottato da Dio], in opposizione alla Chies di Roma [Gesù uomo partecipa della natura divina] si manifesta sotto Costantino il Grand (312-37) ed è promossa da Ario, monac eresiarca alessandrino. Costantino, d’accord con il papa Silvestro I (314-35), convoc il Concilio di Nicea, un concilio ecumenico ossia generale, di vescovi cattolici che condann l’eresia ariana Anche il re Teodorico, come il suo predecessor Odoacre, lascia in pace le isole dell laguna, ma rendendo egli Ravenna u grande emporio, facendo cioè del porto d Classe l’approdo più importante nell’Adriatico fa soffrire il commercio dei venetici Infatti, le merci che arrivavano a Ravenn da Oriente «facilmente n’erano per l vicino Po sparse per l’Italia, e le scambiat andavano a Costantinopoli sulle navi d lui fatte costruire; ma tuttavia i venezian nell’inevitabile scapito s’ebbero, colla pi presta e maggiore abilità di costruirne modo di superare Teodorico, che non ave potuto averne tante a fare interamente i suo disegno. Perciò, ricercati di noleggi, s risarcirono di molta parte del danno;  verso il fine del regno di Teodorico, noleggiavan navi ai goti per trasportare dall Puglia in Italia settentrionale frumento e altre vittuaglie. Né ai soli noleggi era ridott la loro utilità; poiché trafficando con Ravenn quelle mercanzie, che ne traevano mandavano colle barche per l’Adige, Brenta Tagliamento ed Isonzo, alle contrade d questi fiumi bagnate, e facevano, noleggi  commercii anche per lo Po, e bene innanz con varie contrade» [Crivelli 336] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 36"
+},
+{
+  "Year" : "494",
+  "Date" : "",
+  "Content" : "Teodorico s’insedia a Ravenna come un vero e proprio subalterno dell’imperator d’Oriente, mantiene le leggi e le istituzion romane e accetta consiglieri romani, com Cassiodoro per esempio, con l’obiettivo dichiarat di far convivere pacificamente i popolo romano e i suoi ostrogoti, ma d fatto sempre pronto a repressioni e persecuzioni ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 36"
+},
+{
+  "Year" : "495",
+  "Date" : "",
+  "Content" : "Teodorico invita gli esuli che si sono rifugiati nelle lagune a rientrare nelle loro città e molti accolgono l’invito ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 37"
+},
+{
+  "Year" : "497",
+  "Date" : "",
+  "Content" : "L’imperatore d’Oriente riconosce Teodorico patrizio romano e governatore dell’Italia. Guido Sartorell «Lungo le acque dell’estuario che si dilunga da Grado a Cavarzere compreso fra le basse dune sabbiose del litorale adriatico e i margin frastagliati della terraferma, donde i fiumi del Brenta, del Piave, de Livenza, del Tagliamento sfociando formavano piccole lagune e acquitrini melmosi, vivevano fin dai tempi dei romani, nei prim secoli dell’èra nostra [...] povere, umili popolazioni: erano salinai pescatori, orticoltori, conduttori di barche e traghettatori, cacciator di palude, che, trovato ricovero nelle sparse isole lagunari, vi conducevan la loro vita di stenti e di fatiche ... Giulio Lorenzett Le isolette della laguna, inizialment solo modeste appendici periferich della terraferma, ancorché vive di person e di traffici, essendo abitate da pescatori salinai e marinai, si erano popolate soprattutt a seguito della calata degli unni d Attila (452) ed avevano assunto una lor identità, federandosi (466) nel comun interesse difensivo. Poi, l’avvento d Odoacre (476) e di Teodorico (493) avev innescato nuove ondate di partenze vers le isole della laguna. Con l’aumento dell popolazione, la Federazione delle isole si trasform (503) in Repubblica federativa, scegliend come capitale Melidissa. Cap militare continua ad essere il magister militu (maestro dei soldati), che coordina  vari tribuni locali. In seguito, il nuov imperatore d’Oriente, Giustiniano, vara u programma di recupero territoriale con l’ide di restaurare l’impero d’Occidente  gestirlo in prima persona, senza intermediar come Odoacre o Teodorico inviando i suoi generali Belisario e Narset i quali, dopo la guerra detta gotico-bizantin (535-555) riescono a ristabilire il domini orientale sulla penisola italica. Intanto in laguna era arrivato (537) un personaggi come Cassiodoro che in un prezioso documento conosciuto come la Lettera d Cassiodoro, ci lascerà una testimonianza de venetici, visti come uccelli acquatici che s nutrono dello stesso cibo, il pesce, che convivon in uguaglianza, poveri e ricchi avendo case simili, che sono molto solidal tra loro e dediti soprattutto allo sfruttament delle saline, per cui essi riescono  comperare tutto ciò che non producon grazie al sale. La sua testimonianza  importante perché ‘certifica’ l’esistenza d un’attività marinara: navigazione lagunar nei canali interni, al riparo dei lidi, navigazion fluviale per risalire i corsi d’acqua che terminano il loro cammino nelle lagune cabotaggio costiero e anche traffic transadriatico, dato che egli menziona «gl spazi infiniti» solcati dai marinai, che altr non sono se non le traversate in mare apert fino all’opposta sponda istriana. Con l calata dei longobardi (569) la terraferm soccombe, ma tra Grado e Cavarzere,  limiti territoriali del futuro Dogado, sorgon nuovi centri pulsanti di vita, mentre  bizantini trasferiscono la sede politico-militar ad Oderzo. I longobardi si stanzian nella terraferma e questo fatto completa  rafforza in laguna la presenza attiva e operos di gruppi di immigrati di diversa provenienz che si portano dietro la propri organizzazione politica, religiosa, social ed economica. Nasce una nuova civilt lagunare, che non è soltanto lontana dall vie percorse dalle inarrestabili orde barbariche ma che si sente libera perché difes dalle acque della laguna. I vari gruppi d immigrati, organizzati in isole-comunità, s rafforzano: le isole minori si sottometton alle maggiori e nascono agglomerati pi vasti e più forti. Così, per esempio Mazzorbo, Costanziaco e Ammiana vengon a formare l’arcipelago di Torcello e son infatti detti vici di Torcello; le isolette di S Michele e S. Cristoforo sono vici d Murano, mentre Rialto, Dorsoduro e le isolett di Spinalunga si raggruppano intorn al centro religioso di Olivolo (poi Castello) Se con le invasioni di unni e goti c’eran stati esodi verso la laguna in prevalenz temporanei, con l’arrivo dei longobardi i trasferimento diventa stabile e la religion è il fattore determinante: i longobard I regni barbaric alla mort di Teodoric Ritratto d Giustiniano i un mosaic della Basilic di S. Vitale  Ravenna Sotto, la su sposa Teodor Sa Benedett da Norci Cassiodor seguono il cristianesimo di tipo ariano contrastato dal papa, e poiché il loro insediament minaccia seriamente i vescov cattolici, questi, timorosi di perdere le lor ‘greggi’, guidano il trasferimento definitiv nelle isole della laguna. A differenza dell precedenti occupazioni dei barbari/germani quella longobarda non è fatta in nom di un preciso mandato imperiale, ma contr l’impero d’Oriente e pertanto il rapport tra i barbari/germani e italici è quell dei vincitori che dispongono a piacere de vinti e fanno e disfano a loro piacimento uccidendo, confiscando, maltrattando. I aggiunta, non riuscendo ad occupare completament la penisola italica, provocherann quella suddivisione che potrà esser eliminata soltanto più di mille anni dop con il Risorgimento .. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 37"
+},
+{
+  "Year" : "501",
+  "Date" : "",
+  "Content" : "Diverse famiglie, stimando superato il momento di pericolo rappresentato dagl invasori, decidono di ritornare alle loro cas in terraferma «a restaurar le città lor per avanti rovinate dai barbari» ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 40"
+},
+{
+  "Year" : "503",
+  "Date" : "",
+  "Content" : "«Tribuno solo creato per lo governo dell’isole, & dura per lo spazio di 80 anni secondo il Zeno» [Sansovino 3]. Si tratta co molta probabilità di un magister militu (maestro dei soldati), forse imposto da bizantini, al quale si sottomettono i tribun locali. Ciò conferma che ogni isola è organizzat in modo autonomo, ma si sente l necessità di affidare il comando ad una sol persona, per cui si può dire che nasce adess [altri dicono 520] la Repubblica federativa:  rappresentanti delle tante isolette della laguna che nel 466 si erano incontrati a Grad per darsi un sistema di autogoverno, avviando molto probabilmente con il consens dell’impero d’Oriente, la Federazione dell isole, adesso danno vita alla Repubblica federativa sempre d’accordo con l’impero d’Oriente e mantengono buoni rapporti con gl ostrogoti, i dominatori della terraferma ch hanno come capitale Ravenna. Si realizz così una forma federativa di più isole-città che mantengono la loro autonomia, e quind la loro originaria costituzione tribunizia ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 40"
+},
+{
+  "Year" : "526",
+  "Date" : "",
+  "Content" : "Muore Teodorico, che nel 493 aveva scalzato Odoacre, responsabile della caduta dell’imper romano d’Occidente (476). Il tron passa alla figlia Amalasunta, reggente per i proprio figlio Atalarico, che muore precocement (534). Allora la regina sposa il cugin Teodato, per avere un appoggio nell’alta aristocrazi gotica. Teodato, invece, la fa uccidere ma fornisce all’imperatore d’Oriente i pretesto d’intervenire e tentare di ricostituir l’unità dell’antico imperium [v. 535] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 40"
+},
+{
+  "Year" : "527",
+  "Date" : "",
+  "Content" : "Giustiniano diventa imperatore d’Oriente (527-65). Sua sposa è l’ex danzatric Teodora, bella e intelligente creatura ch esercita una grande influenza politica. Dop aver posto fine alla guerra con i persian (532), l’imperatore vara un programm di recupero territoriale con l’idea di restaurar l’impero d’Occidente e gestirlo in prim persona, senza intermediari, inviand in tempi diversi i suoi generali Belisario  Narsete, che riescono a ristabilisce l’unit territoriale della penisola italica [v. 535] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 40"
+},
+{
+  "Year" : "529",
+  "Date" : "",
+  "Content" : "San Benedetto da Norcia fonda l’ordine dei Benedettini [altri dicono 534], che si dedican attivamente alla diffusione del messaggi cristiano. Essi s’insediano presto i laguna contribuendo al controllo della stessa I monasteri, maschili o femminili son fatti costruire in posizioni strategiche pe servire anche da controllo della zona in cu sorgono e vengono eretti all’interno dell città, ma spesso anche all’esterno e in quest caso sono avamposti fortificati a protezion della città, come il complesso di S Ilario, per esempio, che funge da testa d ponte con la terraferma, o S. Nicolò di Lid al quale è demandato il controllo del porto Oltre ai Benedettini, che troviamo in origin ad Altino nel convento maschile di S. Stefan (poi trasferitisi a Tessera e quindi a S Servolo) e nel monastero ancora maschil dei santi Felice e Fortunato nell’isola di Ammian (poi scomparsa), sbarcano in laguna più tardi, anche altri ordini, come i Francescan (ai Frari) o i Domenicani (a S. Giovann e Paolo) e poi gli Agostiniani e i Certosin (alternatisi nell’isola della Certosa), i Camaldoles (a S. Michele in Isola e a Murano) i Cistercensi (nell’isola di S. Spirito) gli Armeni (nell’isola di S. Lazzaro) ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 41"
+},
+{
+  "Year" : "535",
+  "Date" : "",
+  "Content" : "Prendendo a pretesto l’uccisione di Amalasunta, figlia di Teodorico (526), Giustinian [v. 527] scatena la guerra gotico-bizantin (535-55) per il possesso della penisol italica. I bizantini, che chiamano s stessi romaioi e in area italica sono conosciut come romei, strappano ai goti la strisci lagunare altoadriatica compresa nell provincia bizantina della Venetia et Histria Capo della spedizione è il generale Belisario che dopo aver conquistato l’Africa settentrional (534) e la Sicilia (535) aveva risalit la penisola, occupando Napoli, Roma deponendo Teodato e uccidendolo Dopo alterne vicende anche Vitige, successor di Teodato, è deposto, ma gli vien risparmiata la vita [v. 540] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 41"
+},
+{
+  "Year" : "537",
+  "Date" : "",
+  "Content" : "Cassiodoro (490-583), scrittore latino nato a Squillace (Catanzaro), segretario de re degli ostrogoti Vitige (536-40), arriv presso i venetici, che nel territorio vantan il primato dei traffici marini, per ordinar un trasporto di vino e olio dall’Istria a Ravenna Grazie a questa missione, Cassiodor conosce i venetici da vicino e le sue osservazion sono contenute in un prezios documento conosciuto come la Lettera d Cassiodoro, nella quale gli abitanti delle isol sono visti come uccelli acquatici che s nutrono dello stesso cibo posseduto in abbondanza il pesce, che convivono in uguaglianza poveri e ricchi, avendo case simili che sono molto solidali tra di loro e dedit soprattutto allo sfruttamento delle saline per cui essi riescono a comperare tutto ci che non producono grazie al sale La testimonianza di Cassiodoro è important perché ‘certifica’ l’esistenza di un attività marinara: navigazione lagunare ne canali interni, al riparo dei lidi; navigazion fluviale per risalire i corsi d’acqua ch terminano il loro cammino nelle lagune cabotaggio costiero e anche traffico transadriatico dato che egli menziona «gli spaz infiniti» solcati dai marinai, che altro no sono se non le traversate in mare apert fino all’opposta sponda istriana Belisari Sa Geminian Ipotesi d sistemazion della futur Piazz S. Marco in u disegno d Marco Tos Borella, 2007 Al moment però esiston soltanto l due chies votive fatt costruire d Narsete la Chiesa d S. Teodoro  la Chiesa d S. Geminian sul Rio Batari Sa Teodor CASSIODORUS, Variae XII, 2 Tribunis maritimorum Senator, praefectus Praetorio Data pridem iussione censuimus, ut Histria vini e olei species, quarum praesenti anno copia indulta perfruitur ad Ravennatem feliciter dirigeret mansionem Sed vos, qui numerosa navigia in eius confinio possidetis pari devotionis gratia providete, ut, quod ill parata est tradere, vos studeatis sub celeritate portare Similis erit quippe utriusque gratia perfectionis quando unum ex his dissociatum impleri non permitti effectum. Estote ergo promptissimi ad vicina, qu saepe spatia transmittitis infinita. Per hospitia quodammod vestra discurritis, qui per patriam navigatis Accedit etiam commodis vestris, quod vobis aliu iter aperitur perpetua securitate tranquillum. Nam cum venti saevientibus mare fuerit clausum, via vobi panditur per amoenisima fluviorum. Carinae vestra flatus asperos non pavescunt: terram cum summa felicitat contingunt et perire nesciunt, quae frequente impingunt. Putantur eminus quasi per prata ferri cum eorum contingit alveum non videri. Tractae funibu ambulant, quae stare rudentibus consuerunt, e conditione mutata, pedibus iuvant homines nave suas: vectrices sine labore trahunt et pro pavore veloru utuntur passu prosperiore nautarum. Iuva referre, quemadmodum habitationes vestras sitas ess prospeximus. Venetiae, praedicabiles quondam plena nobilibus, ab austro Ravennam Padumque contingunt ab oriente iucunditate Jonii litoris perfruuntur ubi alternus aestus egrediens modo claudit, modo aperi faciem reciproca inundatione camporum Illic vobis aliquantulum aquatilium avium mor domus est. Namque nunc terrestris, modo cernitu insularis, ut illic magis aestimes esse Cyclades, ub subito locorum facies respicis immutatas. Earu quippe similitudine per aequora longe patentia domicili videntur sparsa, quae natura non protulit, se hominum cura fundavit. Viminibus enim flexibilibu illigatis terrena illic soliditas aggregatur, et marin fluctui fragilis munitio non dubitatur opponi, scilice quando vadosum litus moles eicere nescit undarum e sine viribus fertur, quod altitudinis auxilio non iuvatur Habitatoribus igitur una copia est, ut solis piscibu expleantur. Paupertas ibi cum divitibus su aequalitate convivit fluctus addictus est. Potest aurum aliquis minu quaerere; nemo est qui salem non desideret invenire merito quando isti debet omnis cibus, qui potest ess gratissimus. Proinde naves, quas more animaliu vestris parietibus illigatis, diligenti cura reficite, ut cum vos vir experientissimus Laurentius, qui ad procuranda species directus est, commonere temptaverit festinetis excurrere, quatenus expensas necessaria nulla difficultate tardetis, qui pro qualitate aeri compendium vobis eligere potestis itineris Unus cibus omnes reficit, habitatio similis univers concludit. Nesciunt de penatibus invidere et sub ha mensura degentes evadunt vitium, cui mundum consta esse obnoxium. In salinis autem exercendis tot contentio est: pro aratris, pro falcibus cylindros volvitis inde vobis fructus omnis enascitur, quando i ipsis et quae non facitis possidetis. Moneta illic quodammod percutitur victualis. Arti vestrae omni Ai tribuni marittimi della Venezia, il Sen., Pref. del Pretorio Con ordine già impartito, ho deciso che la produzione di vin e di olio d’Istria, della quale c’è una grande abbondanza quest’anno venga trasportata con buon esito alla sede d Ravenna. Ma voi, che possedete ai suoi confini numeros navi, con pari e cortese impegno provvedete [forse ‘providite che è esortativo] a trasportare celermente ciò che quella  pronta a dare. Entrambi i compiti hanno uguale importanza dal momento che l’uno dissociato dall’altro non permette l realizzazione dello scopo. Siate quindi assai preparati a percorrer spazi vicini, voi che spesso percorrete spazi infiniti.Vo che navigate attraverso i mari della patria, in qualche mod correte qua e là per luoghi ospitali che vi appartengono. S aggiunge anche ai vostri vantaggi il fatto che per voi è accessibil un altro percorso tranquillo e sempre sicuro. Infatti quando il mare non è navigabile a causa dell’infuriare de venti, si apre a voi una via comodissima attraverso i fiumi. L vostre navi non temono i venti violenti, toccano il terreno co grandissima facilità senza subire danni e non si rovinano anche se urtano frequentemente. Da lontano si può creder che vengano quasi portate attraverso i prati, quando capita d non vedere il loro canale. Trascinate dalle funi procedono esse che di solito stanno legate alle gomene, e, cambiata l situazione, gli uomini a piedi le aiutano ad avanzare. Gli uomin trascinano senza alcuna fatica le navi da trasporto e usan al posto delle pericolose vele il passo più sicuro dei marinai Vale la pena di ricordare come sono le vostre abitazioni, ch io ho visto. Le Venezie, famose un tempo e piene di nobiltà confinano a sud con Ravenna e il Po, mentre ad oriente godon della bellezza del litorale ionico [perché l’Adriatico a que tempo era conosciuto come Ionio], dove l’alterno moto dell marea ora copre d’acqua ora fa vedere l’aspetto dei campi Qui voi avete la vostra casa simile in qualche modo ai nid degli uccelli acquatici. E infatti ora appare terrestre ora insulare tanto che si potrebbe pensare che esse siano le Cicladi dove improvvisamente si può scorgere l’aspetto dei luoghi trasformato In modo simile le abitazioni sembrano sparse per i mare attraverso distese molto ampie, ed esse non sono oper della natura, ma della cura degli uomini. Infatti in quei luogh la consistenza del suolo è resa più solida da intrecci di ram flessibili e non si esita ad opporre questa fragile difesa all onde marine; ciò evidentemente quando la costa poco profond non riesce a respingere la grandezza delle onde e quest restano senza forza perché non sono sostenute dall’aiut della profondità. Dunque vi è una sola cosa in abbondanza pe gli abitanti, che si saziano di soli pesci. Lì la povertà conviv con la ricchezza allo stesso modo ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 41"
+},
+{
+  "Year" : "540",
+  "Date" : "",
+  "Content" : "Belisario instaura il governo imperiale a Ravenna, presa con l’aiuto dei venetici «Belisario, impedito dai vasti pantani d prenderla da parte di terra, né avendo nav per espugnarla da parte di mare, ne domand ai veneziani che, pigliata la città furono da lui ricoperti di molti onori» [Crivell 114]. A questo punto Belisario è richiamat a Costantinopoli, ma nella penisol italica rimangono ancora focolai di trupp gotiche (541) capitanate dal nuovo re Totil (l’immortale) il quale riesce a spingersi fin a Roma e Napoli, diventando per qualch anno, salvo poche piazzeforti, il signor assoluto della penisola. Ma ecco che, dotat di più imponenti forze, arriva il nuov inviato dell’imperatore, il generale armen Narsete [v. 552] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 43"
+},
+{
+  "Year" : "541",
+  "Date" : "",
+  "Content" : "«Cresciuta [...] la moltitudine per l’Isole delle lagune, sono ordinate in ogni isola  Tribuni per amministrar giustizia al popolo secondo Andrea Dandolo» [Sansovino 3] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 43"
+},
+{
+  "Year" : "541",
+  "Date" : "",
+  "Content" : "Scoppia nel porto di Pelusio (vicino ad Alessandria d’Egitto) la grande peste, dett di Giustiniano, che poi si diffonde arrivand anche in laguna ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 43"
+},
+{
+  "Year" : "545",
+  "Date" : "",
+  "Content" : "L’imperatore Giustiniano emana alcune determinazioni in materia religiosa. Molt vescovi non le accettano. Scoppia lo Scism dei tre capitoli, o Scisma tri-capitolino La cattedr di san Pietr di Antiochi La Chiesa d S. Geminian con il su campanil nell’incision di J. de Barbar (1500) prim di esser ricostruit nel 150 L’imper roman d’Orient alla morte d Giustinian (565 Un unico cibo sfama tutti, case simili ospitano tutti. Non conoscon invidia per la casa e in questo modo chi ha meno evita i vizio al quale si sa che il mondo è soggetto.Tutto il vostro impegn è rivolto alla produzione del sale: fate girare i rulli al post dell’aratro e delle falci: da qui nasce ogni vostro guadagno da momento che in ciò possedete anche le cose che non avete. L in qualche modo viene coniata una moneta che vi permette d vivere. Ogni flutto è al servizio della vostra arte. Qualcuno fors può non cercare l’oro, ma non c’è nessuno che non desider avere il sale e giustamente, dal momento che ogni cibo che h buon sapore lo deve a questo. Perciò riparate diligentemente l navi che tenete legate alle pareti delle vostre case come animali in modo che quando Laurenzio, uomo di grande esperienza che è incaricato di procurare queste merci, vi darà l’ordine vi affrettiate ad andare, senza ritardare le spese necessari a causa di qualche difficoltà, voi che a seconda delle condizion del tempo potete scegliervi la strada più adatta L'assassini di Alboino re de Longobard in un dipint di Charle Landseer Ipotesi d collocazion della Chies di S. Croc sulla spond opposta all Stazion ferroviari La Chiesa si era divisa nel Concilio di Calcedoni (451), dibattendo sulla natura di Gesù con particolare attenzione alla sua relazion con Dio. Per salvaguardare l’unità dell’imper nel suo disegno di restaurazione de potere romano [v. 527], Giustiniano cerca d ingraziarsi i numerosi monofisiti alla cort di Costantinopoli, che erano stati sconfitt in quel Concilio. Non potendo tuttavia rigettar un concilio ecumenico celebrato u secolo prima e riconosciuto da gran part delle Chiese, egli pubblica un editto con i quale condanna come eretici tre teolog (Teodoreto di Ciro, Teodoro di Mopsuestia Iba di Edessa) e i loro scritti, raccolti in tr capitoli. Poi convoca un concilio ecumenic detto Costantinopolitano II (5 maggio 553 per farlo recepire all’assemblea dei vescov e dare così alla condanna dei tre teologi  dei loro scritti un valore ancora maggiore Molti vescovi orientali accettano di parteciparvi Più difficile è ottenere l’assenso de papa Vigilio (537-55), che viene allora trasferit con la forza a Costantinopoli e qu imprigionato, quindi convinto, con le buon e con le cattive, a firmare la condanna de tre capitoli (8 dicembre 553). Tra coloro ch non accettano questa imposizione imperialpapal ci sono i vescovi di Milano e Aquilei i quali convocano un concilio particolar ad Aquileia e deliberano di non riconoscer più l’autorità della Chiesa di Roma  del papa, così che Aquileia si erige a patriarcat autonomo (554-7) per sottolineare l propria indipendenza gerarchica da Roma Ora, mentre l’arcidiocesi di Milano torner presto in comunione con il resto dell Chiesa (570), il patriarcato di Aquileia s dividerà in due parti: uno a Grado con giurisdizion sui territori di dominazion bizantina e uno ad Aquileia con giurisdizion sui territori di dominazione longobarda Il vescovo/patriarca di Grado rientrerà i comunione con la Chiesa di Roma nel 607  quello di Aquileia nel 698 ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 43"
+},
+{
+  "Year" : "552",
+  "Date" : "",
+  "Content" : "Narsete, il generale bizantino considerato eunuco (ma forse non lo è), già aiutant di Belisario, è inviato da Giustiniano pe restaurare l’impero d’Occidente e cacciar gli ostrogoti dall’Italia [v. 535]. Egli giung in Dalmazia per via di terra (551) con u esercito formato da truppe bizantine e d mercenari barbari, tra cui i longobardi guidat dal giovane erede al trono Alboino. Pe raggiungere Ravenna chiede l’aiuto de venetici, che non possono non acconsentire forniscono le navi che lo vanno a prender in Dalmazia e lo conducono a Ravenna dove la sorpresa gli è d’aiuto pe sconfiggere gli ostrogoti. Il tempo di fa riposare l’esercito e poi Narsete punta  sud, alla caccia degli ultimi ostrogoti: sconfigg Totila (552) e poi Teia (553), ponend fine alla guerra gotico-bizantina e dando i colpo di grazia agli ultimi barbari: 7mil ostrogoti in fuga da Narsete dopo ave perso ad Angri (ai piedi del Vesuvio) il lor nuovo e ultimo re, Teia, si rifugiano (554 nella rocca di Conza (in provincia di Avellino) e qui scendono a patti (555). In cambi della resa Narsete non infierisce, ma l fa deportare tutti a Costantinopoli. Com premio, il generale bizantino riceve il titol di patrizio e l’incarico di amministrare  territori italici diventando l’erede di Odoacr e Teodorico, un vicario imperiale ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 44"
+},
+{
+  "Year" : "555",
+  "Date" : "",
+  "Content" : "Fine della guerra gotico-bizantina (535- 55). La penisola italica diventa domini bizantino e viene divisa in province dipendent dalla prefettura di Ravenna sotto i comando di Narsete, nominato primo prefett o esarca, cioè rappresentante dell’imperator d’Oriente. I territori provinciali son chiamati esarcati e affidati ai governator provinciali detti magistri militum, cioè cap militari e civili dipendenti dall’esarca, ch reggono le milizie, amministrano la giustizi civile e penale, presiedono all’esazion delle imposte e si appoggiano ai tribuni funzionari-capi delle singole realtà locali questi ultimi sono chiamati in laguna tribun maritimorum o tribuni marittimi, la cui elezion è decisa o semplicemente ratificat dai magistri militum. I venetici dipendon da Oderzo (Opitergium), sede del govern provinciale bizantino, ma sono settorialmente cioè isola per isola o insediament per insediamento, ‘governati’ dai propri tri SANSOVINO dice che il trasferiment avviene nel 57 buni, che riassumono in sé la potestà civil e militare, amministrano la giustizia  riscuotono le imposte [Cfr. Maranini 24] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 44"
+},
+{
+  "Year" : "555",
+  "Date" : "",
+  "Content" : "Nella futura Piazza S. Marco, tagliata in due in direzione sud-nord dal Rio Batàrio si decide la costruzione di due chiese votiv [Musatti dice 554, Sansovino 564, due dat che segnano forse la decisione di inizio  fine lavori]: la Chiesa di S. Teodoro (in venezian S. Todaro), il santo greco che nell’ann 319 ha conosciuto il suo martirio a Melidissa/Eraclea e proprio di fronte, oltre i Rio Batario, la Chiesa dei santi Mena e Zuminia (S. Geminiano e Mena), entramb premio del generale Narsete per l’aiuto ricevut dai venetici nella conquista di Ravenn [v. 552]. Narsete fa costruire anche l Chiesa di Olivolo (poi Castello), dedicata a santi Sergio e Bacco, patroni dell’esercit bizantino. Narsete sceglie a protettore d Venezia san Teodoro perché simbolicament egli, che uccide il drago, rappresenta l vittoria del Bene sul Male. La Chiesa di S. Geminian non avrà vita tranquilla. Distrutt dal fuoco nel 976 e poi ricostruita, viene ancor demolita e rifabbricata anche in posizion diverse. L’ultimo suo sito, prima d essere ri-demolita per ampliare la piazza interrand il rio, e ri-costruita con a fianco u campanile [v. 1505], è indicato da una targ marmorea posta in linea con il Campanil di S. Marco a livello dei masegni tra il Caff Florian e l’Aurora [v. 1720] e reca la scritt «Demolito il tempio di S. Geminiano, f ampliata la piazza nel secolo XII». La Chies dei santi Sergio e Bacco accoglie (774) i primo vescovo di Olivolo, ma è poi rifondat (817-30), completata e consacrata (841)  san Pietro. Nasce quindi la Chiesa di S. Pietr [sestiere di Castello], che s’incendia (1120 ed è subito ricostruita e poi dotata di campanil (1463-74) che danneggiato da un fulmin sarà rinnovato (1482-90) da Maur Codussi. La chiesa, profondamente rinnovat (1508-26), è poi rifatta: inizia i lavori i Palladio (1558), ma la morte del patriarca l fa interrompere (1559) per essere ripresi d Francesco Smeraldi che erige la facciat (1594-96), mentre l’edificio è completat (1619-21) da Giovanni Grapiglia. Ancor consacrata (1631), la Chiesa di S. Pietro riman la cattedrale di Venezia fino al 1807 quando il titolo passa a S. Marco, e conserv le reliquie del beato Lorenzo Giustinian ultimo vescovo di Castello e primo patriarc di Venezia (1451-55), nonché la cattedr di san Pietro di Antiochia, composta di var pezzi marmorei, dono del basileus Michel III (842-67), figlio di Teodora, al doge Pietr Tradonico (836-64). Durante il primo conflitt mondiale la chiesa è colpita da du bombe incendiarie che danneggiano la cupola poi restaurata ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 45"
+},
+{
+  "Year" : "557",
+  "Date" : "",
+  "Content" : "Concilio provinciale in cui Paolino, vescovo di Aquileia, vanta i suoi precedenti  l’origine apostolica della propria chiesa  ottiene il riconoscimento del titolo di patriarc [il termine patriarca ha una su importanza perché in quest’epoca le grand sedi riconosciute come per esempio Gerusalemme Antiochia, Alessandria, Roma,  la stessa Costantinopoli non hanno un semplic vescovo, ma un patriarca]. Gli altr patriarchi del secolo sono Probino (569-70) Elia (571-86), Severo (586-607) Il NordEs dell penisol italica divis tr longobard e bizantini ch estendon ancora l lor giurisdizion sulle isol della lagun e sull’Istri Chiesa d S. Marcuola sul Cana Grande incisione d Dionisi Moretti, 182 Grado interno dell Basilica d S. Eufemi consacrat alla martir Eufemi e in seguit dedicat ai protomartir aquileies Ermacora  Fortunat ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 45"
+},
+{
+  "Year" : "557",
+  "Date" : "",
+  "Content" : "Arriva una seconda ondata di peste in laguna dopo quella del 541 ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 46"
+},
+{
+  "Year" : "567",
+  "Date" : "",
+  "Content" : "Narsete, che nei 12 anni di vicariato (555-67) aveva rintuzzato le discese nell penisola di alemanni e franchi, viene destituit dal nuovo imperatore Giustino I (565-78). Non si sa perché. Forse su reclam degli italici oppressi dai suoi modi («L’eunuc Narsete ci comanda e ci tratta co schiavi») e dal suo fiscalismo, o fose perch l’esarca si è arricchito a spese dell’impero Si racconta, però, che per vendicarsi del castig egli esorti i longobardi a scendere i Italia, quegli stessi longobardi di cui egli s era servito per liberarsi degli ostrogoti e  capo dei quali c’era allora il giovane Alboino il quale diventato nel frattempo r guiderà i suoi ad una facile conquista, com se la strada fosse stata già tracciata .. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 46"
+},
+{
+  "Year" : "569",
+  "Date" : "",
+  "Content" : "Marzo [Giovanni Diacono scrive 2 aprile 568]: i longobardi (detti così forse per vi delle lunghe barbe e dei lunghi capelli), ch erano partiti dalla Pannonia settentrional nella primavera del 568, penetrano in Itali dal passo del Predil (Alpi Giulie), non pe fare una razzia, come Attila o altri barbari ma per insediarsi; infatti, dietro all’esercit rinforzato da slavi e bulgari e diviso in 3 tribù, ognuna con circa 10mila uomini al comand di un capo guerriero, seguono co tutte le masserizie donne, vecchi, bambini  animali domestici .. I bizantini finiranno per perdere l’Italia, m intanto stabiliscono la loro capitale a Oderzo I longobardi, originari della Scandinavia s erano mossi per cercare terre migliori e dop aver disperso i vandali (369) stanziati i Alemagna, si erano sistemati in Pannoni (527), restando lì per anni, ma nel frattemp alcuni al soldo di Costantinopoli erano sces nella penisola italica e avendola conosciut avevano deciso che era meglio della Pannoni ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 46"
+},
+{
+  "Year" : "569",
+  "Date" : "",
+  "Content" : ".. che perciò abbandonano lasciandola agli avari, una razza di unni provenient dalla Moldavia. Famosi per la loro ferocia  aggressività, i longobardi erano stati di grand aiuto a Narsete, che, conquistata Ravenna li aveva rimandati a casa perché indisciplinati avidi e quindi assai pericolosi. Alcun anni dopo, Narsete veniva destituito dal su incarico e mandato in esilio (567). Al su posto era arrivato Longino [v. 578]. Intanto Alboino era diventato re dei longobard (560) e Narsete, che si era ritenuto ingiustament condannato, gli aveva ispirato, prim di morire (568), l’invasione, fornendogli, s dice, anche i piani logistici. Una supposizion dedotta dal fatto che Alboino si muov come un abile stratega e con una efficient logistica. E forse c’era davvero lo zampino d Narsete, perché le carte del territorio eran gelosamente custodite dai grandi generali,  molto probabilmente Narsete le aveva portat con sé nel suo esilio. Carte che segnalan strade, paesi, città, numero degli abitanti fortificazioni, entità delle guarnigioni ch tengono i presidi. Infatti, entrato nella penisola Alboino seleziona i territori da conquistare trascura le città ben difese e le zon costiere, che possono essere facilmente difes dalla flotta bizantina. Ad ogni conquista un capo tribù prende il titolo di duca de territorio e vi s’insedia con l’esercito di persone cose e animali che segue in retroguardia Così, dopo aver creato nella Ve La Pentapol bizantin netia la prima dinastia ducale longobarda  Cividale del Friuli (Forum Iulii) con il nipot Gisulfo, Alboino dilaga nella Padania. I questa prima fase, egli tralascia le città militarment più attrezzate come Oderzo, Altin e Padova, piega verso Treviso e conquist Vicenza e Verona, poi volge verso Milan (settembre 569), occupando tutta quell regione, che prenderà il nome di Langobardia/Lombardia e pone l’assedio a Pavia che si arrende tre anni dopo (572), diventand la sua capitale. In seguito, Alboino si dirig verso il centro e il meridione della penisol con penetrazione a cuneo nel territori bizantino fin verso la Calabria. Ai margin della penisola molti territori soggetti all’imper d’Oriente rimangono liberi [v. 573] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 46"
+},
+{
+  "Year" : "569",
+  "Date" : "",
+  "Content" : "Grado, che aveva accolto i primi fuggiaschi guidati da Secondo (452), patriarca d Aquileia, ritorna ad offrire sicuro rifugio a profughi. Questa volta è il patriarca Paolin (557-69), che di fronte all’ondata longobarda avendo ancora nelle orecchie i raccont delle violenze e dei saccheggi perpretati da precedenti barbari, raccoglie le reliquie de santi e dei martiri, emblemi della civiltà veneto-romana e si trasferisce nell’isola, trasportandov l’intera sede metropolitana convinto che Aquileia fosse perduta pe sempre e quindi deciso a restare. L’arrivo d Paolino suggella un periodo di crescita e d rinnovamento dell’isola di Grado che l stesso patriarca chiama Nova Aquileia. Poch anni dopo (574-75) una delegazione di venetic si reca a Roma dal papa per ottenere l traslatio sedis dall’antiqua alla nova Aquileia anche perché data la separazione politic creatasi con la terraferma in mano ai longobard bisogna rafforzare la Chiesa sotto l protezione bizantina [v. 579] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 47"
+},
+{
+  "Year" : "570",
+  "Date" : "",
+  "Content" : "Peste: scoppiata a Marsiglia arriva anche in laguna la terza grande ondata epidemic dopo quelle del 541 e 557 ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 47"
+},
+{
+  "Year" : "573",
+  "Date" : "",
+  "Content" : "Alboino è fatto uccidere dalla moglie Rosmunda e i longobardi sciamano a su del Po, tralasciando di occupare le città d mare, che non amano e che sono ben difes dalla flotta bizantina, ovunque sostituendos all’amministrazione bizantina La laguna, da Grado a Cavarzere, rest tagliata fuori dal dominio longobardo,  qui si riversano ancora i fuggiaschi vers la libertà. Interi gruppi sociali, guidati d «elementi direttivi, laici ed ecclesiastici» ripiegano in laguna verso un asilo sperat come provvisorio, ma che diventer definitivo: «l’invasione longobarda [... diede avvio a una migrazione di profugh dalle città di terraferma, e modificò l struttura sociale dei veneziani. Uomin facoltosi trasferirono la propria residenz nelle lagune, portando con sé familiari  dipendenti e quanto più potevano dell loro sostanze» [Lane 7]. L’essere tagliat fuori dalla terraferma rappresenta, però un vero colpo di fortuna per la futur Venezia: posta sulla linea di confine fra i mondo orientale e quello occidental deve inventarsi un’inedita vita politica e economica .. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 47"
+},
+{
+  "Year" : "573",
+  "Date" : "",
+  "Content" : "La creazione di un regno longobardo costringe i venetici ad abbandonare la navigazion tra l’Adriatico e il Danubio ereditat da Aquileia, per secoli punto d’incontr tra Oriente e Occidente, dov affluivano merci d’ogni genere attravers la navigazione fluviale e le strade. Gl aquileiesi risalivano il Natisone «con gross barche, all’uopo artificiate, trasportavan le merci fino a Norcia [Gorizia], e col caricatele sopra carri le spedivano fino a Ocra, e quindi per lo fiume Quieto nell’altr Sava, e per esso nel Danubio, ad esser sbarcate a Segesta, e poi recate alle foci d questo fiume, e di là in Costantinopoli, e alle fiorenti romane colonie sui lidi de Mar Nero: e per tale ampio commerci 573, era nomata mercato di tutta Italia; e i benefizi di esso spandevansi ad arricchir Altino, Concordia, Oderzo ed altr città» [Crivelli 233]. Adesso con i longobard nella terraferma veneta, la via pi sicura per arrivare a Costantinopoli  quella diretta del mare, almeno fino  quando il doge e il re longobardo Liutprand (712-44) non si accorderanno su confini reciproci [v. 712] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 48"
+},
+{
+  "Year" : "573",
+  "Date" : "",
+  "Content" : "Sorgono le chiese di S. Ermagora e Fortunato (poi S. Marcuola) e di S. Croce d Luprio, «edificate da diversi rifuggiti all lagune dalle parti di Aquilea, per la venut dei Longobardi» [Sansovino 4] La Chiesa di S. Marcuola [sestiere di Cannaregio si affaccia sul Canal Grande. In seguit riceverà le spoglie dei santi Ermagor e Fortunato (trovate a Grado nel 1023) poi, distrutta da un incendio (12° sec.) sarà ricostruita con il contributo dell famiglie Memmo e Lupanizza. Infine, dop varie vicissitudini, verrà totalmente ristrutturat da Antonio Gaspari, a partir dal 1690, e alla sua morte affidata a Giorgi Massari, che la porta a compiment esternamente nel dicembre del 1728 (lasciand incompiuta la facciata, ferma a plinti di base delle colonne) e internament nel 1736. All’interno sculture di Giovann Maria Morlaiter (1699-1781) e L’ultim cena del Tintoretto (1747) La Chiesa di S. Croce, che dà il nome all’inter sestiere viene rifatta nell’anno 900  poi affidata ai Benedettini (1109) che la rie dificano (1111). Chiesa e monastero sono in seguito ancora ricostruiti ad opera di Antonio Da Pont (sec. 16°) e rimangono in piedi fino al 1810 quando sono abbattuti per far posto ai Giardin Papadopoli [v. 1834] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 48"
+},
+{
+  "Year" : "574",
+  "Date" : "",
+  "Content" : "«Tribuni X creati dal governo dell’Isole, durano per 130 anni futuri» [Sansovino 4]. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 49"
+},
+{
+  "Year" : "578",
+  "Date" : "",
+  "Content" : "«Longino Esarco di Ravenna, et generale dell’Imperatore, viene a Rialto [scrive Sansovino 4, altri dicono nel 568], raccolto con molto honore dai Veneti, i quali co’ loro navili l’accompagnano a Costantinopoli» Flavio Longino, il nuovo esarca di Ravenna, successore di Narsete, giunge in lagun e a conferma della libertà o autonomia goduta da sempre dai venetici, egli non chiede alcun giurament di fedeltà, ma solo la promessa di rendere ossequio all’imperatore e di fornire eventualment le navi per combatterne i nemici; in cambio promette di raccomandare all’imperatore la concession di speciali privilegi per il commercio con l’Oriente. Infatti, al termine della visita, una delegazion di venetici s’imbarca con lui per Costantinopoli, e qui egli esalta la dedizione dei lagunari all presenza dell’imperatore Giustino II (565-78), nipote e successore di Giustiniano [v. 527]. I venetic ricevono allora un diploma il quale, in cambio della promessa di riconoscere la supremazia dell’imperator e accorrere in suo aiuto in caso di bisogno, assicura la protezione e la sicurezza del lor commercio in tutto l’impero, lasciandoli sostanzialmente liberi di amministrarsi: per i venetici s aprono le porte dell’Oriente [Cfr. Sansovino 4] e comincia l’influenza di Venezia sulla costa dalmata ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 49"
+},
+{
+  "Year" : "579",
+  "Date" : "3 novembre",
+  "Content" : "in occasione della solenne consacrazione della Basilica di S. Eufemia [poi dedicata ai protomartir aquileies Ermagora  Fortunato] i patriarca Eli (571-86), ch dopo Paolino  Guido Sartorell il successor Probino sied sulla cattedr patriarcale d Grado, riunisc un sinod che approva i trasferiment da Aquileia  Grado del patriarcat co giurisdizion sulla Venetia  l’Histria concess il 20 april precedent dal papa. L stesso pap confermer (582) il titolo di patriarca: «Elia Greco, di Vescovo creato Patriarca di Grado da un Concili di 20 Vescovi per ordine del Papa. et la città fatta Metropoli di Venetia & di Istri [Sansovino 4] Il sinodo approva anche l’istituzione di sei nuove sedi episcopali in laguna, affidando l’elezion dei vescovi al clero e agli abitanti di ogni parrocchia: il primo vescovo sarà quell di Torcello, poi seguiranno nel tempo Malamocco, Olivolo, Jesolo, Eraclea, Caorle ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 49"
+},
+{
+  "Year" : "580",
+  "Date" : "",
+  "Content" : "L’imperatore Tiberio II suddivide l’esarcato in cinque province, mentre il suo successore Maurizio I lo riorganizzerà (584) in sette distretti militari l’Esarcato propriamente dett la Pentapol Rom la Liguri la Venezi l’Istri Napol (comprendente il Bruzio, la Lucania e l’Apulia ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 49"
+},
+{
+  "Year" : "586",
+  "Date" : "",
+  "Content" : "Muore il patriarca di Grado, Elia [secondo Giovanni Diacono ciò avviene nel 588], e gli succede Severo, anch’egli deciso, come il suo predecessore, a sostenere lo scimm Costantinopolitano II [v. 545] nel quale erano stati condannati i famosi Tre capitoli [v 545] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 49"
+},
+{
+  "Year" : "586",
+  "Date" : "",
+  "Content" : "«Severo Patriarca di Grado, preso con altri Vescovi di Istria, da Smaragdo Esarco, è condotto a Ravenna, et costretto a confermar l’opinione di Giovanni Arcivescovo intorn a 3 capitoli del Concilio di Calcedonia non creduti per veri dai ribelli della Chiesa ritornato in capo all’anno a Grado, sporge il libello del suo pentimento ai Vescovi, e assoluto, ritorna in fede» [Sansovino 4] In altre parole, l’esarca Smaragdo cerca di porre fine allo scisma Costantinopolitano II o de Tre capitoli sostenuto dal nuovo patriarca di Grado Severo e dal suo predecessore Elia Smaragdo fa arrestare lo stesso Severo e tre vescovi istriani (Giovanni di Parenzo, Sever di Trieste e Vindemio di Cissa), li fa condurre a Ravenna e li costringe ad accordarsi co Giovanni, vescovo di Ravenna che condanna i Tre capitoli. Costretti a subire pressioni  torture, i vescovi finiscono per abiurare le proprie convinzioni e un anno dopo, lasciat liberi, torneranno a Grado, ma non saranno accettati né dai fedeli né dagli altri vescov [Cfr. De Biasi, La cronaca ... I, 40] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 49"
+},
+{
+  "Year" : "589",
+  "Date" : "",
+  "Content" : "Paolo Diacono nella sua Historia Langobardorum [Liber III 23] ci racconta della devastante alluvione, conseguenza forse della scarsa manutenzione dei fiumi, che mut l’idrografia del Veneto. È la rotta della Cucca, dal nome della località veronese in cui avvien il principale disalveamento dell’Adige, che abbandona il suo antico corso (passav per Este e Montagnana) e si sposta di parecchi chilometri a sud, in quello che sar poi il suo solco naturale. Il cronista racconta di un diluvio d’acqua, registrato ne NordEst ma anche in altre parti della penisola, mai più verificatosi dal tempo di No e data la rotta al 17 ottobre 589, che gli studiosi moderni tendono a collocare nel mes di novembre. L’alluvione causa grosse perdite di vite umane e animali e distrugge part delle mura di Verona, oltre a spazzare via strade, senteri e gran parte della campagn in quelli che poi saranno il basso Veneto e la bassa ferrarese. Il livello delle acque a Ve rona sale fino a raggiungere le finestre superior della Basilica di San Zeno fuori l mura. A Padova il Brenta viene estromesso spinto a nord-est dell’abitato, mentr nel suo alveo subentra il Bacchiglione. I Piave straripa e cambia in parte il su corso. Il Mincio, che passava per Adria  si poteva navigare dal Mare Adriatico a Lago di Garda, abbandona il suo alveo  diventa un affluente del Po, il che porter alla definitiva decadenza di Adria e de suo porto. A causa dell'eccessiva frammentazion del territorio, nessun govern si prenderà carico di riparare il guasto e l campagna inondata si tramuterà in palud per secoli; infatti, il termine Polesin nasce in questo periodo ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 49"
+},
+{
+  "Year" : "589",
+  "Date" : "",
+  "Content" : "Sul finire dell’anno l’esarca Smaragdo [v. 580] viene richiamato a Costantinopol per i suoi eccessi, in particolare per le crudelt nei confronti degli aderenti alla controversi dei Tre capitoli [v. 545], ed è sostituit da Romano. Smaragdo, però, sarà d nuovo inviato a Ravenna a reggere l’esarcat dal 603 alla morte (611) ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 51"
+},
+{
+  "Year" : "590",
+  "Date" : "",
+  "Content" : "All’inondazione dell’anno precedente segue una grave pestilenza ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 51"
+},
+{
+  "Year" : "590",
+  "Date" : "",
+  "Content" : "Si tiene a Marano, in territorio longobardo, un sinodo (590-91) che ha lo scop di «postulare la rimozione della condann dei tre capitoli accolti nel concilio di Calcedoni e condannati nel Costantinopolitan II» [Carile e Fedalto 28]. In quest sinodo, avendo il patriarca Severo presentat una ritrattazione scritta, vien riammesso nella comunità aquileiese. I papa allora chiama Severo a Roma, al ch i vescovi si rivolgono all’imperatore d’Oriente sostenendo che il papa vuole piegar gli scismatici. L’imperatore Maurizi interviene dissuadendo il papa a continuar nel suo proposito considerato i momento particolarmente difficile ne rapporti fra longobardi e bizantini [Cfr De Biasi La cronaca ... I 43] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 51"
+},
+{
+  "Year" : "593",
+  "Date" : "",
+  "Content" : "«Padova città nobilissima nella provincia di Venetia, presa et distrutta dai Longobardi [Sansovino 4] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 51"
+},
+{
+  "Year" : "594",
+  "Date" : "",
+  "Content" : "«Monselice terragrossa, et bene habitata, distrutta dai medesimi [Longobardi] [Sansovino 4] «... citt costruita i luoghi deserti senza mura senza porte senza tombe ma la cu forza e le cu fondament sono nel mar ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 51"
+},
+{
+  "Year" : "594",
+  "Date" : "",
+  "Content" : "..» Gabriel D’Annunzi Il grande ‘terremoto’ longobardo (569) f crescere la consapevolezza dei venetici  così, tra la Venetia terrestre longobarda e l futura Venezia lagunare bizantina, si vien a creare una vera e propria frattura Peraltro, il governo imperiale non ha più l forza di intervenire perché militarment impegnato a fondo in Oriente con i persian prima e con gli arabi musulmani poi Aumenta il numero delle persone che cercan rifugio nelle isole, diminuisce lo spazi e già i residenti devono preoccuparsi d difendere quel poco di terra trovato e d avviare un costante sforzo di consolidamento Altro bisogno impellente, oltre  quello di arginare le rive e mantenere l’equilibri tra terra e acqua è quello d costruire i mezzi di trasporto, le barch prima e le navi dopo, per gli scambi de prodotti, risalendo i fiumi, navigando fin all’altra sponda dell’Adriatico, spingendos in Oriente e commerciando con tutti  paesi che si trovano sulla via per Costantinopoli Le famiglie che detenevano il potere in terraferm e che continuano a mettere in evidenz laboriosità, ricchezza e impegn politico, diventano le naturali detentrici de potere politico e militare anche in laguna  così lentamente una sorta di «patto inespresso» psicologico prima e politico poi s’instaura fra quello che sarà il patriziato  il popolo, un patto secondo il quale il patriziat si riserva il compito di governare e i popolo accetta questa situazione in mod del tutto naturale, per cui la politica intern di Venezia sarà tutta racchiusa nella fras «pane in piazza, giustizia a palazzo» La religione, ovviamente, non è staccat dal mito delle origini. I vescovi rappresentan non solo il riferimento religioso, m anche quello civile, e continuano ad esser i pilastri attorno ai quali s’insedia e cresc la comunità. La religione, dunque, è il fil rosso che ha legato i popoli delle isole contr le imprese del pagano Attila e dei longobard ariani. Dio, si dice in laguna, conced aiuto e protezione, ha spinto i profugh a fuggire verso la libertà, li ha accompagnati tramite i suoi rappresentanti i terra, nelle isole della salvezza L’Italia bizantina, intanto, rimane «divis in tante parti debolmente collegate fra loro o non collegate affatto (salvo che pe mare)». La situazione geografico-politic appare essenzialmente divisa in due, d una parte la Longobardia e dall’altra l Romània, ovvero ciò che rimane del territori bizantino. Essa è pertanto la seguente escludendo le grandi isole che non fann parte della circoscrizione italiana: Bruzio  la Calabria assimilata alla Terra d’Otrant con Lecce, Otranto e Gallipoli; il ducat napoletano; il ducato romano limitato a un’ampia zona a nord e a sud del Tevere; l Pentapoli, divisa in Pentapoli marittim (Rimini, Pesaro, Fano, Senigallia, Ancona)  Pentapoli annonaria (Urbino, Fossombrone Jesi, Cagli, Gubbio); l’Esarcato, comprendent Ravenna e la Romagna; l’Istria la Venetia ridotta alle coste e alle isole dell laguna veneta o Venezia marittima. Quest divisione e disarticolazione dell’Itali bizantina favorisce dappertutto lo svilupp di una organizzazione difensiva autonom locale, proprio perché manca un esercit centrale. In laguna, stante l’aumento dell popolazione e il bisogno di unificare  migliorare un sistema militare difensivo d tante piccole realtà contro le incursioni de pirati e le sempre possibili scorrerie de longobardi, dominatori della terraferma, i governo locale, che all’inizio era assegnat ai tribuni marittimi, forse magistrati scelt dall’esarca bizantino, sul finire del secol (697) affida la difesa di tutto l’insediament lagunare ad un capo unico, ad un duca ovvero un magistrato eletto a vita e scelto sembra, con il benestare dello stesso imperator d’Oriente. Ed ecco allora che l nuova organizzazione del nascente dogad prende nuova forma: ogni isola-castrum  affidata ad un tribuno minore, che dev rispondere al tribuno maggiore, il quale ha l giurisdizione su un arcipelago ben definit di isole, e sopra di tutti un duca, un doge,  il primo è Paoluccio Anafesto .. Il r longobard Rotar ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 52"
+},
+{
+  "Year" : "601",
+  "Date" : "",
+  "Content" : "Padova è nuovamente assediata dai longobardi [v. 593] e questa volta completament rasa al suolo da Agilulfo, che riesc a penetrare nelle difese cittadine. Anch Monselice viene presa di mira [v. 594], resist qualche mese, ma poi è costretta a capitolar definitivamente: nuova emigrazion in massa verso le isole della laguna Ravenna si salva con grande sollievo dell’esarc Longino, che alla calata dei longobard s’è chiuso nella capitale e non h mosso un dito per assistere le singole città costrette a difendersi da sole Agilulfo, re dei longobardi (591-616), er stato eletto alla morte di Autari e ne avev sposato la vedova Teodolinda, ponend fine a un periodo di anarchia dei capi longobardi Egli aveva poi esteso i domini longobard in Umbria e nel Veneto, dopo ave affrontato i bizantini di Ravenna, i franchi gli unni, gli avari e tentato invano (593) l conquista di Roma, difesa dal pap Gregorio I, poi detto Gregorio Magno ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 53"
+},
+{
+  "Year" : "601",
+  "Date" : "",
+  "Content" : "La penisola italica è divisa tra i longobardi e quelli che per tradizione chiamiam bizantini, ma costoro «non hanno ma chiamato se stessi con tale epiteto: si son sempre detti e proclamati ‘Romani’ [... Bisanzio [Costantinopoli] si è sempre considerat l’erede unica, naturale e legittim dell’impero romano; le sue pretese quind su tutte le terre, che un tempo appartenevan all’orbis romanus, discendono per vi diretta dalla concezione dello stato roman unitario, a cui fu sempre informata l politica costantinopoliana» [Pertusi 61] All’imperatore d’Oriente dunque rimangono tra l’altro, Roma e il suo ducato Napoli e la sua provincia, mentre a nor resistono Ravenna e il suo territorio comprendent Oderzo, Padova, Monselice Cremona, Mantova e Genova. Il re de longobardi, Agilulfo, cerca di dare i colpo di grazia ai possedimenti bizantini/roman e adesso assedia Padova e l costringe alla resa, la saccheggia, l’incendia infine la distrugge. Si ripetono nuov migrazioni in laguna, in maggioranza da territorio padovano. Poi sarà la volta d Monselice i cui abitanti seguiranno l orme dei padovani, andando ad ingrossar le isole di Chioggia, Pellestrina  Malamocco. La striscia lagunare da Grad a Cavarzere si popola ancor più di fuggiasch ed essendo l’antica Venetia sotto i longobardi per indicare il territorio liber Torcell in un disegn ottocentesc di T. Viol delle isole della laguna, che i longobard rispettano perché dai traffici dei venetic traggono «comodi e vantaggi», si usa l frase le Venezie ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 53"
+},
+{
+  "Year" : "604",
+  "Date" : "",
+  "Content" : "Muore il papa Gregorio I (540-604) e s’inasprisce lo Scisma dei tre capitoli, che coinvolg quasi tutti gli abitanti della Langobardi (poi Longobardia, infine Lombardia) un gruppo di vescovi interrompon le relazioni con gli altri vescovi e con i papa. La questione esplode adesso, ma s trascina da mezzo secolo [v. 545] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 55"
+},
+{
+  "Year" : "607",
+  "Date" : "",
+  "Content" : "Muore a Grado (marzo) il patriarca Severo, successore di Elia [il cronista Giovann Diacono colloca l’evento nel 606] L’esarca Smaragdo elegge allora Candidian di Rimini con il quale cessa definitivament lo scisma dei Tre capitoli [v 545], mentre Gisulfo, duca longobard ariano del Friuli, nomina Giovanni d Aquileia. Da questo momento ci sarann due patriarchi in perenne dissidio [v. 732] uno a Grado, detto ortodosso e appoggiat da Costantinopoli, e l’altro scismatic ad Aquileia, sotto la protezione de longobardi, ma con residenza a Cormons sede poi trasferita a Furum Iulii o Cividal nel 737 per suggire alle incursioni bizantine In tempi diversi, i vescovi dipendent da Aquileia sono costretti a trasferir la loro sede mantenendo l’intitolazion originaria: il vescovo di Oderzo s trasferisce ad Eraclea, quello di Altino  Torcello [Cfr. Franzoi X]. L’antitesi tr Grado e Aquileia diventa quindi un problem politico, di spartizione territorial della regione veneto-istriana tra longobard e bizantini. Da questa scissione scaturisc una chiesa metropolitana in terraferm con giurisdizione sopra i vescovad veneto-trentini con sede ad Aquileia Cormons, ed un’altra con sede a Grad senza alcun episcopato in territorio veneto ma con giurisdizione spirituale sopr gli episcopati istriani, finché l’Istria [dov il patriarca ha una residenza provvisori a Pola] non sarà incorporata nel domini longobardo al tempo di re Desiderio [v 774]. L’istituzione del patriarca ortodoss di Grado provoca la rapida sconfitta de tri-capitolini nei territori bizantini. V contribuisce in maniera importante anch l’esercito bizantino che costringe gli ultim vescovi scismatici dell’Istria a sottometters a Candidiano. Entrato nell’orbit lagunare, il patriarca di Grado lotter per evitare il trasferimento nelle isol rialtine, ma alla fine la sede di Grado sar soppressa (1451) e il patriarca dovrà risieder in quella di Olivolo/Castello. L commistione tra potere politico e poter religioso sarà ricercata, ma per frenare l famiglie più ambiziose e i dogi dall’aspirar anche al possesso del potere religioso e parimenti per frenare gli alti prelat che ambiscono al potere politico, la costituzion veneziana metterà i giusti palett riuscendo a «mirabilmente conciliare il rispett alla religione con la tutela dei diritt dello stato» e non consentendo «ma che la casta sacerdotale si atteggiasse  ceto indipendente dal potere civile e formass a danno di esso uno stato nell stato, e volle la chiesa soggetta al poter laico nei doveri del clero, nella parte esterior e disciplinare, in tutto quant insomma si riferisce alla vita e alla moral sociale» [Molmenti I 135]. Gli altri patriarch del secolo sono Epifanio (612-13) Cipriano (613-28), Primigenio (628-49) Massimo II (649-63), Stefano II (663-79) Agatone (679-85), Cristoforo (685-98) Pietro (698-717) Le famos imposte i marmo dell Cattedral di Torcell Chioggia i una immagin del 21° secolo Sullo sfondo i profilo d Pellestrina  del Lid ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 55"
+},
+{
+  "Year" : "607",
+  "Date" : "",
+  "Content" : "L’imperatore d’Oriente Foca riconosce il primato della Chiesa di Roma sulle altre ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 55"
+},
+{
+  "Year" : "622",
+  "Date" : "",
+  "Content" : "È l’anno dell’ègira o emigrazione di Maometto dalla Mecca a Medina (15 giugno) inizia l’era o cronologia musulmana ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 55"
+},
+{
+  "Year" : "628",
+  "Date" : "",
+  "Content" : "I longobardi eleggono il nuovo patriarca di Aquileia nella persona di Fortunato che decide di usare le maniere forti: assal la rivale Grado, si porta via le ricchezz della sede patriarcale e fugge a Cormons mettendosi sotto la protezione longobardo-ariana Il papa Onorio I (625-38) e l’imperator Eraclio ridanno immediatament prestigio alla sede di Grado, mandandov un nuovo patriarca, Primigenio, e un nuov tesoro (630), cioè la cattedra alessandrin dell’evangelista Marco, un blocco i marmo cipolino, conservato poi nell Chiesa di S. Marco, su cui sono scolpit figure allegoriche, tra le quali i quattr fiumi biblici: Eufrate, Tigri, Pison e Gihon Secondo la tradizione, la cattedra di sa Marco era stata fatta trasportare da Alessandri a Costantinopoli da sant’Elena, l madre i Costantino. Pertanto, il patriarc di Aquileia ha come suffraganei i vescov fino al Mincio e quello di Grado i vescov del nascente stato veneziano e dell’Istria Da questo momento inizia per Aquileia i tramonto: la città si spopola sempre di pi e le campagne sono trascurate. A guadagnarc e a popolarsi sempre più sono l isole della futura Venezia e Primigeni consolida l’ortodossia romana delle lagune Qualcuno può così scrivere ch «Grado brilla tra il tramonto di Aquileia  l’alba di Venezia [...] Raccoglie l’eredit romana di Aquileia, la custodisce per u po’ di tempo con amore e fierezza, poi l trasmette a Venezia» ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 55"
+},
+{
+  "Year" : "632",
+  "Date" : "",
+  "Content" : "Gli arabi iniziano la loro espansione, conquistano Siria, Persia, Palestina, Egitto ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 56"
+},
+{
+  "Year" : "635",
+  "Date" : "",
+  "Content" : "Per sottrarsi all’egemonia politica e religiosa dei longobardi, gli abitanti di Altin si trasferiscono in laguna al seguit del loro vescovo Paolo I, che li guida  Torcello. La leggenda racconta che gli «Altinati minacciati dai Langobardi, dop aver implorato l’aiuto del Signore, vider a un tratto gli uccelli e i colombi portar con il becco i loro nati e volar via dall mura. Parve un avvertimento celeste, e gl abitanti delle misere città, preceduti d due tribuni, Ario [Aurio] ed Aratore, e da clero, seguirono il volo dei colombi e giunser a Torcello. Capeggiavano i fuggitiv due sacerdoti, Geminiano e Mauro, a quali appariva una nube bianca, da cui s due raggi di sole scendeva la voce de Signore, che raccomandava di innalzare i quel luogo una chiesa. Alla voce dolcissim della Vergine, che dava in altro luog lo stesso comando, seguiva un prodigios miraggio: fra bianche nubi apparivano lid fiorenti pieni di popolo e di greggi. Poi l visione cessava, e l’immenso silenzio er interrotto dalle voci dell’apostolo Pietro del Battista, di santo Antolino [Antonino] di santa Giustina e di altri martiri, che invitavan i fedeli a fabbricar chiese» [Molment I 111-3]. E come avevano ordinato  santi fu fatto, e quindi in tutte le isole abitat dagli altinati (Torcello, Ammiana Costanziaco, Burano, Mazzorbo, Murano sorgeranno chiese, mentre ogni isol importante riceverà un nome ispirato d un particolare delle visioni, come pe esempio Vignole, così chiamata perch santa Giustina era apparsa tra vigne carich d’uva .. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 56"
+},
+{
+  "Year" : "636",
+  "Date" : "",
+  "Content" : "Rotari è incoronato re dei longobardi (636-52) e in breve conquista tutte le fortezz rimaste ai romani d’Oriente dall Alpi Cozie fino all’antica città di Luni a confine tra Liguria e Toscana e poi f compilare e rendere pubblico (20 novembr 643) il codice delle leggi longobarde Il NordEst è nelle sue mani e dal punt di vista religioso concede «che in ogn città, oltre l’ariano, vi fosse pure u vescovo cattolico onde il regno era religiosament diviso» [Crivelli 152]. M essendo il re ariano, la religione cattolic vi è come subordinata e pertanto vi son scontri anche sanguinosi tra ariani e cattolici Dal 643 vi saranno però anche r longobardi cattolici, un preludio alla vittori definitiva del cattolicesimo sull dottrina ariana [v. 774]. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 57"
+},
+{
+  "Year" : "639",
+  "Date" : "",
+  "Content" : "I longobardi guidati dal loro nuovo re Rotari attaccano le città che Alboin aveva evitato perché militarmente be attrezzate e cioè Oderzo, Altino e Padov [v. 569] Oderzo [v. 527], sede del magister militu (capo dell’amministrazione civile e militar della provincia), cade per prima. Il vescov san Magno, assieme alle più important famiglie opitergine, guida l’esod della popolazione nell’isola di Melidiss (poi Eraclea), portandosi appresso centinai di persone, mentre altri preferiscon spostarsi a Jesolo. Il nome Eraclea s legge per la prima volta nella bolla di pap Severino (28 maggio 640), che istituisce l diocesi di Torcello e quella di Civitas Nov Eracliana, sorta in onore dell’imperator d’Oriente Eraclio [v. 641], ch l’aveva protetta e la cui storia ha però origin più antiche: risale a molti secol prima dell’età cristiana, quando i tant isolotti che sorgevano tra i fiumi Isonzo  Adige erano abitati da gruppi di cacciato Paolucci Anafest (697-717 ri e pescatori. Tra quest isolotti primeggiava pe grandezza e importanza l’isol di Melidissa nella bai di Oderzo, che nel significat greco del nome (meliede = migliore, centrale) er il centro urbano più prestigios della zona. La leggend vuole che già nell’ann 169 per sfuggire ai marcomanni la popolazione di Oderzo si foss trasferita a Melidissa, un insediament che doveva svolgere un ruolo determinant se il sinodo di Grado deliberav (3 novembre 579) di trasferirvi la sed vescovile di Oderzo, cosa che avverrà formalment nel 638, ma il trasferimento d fatto era già avvenuto nel 569, quando i vescovo di Oderzo, san Magno, per sottrars alle persecuzioni dei longobardi, ch professavano un cristianesimo di rito arian [Gesù è un uomo adottato da Dio] i opposizione alla Chiesa di Roma [Ges uomo partecipa della natura divina], vi si er trasferito assieme alle più important famiglie opitergine, fondandovi la cattedral di S. Pietro Apostolo. Da questo moment Eraclea diventerà la maggiore citt dell’estuario, ponte tra oriente e occidente titolare di rapporti commerciali  diplomatici sia con la corte bizantina ch con quella longobarda, arrivando i suo mercanti dappertutto, a Pavia come a Costantinopoli Eraclea sarà quindi, assiem a Torcello, un grande centro commercial lagunare, ma sarà in primis il centro politic lagunare, la prima sede dei futuri dogi ovvero dell’autorità politico-militare insomma la capitale di quella parte dell Venetia romana rimasta sotto il domini bizantino. Tuttavia, di Eraclea non rimarr nulla: il fiume Piave, straripando e cambiand in parte il suo corso (589) la far diventare una penisola e infine un centr rurale devastato dal doge Obelerio pe mettere a tacere i filo-bizantini [v. 804], m poi, anche se ricostruita dal doge Angel Partecipazio, sarà ancora distrutta finch non decadrà definitivamente. I vescovi s rifiuteranno di abitarvi e così nel 1440 i pontefice Eugenio IV sopprimerà la sed vescovile, aggregandola al patriarcato d Grado, che a sua volta sarà soppresso ne 1451 da papa Niccolò V (1447-55) e incorporat nella diocesi veneziana di Castello elevata a patriarcato di Venezia. Ne tempo, il territorio dove sorge Eracle diventerà un enorme lago e poi soltant un ambiente palustre. Qui, il patrizi Almorò Giustiniani Lolin farà eriger (1728) una chiesa dedicata a Maria e tutt intorno si formerà un villaggio chiamat Grisolera, per via dell’abbondanza dell canne palustri (dette grisiole), finché no diventerà Comune (1806) e non decider (1954) di cambiare nome, riprendendos quello antico di Eraclea. Le ricerch archeologiche ci consegneranno una lapid (il solo ‘monumento’ superstite dell prima capitale dei venetici) trovata tra i materiale di colmata delle fondament della cattedrale di Torcello [v. 697] la qual ci dice qualcosa circa la gerarchia politic e amministrativa cui la provincia obbedisce cioè che la chiesa sorge sotto il patronat dell’imperatore d’Oriente/basileu Eraclio per ordine dell’esarca di Ravenn Isacco e per opera del magister locale Maurizi [v. 569] IN NOMINE DOMINI DEI NOSTRI IHESV CHRISTI, IMPERANTE DOMINO NOSTR HERACLIO PERPETVO AVGVSTO, ANN XXVIII INDICTIONE XIII FACTA SANT MARIE DEI GENETRICIS EX IVSSIONE PI ET DEVOTO DOMINO NOSTRO ISAACI EXCELLENTISS. EXARCHO PATRICIO E DEO VOLENTE DEDICATA PRO EIV MERITIS ET EIVS EXERCITV HEC FABRI CA EST PER BENE MERITVM MAVRICIV GLORIOSVM MAGISTRO MILITV VENETIARVM PROVINCIE RESEDENTE IN HVNC LOCUM SVVM SANCTO E EPISCOPO HVIVS ECCLESIAE FELICITE ‘Nel nome del signor nostro Gesù Cristo, nell’ann ventinovesimo dell’imperatore signor nostr Eraclio perpetuo Augusto, nell’indizione tredicesim è stata costruita la Chiesa di Santa Mari Madre di Dio per ordine del pio e devoto Signo nostro Isacio eccellentissimo Esarca Patrizio e pe volontà di Dio fu dedicata per i meriti di lui e de suo esercito. Questa fu fabbricata dalle fondament grazie al benemerito Maurizio glorioso general della provincia di Venezia residente in questo su luogo con la consacrazione felicemente condott del santo e reverendissimo Vescovo di quest Chiesa.  JESOLO o Equilio/Equilo, ma in seguito anch anche Cavazuccherina, è un’isola i prossimità della foce del Piave dove si allevan cavalli, già vicus, cioè villaggio romano e tappa obbligata per le imbarcazion mercantili che da Grado giungono a Ravenn e viceversa e che sostano, soprattutt d’inverno, all’interno della laguna pe ripararsi da venti e tempeste. Caduto l’imper romano, Jesolo diventa terra di rifugi per gli abitanti di Oderzo in fuga da barbari. In seguito aderisce al governo unitari di tutte le isole della laguna. I suo abitanti, però, mal sopportano che esso abbi la sua sede nella vicina Eraclea, vantand la loro città origini più illustri ed antiche Succede così che nel tempo Jesolo e Eraclea si scontrano più volte indebolendosi Intanto, le lagune circostanti comincian ad interrarsi e i loro insediament diventano sempre più facilmente raggiungibil via terra dagli eserciti dei nuovi invasori i franchi. Tuttavia, dopo la pace tr l’impero carolingio e quello bizantino Jesolo diventa sede vescovile, ma poi, i coincidenza con il crescere di Venezia, inizi a spopolarsi e quindi s’instaura u declino inarrestabile che culmina nel 146 nella soppressione dell’episcopato. La lent ripresa inizia verso la metà del 16° sec. quando il litorale jesolano viene coinvolt in un’imponente opera di escavazione pe realizzare una via navigabile interna vers il NordEst di cui è sovrintendente Alvis Zuccherini. La città viene così a chiamars Cavazuccherina. Nel 1806, durante la dominazion francese, diventa Comune co tale nome, ma ritorna a chiamarsi Jesol nel 1930 e con tale nome approda nel 21 secolo come la capitale del turismo popolar del NordEst ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 57"
+},
+{
+  "Year" : "639",
+  "Date" : "",
+  "Content" : "La pressione dei longobardi provoca ancora emigrazioni in laguna. È questo i momento in cui si rompe l’unità territorial dell’antica Venetia et Histria e si spezza i cordone ombelicale con Ravenna: le isol vengono abbandonate a se stesse, propri perché i bizantini sono impegnati a difender i propri confini orientali dagli altru appetiti (persiani, arabi, avari, slavi ...). D Altino il vescovo Paolo conduce clero  popolo nell’isola di Torcello e in altre isol vicine, portando con sé le reliquie di sant’Eliodor racchiuse in un prezioso sarcofag pagano, ma un mese dopo muore; tuttavia il suo successore Maurizio ottiene dal pap la conferma della traslazione della sede. « resti della romana Altino vengono sistematicament trasportati pezzo per pezzo prima alla vicina Torcello, poi a Venezia [Perocco I 14]. Torcello nasce quindi utilizzand come materiale da costruzione le pietr romane di Altino (mattoni, colonne capitelli, lapidi, sculture), materiale ch verrà usato una seconda volta quando anch Venezia prenderà il suo pieno svilupp con il trasporto della capitale da Malamocc a Rialto ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 59"
+},
+{
+  "Year" : "639",
+  "Date" : "",
+  "Content" : "Il vescovo di Padova emigra con un nutrito seguito popolare e si stabilisc provvisoriamente a Malamocco per traslocar poi a CHIOGGIA, la città che in epoc romana è una mansio, o stazione di sosta tra Ravenna e Altino, e che si popola co le invasioni barbariche/germaniche, ri manendo poi sempre legata a Venezia anche se con i propri statuti. Nel 751 Chioggia respinge il tentativo di conquist del re longobardo Astolfo, ma è distrutt da Pipino (809-10) e poi anche dagli ungar (900). Ricostruita, si impossessa d Adria, sconfigge i genovesi alla torre de Bebe (1205), respinge il signore di Padov Ezzelino da Romano (1229) e collabor con Venezia, prima per bloccare la congiur di Bajamonte Tiepolo (1310) e poi pe combattere la guerra di Chioggia (1379 80) contro le navi genovesi giunte minaccios in laguna. In seguito, la città sarà ancor al fianco di Venezia contro gli austriac nella rivoluzione del 1848-49. Com Venezia, Chioggia perderà la sua qualit di isola perché unita alla terraferma da u ponte. Ecco come la descrive Goldon nella prefazione a Le baruffe chiozzotte «Chiozza è una bella e ricca città venticinqu miglia distante da Venezia, piantat anch’essa nelle Lagune, isolata m resa Penisola per via di un lunghissim ponte di legno, che comunica colla Terraferma Ha un Governatore con il titol di Podestà, ch’è sempre di una delle prim Case Patrizie della Repubblica di Venezia a cui appartiene. Ha un Vescovo colà trasportat dall’antica sede di Malamocco Ha un porto vivissimo e comodo e be fortificato. Evvi il ceto nobile, il civile ed i mercantile. Vi sono delle persone di merit e di distinzione. Il Cavaliere della citt ha il titolo di Cancellier Grande, ed ha i privilegio di portare la veste colle manich lunghe e larghe, come i Procuratori di Sa Marco. Ella in somma è una città rispettabile» ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 59"
+},
+{
+  "Year" : "639",
+  "Date" : "",
+  "Content" : "Nasce il primo mito, poi celebrato dal doge Andrea Dandolo (1343-54). È il mit religioso della Repubblica di Venezia, fondat col sangue dei martiri per conservar la fede cristiana, ovvero il mito di Venezi come creazione divina. Sono i vescovi ch guidano i fuggiaschi in laguna ad alimentar questo mito, sostenendo che nell fuga verso la libertà c’è il progetto di Di di favorire la creazione di una repubblic cristiana capace di superare persino le citt pagane di Atene e Roma. Su questo mit religioso poggerà poi quello costituzional [v. 1172]. Lo stesso san Magno giunt in laguna dichiara di aver avuto una rivelazion da parte di san Pietro e comunicatal ai nobili e ai tribuni delle isole sarann «fabbricate 8 Chiese in Rialto, cioè, Sa Pietro, San Raffaello, San Salvatore, Sant Maria Formosa, San Giovanni Bragola [ Bragora], San Zaccaria, Santa Giustina,  Santo Apostolo» [Sansovino 5] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 60"
+},
+{
+  "Year" : "639",
+  "Date" : "",
+  "Content" : "A Torcello cominciano a sorgere il battistero e la cattedrale di S.M. Assunta, nell quale trovano posto presso l’altare maggior le reliquie di sant’Eliodoro trasportat da Altino dal vescovo Paolo. La chies viene modificata nell’anno 864 e in part ricostruita nel 1008 dal vescovo Orso Orseolo figlio del doge. Quest’ultima fabbric giunge fino al 21° secolo, ricevendo ne tempo numerosi interventi di restauro. De battistero, invece, rimarranno solo alcun resti. Dietro la cattedrale si alza, isolato l’imponente campanile, uno dei più antich della laguna ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 60"
+},
+{
+  "Year" : "640",
+  "Date" : "",
+  "Content" : "Si istituiscono, secondo la tradizione, due nuove diocesi, una a Torcello, dove nel 635 si sono riversati molti abitanti di Altino, e una ad Eraclea che nel 639 ha accolto una seconda ondata di profugh di Oderzo dopo quella del 569: due esodi guidati dai rispettivi vescovi, che adesso ricevon ufficialmente il benestare del santo padre Severino. A Torcello il vescovo Mauro celebra l’event ponendo la prima pietra per la costruzione della Cattedrale di Santa Maria Assunta, la più antica testimonianz della vita lagunare, «fabbricata dai nobili, & dal popolo della terra, et vi mettono i corp dei santi Teonisto, Heliodoro, Liberale, et Traba, con un braccio di S. Iacomo Apostolo» [Sansovin 6]. Ad Eraclea, il vescovo dà l’avvio alla costruzione della Cattedrale di S. Pietro Apostolo ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 61"
+},
+{
+  "Year" : "641",
+  "Date" : "",
+  "Content" : "Muore Eraclio (610-641), che aveva assunto il titolo greco di basileus (o re), abbandonando quello di imperatore d’Oriente e facendo diventare il greco la lingua della cancelleria al posto del latino. L cancelleria è ovviamente quell’ufficio che si occupa di stendere, autenticare e spedire i document approvati dal sovrano ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 61"
+},
+{
+  "Year" : "643",
+  "Date" : "22 novembre",
+  "Content" : "Rotari rende pubblico l’Editto che riunisce in forma organica le leggi dei longobardi. Composto in latino, ma con numerose parole di origine longobarda, l’Editto è valido solo per l popolazione longobarda, mentre quella italica soggetta al dominio longobardo rimane regolata da diritto romano, codificato nel Digesto promulgato da Giustiniano il 16 dicembre 533 ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 61"
+},
+{
+  "Year" : "650",
+  "Date" : "",
+  "Content" : "Intorno a questa data l’Italia è divisa in due aree di influenza, una dominata dai bizantini e l’altra dai longobardi che s diffondono  macchia di leopard e dominan su quas tutta la penisola ma le forz bizantin Guido Sartorell riescono  mantenere i controllo d molti sbocch marittimi: l’Istria tutta l costa adriatic da Grado al Po l’Esarcat (comprendent quasi tutt l’Emilia e l Romagna, co Ravenna residenz dell’esarca) la Pentapol maritti ma (Rimini, Pesaro, Fano, Senigallia, Ancona) e la Pentapoli annonaria cioè quella intern (Urbino, Fossombrone, Jesi, Cagli, Gubbio), alcune fortezze (Perugia, Amelia, Otricoli) i ducati di Roma, Amalfi, Napoli e Gaeta, la Terra d’Otranto (Lecce, Otranto e Gallipoli) il Bruzio (cioè l’estrema punta della Calabria, così detta perché anticamente abitata da bruzi). Questa disarticolata divisione dei domini bizantini e l’impossibilità di controllarl con un esercito centrale, oltre al fatto che l’esarca preferisce badare prima di tutto a s stesso, chiuso nel proprio particulare, favorisce ovviamente lo sviluppo della vita autonom locale che delega ai proprietari di terre, quelli che hanno realmente qualcosa da perdere la difesa militare; ecco quindi la fusione dell’elemento militare locale con quello fondiario i proprietari di terreni forniscono anche gli uomini per la difesa e li comandano per cui l’aristocrazia terriera diviene anche una organizzazione militare cittadina, rimanend ai vescovi il potere ecclesiastico e civile (e i vescovi devono poi fare i conti con  grandi proprietari fondiari laici ...). Un caso emblematico di questo sviluppo di vita local è quello di Venezia. Il nome della regione, Venetia, era stato spostato dalla pressione longobard al limite della zona litoranea e quindi alle lagune, nelle cui isole si era rifugiat gente di terraferma fin dal tempo delle invasioni barbariche. Da Aquileia, poi da Altino Padova e altri centri importanti, gli abitanti, al seguito dei loro vescovi, erano passati  Grado, Caorle, Torcello, Malamocco, insomma sempre più dentro la laguna. Il trasport poi della sede patriarcale a Grado [v. 569] aveva dato alle lagune anche un capo religioso che di fatto governava anche la vita civile appoggiandosi alle famiglie più doviziose ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 61"
+},
+{
+  "Year" : "650",
+  "Date" : "",
+  "Content" : "A Ravenna, già dal 381 sede patriarcale, il patriarca Mauro decide la separazione della Chiesa di Ravenna da quella di Roma con il solo consenso del basileus. Il papa Vitalian (657-62) lo interdice e Mauro interdice il papa. Il successore di Mauro si reca a Costantinopol (672): chiede e ottiene dal basileus che il papa sia a lui sottoposto (680). Poi un altro papa Costantino I (708-15), scrive al nuovo basileus Giustiniano II (705-11) e quest’ultimo mand la sua flotta a Ravenna al comando del patrizio Teodoro. Questi, con l’aiuto dei venetici riesce a mettere a sacco la città e a vincere il patriarca Felice e i suoi nobili sostenitori, tutt spediti a Costantinopoli a render conto al basileus ... Il papa, ritornato capo unico, si reca d persona dal basileus, che gli va incontro «baciandogli i piedi, colla corona in capo» [Crivell 251]. Oltre al papa, anche la futura Venezia ottiene vantaggi immediati, assicurandosi l gestione del commercio ravennate ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 61"
+},
+{
+  "Year" : "650",
+  "Date" : "",
+  "Content" : "«Chiese dei Santi Sergio & Bacco, Massimo e Marcelliano, fabricate dagli uomini di Torcello, sull’Isola chiamata da loro Costanziaco in honor di Costante Imp. la qual poi co tempo s’affonda» [Sansovino 5] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 61"
+},
+{
+  "Year" : "663",
+  "Date" : "",
+  "Content" : "Il basileus Costante II, succeduto (641) a Eraclio, ritenta, sulle orme di Giustiniano [v. 535], di ricostruire l’unità dell’impero romano e sbarca con un’armata a Taranto, ma riesc soltanto ad entrare a Roma e subito dopo è costretto a ripiegare in Sicilia, finché non cad vittima di una congiura di palazzo (668): «Il fallimento della spedizione di Costante prelud al tramonto della potenza bizantina in Italia» [Pertusi 66] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 61"
+},
+{
+  "Year" : "666",
+  "Date" : "",
+  "Content" : "Nuova caduta e distruzione di Oderzo [v. 640], questa volta da parte del re longobardo Grimoaldo (662-71), che vuole vendicare l’uccisione dei fratelli Caco e Tasone da parte de bizantini, smembrandone il territorio a favore di città vicine come Treviso, Ceneda e Cividale nuova, massiccia migrazione verso la laguna e gran parte di questi profughi trovan rifugio a Jesolo. Oderzo era un importante nodo commerciale abitato da famiglie di notevol capacità imprenditoriali e commerciali, che avevano già fatto nascere Eraclea, com città satellite, fulcro del sistema difensivo bizantino e infine luogo di salvezza contro gli invasori ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 61"
+},
+{
+  "Year" : "697",
+  "Date" : "",
+  "Content" : "Secondo la tradizione, nella chiesa di Eraclea si riunisce l’Arengo [v. 466] che elegg il 1° doge, Paoluccio (o Pauluccio) Anafest (697-717) di Oderzo, con il quale nasc il Dogado: tutte le isole della laguna da Grad a Cavarzere esprimono una «volont unificatrice» e pur mantenendo ciascuna i proprio governo tribunizio esse sono adess guidate da un capo unico, il duca, più tard chiamato venezianamente doge, e da qui l’espression Dogado. Secondo la storiografi più recente, invece, Paoluccio (Paulicius potrebbe derivare da un’errata trascrizion di Paulus Patricius, titolo attribuito all’esarca egli sarebbe quindi lo stesso esarca di Ravenn Paolo [Cessi]. In ogni caso, nelle man del doge, non sottoposto ad alcun controll istituzionale, si concentrano le principal funzioni della publica amministrazione mentre alla sua persona si legano tutti gl abitanti del Dogado mediante la prestazion del giuramento di fedeltà. La capitale de Dogado è fissata ad Eraclea, che mantien stretti rapporti con Costantinopoli, mentr la vicina Jesolo intrattiene contatti continu con i longobardi. Questo per dire che ne Dogado ci sono divisioni a non finire: oltr alle solite, naturali, rivalità fra isola e isola oltre ai fastidi provocati dai pirati con nocument alla navigazione e quindi al commerci del sale (fonte vitale di scambio), c’è anch una rivalità politica che vede le pi importanti famiglie schierate o con i longobard o con i bizantini .. Adesso, per risolvere questa delicata situazione si decide di eleggere un capo unico pe cui la Repubblica federativa (520), originatas dalla Federazione delle isole (466), si dota di u potere centralizzato per far rapidament seguire alle decisioni le necessarie azioni. L volontà di eleggere un capo unico scaturisc a seguito dell’ennesimo tentativo dei pirat penetrati in laguna, che hanno ucciso crudelment e causato sgomento in tutte le isole Queste, infatti, devono guardarsi di continu da nemici terrestri e marittimi, i quali hann tutto il tempo di abusare delle isole stesse spesso attaccate e rapinate, come lo sono l navi cariche di merci all’àncora. Infatti, affinch le isole possano organizzar un minimo di reazion si deve prima convocar l’Arengo, presentare  problemi, discutere, decider e deliberare, ma intanto  nemici prendono il largo Naturalmente, non sappiam chi ha convocato e presiedut il primo Arengo [v 466], come non siamo i grado di sapere chi ha provvedut a convocarlo e presiederlo in quest circostanza, o chi lo farà in futuro almen fino alla creazione del Consiglio dei Savi de Comune [v. 1143]. Sappiamo però che, diversament dalle altre realtà italiche, all’Areng lagunare sono ammessi tutti gli abitanti de Dogado e molto probabilmente la convocazion è affidata ai sacerdoti. Stando così l cose, viene indetta un’assemblea generale de tribuni delle varie isole e dei loro sacerdot nella cattedrale di S. Pietro di Eraclea dop l’ennesimo tentativo dei pirati penetrati i laguna. Il patriarca di Grado, Cristoforo, riassum la situazione delle isole: «La cagion degli assalimenti, dei danni e del sangue e d altre imminenti sciagure stare nei nascondigl dei tortuosi stagni alle foci dei fiumi, e nell aperte entrate dei lunghi lidi, poiché da quest assai male difese, i marittimi nemici sbucavan a predare ed uccidere, ed i terrestr presso a quegli stagni costruivano barche sulle quali facevano impeti presti e frequenti e resi tanto felici dalla lentezza del convocar l’assemblea a deliberare, che in poco d’or ricchi della preda tornavano alla terraferm [...] Ma in che sperar salvezza? nella unicit del comando a provvedere, a difendere [... Doversi considerare convenevole più a veneziani, che ad altra gente posta in divers condizioni, tale reggimento [...] in molte isol divisi [...] con difficoltà di adunarsi [...] u solo comandatore [...] doversi fortificare l stato nella unicità di tale comandatore ... [Crivelli 165-6]. Si decide così che, di front ad un momento tanto grave per le sorti futur delle comunità lagunari, bisogna affidare i comando ad un uomo solo eletto a vita, co sede ad Eraclea. A lui è affidato dall’Arengo al quale egli è soggetto, ogni potere, esclus Marcell Tegallian (717-26 La Chiesa d S. Vidal vist dal Cana Grande in u disegno d Dionisio Morett (1828) e sott l’ingresso principal in un immagine de 21° secol Ors Ipat (726-37 Il Mincio, ch nasce da Lago d Garda  si gett nel Po ne pressi d Govèrnolo è scelt come i confine dell giurisdizion religiosa d Aquileia i terraferm quello economico, comprendent la nomina de tribuni e degli altri giudic nonché il comand delle forze militari de nascente stato. Si stabiliscon sia la podestà de doge sia i suoi limiti «1. Convocasse e presiedess l’assemblea a lui superiore pe autorità 2. Eleggesse i tribuni e gli altri giudici 3. S’avesse diritto di correggere i disordini e le ingiustizi nei giudizii, dai quali i litiganti potevano a lu appellare 4. Convocasse i concilii del clero, e quelli pure, che i un col popolo eleggevano vescovi e parrrochi 5. Fosse autorevole a metterli in sede e dar loro il possess dei benefizii 6. Disponesse delle forze dello stato 7. Mandasse e ricevesse ambasciatori in propri nome 8. Facesse guerra e pace accordandosi coll’assemblea 9. S’avesse soltanto autorità di eseguire le leggi [Crivelli 168-9] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 63"
+},
+{
+  "Year" : "697",
+  "Date" : "",
+  "Content" : "L’elezione di un capo, di un doge che governa l’agglomerato lagunare può soltant significare che il potere della nascent Venezia già adesso non è soggetto ad altri s non, formalmente, al riconoscimento de basileus: «Per quant divenuto elettivo, il duc di Venezia restava comunqu il suddito  l’uomo dell’imperator bizantino [...] e quand questo legame di soggezion [...] si allentò, com alla metà del IX secolo l’impronta bizantin persistette onnipotent intorno al capo di Stat veneziano nei titoli ch portava, nel cerimonial di cui si circondava nello stesso carattere de potere che esercitava L’abbigliamento ducal richiamava il costum degli esarchi di Ravenn e degli imperatori di Costantinopoli; si pregav per il duca secondo le formule bizantine quando moriva, i suoi funerali erano organizzat secondo i riti dell’etichetta bizantina [Diehl 21]. I titoli assegnati ai dog seguono poi una precisa gerarchia, rappresentan un vero e proprio cursus honorum da hypathus (ipato) a hypatus et dux (ipato  duca), assegnati tra il 726 e l’840, a dux a spatharius (spatario) o imperialis consul (consol imperiale) tra l’841-878, a imperialis protospathariu (protospatario) tra l’879-932,  Veneticorum dux o Venetie dux tra il 933-1000 a Veneticorum ac Dalmaticorum dux tra i 1001-1032, a patricius [v. 1008], ancora a protospathariu e imperialis patricius anthypatus e dux tra il 1032-1063, a imperialis magister e dux tra il 1065-1075, a dux ... ac imperialis protoproedru et senior tra il 1076-1081, a dux e imperialis protosevastos tra il 1082-1117, a Venecie Dalmacie atque Croacie dux [v. 1118],  nobilissimus dux Venecie et protosevastos fin al 1204, quando Enrico Dandolo, con la pres di Costantinopoli, conquisterà l’affrancant imperii quarte partis et dimidie dominato usato per la prima volta [v. 1206] dal su successore Marino Zen [cfr. Pertusi 75] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 63"
+},
+{
+  "Year" : "697",
+  "Date" : "",
+  "Content" : "Secondo la leggenda, in origine ci sono le case vecchie alle quali appartengono 24 famigli mercantili. Di queste famiglie 12 son dette apostoliche (Badoer o ex Partecipazio Barozzi, Contarini, Dandolo, Falier o Valier Gradenigo, Memmo o ex Monegario, Michiel Morosini, Polani, Sanudo, Tiepolo) pe aver partecipato all’elezione del primo doge Anche le altre 12 si confondono con la stess origine di Venezia e tra queste famiglie l più importanti sono chiamate evangelich (Bembo, Bragadin, Corner, Giustinian). All case vecchie si contrappongono nel tempo l case nuove, comprendenti le famiglie la cu importanza emerge dopo l’anno 800. D queste, 16 sono dette ducali perché essend di numero maggiore a quelle vecchie fann gruppo, stringono alleanze tra di loro e son in grado di mantenere la direzione politic dello Stato per quasi duecento anni, dal 141 al 1612, anno in cui si nomina un doge (Marcantoni Memmo) appartenente ad una cas vecchia. Alle case vecchie e nuove si aggiungerann poi le case nuovissime; si tratta cioè d famiglie aggregate al patriziato per prestazion personali e pecuniarie al tempo dell guerra di Chioggia (1380). Nuove famigli saranno ancora ammesse al patriziato pe soldo dal 1646 al 1669 (durante la guerra d Candia) e dal 1684 al 1717 (durante le guerr della Morea) per aver offerto 100 mila ducat (60mila in dono e 40mila investiti in deposit di Zecca). Infine, nel 1775 sono accolt alcune famiglie di nobili della terraferma che provano di possedere 10mila ducati d rendita e la nobiltà da quattro generazioni Oltre a queste, sono ammesse al patriziato a honorem le famiglie dei pontefici, dei sovran e di altri personaggi benemeriti della Repubblica Negli ultimi tempi della Serenissima le casate patrizie saranno divise senza badar alla loro maggiore o minore importanz nobiliare in senatorie, giudiziarie e barnabotte Le prime sono le famiglie più ricche, cio quelle che possono aspirare alle maggior cariche pubbliche che richiedono forti mezz familiari per essere sostenute con onore; l seconde sono le famiglie economicament mediocri che aspirano più di tutto a seder nelle Quarantie; le ultime famiglie son quelle dei poveri che si devono accontentar delle cariche minori e si dicono barnabotte perché in gran parte abitano nella parrocchi di S. Barnaba, dove gli affitti costano meno Essere ammessi al patriziato significa aver l’accesso al Maggior Consiglio [v. 1172], ovver il parlamento della Repubblica che sostituir l’Arengo ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 64"
+},
+{
+  "Year" : "698",
+  "Date" : "",
+  "Content" : "Una rappresentanza di vescovi scismatici è inviata a Roma dal re longobard Cuniperto (688-700) per porre fine all Scisma dei tre capitoli [v. 545] «... ognun lavora esclusivament per i bene dell città, e, co un’ammirevol abnegazione accetta  adempie a meglio ‘i ruolo più  meno obbligat che l’elezion gli conferisc per il ben di tutti’. È i segreto dell forza d Venezia Charle Dieh Teodat Ipat (742-55 I domin longobard dopo l conquiste d Astolf All’inizio del secolo la division dell’Italia in Longobardia, Romània autonomie locali e papato non può no presentare quattro fattori d’instabilità, ch s’incrociano e che spesso sono in contrast tra di loro con il solo papato abile a gestir le situazioni: amico delle autonomie locali fintanto che queste non tentano di egemonizzar il territorio, ostile ai longobardi  all’imperatore d’Oriente Leone Isauric che nel 726 si contrappone alla tradizion romana del culto delle immagini sacre e ordinandone la distruzione, avvia la lott iconoclastica. L’Italia è però dominata da longobardi e il doge ha intanto negoziat con il re longobardo Liutprando un trattat confinario commerciale e di buon vicinat (712). Il Dogado è quindi in pace co l’esterno, ma al suo interno gli schierament portano ad un sanguinoso scontr tra Eraclea, filobizantina, e Jesolo, filolongobarda La battaglia finale è una carneficin per entrambe le fazioni. Lo stess doge è trucidato. Si decide così di tornar al magister militum, nominato per un ann e non a vita, perché l’autorità ducale si  rivelata da una parte quasi dispotica e dall’altr anche fonte di notevoli appetiti politici I maestri della milizia saranno in tutt cinque: Domenico (737), Felice Carnicol (738), Teodato Partecipazio 739 e 740), Giulian Ipato (741), Giovanni Fabriciac (742). Quest’ultimo, invece di sedare u nuovo conflitto scoppiato tra Eraclea  Jesolo, lo accende e l’ennesima battagli sarà ancora più sanguinosa, segnando i destino dell’ultimo maestro dei soldati: i Dogado ritorna ad eleggere i dogi. Eracle esce dalla guerra contro Jesolo completament dissanguata e la sua popolazion emigra verso Malamocco, Torcello e Rialto così che, abbandonata a se stessa e non pi curati gli argini, la città si trasforma be presto in palude, perdendo per sempre l sua qualità anfibia. Esaurita l’esperienz dei magistri militum a tempo, si torna dunqu ad eleggere il doge a vita da part dell’Arengo [v. 466], il consiglio format dai vescovi, dal clero, da maggiorenti  boni homines, cioè dalle più diverse forz sociali, provenienti da tutto il Dogado. L seduta è pubblica e il popolo può assisterv ed eventualmente partecipare dando i suo assenso acclamando, o il dissenso partendosi cioè allontanandosi. Questa assemblea spesso confusionaria e tumultuosa che non segue procedure ben definite  prende le sue decisioni per acclamazione elegge il 4° doge, Teodato Ipato, eraclean come i suoi predecessori e già maestro de militi. Egli, per evitare rivalità con la vicin Jesolo e soprattutto per ragioni di sicurezza trasferisce subito la sede politica d Eraclea a Malamocco (742), «città florida e principale» tra mare e laguna, dotata d buon porto e «godente di civile concordia» dove però sono in tanti a non esser soddisfatti di Costantinopoli. Tuttavia, i segnale dato dal nuovo doge è che l comunità lagunare vuole vivere in pace  in assoluta armonia e autonomia, quind non può prescindere dall’amicizia con Co stantinopoli, al che il basileus lo gratific subito del titolo di ipato. Nel 751 i longobard estromettono i bizantini da Ravenna ponendo fine all’Esarcato. Costantinopol non reagisce e allora Astolfo (re dei longobardi) considerandosi erede dell’autorit bizantina nella penisola italica e volend esercitare quest’alta sovranità, arriva  minacciare Roma. Il papa si reca in Franci e chiede aiuto a Pipino (re dei franchi), ch dopo aver posto fine al dominio longobard (774) dona al papa l’Esarcato, causa d futuri conflitti tra il papato e il Dogado. Pe la Repubblica comincia un periodo di cris e difficoltà. I dogi devono imparare  destreggiarsi tra i nuovi vicini nemici ( franchi), che vorrebbero impossessars delle isole della laguna, e i lontani amici ( bizantini), con i quali i venetici hanno gi da tempo stretto saldi e vitali interessi commerciali In laguna, in ogni caso, la lotta pe il potere non conosce soste: il dualismo s manifesta in sanguinose discordie tr importanti, danarose e ambiziose famigli con annessi e connessi, parteggianti pe l’Occidente o l’Oriente: i filobizantin rimangono tali, i filolongobardi diventan filofranchi .. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 65"
 },
 {
   "Year" : "700",
   "Date" : "",
-  "Content" : "Si elegge Alvise Mocenigo II. È il 110° doge (16 luglio 1700-6 maggio 1709). Ha 7 anni ed è ricchissimo. Non parla mai d donne. È vergine. Durante il suo dogad scoppia la guerra di successione spagnol (1701-14) in cui sono coinvolte tutte le potenz europee. Gli eserciti in guerra fann scorrerie nel territorio della Repubblica che riesce però a mantenere la propria neutralit armata ",
+  "Content" : "Fondazione di una chiesa che nel 1084 sar rifondata dal doge Vital Falier e dedicata a S. Vitale in veneziano S. Vidal [sestier di S. Marco, tr Campo S. Stefano e i Ponte dell’Accademia] Ricostruita a seguito dell’incendi del 1106 e dotat di un campanile, crollato nel terremoto de 1348, la chiesa sarà rifabbricata da Antoni Gaspari tra il 1696 e il 1700, mentre la facciat verrà eretta in stile neoclassico (1734 37) da Andrea Tirali. Oltre alla sua funzion religiosa, la chiesa svilupperà anche un vocazione culturale e infatti finirà per ospitar convegni, mostre, conferenze. All’intern opere di Carpaccio, Pellegrini e Piazzetta ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "30 dicembre",
-  "Content" : "non s’inventino nuovi nomi per medicamenti consueti e sia vietat agli speziali fare regali ai medici ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 67"
 },
 {
   "Year" : "700",
   "Date" : "",
-  "Content" : "Si creano tre Procuratori di S. Marco: Andrea Soranzo (7 marzo), Lorenzo Soranz (9 maggio) e Gabriele Zorzi (6 giugno) 170 ",
+  "Content" : "Fondazione [Ronchese 59] della Chiesa di S. Maria Zobenigo [sestiere di S. Marco] Altri [Tassini Curiosità ... 391] la collocan nel 900, altri ancora [Sansovino 12] nell’ann 955. Un autore del 20° sec. la pone ne 1089 [Antonio Niero Culto dei santi 80] ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 67"
 },
 {
-  "Year" : "700",
-  "Date" : "24 febbraio",
-  "Content" : "si stipula il Trattato di Venezia in cui si negozia l’alleanza della Franci e della Spagna col duca di Mantova. Si stabilisc che qualora l’esercito dell’imperator e dei suoi alleati dovesse marciare sull’Italia duemila francesi e altrettanti spagnol entraranno in Mantova per difenderla se Mantova dovesse essere assediata Francia e Spagna accorreranno immediatament con tutte le loro forze; se invec Mantova dovesse arrendersi, le due potenz non concluderebbero la pace senza risarcir il duca con un’altra città o un altr stato equivalente al mantovano, fino all restituzione di questo [Cfr. E. Militare] ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "26 febbraio",
-  "Content" : "proteste contro il principe Eugenio di Savoia violatore della neutralit veneziana. Rimostranze per il non rispett della neutralità verranno presentate anch a Parigi (30 marzo) e poi a Vienna, e po ancora a Parigi (27 aprile 1702) per la violazion delle acque del Golfo di Venezia, m non sortiranno alcun effetto concreto ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "3 marzo",
-  "Content" : "si decide l’abbattimento della Chiesa della Fava [sestiere di S. Marco] e l sua ricostruzione ex novo s progetto di Antonio Gaspar [v. 1500] ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
+  "Year" : "714",
   "Date" : "",
-  "Content" : "Si delibera l’istituzione di una Fraterna dei poveri i ogni contrada (2 aprile)  pochi giorni dopo (7 aprile si ordina l’allontanament dei questuanti esteri o suddit entro otto giorni. I nativ sono tollerati, ma devon portare il simbolo di S. Marco, mentre  tutti si vieta di alloggiare vagabondi, pitocchi birbanti ",
+  "Content" : "È di quest’anno il documento più antico che possediamo (se escludiamo l’iscrizion torcelliana del 639). È il trattato fr Liutprando (re dei longobardi dal 712) e i doge Paoluccio Anafesto [v. 697] il qual stabilisce la linea di confine tra i possediment longobardi e il Dogado con capital Eraclea. In particolare, «sono riconosciut agli abitanti insulari privilegi e franchigi per comunicazioni fluvial e pei mercati della terraferma [Molmenti I 209], i che consente il via liber verso la navigazione sul P [v. 854] attraverso il quale  venetici possono arrivar rapidamente ai mercat interni dell’alta Italia, e l ripresa della via Adriatico Danubio-Costantinopol [v. 569]. In questo grand Gall Gaul (755-56 Domenic Monegari (756-64 Maurizi Galbai (764-87 Barca i lagun nell incision di J. de Barbari 1500 momento storico la nascent Venezia esprime l sua embrionale personalit di Stato avviato all’indipendenz [v. 787] ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 67"
 },
 {
-  "Year" : "700",
-  "Date" : "28 aprile",
-  "Content" : "i fanciulli vagabondi siano distribuiti come mozzi sulle navi ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "30 aprile",
-  "Content" : "si deplora l’eccessivo lusso delle gondole e delle livree ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "4 maggio",
-  "Content" : "si limitino le spese per i regali in occasione di nozze ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "7 maggio",
-  "Content" : "si propone una tassa sulle parrucche ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "15 ottobre",
-  "Content" : "Mustafà II proibisce ai corsari di attaccare le navi della Repubblica ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "27 dicembre",
-  "Content" : "non sono ammessi brogli nelle votazioni ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
+  "Year" : "717",
   "Date" : "",
-  "Content" : "Nel corso dell’anno si creano due Procuratori di S. Marco: Pietro Pisani (10 aprile e Pietro Contarini (17 maggio) 170 ",
+  "Content" : "Il primo doge, Paoluccio Anafesto [v 697], fa una fine tragica viene ucciso ad Eraclea  seguito di una rivolta organizzata da alcun nobili filo-longobardi di Malamocco e Jesolo Di lui si ricorderà soprattutto che assistito dal magister militum Marcello, h negoziato i confini del Dogado con Liutprando ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 68"
 },
 {
-  "Year" : "700",
+  "Year" : "717",
   "Date" : "",
-  "Content" : "La navigazione nel Mediterraneo è ostacolata dalla guerra di successione spagnola tuttavia il Senato tenta di ridar vit alla muda di Fiandre e d’Inghilterra e invi nove navi a Londra cariche di uva sultanina la merce più richiesta dal mercato d lusso, prelevata dalle isole dello Jonio. U disastro. Solo due vascelli effettuano i viaggio con successo: cinque sono persi i mare, uno si ferma per riparazioni e uno  catturato dai francesi ",
+  "Content" : "Si elegge il 2° doge, Marcello Tegalliano (717-26), anche lui di Eraclea, già magiste militum di Anafesto quando questi firmò i trattato di pace con il re longobardo Liutprand [v. 714]. Come Paoluccio prima d lui, il dogado di Marcello non è storicament accertato. Chi fossero veramente  due primi dogi non è ancora chiaro, c’è u alone di mistero e di povertà di dati che c impedisce con certezza di identificarli qualcuno ha suggerito che il primo dog fosse lo stesso esarca di Ravenna [v. 697] incaricato dall’imperatore d’Oriente di unificar sotto la propria giurisdizione le isol del Dogado, e che il secondo doge fosse i suo magister militum ... La supposizion non fa una piega ... I conti sembrano tornar ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 68"
 },
 {
-  "Year" : "700",
-  "Date" : "30 luglio",
-  "Content" : "disposizioni per invogliare i patrizi ad accettare le cariche ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "30 agosto",
-  "Content" : "doni al duca di Guastalla e al duchino della Mirandola ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "30 novembre",
-  "Content" : "elezione di un Provveditore ed Inquisitore sopra Boschi ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
+  "Year" : "717",
   "Date" : "",
-  "Content" : "Nel corso dell’anno si creano due Procuratori di S. Marco: Francesco Loredan ( giugno) e Gerolamo Canal (13 agosto) Alvis Mocenig (1700-1709 La Chiesett di S. Gall in un immagin del 21 secol La Chies dell Penitent in du immagini de 21° secol 170 ",
+  "Content" : ".. ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 68"
 },
 {
-  "Year" : "700",
-  "Date" : "27 marzo",
-  "Content" : "l’acqua dei pozzi pubblici si usi per il vitto e non per esercitare mestier o trarne guadagno ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "7 maggio",
-  "Content" : "anche gli ebrei possono attingere acqua dai pozzi pubblici ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "27 maggio",
-  "Content" : "Luca Carlevarijs dedica al doge Alvise Mocenigo Le fabbriche e vedut di Venezia, 103 incisioni per far conoscer agli stranieri le magnificenze della Serenissim alla fine del Seicento ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "14 agosto",
-  "Content" : "visita del principe Giuseppe di Lorena ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
+  "Year" : "717",
   "Date" : "",
-  "Content" : "Viene ricostruita la piccolissima Chiesa di S. Gallo [sestiere di S. Marco], edificata i seguito all’abbattimento (1581) dell’antic ospizio che sorgeva in Piazz S. Marco, a fianco del Campanile ad uso dei pellegrini dirett in Terrasanta. L’istituzion della carità legata a quell’ospizi si era dunque trasferita i Campo S. Gallo erigendo appunt una chiesetta, che adess viene rinnovata, ma sul finir del Novecento sarà chiusa al culto pe essere trasformata in magazzino e quind in saletta di esposizione amministrata dall Curia ",
+  "Content" : "Il nuovo patriarca di Grado, Donato (717-726), assume ufficialmente la giurisdizion sulla nascente Venezia. È il prim patriarca di Grado con giurisdizione su Venezi al quale succederanno Antonio (727 32), Emiliano (749-57), Vitelliano (757-66)  Giovanni (766-802) .. ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 68"
 },
 {
-  "Year" : "700",
+  "Year" : "726",
   "Date" : "",
-  "Content" : "Si istituisce in una casa a S. Giovanni e Paolo [sestiere di Castello] un ospizio pe donne traviate e pentite, dett Ospizio delle Penitenti. Cresciut in brevissimo tempo il numer delle penitenti si dovrà trovar un nuovo e più grande ospizi a Cannaregio. Qui si costruir anche la Chiesa di S.M. dell Penitenti (1730-38), su progett di Giorgio Massari, che sar aperta al culto nel 1744, ma consacrata ne 1763. La facciata rimarrà incompleta, arrestandos all’altezza dei plinti delle colonne Nel 21° sec. l’edificio sacro è in attesa d restauri più volte annunciati ",
+  "Content" : "Il basileus Leone Isaurico (717-741) si contrappone alla tradizione romana de culto delle immagini sacre e ne ordina l distruzione, dando l’avvio all’iconoclastia La sua idea fissa è che le immagini esterior sono alienanti rispetto al culto interior e quindi bisogna abolirle. Quest editto, però, sembra scaturire da una leggend legata ad una veggenza: sembr che due ebrei gli avessero predetto l’asces al trono imperiale e un lungo regno  patto che lui avesse fatto abbattere l immagini proibite nella sacra scrittura All’inizio, l’editto suscita reazioni incontrollat nella stessa Costantinopoli, m poi, alternando la persuasione con l forza, la città viene lentamente liberat dalle immagini sacre, considerate idolatria Il papa Gregorio II (715-31), che ved «nell’immagine un simbolo e un element di mediazione fra il mondo terreno e quell celeste», ordina (727) agli italici di no rispettare l’editto. I venetici seguono le indicazion del pontefice, mentre a Ravenna l’esarc Paolo cerca di imporre la volontà de basileus e così facendo provoca una grand rivolta popolare in cui viene ucciso. Tra i Dogado e Costantinopoli si crea uno strappo.Muor ad Eraclea il doge Tegalliano.  sepolto nella stessa Eraclea e poi l’Areng elegge il 3° doge, Orso Ipato (726-37), ch secondo la storiografia posteriore risult essere il primo doge eletto [v. 697], ancor di Eraclea. Salito al potere forse con un pronunciament militare e in mezzo a disordin di origine religiosa, infuriando l’iconoclastia egli sarà ricordato per aver dato agl abitanti delle isole una mentalità militare.  Orso Ipato ad organizzare le milizie a difes del Dogado e ad iniziare la tradizione d allenare i civili, giovani e meno giovani «nell’arte del marittimo e terrestre combattere» cioè nell’uso dell’arco e delle altr armi. Ed è ancora lui ad inculcare in ognun la voglia di combattere, di «non rimaners contenti di fugare i pirati, ma inseguirl senza posa nei tortuosi nascondigli, nell fortificazioni e ne’ porti loro, bruciare navigli assalire mura e torri, predare per rappresaglia [Crivelli 176] ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 68"
 },
 {
-  "Year" : "700",
+  "Year" : "726",
   "Date" : "",
-  "Content" : "Nel corso dell’anno si creano due Procuratori di S. Marco Uno è Alvise Contarini (4 marzo) l’altro è Bortolo Gradenig (13 dicembre) 50 170 ",
+  "Content" : "Ravenna è assediata dal re longobardo Liutprando contrario all’iconoclastia. I nuovo esarca, Eutichio, fuoriuscito co parte delle sue milizie, si rifugia ad Eraclea «Liutprando riesce ad impadronirsi d Ravenna; e la flotta veneziana, anche s preghiera del papa, questa volta a fianc del basileus per il timore dei progressi del r longobardo, riprende la città e ripone su seggio esarcale Eutichio» [Pertusi 68] Salpano 80 navi da Malamocco (729) e giungon nottetempo sotto le mura della citt ancora anfibia. Alle prime luci dell’alba l battaglia sarà già conclusa. I venetici possiedon un’arma micidiale, inventata (672 dal siriaco Callinico o Kallinikos per difender Costantinopoli, il temibile fuoco greco palle di fuoco ricavate da un impasto incendiari fatto di salnitro, zolfo, pece e oli combustibili [altrove: un miscuglio di zolfo stoppa, legno resinoso e calce viva] che vengon lanciate oltre le mura di cinta o contr le navi: il fuoco non viene spento neppur dall’acqua. Costantinopoli dimostra la su gratitudine al doge Orso conferendogli i titolo onorifico di ipato (console), che divent così il suo cognome ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 69"
 },
 {
-  "Year" : "700",
-  "Date" : "26 marzo",
-  "Content" : "i patrizi non devono vestire il tabarro, sotto pena di multa e carcere ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
+  "Year" : "726",
   "Date" : "",
-  "Content" : "Aprile: una tempesta scardina la porta della Chiesa di S. Pantalon e l’organo che s trovava sopra l’ingresso precipita a terra ",
+  "Content" : "Si fonda il Monastero Benedettino femminile di S. Cecilia a S. Cassiano nella zona d Rialto ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 69"
 },
 {
-  "Year" : "700",
-  "Date" : "11 luglio",
-  "Content" : "i medici devono scrivere le ricette in latino ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "29 settembre",
-  "Content" : "nel Ghetto Vecchio la Repubblica fa murare una lapide contenent prescrizioni antiebraiche: «che sia rigorosament proibito a qualunque ebreo od ebre doppo fatti christiani il capitare e praticar sotto qualsivoglia pretesto nei ghetti d questa città di introdursi nelle case particolar d’alcuno delli ebrei od ebree sotto pen [...] Il presente proclama sia publicato scolpit in pietra nel luogo più frequentato» ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "30 dicembre",
-  "Content" : "sia bandito il gioco dai Casini privati, cioè i luoghi di ritrovo di compagni che hanno funzioni molto diverse dalla conversazione al banchetto alla prostituzione per coppie o per sole donne  per soli uomini. In un catastico del 174 saranno censiti 118 Casini, la maggior part affittati e gestiti da donne, lungo l’ass principale che da Piazza S. Marco e dai numeros caffè delle Procuratie si allunga vers la zona di S. Moisè e delle Frezzerie. I seguito ad un’inchiesta, il Consiglio dei  farà chiudere (1774) i Casini delle nobildonne fra cui si distingue quello tenuto a S Zulian da Caterina Dolfin 170 ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
-  "Date" : "7 aprile",
-  "Content" : "si offrano doni alla regina vedova di Polonia e alla duchessa di Baviera ",
-  "Location" : "",
-  "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
-},
-{
-  "Year" : "700",
+  "Year" : "732",
   "Date" : "",
-  "Content" : "Divieto di pescare nel Canal Orfano e nei pressi dei Lazzaretti ",
+  "Content" : "Il Concilio Laterano pone fine ai dissidi politico-religiosi creati dai due patriarch di Grado e 732, [v. 607], separando canonicament le due giurisdizioni: i vescov dell’Istria e della laguna sono dichiarat suffraganei del patriarca di Grado, mentr quelli della terraferma, sino al fium Mincio, dipendono dal patriarca di Aquileia ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 69"
 },
 {
-  "Year" : "700",
-  "Date" : "11 ottobre",
-  "Content" : "solenne consacrazione della Chiesa degli Scalzi ",
+  "Year" : "737",
+  "Date" : "",
+  "Content" : "Battaglia dell’Arco. Eraclea si è sempre mantenuta in stretto rapporto con l’imper d’Oriente, mentre Jesolo intrattiene contatt con i longobardi. Le differenze culturali  politiche fra le due isole sfociano adesso i aperto contrasto per mere questioni di confin e scoppia così la sanguinosa guerra tr Jesolo ed Eraclea. La battaglia finale si combatt sul Canale dell’Arco. Sulla riva settentrional si schierano le truppe di Eraclea capitale del Dogado, al comando de doge Orso Ipato. Sull’argine opposto i soldat di Jesolo. La battaglia è una carneficin per entrambe le fazioni. Al ritorno ad Eracle il doge viene trucidato dai suoi stess concittadini, evidentemente insoddisfatt del risultato, mentre il figlio è mandato i esilio. Giovanni Pindemonte (1751-1812 scrive una tragedia intitolata Orso Ipato  rappresenta il doge come un tiranno uccis dal furore popolare. Si decide, d’accord con i bizantini, di fare marcia indietro, d tornare all’elezione del magister militum [v 520] perché l’autorità ducale si è rivelata d una parte quasi dispotica e dall’altra anch fonte di notevoli appetiti politici ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 69"
 },
 {
-  "Year" : "700",
-  "Date" : "25 ottobre",
-  "Content" : "Daniele Dolfin viene eletto procuratore di S. Marco ",
+  "Year" : "737",
+  "Date" : "",
+  "Content" : "Inizia un periodo di interregno durante il quale si cambia la forma di governo: i comando viene affidato ad un maestro de militi, così da porre fine agli scontri tra l famiglie e le fazioni più autorevoli che l’elezion del doge aveva scatenato. Si stabilisc il nome del nuovo capo, il tempo della caric (un anno) e la podestà militare e politica quindi si decide anche di trasferire la capital da Eraclea a Malamocco «maggiore pe popolo, e vantaggiato di buon porto  L’isola d Olivolo  Castell con l cattedral di S. Pietr nell incision di J. de Barbari Giovann Galbai (787-804 Opera costruiscon le fondazion di una cas conficcand pali su terreno pe costiparl [G.A. Ruscon Dell Architettura Venezia 1590 Provenienz dei material da costruzion godente di civile concordia [Crivelli 207]. I magistr militum (o maestri dell milizia, ma anche maestri de militi, o maestri de’ soldati saranno in tutto cinque: ne 737 Domenico, detto Leon per il suo valore di soldato poi Felice Carnicola ( Cornicola) nel 738, ch cerca di calmare gli anim ancora accesi degli abitanti di Eraclea e d Jesolo e favorisce la costruzione delle navi  Malamocco dove fa in modo di riunire i pi bravi in quell’arte; terzo maestro dei soldat è il figlio del doge Orso Ipato [v. 726], chiamat Deusdedit, ovvero Diodato o Teodat Partecipazio, mandato in esilio dopo l’uccision del padre e richiamato da Carnicol per essere il maestro dei soldati dell’ann 739, e farà così bene da meritarsi la rielezion per il 740; viene poi Gioviano o Giulian Ipato nel 741, che rimette in sede l’arcivescov di Ravenna cacciato dai longobardi meritandosi e ricevendo il titolo di ipato d parte del basileus; Giovanni Fabriciaco [o Fabiano] che è il maestro dei soldati per l’ann 742, invece di sedare il nuovo conflitt tra Eraclea e Jesolo, lo accende e l’ennesim battaglia (a Torre di Caligo) sarà ancora sanguinosissima segnando di fatto il destin dell’ultimo maestro dei soldati. Giovann sarà abbacinato anche per il suo tentativo d volersi fare signore delle isole e così i Dogado ritorna ad eleggere i dogi. Eracle esce dalla guerra contro Jesolo completament dissanguata e la sua popolazion emigra verso Malamocco, Torcello e Rialto sedi più tranquille e meno esposte alle pression dei longobardi. L’isola abbandonata  se stessa e non più curati gli argini si trasformer ben presto in palude e perderà pe sempre la sua qualità anfibia. Tracce di quest scontro epocale fra Eraclea e Jesol saranno poi trovate durante alcuni lavor eseguiti nel 1903: verranno alla luce degl scheletri allineati appartenuti ai giovan periti durante la guerra tra le due città ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 69"
 },
 {
-  "Year" : "700",
-  "Date" : "20 novembre",
-  "Content" : "si inaugura il Conservatorio delle Penitenti a Cannaregio nell’omonim Ospizio [v. 1703] ",
+  "Year" : "742",
+  "Date" : "",
+  "Content" : "Chiusa l’esperienza dei magistri militum a tempo con l’accecamento e la cacciat dell’ultimo maestro, si torna ad eleggere i doge a vita da parte dell’Arengo [v. 466] che adesso è formato dal doge, dai vescovi dal clero e dai maggiorenti, ovvero iudice (giudici) e boni homines provenienti da tutt il Dogado. La seduta è pubblica e il popol può assistervi e partecipare dando il su assenso acclamando o il dissenso partendosi cioè allontanandosi, e dimostrando cos che vota anche chi non è presente ... e ch non è presente è contro .. Quest’assemblea, spesso confusionaria  tumultuosa, che è l’Arengo e che non segu procedure ben definite e prende le su decisioni per acclamazione, elegge il 4° doge Teodato Ipato (742-55), eracleano com i suoi predecessori, figlio del precedent doge (Orso Ipato) e già maestro de’ militi Egli, per evitare rivalità con la vicina Jesol e le lotte di famiglie e di schieramenti, m anche e soprattutto per ragioni di sicurezza trasferisce subito la sede politica d Eraclea a Malamocco, «città florida et principale tra mare e laguna, dove peraltr sono in tanti a non essere soddisfatti d Costantinopoli. Il segnale dato dal nuov doge è che la comunità lagunare vuol vivere in pace e in assoluta armonia e autonomia quindi non può prescindere dall’amicizi con Costantinopoli, al che il basileu lo gratifica subito del titolo di ipato. Al su dogado resta legata la costruzione de castello di Brondolo [Brundulum, che fors richiama lo sbarco dei Messapi di Brindis (Brundusium)] con due funzioni specifiche controllare la linea interna di confine con  longobardi e vigilare la navigazione i entrata e in uscita dalla laguna delle imbarcazion provenienti da o dirette a Ravenna ",
   "Location" : "",
   "Filter" : "",
-  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. "
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 70"
+},
+{
+  "Year" : "751",
+  "Date" : "",
+  "Content" : "I bizantini vengono estromessi da Ravenna: il re longobardo Astolfo (749-56) conquist la città e la Pentapoli [v. 650], ponend fine all’Esarcato. Il doge non interviene anzi si affretta a ratificare il trattato di buo vicinato con i longobardi [v. 712]: egli ved nella caduta di Ravenna l’inizio della ver indipendenza per il Dogado. Due moss sbagliate secondo alcuni perché gli alienan le simpatie del basileus. In ogni caso, si compi così, dopo l’invasione di Alboino (569)  la presa di Oderzo e di Altino (639), la penetrazion longobarda nella Venetia. Costantinopol non reagisce alle conquiste dei longobard e allora Astolfo, credendo di ave partita vinta, si considera erede dell’autorit bizantina nella penisola italica e vuole esercitar quest’alta sovranità arrivando a minacciar Roma. Al papa Stefano III (752-57) non resterà altro che rifugiarsi in Francia  chiedere al re dei franchi, Pipino il Brev (714-68), protezione per la chiesa e il popol romano; in cambio, il papa concederà  Pipino e ai suoi due figli, Carlo Magno (742 814) e Carlomanno (751-71), il titolo di patriz dei romani (754), senza averne l’autorità che risiede nelle mani del duca di Roma Con questo atto, si dice, nasce in seguito i potere temporale dei papi, un potere che  papi però fanno risalire a Costantino, producend la famosa Constitutum Constantin (Donazione di Costantino), che è falsa com ha dimostrato Lorenzo Valla: è scritta in latin longobardo! In essa si dice presso a poc che Costantino, guarito dalla lebbra da papa Silvestro (314-35) e da lui stesso battezzato gli dona la podestà e la giurisdizion su Roma e su tutte le province d’Italia  dell’Occidente, e per non interferire – no essendo conveniente che l’imperatore terren esercitasse il suo potere là dove Cristo l’imperatore celeste, ha destinato il cap della religione cristiana – trasporta la su sede a Bisanzio trasformandola in Costantinopol [v. 489] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 71"
+},
+{
+  "Year" : "754",
+  "Date" : "",
+  "Content" : "Costantino V, detto Copronimo, nuovo basileus dopo il padre Leone [v. 726], convoc un concilio a Costantinopoli per deliberar sulla decisione di suo padre: 35 vescovi orientali decidono che chi vener immagini è un idolatra e quindi colpevol e scomunicato, ovvero sciolto dalla comunion con la Chiesa ..., ma poi (769) il pap Stefano IV (767-72) convoca un concilio  Roma in cui si condannanno tutti i decret iconoclastici e si scomunica chi non vener immagini .. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 71"
+},
+{
+  "Year" : "754",
+  "Date" : "",
+  "Content" : "Il re dei franchi, Pipino, dopo aver esortato invano il re longobardo Astolfo a restituir Ravenna e l’Esarcato e a lasciar Roma in pace, scende nella penisola italic e libera Ravenna (754), poi se ne torna i Francia, dopo di che Astolfo minaccia ancor Roma e la mette ancora in stato d assedio (755). Pipino allora ripassa le Alpi  ritorna a rimettere le cose a posto: il re de longobardi è costretto a chiedere la pace  ad abbandonare l’Esarcato compreso Comacchio [causa d futuri conflitti tra il papato e i Dogado per via della sua posizion dominante l’accesso al Po che per il commercio dei venetic è una fondamentale e vital arteria fluviale] e la Pentapoli che Pipino dona al papa [v. 756] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 71"
+},
+{
+  "Year" : "755",
+  "Date" : "",
+  "Content" : "Il doge Teodato Ipato, rimasto politicamente isolato, riman vittima di una congiura La Chiesa d S. Giorgi Maggiore i una incision del Visentin La Chiesa d S. Giovann Evangelist che vivrà i in simbiosi co l’omonim Scuol La Chiesa d S. Mois in un incisione d Carlevarijs viene deposto, accecato, rapato a zero pe sommo spregio e scacciato. Il martirio dell’abbacinatur è riservato ai traditori ai qual viene consentito il diritto alla vita, ma no ai beni terreni di cui vengono privati. L vista è un bene terreno e pertanto viene .. tolta. Consiste in due o tre modi diversi: i primo a palpebre chiuse, ovvero sulle palpebr abbassate viene posta una lam incandescente e, a seconda del temp impiegato, avviene l’incollatura delle palpebr stesse con opacizzazione totale o parzial del cristallino; il secondo a palpebr aperte, dove può accadere anche l’esplosion del bulbo; ma si abbacina anche usand l’aceto bollente, cioè facendo avvicinare gl occhi a palpebre aperte sopra un bacino rovent contenente aceto ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 71"
+},
+{
+  "Year" : "755",
+  "Date" : "",
+  "Content" : "Si elegge il 5° doge, Galla Gaulo [alcune cronache lo chiamano Galla Lupanio], ch dopo aver ordito una congiura filo-franc contro il doge precedente, di cui era u fedelissimo e averlo fatto abbacinare ed esiliare si era imposto alla volontà dei venetic con una elezione pilotata ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 72"
+},
+{
+  "Year" : "756",
+  "Date" : "",
+  "Content" : "Pipino dona al papa i territori italici già bizantini [v. 754], avallando la nascita de potere temporale della Chiesa, avviata dall supposta donazione di Costantino [v. 751] continuata da una serie di elargizioni fondiari tra il 5° e il 6°sec. e più consistentement da Liutprando che nel 728 cede a papato la cittadina di Sutri (presso Viterbo e il territorio circostante. A tutto ciò Pipin aggiunge ancora l’Istria e soprattutto le isol del Dogado, sulle quali però non ha alcu potere, per cui questo ‘regalo’ riman sostanzialmente sulla carta ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 72"
+},
+{
+  "Year" : "756",
+  "Date" : "",
+  "Content" : "Astolfo cade da cavallo e muore. Gli succede Desiderio (756-774), l’ultimo re de longobardi, che tenta di ‘resistere’ ai princip franchi dando loro in sposa le due figlie Ermengarda al maggiore Carlo Magno  Gerberga a Carlomanno. Desiderio cerc allora di rialzare la testa, conquistando l’Istri tra il 768 e il 772, ma già nel 774 Carl Magno spazza via la monarchia longobard e instaura il regno dei franchi ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 72"
+},
+{
+  "Year" : "756",
+  "Date" : "",
+  "Content" : "Il doge Galla Gaulo si rivela un voltagabbana e come il suo predecessore vien deposto, accecato, rapato e condannato all’esili [v. 756] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 72"
+},
+{
+  "Year" : "756",
+  "Date" : "",
+  "Content" : "Si elegge, sembra con l’appoggio del re longobardo Desiderio, il 6° doge, Domenic Monegario (756-64). È di Malamocco Da questo momento in poi il doge sempre circondato da vescovi e abati, vien affiancato da due tribuni, eletti annualmente che hanno lo scopo di aiutarl nelle sue funzioni, ma che in effetti comincian a limitarne i poteri. Anche gli ecclesiastic ruotano intorno al doge e lo farann almeno fino all’anno Mille: dopo quest data il potere si laicizza e il doge vien circondato soltanto da iudices e boni homines dove i giudici sono i pochi che appartengon alle famiglie più doviziose mentre i boni homines sono i molti, e tra d loro poche famiglie importanti. Per quant riguarda invece la nomina dei tribuniconsiglier su di essi pesa fortemente i clima politico del momento: si creano fazion e sorgono contrapposizioni tra chi  pro oppure contro Costantinopoli. Ma  anche vero che l’aristocrazia sente già i bisogno di affiancare al doge qualcun che cominci a limitarne i poteri e in quest nomina c’è l’origine di quello che sarà po il Minor Consiglio [v. 1178]. I due tribuniconsiglier aiutano il doge ad amministrar la giustizia civile, ma anche quella criminal e ciò significa, implicitamente, ch essi in qualche modo limitano l’arbitri del capo dello Stato, tanto è vero che s trasformeranno in tribuni-consiglieri-controllori [v. 1130]. Per contro s’instaura la tendenza a render ereditario il ducato mediante la nomina da parte del doge di un co-reggente. Infatti, con i consenso del popolo, Domenico si associa al governo il figlio Giovanni ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 72"
+},
+{
+  "Year" : "756",
+  "Date" : "",
+  "Content" : "Durante il dogado di Monegario si regigistrano delle novità sul piano religioso, politico, sociale ed economico: l’istituzione di un nuovo episcopato nell’isola di Olivolo, l’occupazione dell’Istria d parte dei longobardi (768) e subito dopo dei franchi (774), la trasformazione dei venetici da pescator e battellieri in commercianti marittimi con audaci viaggi per mare fino allo Jonio e nei mari de Levante grazie ai progressi fatti dall’arte nautica: l’uso di nuove chiglie e forme degli scafi, di nuov vele e remi consente di mettere in acqua navi più robuste, capienti e assai più veloci ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 73"
+},
+{
+  "Year" : "764",
+  "Date" : "",
+  "Content" : "Il doge Monegario, così com’è accaduto ai suoi due predecessori, viene deposto a furor di popolo e abbacinato, perché sentendosi limitato dai due tribuni ha cercato in tutti i modi di ritornar alla primitiva, assoluta gestione del potere ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 73"
+},
+{
+  "Year" : "764",
+  "Date" : "",
+  "Content" : "Si elegge il 7° doge, Maurizio Galbaio o Galbajo (764-87), eracleano, figlio di umili contadini. Il suo dogado è uno dei più lunghi nella storia della Repubblica di Venezia, dura 23 anni, e lui, a differenz dei predecessori, muore nel suo letto. Galbaio è infatti molto bravo, riesce a barcamenars fra le turbolenze politiche del periodo, prima tra longobardi e bizantini e poi tra franchi e bizantini mantiene salde le redini, oltre che della politica anche quelle del commercio marittimo con l’imper d’Oriente, favorito anche dal fatto che i franchi non possiedono una flotta navale. A lui si deve anch l’istituzione del vescovado di Olivolo [v. 775]. Galbaio inizia un nuovo sistema di governo, cio quello della co-reggenza: egli associa alla propria carica il figlio Giovanni [v. 778] nel tentativo d istituire una vera e propria dinastia o nel tentativo, riuscito, di evitare la nomina dei due tribuniconsiglier [v. 756]. Per la prima volta i venetici hanno un doge e il suo vice, un esempio che sar ripetuto più volte in futuro, fino a quando il doge Flabanico non farà passare una legge che vieta l scelta di un co-reggente e impone la nomina di due consiglieri [v. 1032]. La mancata nomina dei du tribuni-consiglieri intanto fa anche capir la bontà de metodo con i quale vengon sperimentate  lasciate decantar le innovazion costituzional ne Dogado. Il coreggent vien mandato  Costantinopol perché il basileu lo riconosc come tale ciò che avvien adesso e ch avverrà i futuro con l concessione d un titolo onorific d Guido Sartorell rang inferiore a quello del doge [v. 804] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 73"
+},
+{
+  "Year" : "768",
+  "Date" : "",
+  "Content" : "Il re longobardo Desiderio attacca l’Istria perché vuole sottometterla. I venetici accorrono in difesa di un territorio con il quale sentono di avere un legame spirituale grazi alla comune sede patriarcale di Grado, ma devono subire il distacco territoriale e religioso I longobardi sottomettono l’Istria, ma pochi anni dopo (774) devono a loro volta cederl ai franchi. Con la caduta dell’Istria diminuisce l’influenza bizantina nell’Adriatico ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 73"
+},
+{
+  "Year" : "774",
+  "Date" : "",
+  "Content" : "Venezia si trova ‘circondata e corteggiata’ da vari pretendenti: Desiderio e Carlo Magno, con il terzo incomodo rappresentato dal basileus. Come se ciò non bastasse, s’inserisc nella disputa anche il papa Adriano I (772-95), che prima sprona Desiderio a allearsi con lui, ma poi, quando il re dei longobardi, dopo aver messo a ferro e fuoc mezza penisola, non onora i patti, il papa gli mette contro Carlo Magno, che scende i Italia, lo assedia a Pavia (773) e infine, dopo averlo vinto, lo depone e si prende il titol di re dei longobardi, che associa a quello di re dei franchi. Accanto al nome ‘regno d longobardia’ viene presto in uso quello di ‘regno italico’, che finisce per prenderne i posto, ma i franchi non si sovrappongono ai longobardi ed entrambi i popoli funzionan in parallelo, così che gli italiani, come scrive Alessandro Manzoni, ne hanno due su collo, «l’un popolo e l’altro sul collo vi sta». Diventato padrone d’Italia, Carlo Magn mette il figlio Pipino (777-810) sul trono di Pavia come luogotenente del regno [Pipin è incoronato dal papa a Roma nel 781, ad appena 4 anni] e poi si prepara a conquistar il Dogado [v. 810] fidando nel nutrito partito dei filofranchi presente in laguna. La fin del regno longobardo e l’avvento di Carlo Magno segna nella penisola italica il trionf definitivo della fede cattolica su quella ariana ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 73"
+},
+{
+  "Year" : "774",
+  "Date" : "",
+  "Content" : "Per consolidare la propria indipendenza e per rendere simbolicamente contigui, come prevede la tradizione bizantina, il potere spirituale e quello secolare, il doge istituisce attuando le decisioni del sinodo gradense del 579, il vescovado di Olivolo  Castello di Olivolo (dal 1074 detto di S. Pietro di Castello) per servire le anime dell’arcipelag di isole che formano Rivoalto/Rialto. Il nome, incerto nell’origine, suggerisc (dal greco oligos = piccolo), che si tratta di una piccola isola sulla quale sorge un castell a difesa delle isole rialtine, oppure ricorda che in origine era coltivata a uliveti, o perch di fronte alla chiesa si erge un enorme albero di olive, o ancora che la sua forma  simile a quella di una oliva ... Primo vescovo di Olivolo è Obelario o Obeliebato e la su chiesa è quella dedicata ai santi bizantini Sergio e Bacco, poi S. Pietro di Castello [v 555] ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 73"
+},
+{
+  "Year" : "782",
+  "Date" : "",
+  "Content" : "Acqua altissima che sommerge quasi tutte le isole. ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 73"
+},
+{
+  "Year" : "783",
+  "Date" : "",
+  "Content" : "A Mazzorbo sorge un luogo di culto e un ospizio, che in seguito viene trasformato in monastero (1291) capace di ospitare fino a 40 monache (1696). La chiesa, dedicata  S. Caterina Vergine e Martire e ricostruita verso la fine del 13° sec. sarà l’unica dell dieci chiese sorte nel tempo a rimanere in piedi nell’isola. Restaurata nel 1712 perder il convento, soppresso nel 1806 e quindi demolito. Il termine ospizio assumerà  Venezia tre significati diversi: luogo di asilo a carattere socio-assistenziale riservato a pellegrini diretti in Terraxsanta; ospedale e luogo di degenza; luogo per giovani orfani soprattutto fanciulle, che qui vengono educate e avviate ad un mestiere, le fanciulle pi spesso al ricamo e al canto. Simili iniziative, prevalentemente laiche, fioriranno a deci ",
+  "Location" : "",
+  "Filter" : "",
+  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. 73"
 },

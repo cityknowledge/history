@@ -1,3 +1,4 @@
+﻿test
 24
 All’alba del 400 Alarico, re dei visigoti (un ramo dei goti che l’imperatore romano Teodosio
 (347-95) aveva stanziato nei balcani, accettando per primo i barbari all’interno
@@ -2585,7 +2586,8 @@ scontri anche sanguinosi tra ariani e cattolici.
 Dal 643 vi saranno però anche re
 longobardi cattolici, un preludio alla vittoria
 definitiva del cattolicesimo sulla
-dottrina ariana [v. 774]. 639
+dottrina ariana [v. 774]. 
+639
 .I longobardi guidati dal loro nuovo re
 Rotari attaccano le città che Alboino
 aveva evitato perché militarmente ben
