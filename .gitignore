@@ -1,2 +1,5 @@
 # Ignore RubyMine .idea folder
 */.idea
+
+#
+*.pdf
