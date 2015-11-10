@@ -1,5 +1,8 @@
 # Ignore RubyMine .idea folder
 */.idea
 
-#
+# Distefano's PDFs
 *.pdf
+
+# Batch files
+*.bat
