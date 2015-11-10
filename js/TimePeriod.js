@@ -35,7 +35,7 @@ function getTimePeriodFromYear(year) {
 }
 
 var re = new TimePeriod("Roman Empire", 421, 538, 0xffffff),
-    be = new TimePeriod("Byzantine Empire", 538, 727, 0xff0000),
+    be = new TimePeriod("Byzantine Empire", 539, 727, 0xff0000),
     tr = new TimePeriod("Transition to Self-Rule", 728, 811, 0x0000ff),
     rr = new TimePeriod("Rise of the Republic", 812, 1099, 0x00ff00),
     ga = new TimePeriod("The Golden Age", 1100, 1497, 0xffff00),
