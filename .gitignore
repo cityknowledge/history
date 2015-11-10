@@ -3,6 +3,7 @@
 
 # Distefano's PDFs
 *.pdf
+parser/Atlas/*
 
 # Batch files
 *.bat
