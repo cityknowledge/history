@@ -125,6 +125,8 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
 
     };
     
+    $scope.colorArticles = window.colorArticles;
+    
     window.$scope = $scope;
     window.$filter = $filter;
 });
