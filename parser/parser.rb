@@ -110,14 +110,20 @@ $events << $current_event
 #now print the result of parsing
 out_file = File.new('JSON.txt', 'w:utf-8')
 
+out_file.print "{\n"
+out_file.print '  "events: ["' + "\n"
+
 $events.each do |event|
-  out_file.print "{\n"
-  out_file.print '  "Year" : "' + event.year + %Q[",\n]
-  out_file.print '  "Date" : "' + event.date + %Q[",\n]
-  out_file.print '  "Content" : "' + event.content + %Q[",\n]
-  out_file.print '  "Location" : "' + %Q[",\n]
-  out_file.print '  "Filter" : "' + %Q[",\n]
-  out_file.print %Q[  "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. ] + event.page + %Q["\n]
-  out_file.print "},\n"
+  out_file.print "    {\n"
+  out_file.print '      "Year" : "' + event.year + %Q[",\n]
+  out_file.print '      "Date" : "' + event.date + %Q[",\n]
+  out_file.print '      "Content" : "' + event.content + %Q[",\n]
+  out_file.print '      "Location" : "' + %Q[",\n]
+  out_file.print '      "Filter" : "' + %Q[",\n]
+  out_file.print %Q[      "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. ] + event.page + %Q["\n]
+  out_file.print "    },\n"
 end
+
+out_file.print "  ]\n"
+out_file.print '}'
 
