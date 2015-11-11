@@ -15,6 +15,7 @@
         <!--OUR SCRIPTS | I NOSTRI SCRIPT-->
         <script src="js/util.js"></script>
         <script src="js/TimePeriod.js"></script>
+        <script src="js/color.js"></script>
 		<script src="js/interceptWheel.js"></script>
         <script src="js/size.js"></script>
         <script src="js/draw.js"></script>
@@ -153,7 +154,7 @@
             Specifies for the inclusion of the filter dropdown, including the different options located in it.
             These filters are used to filter the content which is shown above, in the CONTENT PANEL COMPONENT.
             -->
-            Scegli un filtro: <select data-ng-model="filter">
+            Scegli un filtro: <select data-ng-model="filter" onchange="colorArticles();">
                 <!--/Nessun Filtro-->   <option value="" selected>Nessun Filtro</option>
                 <!--War/Guerra-->       <option value="War">Guerra</option>
                 <!--Italy/Italia-->     <option value="Italy">Italia</option>
@@ -162,12 +163,13 @@
             <!--END FILTER DROPDOWN-->
             
             <!--SEARCH BOX-->
-            Cerca: <input type="text" data-ng-model="search">
+            Cerca: <input type="text" data-ng-model="search" onchange="colorArticles();">
         </div>
         <!--END CONTROL BUTTONS COMPONENT-->
         <!--END PAGE CONTENT-->
         
         <!--Load the controller-->
+        <span data-ng-bind="colorArticles();"></span>
         <script src="js/controller.js"></script>
     </body>
 </html>

@@ -1,4 +1,4 @@
-/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown*/
+/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, colorArticles*/
 /*jslint plusplus: true*/
 
 // Global scroll delta.
