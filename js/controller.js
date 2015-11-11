@@ -1,10 +1,15 @@
-/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo*/
+/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState*/
 /*jslint plusplus: true, es5: true*/
 
 var app = new angular.module('appTimeline', []);
 var maxZoom = 2;
 app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate, $sce) {
     'use strict';
+    
+    var state;
+    
+    window.$scope = $scope;
+    window.$filter = $filter;
     
     // Define scope variables
     $scope.zoom = 0;
@@ -15,6 +20,9 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     // HTTP Request for the JSON data.
     $http.get("data.json").success(function (response) {
         $scope.events = response.events;
+        state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
+        state.drawState();
+        document.getElementById("axis").canvasState = state;
     });
     
     $scope.zoomIn = function () {
@@ -126,9 +134,8 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
     
     $scope.colorArticles = window.colorArticles;
-    
-    window.$scope = $scope;
-    window.$filter = $filter;
 });
 
 window.controllerLoad();
+
+

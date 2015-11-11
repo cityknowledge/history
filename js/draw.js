@@ -1,12 +1,13 @@
 /*jslint plusplus: true*/
-/*global Rectangle, $*/
+/*global Rectangle, $, timePeriods, yearToSliderPos*/
 
 var drawTick, drawTicks;
 
 function draw() {
     'use strict';
     
-    var canvas = document.getElementById('axis'),
+    var x, rect, start,
+        canvas = document.getElementById('axis'),
         ctx = canvas.getContext("2d"),
         w = window,
         d = document,
@@ -28,13 +29,22 @@ function draw() {
     ctx.lineTo(right, vctr);
     ctx.stroke();
     
-    drawTicks(left, right - 22, ctx);
+    drawTicks(left, right - 22, ctx, top, bottom);
+    
+    // Start drawing the second bar.
+    top = 40;
+    
+    for (x = 0; x < timePeriods.length; x++) {
+        start = yearToSliderPos(timePeriods[x].start);
+        rect = new Rectangle(start, top + 20, yearToSliderPos(timePeriods[x].end) - start + 1, bottom, "rgb(" + timePeriods[x].color.r + "," + timePeriods[x].color.g + "," + timePeriods[x].color.b + ")");
+        rect.drawRect(ctx);
+    }
     
     
 }
 
 // Calculates how many ticks get drawn, where they get drawn, and what years are displayed.
-function drawTicks(left, eltWidth, ctx) {
+function drawTicks(left, eltWidth, ctx, top, bottom) {
     'use strict';
     
     var count = Math.round(eltWidth / 100),
@@ -50,18 +60,18 @@ function drawTicks(left, eltWidth, ctx) {
     for (x = 0; x <= count; x++) {
         label = startYear + (interval * x);
         position = left + (delta * x);
-        drawTick(position, label.toString(), ctx);
+        drawTick(position, label.toString(), ctx, top, bottom);
     }
     
 }
 
 // Draws a tick at the specified location
-function drawTick(x, lbl, ctx) {
+function drawTick(x, lbl, ctx, top, bottom) {
     'use strict';
 	var lsize;
     
-    ctx.moveTo(x, 20);
-    ctx.lineTo(x, 30);
+    ctx.moveTo(x, top + 20);
+    ctx.lineTo(x, top + bottom);
     ctx.stroke();
     
     lsize = ctx.measureText(lbl);

@@ -12,16 +12,10 @@ var relocate = true;
 window.controllerLoad = function () {
     'use strict';
     // Initialize variables.
-    var canvasEls, i, preventHl, state;
+    var canvasEls, arrowEls, i, preventHl, state;
     
     // Calculate the sizes for various elements on the page and resize them accordingly.
     size();
-    
-    // Draw the slider
-    state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
-    state.drawState();
-    
-    document.getElementById("axis").canvasState = state;
     
     // Prevent the user from selecting text on the page with a click that started on the slider.
     canvasEls = document.getElementsByTagName('canvas');
@@ -29,11 +23,16 @@ window.controllerLoad = function () {
     for (i = 0; i < canvasEls.length; i++) {
         canvasEls[i].onmousedown = preventHl;
     }
+    arrowEls = document.getElementsByClassName("arrow");
+    for (i = 0; i < arrowEls.length; i++) {
+        arrowEls[i].onmousedown = preventHl;
+    }
+    
     
     // Repeating function that scrolls by scroll delta every five milliseconds.
     window.setInterval(function () {
-        window.scrollBy(scrollVal, 0);
-    }, 5);
+        window.scrollBy(scrollVal * 4, 0);
+    }, 20);
 };
 
 // Function called when the window is resized.
