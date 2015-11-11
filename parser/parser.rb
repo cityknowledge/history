@@ -23,26 +23,46 @@ $events = Array.new
 $current_event = Event.new
 #initialize first page and year of text extraction
 #note these value are one less than the actual starts
-$current_page = '23'
+$current_page = '24'
 $current_year = '421'
 
 $line = '0'
 
+#Boolean to control ratchet miss page numberings
+$flip = true
 
 
-File.open('Page24-74.txt', 'r:utf-8').each_line do |line|
+File.open('A25-844.txt', 'r:utf-8').each_line do |line|
 
+  #if a number that is the only text on a line
   if(/\A\d+\Z/.match(line))
     test_page = $current_page.to_i + 1
 
     if(test_page == line.to_i)
       $current_page = line[0, line.length - 1]
 
-    elsif(line.to_i - $current_year.to_i < 40)
+      #account fo ratchet page numbers
+      if ($current_page == '258' && $flip == true)
+        $current_page = '234'
+        $flip = false
+
+      elsif($current_page == '524' && $flip == true)
+        $current_page = '502'
+        $flip = false
+
+      elsif($current_page == '258')
+        $flip = true
+
+      end
+      #puts $current_page
+
+
+    elsif(line.to_i - $current_year.to_i < 40 && line.to_i - $current_year.to_i > 0 )
       $current_year = line[0, line.length - 1]
 
-
     end
+
+    #puts $current_year
 
   #At this point we have found content that is part of an event
 
