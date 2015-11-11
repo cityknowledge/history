@@ -93,6 +93,12 @@ File.open('A25-844.txt', 'r:utf-8').each_line do |line|
 
   #mid event content
   else
+
+    if((!/([[:graph:]]+)\s([[:graph:]]+)\s([[:graph:]]+)\Z/.match(line)))
+      puts $current_page
+      puts line
+    end
+
     $current_event.content = $current_event.content + line[0, line.length - 2] + ' '
 
   end
