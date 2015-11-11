@@ -1,4 +1,4 @@
-/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState*/
+/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods*/
 /*jslint plusplus: true, es5: true*/
 
 var app = new angular.module('appTimeline', []);
@@ -16,6 +16,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.search = "";
     $scope.filter = "";
     $scope.ipevent = 0;
+    $scope.timePeriods = timePeriods;
     
     // HTTP Request for the JSON data.
     $http.get("data.json").success(function (response) {
@@ -86,7 +87,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             string += "</div>";
         }
         
-        string += "<h2>" + (event.Date || event.Year) + (event.Title ? (": " + event.Title + "</h2>") : "</h2>");
+        string += "<h2>" + (event.Date + " " + event.Year) + (event.Title ? (": " + event.Title + "</h2>") : "</h2>");
         
         string += "<p>" + event.Content + "</p>";
         
