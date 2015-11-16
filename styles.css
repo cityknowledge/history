@@ -567,18 +567,7 @@ div#load {
     top: calc(50vh - 6px);
     left: calc(50vw - 30px);
     z-index: 20;
-    -webkit-animation-name: spinner;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-name: spinner;
-    -moz-animation-duration: 4s;
-    -moz-animation-iteration-count: infinite;
-    -o-animation-name: spinner;
-    -o-animation-duration: 4s;
-    -o-animation-iteration-count: infinite;
-    animation-name: spinner;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    background-image: url(icon/load.gif);
 }
 
 div#infopanel {
