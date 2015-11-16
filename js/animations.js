@@ -4,6 +4,9 @@
 function hover(id) {
     'use strict';
     $('#' + id)
+        .css("-webkit-animation-name", "hover")
+        .css("-moz-animation-name", "hover")
+        .css("-o-animation-name", "hover")
         .css('animation-name', 'hover')
         .css('background-color', 'rgba(120, 120, 120, 1)');
 }
@@ -11,6 +14,9 @@ function hover(id) {
 function unhover(id) {
     'use strict';
     $('#' + id)
+        .css("-webkit-animation-name", "unhover")
+        .css("-moz-animation-name", "unhover")
+        .css("-o-animation-name", "unhover")
         .css('animation-name', 'unhover')
         .css('background-color', 'rgba(0, 0, 0, 0)');
 }
@@ -18,6 +24,9 @@ function unhover(id) {
 function unobscure() {
     'use strict';
     $("#obscure")
+        .css("-webkit-animation-name", "unobscure")
+        .css("-moz-animation-name", "unobscure")
+        .css("-o-animation-name", "unobscure")
         .css("animation-name", "unobscure");
     setTimeout(function () {
         $("#obscure")

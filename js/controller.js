@@ -43,7 +43,11 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
     
     $scope.callback = function (fun) {
-        $timeout(fun);
+        if ($scope.$$phase) {
+            window.setTimeout($scope.callback, 100, fun);
+        } else {
+            fun();
+        }
     };
 
     $scope.zoomOut = function () {
@@ -73,6 +77,9 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
     
     $scope.displayInfoPanel = function (panelNo) {
+        
+        console.log(panelNo);
+        
         var events,
             event,
             image,
@@ -124,6 +131,9 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     
     $scope.obscure = function () {
         $("#obscure")
+            .css("-webkit-animation-name", "obscure")
+            .css("-moz-animation-name", "obscure")
+            .css("-o-animation-name", "obscure")
             .css("animation-name", "obscure")
             .css("display", "block");
     };
@@ -163,7 +173,15 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         }
     };
     
+    $scope.scrollToYear = window.scrollToYear;
     $scope.colorArticles = window.colorArticles;
+    
+    $scope.zoomWithDest = function (period) {
+        $scope.zoomIn();
+        $scope.callback(function () {
+            $scope.scrollToYear(period.start);
+        });
+    };
 });
 
 window.controllerLoad();

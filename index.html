@@ -84,7 +84,7 @@
                 <!--Display the event's content iff no image-->                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml((event.Content.length > 200) ? event.Content.substr(0, 200) + &quot;...&quot; : event.Content)"></p>
                 <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-repeat="image in event.Image" data-ng-attr-src="image" data-ng-attr-alt="event.Title">
             </article>
-            <article data-ng-if="zoom === 0" data-ng-repeat="period in timePeriods" style="background-color: rgba({{period.color.r}}, {{period.color.g}}, {{period.color.b}}, .5);">
+            <article data-ng-if="zoom === 0" data-ng-repeat="period in timePeriods" style="background-color: rgba({{period.color.r}}, {{period.color.g}}, {{period.color.b}}, .5);" data-ng-click="zoomWithDest(period);">
                 <h2 data-ng-bind="period.start + &quot;&ndash;&quot; + period.end + &quot;: &quot; + period.title"></h2>
             </article>
         </div>

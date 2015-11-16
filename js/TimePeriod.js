@@ -42,6 +42,6 @@ var ri = new TimePeriod("Roman Empire", 421, 538, {r: 146, g: 51, b: 140}),
     ga = new TimePeriod("The Golden Age", 1406, 1516, {r: 208, g: 206, b: 34}),
     fr = new TimePeriod("The Fall of the Republic", 1517, 1797, {r: 194, g: 134, b: 49}),
     af = new TimePeriod("Venice under Austria & France", 1798, 1866, {r: 36, g: 49, b: 224}),
-    ik = new TimePeriod("Italian Kingdom", 1866, 1946, {r: 219, g: 40, b: 40}),
+    ik = new TimePeriod("Italian Kingdom", 1867, 1946, {r: 219, g: 40, b: 40}),
     ir = new TimePeriod("Italian Republic", 1947, 2015, {r: 49, g: 168, b: 164});
     

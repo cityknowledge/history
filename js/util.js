@@ -65,8 +65,10 @@ function mouseEventToPanelNo(mouseevent) {
     'use strict';
     var panelNo,
         scrollOffset = document.documentElement.scrollLeft || document.body.scrollLeft;
-
-    panelNo = mouseevent.x + scrollOffset;
+    
+    // mouseevent.x for Webkit, IE
+    // mouseevent.clientX for Mozilla
+    panelNo = (mouseevent.x || mouseevent.clientX) + scrollOffset;
     panelNo = xPosToPanelNo(panelNo);
 
     return panelNo;

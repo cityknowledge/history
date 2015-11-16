@@ -136,10 +136,15 @@ function CanvasState(canvas) {
             myState.valid = false;
             return;
         } else {
-            relocate = false;
-            myState.slider.x = mx - myState.slider.w / 2;
-            scrollToYear(sliderPosToYear(mx));
-            myState.valid = false;
+            // No selection has occurred
+            
+            if (my <= (0.5 * myState.height)) {
+                //in the North half
+                relocate = false;
+                myState.slider.x = mx - myState.slider.w / 2;
+                scrollToYear(sliderPosToYear(mx));
+                myState.valid = false;
+            }
         }
     
     
