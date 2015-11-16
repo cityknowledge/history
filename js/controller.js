@@ -3,7 +3,7 @@
 
 var app = new angular.module('appTimeline', []);
 var maxZoom = 2;
-app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate, $sce) {
+app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate, $sce, $timeout) {
     'use strict';
     
     var state;
@@ -14,6 +14,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     // Define scope variables
     $scope.zoom = 0;
     $scope.search = "";
+    $scope.actsearch = "";
     $scope.filter = "";
     $scope.ipevent = 0;
     $scope.timePeriods = timePeriods;
@@ -24,18 +25,39 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
         state.drawState();
         document.getElementById("axis").canvasState = state;
+        $("#load").css("display", "none");
     });
     
     $scope.zoomIn = function () {
-        if ($scope.zoom !== maxZoom) {
-            $scope.zoom++;
-        }
+        $("#load").css("display", "block");
+        
+        window.setTimeout(function () {
+            if ($scope.zoom !== maxZoom) {
+                $scope.zoom++;
+            }
+            $scope.$applyAsync();
+            $scope.callback(function () {
+                $("#load").css("display", "none");
+            });
+        }, 10);
+    };
+    
+    $scope.callback = function (fun) {
+        $timeout(fun);
     };
 
     $scope.zoomOut = function () {
-        if ($scope.zoom  !== 0) {
-            $scope.zoom--;
-        }
+        $("#load").css("display", "block");
+        
+        window.setTimeout(function () {
+            if ($scope.zoom !== 0) {
+                $scope.zoom--;
+            }
+            $scope.$apply();
+            $scope.callback(function () {
+                $("#load").css("display", "none");
+            });
+        }, 1);
     };
     
     $scope.renderHtml = function (html_code) {
@@ -132,6 +154,13 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             break;
         }
 
+    };
+    
+    $scope.updateSearch = function (event) {
+        if (event.keyCode === 13) { // Enter key
+            $scope.search = $scope.actsearch;
+            $scope.$apply();
+        }
     };
     
     $scope.colorArticles = window.colorArticles;
