@@ -1,4 +1,4 @@
-# Ignore RubyMine .idea folder
+# RubyMine .idea folder
 */.idea
 
 # Distefano's PDFs
@@ -7,3 +7,6 @@
 
 # Batch files
 *.bat
+
+# Minified JavaScript File
+/js/min.js
