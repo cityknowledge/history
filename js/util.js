@@ -87,8 +87,6 @@ function sliderPosToRealSliderPos(sliderPos) {
         rspstart = $("canvas")[0].canvasState.leftSide,
         rspend = $("canvas")[0].canvasState.rightSide;
     
-    console.log(spstart, spend, rspstart, rspend, sliderPos, ((sliderPos - spstart) / (spend - spstart) * (rspend - rspstart)) + rspstart);
-    
     return ((sliderPos - spstart) / (spend - spstart) * (rspend - rspstart)) + rspstart;
 }
 
@@ -100,19 +98,5 @@ function realSliderPosToSliderPos(realSliderPos) {
         rspstart = $("canvas")[0].canvasState.leftSide,
         rspend = $("canvas")[0].canvasState.rightSide;
     
-    console.log(spstart, spend, rspstart, rspend, realSliderPos, ((realSliderPos - rspstart) / (rspend - rspstart) * (spend - spstart)) + spstart);
-    
-    var x = realSliderPos - rspstart;
-    console.log(x);
-    var y = rspend - rspstart;
-    console.log(y);
-    x /= y;
-    console.log(x);
-    y = spend - spstart;
-    console.log(y);
-    x *= y;
-    console.log(x);
-    x += spstart;
-    console.log(x);
     return ((realSliderPos - rspstart) / (rspend - rspstart) * (spend - spstart)) + spstart;
 }
