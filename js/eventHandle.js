@@ -1,5 +1,5 @@
 /*jslint plusplus: true*/
-/*global $, draw, scrollToYear, sliderPosToYear, relocate:true*/
+/*global $, draw, scrollToYear, sliderPosToYear, relocate:true, sliderPosToRealSliderPos*/
 
 //http://simonsarris.com/blog/510-making-html5-canvas-useful
 
@@ -57,6 +57,9 @@ function CanvasState(canvas) {
     //the ctx of the canvas
     this.ctx = canvas.getContext('2d');
     
+    this.leftSide = 421;
+    this.rightSide = 2015;
+    
     //account for doc padding
     var w = window,
         d = document,
@@ -94,9 +97,13 @@ function CanvasState(canvas) {
     /*
     Initialize all rectangles here, could be an arrray of sliders instead of one
     */
-    this.slider = new Rectangle(30, 17, 30, 15);
+    this.slider = new Rectangle(30, 15, 10, 20, "rgba(256, 256, 256, 1)");
+    this.left = new Rectangle(0, 60, 10, 20, "rgba(256, 256, 256, 1)");
+    this.right = new Rectangle(t - 100, 60, 10, 20, "rgba(256, 256, 256, 1)");
     //keep trac of if something is being dragged
     this.dragging = false;
+    this.dragleft = false;
+    this.dragright = false;
     //keep track of current selection
     this.selection = null;
     //location of drag change x
@@ -135,6 +142,24 @@ function CanvasState(canvas) {
             //
             myState.valid = false;
             return;
+        } else if (myState.left.contains(mx, my)) {
+            mySel = myState.left;
+            myState.dragoffx = mx - mySel.x;
+            myState.dragoffy = mySel.y;
+            myState.dragleft = true;
+            relocate = false;
+            myState.selection = mySel;
+            myState.valid = false;
+            return;
+        } else if (myState.right.contains(mx, my)) {
+            mySel = myState.right;
+            myState.dragoffx = mx - mySel.x;
+            myState.dragoffy = mySel.y;
+            myState.dragright = true;
+            relocate = false;
+            myState.selection = mySel;
+            myState.valid = false;
+            return;
         } else {
             // No selection has occurred
             
@@ -142,7 +167,7 @@ function CanvasState(canvas) {
                 //in the North half
                 relocate = false;
                 myState.slider.x = mx - myState.slider.w / 2;
-                scrollToYear(sliderPosToYear(mx));
+                scrollToYear(sliderPosToRealSliderPos(sliderPosToYear(mx)));
                 myState.valid = false;
             }
         }
@@ -160,11 +185,12 @@ function CanvasState(canvas) {
     Mouse listener which lisens for a mouse move
     */
     body.addEventListener('mousemove', function (e) {
+        var mouse = myState.getMouse(e),
+            left = 22,
+            right = t - 38;
+        
         //If the mouse has something slected move that selection
         if (myState.dragging) {
-            var mouse = myState.getMouse(e),
-                left = 22,
-                right = t - 38;
             
             //try to move the slider
             myState.selection.x = mouse.x - myState.dragoffx;
@@ -183,11 +209,34 @@ function CanvasState(canvas) {
             
             //add functionality to scrooll timeline here
             if (myState.dragging) {
-                scrollToYear(sliderPosToYear(myState.slider.x));
+                scrollToYear(sliderPosToRealSliderPos(sliderPosToYear(myState.slider.x)));
                 myState.getMouse(e);
             }
             
-        }//!endif
+        } else if (myState.dragleft) {
+            myState.selection.x = mouse.x - myState.dragoffx;
+            myState.valid = false;
+            
+            if (myState.selection.x < left - (myState.selection.w / 2)) {
+                myState.selection.x = left - (myState.selection.w / 2);
+            } else if (myState.selection.x >= myState.right.x) {
+                myState.selection.x = myState.right.x;
+            }
+            
+            myState.leftSide = Math.floor(sliderPosToYear(myState.selection.x));
+            
+        } else if (myState.dragright) {
+            myState.selection.x = mouse.x - myState.dragoffx;
+            myState.valid = false;
+            
+            if (myState.selection.x < myState.left.x) {
+                myState.selection.x = myState.left.x;
+            } else if (myState.selection.x > right - (myState.selection.w / 2)) {
+                myState.selection.x = right - (myState.selection.w / 2);
+            }
+            
+            myState.rightSide = Math.ceil(sliderPosToYear(myState.selection.x));
+        }
         
     }, true);
     
@@ -197,6 +246,8 @@ function CanvasState(canvas) {
     body.addEventListener('mouseup', function (e) {
         //On mouse release the slider is no longer being dragged
         myState.dragging = false;
+        myState.dragleft = false;
+        myState.dragright = false;
         relocate = true;
         
         
@@ -234,10 +285,12 @@ function CanvasState(canvas) {
             this.clear();
             
             //draw the timeline
-            draw();
+            draw(myState);
             
             //draw the schroller
             shape.drawRect(ctx);
+            this.left.drawRect(ctx);
+            this.right.drawRect(ctx);
             
             //check to see if selected
             if (this.selection !== null) {

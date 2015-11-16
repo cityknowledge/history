@@ -1,4 +1,4 @@
-/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, colorArticles*/
+/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, colorArticles, realSliderPosToSliderPos*/
 /*jslint plusplus: true*/
 
 // Global scroll delta.
@@ -54,7 +54,7 @@ window.onresize = function () {
 
 window.onscroll = function () {
     'use strict';
-    var npos = yearToSliderPos(parseInt(window.$scope.events[getFirstEventShown()].Year, 10));
+    var npos = yearToSliderPos(realSliderPosToSliderPos(parseInt(window.$scope.events[getFirstEventShown()].Year, 10)));
     
     // Move the slider to npos.
     if (relocate) {

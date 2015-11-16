@@ -3,7 +3,7 @@
 
 var drawTick, drawTicks;
 
-function draw() {
+function draw(canvasState) {
     'use strict';
     
     var x, rect, start,
@@ -24,12 +24,13 @@ function draw() {
     
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 	ctx.beginPath();
-    ctx.fillStyle = "#000000";
+    ctx.strokeStyle = "#ffffff";
+    ctx.fillStyle = "#ffffff";
     ctx.moveTo(left, vctr);
     ctx.lineTo(right, vctr);
     ctx.stroke();
     
-    drawTicks(left, right - 22, ctx, top, bottom);
+    drawTicks(left, right - 22, ctx, top, bottom, canvasState);
     
     // Start drawing the second bar.
     top = 40;
@@ -44,12 +45,12 @@ function draw() {
 }
 
 // Calculates how many ticks get drawn, where they get drawn, and what years are displayed.
-function drawTicks(left, eltWidth, ctx, top, bottom) {
+function drawTicks(left, eltWidth, ctx, top, bottom, canvasState) {
     'use strict';
     
     var count = Math.round(eltWidth / 100),
-        startYear = 500,
-        endYear = 2015,
+        startYear = canvasState.leftSide,
+        endYear = canvasState.rightSide,
         range = endYear - startYear,
         interval = Math.round(range / count),
         delta = eltWidth / count,

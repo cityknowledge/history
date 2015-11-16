@@ -6,7 +6,7 @@ function yearToSliderPos(year) {
     var ystart = parseInt(window.$scope.events[0].Year, 10),
         ylen = parseInt(window.$scope.events[window.$scope.events.length - 1].Year, 10) - ystart,
         sstart = 22,
-        slen = document.getElementById("axis").width - 50;
+        slen = document.getElementById("axis").width - 72;
     
     return (year - ystart) / ylen * slen + sstart;
 }
@@ -16,7 +16,7 @@ function sliderPosToYear(sliderPos) {
     var ystart = parseInt(window.$scope.events[0].Year, 10),
         ylen = parseInt(window.$scope.events[window.$scope.events.length - 1].Year, 10) - ystart,
         sstart = 22,
-        slen = document.getElementById("axis").width - 50;
+        slen = document.getElementById("axis").width - 72;
     return (sliderPos - sstart) / slen * ylen + ystart;
 }
 
@@ -77,4 +77,26 @@ function mouseEventToPanelNo(mouseevent) {
 function getFirstEventShown() {
     'use strict';
     return xPosToPanelNo(document.documentElement.scrollLeft || document.body.scrollLeft);
+}
+
+function sliderPosToRealSliderPos(sliderPos) {
+    'use strict';
+    
+    var spstart = window.$scope.events[0].Year,
+        spend = window.$scope.events[window.$scope.events.length - 1].Year,
+        rspstart = $("canvas")[0].canvasState.leftSide,
+        rspend = $("canvas")[0].canvasState.rightSide;
+    
+    return ((sliderPos - spstart) / (spend - spstart) * (rspend - rspstart)) + rspstart;
+}
+
+function realSliderPosToSliderPos(realSliderPos) {
+    'use strict';
+    
+    var spstart = window.$scope.events[0].Year,
+        spend = window.$scope.events[window.$scope.events.length - 1].Year,
+        rspstart = $("canvas")[0].canvasState.leftSide,
+        rspend = $("canvas")[0].canvasState.rightSide;
+    
+    return ((realSliderPos - rspstart) / (rspend - rspstart) * (spend - spstart)) + spstart;
 }
