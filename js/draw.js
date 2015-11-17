@@ -26,8 +26,8 @@ function draw(canvasState) {
 	ctx.beginPath();
     ctx.strokeStyle = "#ffffff";
     ctx.fillStyle = "#ffffff";
-    ctx.moveTo(left, vctr);
-    ctx.lineTo(right, vctr);
+    ctx.moveTo(0, vctr);
+    ctx.lineTo(t - 16, vctr);
     ctx.stroke();
     
     drawTicks(left, right - 22, ctx, top, bottom, canvasState);

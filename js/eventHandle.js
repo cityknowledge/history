@@ -308,28 +308,11 @@ function CanvasState(canvas) {
     */
     this.getMouse = function (e) {
         var element = this.canvas,
-            offsetX = 0,
-            offsetY = 0,
-            scrollOffSet = 0,
             mx,
             my;
-            
         
-        //Compute offset
-        while (element.offsetParent) {
-            offsetX += element.offsetLeft;
-            offsetY += element.offsetTop;
-            element = element.offsetParent;
-        }
-        
-        scrollOffSet = document.documentElement.scrollLeft || document.body.scrollLeft;
-        
-        //Add padding
-        offsetX += this.stylePaddingLeft + this.styleBorderLeft +  this.styleLeft + scrollOffSet;
-        offsetY += this.stylePaddingTop + this.styleBorderTop +  this.styleTop;
-    
-        mx = e.pageX - offsetX - 8;
-        my = e.pageY - offsetY + 21;
+        mx = e.clientX - 8;
+        my = e.clientY - y + parseInt($("div#timeAxis").css("bottom"), 10) + parseInt($("canvas").css("height"), 10) + 21;
         
         //return location
         return {x: mx, y: my};
