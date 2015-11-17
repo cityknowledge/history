@@ -307,8 +307,7 @@ function CanvasState(canvas) {
     Canvas
     */
     this.getMouse = function (e) {
-        var element = this.canvas,
-            mx,
+        var mx,
             my;
         
         mx = e.clientX - 8;
