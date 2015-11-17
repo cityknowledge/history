@@ -10,3 +10,8 @@
 
 # Minified JavaScript File
 /js/min.js
+
+# Word Documents, Except for the todo list
+*.docx
+*.doc
+!ToDo.docx

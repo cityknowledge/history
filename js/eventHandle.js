@@ -73,7 +73,9 @@ function CanvasState(canvas) {
         imgs = $("img"),
         h = n - 100,
         myState = this,
-        body = document.getElementsByTagName("body")[0];
+        body = document.getElementsByTagName("body")[0],
+        left = 22,
+        right = t - 38;
     
     if (document.defaultView && document.defaultView.getComputedStyle) {
         //left padding of the canvas
@@ -163,8 +165,8 @@ function CanvasState(canvas) {
         } else {
             // No selection has occurred
             
-            if (my <= (0.5 * myState.height)) {
-                //in the North half
+            if (my <= (0.5 * myState.height) && mx <= right && mx >= left) {
+                //in the North half, between the ends of the sliderbar
                 relocate = false;
                 myState.slider.x = mx - myState.slider.w / 2;
                 scrollToYear(sliderPosToRealSliderPos(sliderPosToYear(mx)));
@@ -185,9 +187,7 @@ function CanvasState(canvas) {
     Mouse listener which lisens for a mouse move
     */
     body.addEventListener('mousemove', function (e) {
-        var mouse = myState.getMouse(e),
-            left = 22,
-            right = t - 38;
+        var mouse = myState.getMouse(e);
         
         //If the mouse has something slected move that selection
         if (myState.dragging) {
