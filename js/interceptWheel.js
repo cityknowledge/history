@@ -71,3 +71,27 @@ IGNORE JSLINT WARNINGS FOR THIS SECTION OF CODE.
     }
 
 })(window, document);
+
+window.addEventListener('load', function(){
+ 
+    var startX,
+        startY,
+        dist,
+        elapsedTime,
+        startTime
+ 
+    window.addEventListener('touchstart', function(e){
+        var touchobj = e.changedTouches[0]
+        dist = 0
+        startX = touchobj.pageX
+        startY = touchobj.pageY
+        e.preventDefault()
+    }, false)
+ 
+    window.addEventListener('touchmove', function(e){
+        var touchobj = e.changedTouches[0]
+        dist = touchobj.pageX - startX // get total dist traveled by finger while in contact with surface
+        window.scrollBy(-dist, 0);
+    }, false)
+ 
+}, false);

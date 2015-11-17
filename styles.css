@@ -290,6 +290,7 @@ body {
     color: rgba(256, 256, 256, 1);
     background-color: rgba(64, 64, 64, 1);
     overflow-y: hidden;
+    overflow-x: hidden;
     margin-left: 8px;
 }
 

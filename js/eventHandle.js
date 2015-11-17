@@ -311,7 +311,7 @@ function CanvasState(canvas) {
             my;
         
         mx = e.clientX - 8;
-        my = e.clientY - y + parseInt($("div#timeAxis").css("bottom"), 10) + parseInt($("canvas").css("height"), 10) + 21;
+        my = e.clientY - y + parseInt($("div#timeAxis").css("bottom"), 10) + parseInt($("canvas").css("height"), 10);
         
         //return location
         return {x: mx, y: my};
