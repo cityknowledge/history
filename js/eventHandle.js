@@ -106,6 +106,7 @@ function CanvasState(canvas) {
     this.dragging = false;
     this.dragleft = false;
     this.dragright = false;
+    this.dragboth = false;
     //keep track of current selection
     this.selection = null;
     //location of drag change x
@@ -162,6 +163,15 @@ function CanvasState(canvas) {
             myState.selection = mySel;
             myState.valid = false;
             return;
+        } else if (new Rectangle(myState.left.x, 60, myState.right.x - myState.left.x, 20).contains(mx, my)) {
+            // Between the two bottom sliders
+            myState.dragoffx = mx - myState.left.x;
+            myState.dragoffy = my - myState.left.y;
+            myState.dragboth = true;
+            relocate = false;
+            myState.selection = {orig: 0, x: 0};
+            myState.valid = false;
+            return;
         } else {
             // No selection has occurred
             
@@ -187,7 +197,7 @@ function CanvasState(canvas) {
     Mouse listener which lisens for a mouse move
     */
     body.addEventListener('mousemove', function (e) {
-        var mouse = myState.getMouse(e);
+        var mouse = myState.getMouse(e), temp1, temp2;
         
         //If the mouse has something slected move that selection
         if (myState.dragging) {
@@ -236,6 +246,32 @@ function CanvasState(canvas) {
             }
             
             myState.rightSide = Math.ceil(sliderPosToYear(myState.selection.x));
+        } else if (myState.dragboth) {
+            myState.selection.x = mouse.x - myState.dragoffx;
+            myState.valid = false;
+            temp1 = myState.selection.x + myState.selection.orig;
+            temp2 = myState.selection.x + myState.selection.orig + myState.right.x - myState.left.x;
+            
+            if (temp1 < left - (myState.left.w / 2)) {
+                temp1 = left - (myState.left.w / 2);
+            }
+            if (temp2 < left - (myState.right.w / 2)) {
+                temp2 = left - (myState.right.w / 2);
+            }
+            if (temp2 > right - (myState.right.w / 2)) {
+                temp2 = right - myState.right.w / 2;
+            }
+            if (temp1 > right - (myState.left.w / 2)) {
+                temp1 = right - (myState.left.w / 2);
+            }
+            
+            myState.right.x = temp2;
+            myState.left.x = temp1;
+            
+            
+            myState.leftSide = Math.floor(sliderPosToYear(myState.left.x));
+            myState.rightSide = Math.ceil(sliderPosToYear(myState.right.x));
+            console.log(myState.left.x, myState.leftSide, myState.right.x, myState.rightSide);
         }
         
     }, true);
@@ -248,6 +284,7 @@ function CanvasState(canvas) {
         myState.dragging = false;
         myState.dragleft = false;
         myState.dragright = false;
+        myState.dragboth = false;
         relocate = true;
         
         
