@@ -271,7 +271,6 @@ function CanvasState(canvas) {
             
             myState.leftSide = Math.floor(sliderPosToYear(myState.left.x));
             myState.rightSide = Math.ceil(sliderPosToYear(myState.right.x));
-            console.log(myState.left.x, myState.leftSide, myState.right.x, myState.rightSide);
         }
         
     }, true);
