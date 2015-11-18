@@ -191,6 +191,14 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             return {Content: $scope.search};
         }
     };
+    
+    $scope.bookmark = function () {
+        if (!window.hasBookmark("default", $scope.events[$scope.ipevent].UID)) {
+            window.addBookmark("default", $scope.events[$scope.ipevent].UID);
+        } else {
+            window.remBookmark("default", $scope.events[$scope.ipevent].UID);
+        }
+    };
 });
 
 window.controllerLoad();

@@ -24,6 +24,7 @@
         <script src="js/eventHandle.js"></script>
         <script src="js/animations.js"></script>
         <script src="js/search.js"></script>
+        <script src="js/bookmarks.js"></script>
         <!--
         <script src="js/min.js"></script>
         -->
@@ -106,6 +107,7 @@
                 <img src="icon/pright.png" data-ng-mouseup="barAct('next');">
                 <img src="icon/pleft.png" data-ng-mouseup="barAct('last');">
                 <img src="icon/pback.png" data-ng-mouseup="barAct('back');">
+                <img src="icon/bookmark.png" data-ng-mouseup="bookmark();">
             </div>
             <div id="infopanel">
             </div>
@@ -161,10 +163,7 @@
             These filters are used to filter the content which is shown above, in the CONTENT PANEL COMPONENT.
             -->
             Scegli un filtro: <select data-ng-model="filter" onchange="colorArticles();">
-                <!--/Nessun Filtro-->   <option value="" selected>Nessun Filtro</option>
-                <!--War/Guerra-->       <option value="War">Guerra</option>
-                <!--Italy/Italia-->     <option value="Italy">Italia</option>
-                <!--Balkans/Balcani-->  <option value="Balkans">Balcani</option>
+                <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
             </select>
             <!--END FILTER DROPDOWN-->
             
