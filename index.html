@@ -23,6 +23,7 @@
         <script src="js/windowattr.js"></script>
         <script src="js/eventHandle.js"></script>
         <script src="js/animations.js"></script>
+        <script src="js/search.js"></script>
         <!--
         <script src="js/min.js"></script>
         -->
@@ -81,7 +82,7 @@
         -->
         <div id=timeline>
             <!--For each event in the JSON file, display it iff its content matches the search, if present, and its taglist (Filter) contains the selected filter, if any.-->
-            <article data-ng-if="zoom >= 1" data-ng-repeat="event in events | filter:search | filter: {Filter: filter}" data-ng-click="displayInfoPanel(mouseEventToPanelNo($event));obscure();">
+            <article id="art" data-ng-if="zoom >= 1" data-ng-repeat="event in events | filter:getFilter()" data-ng-click="displayInfoPanel(mouseEventToPanelNo($event));obscure();">
                 <!--Display the content's date (or year) and its title-->       <h2 data-ng-bind="(event.Date + &quot; &quot; + event.Year) +  (event.Title ? ': ' + event.Title : '')"></h2>
                 <!--Display the event's content iff no image-->                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml((event.Content.length > 200) ? event.Content.substr(0, 200) + &quot;...&quot; : event.Content)"></p>
                 <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-repeat="image in event.Image" data-ng-attr-src="image" data-ng-attr-alt="event.Title">
@@ -168,7 +169,12 @@
             <!--END FILTER DROPDOWN-->
             
             <!--SEARCH BOX-->
-            Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event)" onchange="colorArticles();">
+            Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" onchange="colorArticles();" id="search">
+            Cerca per: <select onchange="searchchange();" id="searchtype">
+                <option value="" selected>Tutto</option>
+                <option value="Content">Testo</option>
+                <option value="Year">Anno</option>
+            </select>
         </div>
         <!--END CONTROL BUTTONS COMPONENT-->
         

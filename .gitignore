@@ -14,4 +14,3 @@
 # Word Documents, Except for the todo list
 *.docx
 *.doc
-!ToDo.docx

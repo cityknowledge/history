@@ -18,6 +18,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.filter = "";
     $scope.ipevent = 0;
     $scope.timePeriods = timePeriods;
+    $scope.ftype = "";
     
     // HTTP Request for the JSON data.
     $http.get("data.json").success(function (response) {
@@ -78,8 +79,6 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     
     $scope.displayInfoPanel = function (panelNo) {
         
-        console.log(panelNo);
-        
         var events,
             event,
             image,
@@ -92,8 +91,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         $scope.ipevent = panelNo;
         
         events = $scope.events;
-        events = $scope.search ? $filter('filter')(events, $scope.search) : events;
-        events = $scope.filter ? $filter('filter')(events, {Filter: $scope.filter}) : events;
+        events = $scope.search ? $filter('filter')(events, $scope.getFilter()) : events;
         
         if (panelNo < 1) {
             event = events[0];
@@ -181,6 +179,17 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         $scope.callback(function () {
             $scope.scrollToYear(period.start);
         });
+    };
+    
+    $scope.getFilter = function () {
+        switch ($scope.ftype) {
+        case "":
+            return $scope.search;
+        case "Year":
+            return {Year: $scope.search};
+        case "Text":
+            return {Content: $scope.search};
+        }
     };
 });
 
