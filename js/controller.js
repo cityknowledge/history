@@ -203,6 +203,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.getGroups = function () {
         return window.getGroups();
     };
+    
+    $scope.hasBookmark = function (a, b) {
+        return window.hasBookmark(a, b);
+    };
 });
 
 window.controllerLoad();

@@ -86,6 +86,7 @@
             <article id="art" data-ng-if="zoom >= 1" data-ng-repeat="event in events | filter:getFilter()" data-ng-click="displayInfoPanel(mouseEventToPanelNo($event));obscure();">
                 <!--Display the content's date (or year) and its title-->       <h2 data-ng-bind="(event.Date + &quot; &quot; + event.Year) +  (event.Title ? ': ' + event.Title : '')"></h2>
                 <!--Display the event's content iff no image-->                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml((event.Content.length > 200) ? event.Content.substr(0, 200) + &quot;...&quot; : event.Content)"></p>
+                <!--Display a bookmark if there are bookmarks-->                <img class="bookmark" data-ng-if="hasBookmark(filter, event.UID)" src="icon/bookmarkimg.png">
                 <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-repeat="image in event.Image" data-ng-attr-src="image" data-ng-attr-alt="event.Title">
             </article>
             <article data-ng-if="zoom === 0" data-ng-repeat="period in timePeriods" style="background-color: rgba({{period.color.r}}, {{period.color.g}}, {{period.color.b}}, .5);" data-ng-click="zoomWithDest(period);">

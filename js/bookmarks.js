@@ -79,6 +79,9 @@ function hasBookmark(group, uid) {
     }
     var i,
         history = JSON.parse(localStorage.history);
+    if (!history.bookmarks[group]) {
+        return false;
+    }
     for (i = 0; i < history.bookmarks[group].length; i++) {
         if (history.bookmarks[group][i] === uid) {
             return true;
