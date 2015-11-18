@@ -69,7 +69,7 @@ function getGroups() {
         // no local storage, no groups
         return [];
     }
-    return JSON.parse(localStorage.history).bookmarks.keys;
+    return Object.keys(JSON.parse(localStorage.history).bookmarks);
 }
 
 function hasBookmark(group, uid) {

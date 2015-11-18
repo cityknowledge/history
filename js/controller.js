@@ -199,6 +199,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             window.remBookmark("default", $scope.events[$scope.ipevent].UID);
         }
     };
+    
+    $scope.getGroups = function () {
+        return window.getGroups();
+    };
 });
 
 window.controllerLoad();
