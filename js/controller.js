@@ -19,6 +19,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.ipevent = 0;
     $scope.timePeriods = timePeriods;
     $scope.ftype = "";
+    $scope.tp = window.ri;
     
     // HTTP Request for the JSON data.
     // $http.get("data.json").success(function (response) {

@@ -90,7 +90,7 @@
         -->
         <div id=timeline class=fadein>
             <!--For each event in the JSON file, display it iff its content matches the search, if present, and its taglist (Filter) contains the selected filter, if any.-->
-            <article id="art" data-ng-if="zoom >= 1" data-ng-repeat="event in events | filter:getFilter()" data-ng-click="displayInfoPanel(mouseEventToPanelNo($event));obscure();">
+            <article id="art" data-ng-if="(zoom >= 1)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events | filter:getFilter()" data-ng-click="displayInfoPanel(mouseEventToPanelNo($event));obscure();">
                 <!--Display the content's date (or year) and its title-->       <h2 data-ng-bind="(event.Date + &quot; &quot; + event.Year) +  (event.Title ? ': ' + event.Title : '')"></h2>
                 <!--Display the event's content iff no image-->                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml((event.Content.length > 200) ? event.Content.substr(0, 200) + &quot;...&quot; : event.Content)"></p>
                 <!--Display a bookmark if there are bookmarks-->                <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
@@ -170,15 +170,15 @@
             Specifies for the inclusion of the filter dropdown, including the different options located in it.
             These filters are used to filter the content which is shown above, in the CONTENT PANEL COMPONENT.
             -->
-            Scegli un gruppo di segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}else{colorArticles();}" id="bkmk">
+            Gruppo di segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}else{colorArticles();}" id="bkmk">
                 <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
                 <option value="new">Nuovo...</option>
             </select>
             <!--END FILTER DROPDOWN-->
-            
+            Segnalibri soli: <input type="checkbox" data-ng-model="bkonly">
             <!--SEARCH BOX-->
             Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" onchange="colorArticles();" id="search">
-            Cerca per: <select onchange="searchchange();" id="searchtype">
+            Cerca in: <select onchange="searchchange();" id="searchtype">
                 <option value="" selected>Tutto</option>
                 <option value="Content">Testo</option>
                 <option value="Year">Anno</option>
