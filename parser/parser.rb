@@ -64,12 +64,17 @@ File.open('AD_no_image_text.txt', 'r:utf-8').each_line do |line|
 
     #puts $current_year
 
+  #if we see a ... it is just content
+  elsif(/\A\.{3}/.match(line))
+    $current_event.content = $current_event.content + line[0, line.length - 1] + ' '
+
+
+
   #At this point we have found content that is part of an event
 
   #Event start with a date
   elsif(/\A\.(?<date>((\d+\s{1}\w+)|(\w+))):/.match(line))
     data = /\A\.(?<date>((\d+\s{1}\w+)|(\w+))):/.match(line)
-    $current_event
     $events << $current_event
     $current_event = Event.new($current_year)
     $current_event.date = data[:date]
@@ -99,11 +104,6 @@ File.open('AD_no_image_text.txt', 'r:utf-8').each_line do |line|
   #mid event content
   else
 
-    if((!/([[:graph:]]+)\s([[:graph:]]+)\s([[:graph:]]+)\Z/.match(line)))
-      #puts $current_page
-      #puts line
-    end
-
     $current_event.content = $current_event.content + line[0, line.length - 1] + ' '
 
   end
@@ -118,13 +118,14 @@ $events << $current_event
 out_file = File.new('JSON.txt', 'w:utf-8')
 num = 0
 out_file.print "{\n"
-out_file.print '  "events: ["' + "\n"
+out_file.print '  "events" : [' + "\n"
 
 $events.each do |event|
   out_file.print "    {\n"
   out_file.print '      "Year" : "' + event.year + %Q[",\n]
   out_file.print '      "Date" : "' + event.date + %Q[",\n]
-  out_file.print '      "Content" : "' + event.content + %Q[",\n]
+  cur_content = event.content.gsub(/- /, '')
+  out_file.print '      "Content" : "' + cur_content  + %Q[",\n]
   out_file.print '      "Location" : "' + %Q[",\n]
   out_file.print '      "Filter" : "' + %Q[",\n]
   out_file.print '      "UID" : "' + num.to_s + %Q[",\n]  
