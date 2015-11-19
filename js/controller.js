@@ -1,4 +1,4 @@
-/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods*/
+/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods, Firebase*/
 /*jslint plusplus: true, es5: true*/
 
 var app = new angular.module('appTimeline', []);
@@ -6,7 +6,7 @@ var maxZoom = 2;
 app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate, $sce, $timeout) {
     'use strict';
     
-    var state;
+    var state, FB;
     
     window.$scope = $scope;
     window.$filter = $filter;
@@ -34,19 +34,21 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     var authData = FB.getAuth();
     FB.createUser({email: 'test@xx.com', password: '123'}, function(e){alert('ok');})
     */
-    var FB = new Firebase("https://venicedata.firebaseio.com");
-    FB.child('history').on('value', function(snapshot){
-      $scope.events = [];
-      snapshot.forEach(function(value){
-        var item = value.val();
-        var key = value.key();
-        item['key'] = key;
-        $scope.events.push(item);
-      });
-      state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
-      state.drawState();
-      document.getElementById("axis").canvasState = state;
-      $("#load").css("display", "none");
+    FB = new Firebase("https://venicedata.firebaseio.com");
+    FB.child('history').on('value', function (snapshot) {
+        $scope.events = [];
+        snapshot.forEach(function (value) {
+            var item = value.val(),
+                key = value.key();
+            item.key = key;
+            $scope.events.push(item);
+        });
+        state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
+        state.drawState();
+        document.getElementById("axis").canvasState = state;
+        $("#load").css("display", "none");
+        $(".fadein").css("display", "block");
+        $(".slidein").css("display", "block");
     });
     // ref.orderByChild("height").on("child_added", function(snapshot) {
     //   console.log(snapshot.key() + " was " + snapshot.val().height + " meters tall");
@@ -216,10 +218,13 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
     
     $scope.bookmark = function () {
-        if (!window.hasBookmark("default", $scope.events[$scope.ipevent].UID)) {
-            window.addBookmark("default", $scope.events[$scope.ipevent].UID);
+        var events = $scope.events;
+        events = $scope.search ? $filter('filter')(events, $scope.getFilter()) : events;
+        
+        if (!window.hasBookmark("default", events[$scope.ipevent - 1].key)) {
+            window.addBookmark("default", events[$scope.ipevent - 1].key);
         } else {
-            window.remBookmark("default", $scope.events[$scope.ipevent].UID);
+            window.remBookmark("default", events[$scope.ipevent - 1].key);
         }
     };
     
@@ -230,6 +235,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.hasBookmark = function (a, b) {
         return window.hasBookmark(a, b);
     };
+    
+    $scope.getFirstEventShown = window.getFirstEventShown;
+    
+    $scope.getTimePeriod = window.getTimePeriodFromYear;
 });
 
 window.controllerLoad();

@@ -328,6 +328,9 @@ a {
     position: fixed;
     top: 10px;
     z-index: 1;
+}
+
+.slidein {
     -webkit-animation-name: gt_slidein;
     -webkit-animation-duration: 2s;
     -moz-animation-name: gt_slidein;
@@ -336,6 +339,7 @@ a {
     -o-animation-duration: 2s;
     animation-name: gt_slidein;
     animation-duration: 2s;
+    display: none;
 }
 
 iframe {
@@ -364,7 +368,8 @@ div {
     padding: 0;
 }
 
-div#nav, div#timeline, div#timeAxis, div#buttons, h1 {
+.fadein {
+    display: none;
     -webkit-animation-name: fadein;
     -webkit-animation-duration: 2s;
     -moz-animation-name: fadein;
@@ -580,4 +585,11 @@ div#infopanel {
 div#infopanel h2 {
     padding-top: 0;
     margin-top: 0;
+}
+
+.timeperiod {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    font-size: 20pt;
 }

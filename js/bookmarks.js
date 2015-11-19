@@ -33,7 +33,7 @@ function remBookmark(group, uid) {
     }
     for (i = 0; i < history.bookmarks[group].length; i++) {
         if (history.bookmarks[group][i] === uid) {
-            history.bookmarks[group].splice(i, 0);
+            history.bookmarks[group].splice(i, 1);
             if (history.bookmarks[group].length === 0) {
                 delete history.bookmarks[group];
                 if (history.bookmarks[group]) {

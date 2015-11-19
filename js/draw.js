@@ -21,7 +21,7 @@ function draw(canvasState) {
         vctr = 25,
         hctr = right / 2;
         
-    
+    ctx.font = "17pt Serif";
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 	ctx.beginPath();
     ctx.strokeStyle = "#ffffff";
@@ -33,12 +33,18 @@ function draw(canvasState) {
     drawTicks(left, right - 22, ctx, top, bottom, canvasState);
     
     // Start drawing the second bar.
-    top = 40;
+    top = 50;
     
     for (x = 0; x < timePeriods.length; x++) {
         start = yearToSliderPos(timePeriods[x].start);
         rect = new Rectangle(start, top + 20, yearToSliderPos(timePeriods[x].end) - start + 1, bottom, "rgb(" + timePeriods[x].color.r + "," + timePeriods[x].color.g + "," + timePeriods[x].color.b + ")");
         rect.drawRect(ctx);
+    }
+    
+    ctx.fillStyle = "#ffffff";
+    
+    for (x = 400; x <= 2015; x += 100) {
+        drawTick(yearToSliderPos(x), x, ctx, top, top + 20);
     }
     
     
@@ -76,7 +82,6 @@ function drawTick(x, lbl, ctx, top, bottom) {
     ctx.stroke();
     
     lsize = ctx.measureText(lbl);
-    ctx.font = "12pt Arial";
-    ctx.fillText(lbl, x - (lsize.width / 2), 15);
+    ctx.fillText(lbl, x - (lsize.width / 2), top + 15);
 
 }

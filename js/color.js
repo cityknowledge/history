@@ -7,8 +7,7 @@ function colorArticles() {
         var x, color,
             articles = $("article"),
             events = window.$scope.events;
-        events = window.$scope.search ? window.$filter('filter')(events, window.$scope.search) : events;
-        events = window.$scope.filter ? window.$filter('filter')(events, {Filter: window.$scope.filter}) : events;
+        events = window.$scope.search ? window.$filter('filter')(events, window.$scope.getFilter()) : events;
 
         for (x = 0; x < events.length; x++) {
             color = getTimePeriodFromYear(events[x].Year).color;

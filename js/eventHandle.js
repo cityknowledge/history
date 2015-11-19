@@ -99,9 +99,9 @@ function CanvasState(canvas) {
     /*
     Initialize all rectangles here, could be an arrray of sliders instead of one
     */
-    this.slider = new Rectangle(30, 15, 10, 20, "rgba(256, 256, 256, 1)");
-    this.left = new Rectangle(0, 60, 10, 20, "rgba(256, 256, 256, 1)");
-    this.right = new Rectangle(t - 100, 60, 10, 20, "rgba(256, 256, 256, 1)");
+    this.slider = new Rectangle(0, 15, 10, 20, "rgba(256, 256, 256, 1)");
+    this.left = new Rectangle(0, 60, 10, 30, "rgba(256, 256, 256, 1)");
+    this.right = new Rectangle(t - 22, 60, 10, 30, "rgba(256, 256, 256, 1)");
     //keep trac of if something is being dragged
     this.dragging = false;
     this.dragleft = false;

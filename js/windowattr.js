@@ -1,4 +1,4 @@
-/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, colorArticles, realSliderPosToSliderPos*/
+/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, colorArticles, realSliderPosToSliderPos, getTimePeriodFromYear*/
 /*jslint plusplus: true*/
 
 // Global scroll delta.
@@ -54,12 +54,22 @@ window.onresize = function () {
 
 window.onscroll = function () {
     'use strict';
-    var npos = yearToSliderPos(realSliderPosToSliderPos(parseInt(window.$scope.events[getFirstEventShown()].Year, 10)));
+    var time, events,
+        npos = yearToSliderPos(realSliderPosToSliderPos(parseInt(window.$scope.events[getFirstEventShown()].Year, 10)));
     
     // Move the slider to npos.
     if (relocate) {
         document.getElementById("axis").canvasState.slider.x = npos;
         document.getElementById("axis").canvasState.valid = false;
+    }
+    
+    events = window.$scope.events;
+    events = window.$scope.search ? window.$filter('filter')(events, window.$scope.getFilter()) : events;
+    
+    time = getTimePeriodFromYear(events[getFirstEventShown()].Year);
+    if (window.$scope.tp !== time) {
+        window.$scope.tp = time;
+        window.$scope.$apply();
     }
     
     return true;
