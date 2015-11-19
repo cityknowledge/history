@@ -21,13 +21,36 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.ftype = "";
     
     // HTTP Request for the JSON data.
-    $http.get("data.json").success(function (response) {
-        $scope.events = response.events;
-        state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
-        state.drawState();
-        document.getElementById("axis").canvasState = state;
-        $("#load").css("display", "none");
+    // $http.get("data.json").success(function (response) {
+    //     $scope.events = response.events;
+    //     state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
+    //     state.drawState();
+    //     document.getElementById("axis").canvasState = state;
+    //     $("#load").css("display", "none");
+    // });
+    /*
+    var FB = new Firebase("https://venicedata.firebaseio.com");
+    FB.authWithPassword({email: 'minni@osti.co', password: 'tomaso'}, function(e){alert('logged');})
+    var authData = FB.getAuth();
+    FB.createUser({email: 'test@xx.com', password: '123'}, function(e){alert('ok');})
+    */
+    var FB = new Firebase("https://venicedata.firebaseio.com");
+    FB.child('history').on('value', function(snapshot){
+      $scope.events = [];
+      snapshot.forEach(function(value){
+        var item = value.val();
+        var key = value.key();
+        item['key'] = key;
+        $scope.events.push(item);
+      });
+      state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
+      state.drawState();
+      document.getElementById("axis").canvasState = state;
+      $("#load").css("display", "none");
     });
+    // ref.orderByChild("height").on("child_added", function(snapshot) {
+    //   console.log(snapshot.key() + " was " + snapshot.val().height + " meters tall");
+    // });
     
     $scope.zoomIn = function () {
         $("#load").css("display", "block");
