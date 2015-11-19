@@ -89,3 +89,32 @@ function hasBookmark(group, uid) {
     }
     return false;
 }
+
+function newGroup() {
+    'use strict';
+    var history,
+        name = window.prompt("Nome", "");
+    
+    if (!name) {
+        return false;
+    }
+    if (localStorage.history) {
+        history = JSON.parse(localStorage.history);
+    } else {
+        history = {};
+    }
+    
+    if (!history.bookmarks) {
+        history.bookmarks = {};
+    }
+    if (!history.bookmarks[name]) {
+        history.bookmarks[name] = [];
+    } else {
+        window.alert("C'è già un gruppo con questo nome!");
+        return false;
+    }
+    
+    localStorage.setItem("history", JSON.stringify(history));
+    
+    window.$scope.$apply();
+}

@@ -221,10 +221,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         var events = $scope.events;
         events = $scope.search ? $filter('filter')(events, $scope.getFilter()) : events;
         
-        if (!window.hasBookmark("default", events[$scope.ipevent - 1].key)) {
-            window.addBookmark("default", events[$scope.ipevent - 1].key);
+        if (!window.hasBookmark($scope.filter, events[$scope.ipevent - 1].key)) {
+            window.addBookmark($scope.filter, events[$scope.ipevent - 1].key);
         } else {
-            window.remBookmark("default", events[$scope.ipevent - 1].key);
+            window.remBookmark($scope.filter, events[$scope.ipevent - 1].key);
         }
     };
     
@@ -239,6 +239,8 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.getFirstEventShown = window.getFirstEventShown;
     
     $scope.getTimePeriod = window.getTimePeriodFromYear;
+    
+    $scope.newGroup = function () {window.newGroup(); };
 });
 
 window.controllerLoad();

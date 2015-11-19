@@ -170,9 +170,9 @@
             Specifies for the inclusion of the filter dropdown, including the different options located in it.
             These filters are used to filter the content which is shown above, in the CONTENT PANEL COMPONENT.
             -->
-            Scegli un gruppo di segnalibri: <select data-ng-model="filter" onchange="colorArticles();">
+            Scegli un gruppo di segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}else{colorArticles();}" id="bkmk">
                 <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
-                <option value="new" onclick="newGroup()">Nuovo...</option>
+                <option value="new">Nuovo...</option>
             </select>
             <!--END FILTER DROPDOWN-->
             
