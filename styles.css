@@ -410,15 +410,15 @@ div#timeAxis {
     z-index: 3;
 }
 
-div#nav a {
+div#nav a, div#func a {
     padding-left: 10px;
     padding-right: 10px;
     width: 32px;
     height: 32px;
-    display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    cursor: pointer;
 }
 
 #obscure {
@@ -452,22 +452,42 @@ div#nav a {
 
 #wpilink {
     background-image: url("icon/wpilogo.png");
+    display: inline-block;
 }
 
 #vpclink {
     background-image: url("icon/vpclogo.png");
+    display: inline-block;
 }
 
 #teamlink {
     background-image: url("icon/chronlogo.png");
+    display: inline-block;
 }
 
 #selink {
     background-image: url("icon/selogo.png");
+    display: inline-block;
 }
 
 #credlink {
     background-image: url("icon/aboutlogo.png");
+    display: inline-block;
+}
+
+#loginb {
+    background-image: url("icon/loginb.png");
+    display: inline-block;
+}
+
+#logoutb {
+    background-image: url("icon/logoutb.png");
+    display: none;
+}
+
+#addeventb {
+    background-image: url("icon/aeb.png");
+    display: none;
 }
 
 div.arrow {
@@ -592,4 +612,44 @@ div#infopanel h2 {
     top: 40px;
     left: 0;
     font-size: 20pt;
+}
+
+#func {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#loginform {
+    display: none;
+    background-color: rgba(256, 256, 256, 1);
+    width: 300px;
+    height: 150px;
+    padding-left: 20px;
+    z-index: 12;
+    position:fixed;
+    right: 0;
+    top: 0;
+    color: rgba(0, 0, 0, 1);
+}
+
+#addeventform {
+    display: none;
+    background-color: rgba(256, 256, 256, 1);
+    width: 60%;
+    height: 80%;
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    color: rgba(0, 0, 0, 1);
+    padding-left: 20px;
+    z-index: 12;
+}
+
+form#login table, form#addevent table {
+    border: none;
+}
+
+form#login table tr td:first-child, form#addevent table tr td:first-child {
+    text-align: right;
 }

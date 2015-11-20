@@ -28,6 +28,8 @@
         <script src="js/animations.js"></script>
         <script src="js/search.js"></script>
         <script src="js/bookmarks.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/addevent.js"></script>
         <!--
         <script src="js/min.js"></script>
         -->
@@ -77,9 +79,17 @@
             <!--VPC-->                  <a href="http://veniceprojectcenter.org" target="_blank" id="vpclink" title="Venice Project Center"></a>
             <!--Supernova Edizioni-->   <a href="http://www.supernovaedizioni.it" target="_blank" id="selink" title="Supernova Edizioni srl"></a>
             <!--Our Team-->             <a href="https://sites.google.com/site/ve15chron/" target="_blank" id="teamlink" title="Website del nostro team"></a>
-			<!--Credits/Help-->         <a href="crediti.html" target="pop" id="credlink" title="Crediti"></a>
         </div>
         <!--END NAVBAR COMPONENT-->
+
+        <!--BEGIN FUNCTIONBAR COMPONENT-->
+        <div id=func class=fadein>
+            <!--Login-->                <a id="loginb" onclick="openLogin();"></a>
+            <!--Add event-->            <a id="addeventb" onclick="openAEF();"></a>
+            <!--Logout-->               <a id="logoutb" onclick="logout();"></a>
+            <!--Credits/Help-->         <a href="crediti.html" target="_blank" id="credlink" title="Crediti"></a>
+        </div>
+        <!--END FUNCTIONBAR COMPONENT-->
         
         <!--BEGIN CONTENT PANEL COMPONENT
         Specifies the content panel layout and design.
@@ -121,6 +131,45 @@
             </div>
         </div>
         <!--END INFOPANEL COMPONENT-->
+        
+        <!--BEGIN FORMPANEL COMPONENTS-->
+        <div class="formpanel" id="loginform">
+            <div class="bar">
+                <img src="icon/pclose.png" onmouseup="closeLogin();">
+            </div>
+            <div>
+                <form id="login">
+                    <table>
+                        <tr><td>Username:</td><td><input type="text" name="user" id="login_user"></td></tr>
+                        <tr><td>Password:</td><td><input type="password" name="pass" id="login_pass"></td></tr>
+                    </table>
+                    <input type="submit" onclick="login();closeLogin();">
+                </form>
+            </div>
+        </div>
+        
+        <div class=formpanel id=addeventform>
+            <div class=bar>
+                <img src="icon/pclose.png" onmouseup="closeAEF();">
+            </div>
+            <div>
+                <h2>Aggiungere un nuovo evento</h2>
+                <p>Per modificare un evento che già esiste, preghiamo di usare il API Firebase in <a href="http://venicedata.firebaseio.com/history" target="_blank">venicedata.firebaseio.com/history</a></p>
+                <form id=addevent>
+                    <table>
+                        <tr><td>*Anno:</td><td><input type="number" value=2015 name="Year" id="ae_Year" required></td></tr>
+                        <tr><td>Mese:</td><td><input type="text" value="Gennaio" name=Month id=ae_Month></td></tr>
+                        <tr><td>Data:</td><td><input type=number value=21 name=Date id=ae_Date></td></tr>
+                        <tr><td>*Testo:</td><td><textarea rows=6 cols=50 name=Content id=ae_Content required></textarea></td></tr>
+                        <tr><td>*Citazione (Chicago):</td><td><input type=text name=Citation id=ae_Citation required></td></tr>
+                        <tr><td>Immagine:</td><td><input type=file name=Image id=ae_Image></td></tr>
+                        <tr><td>Web link:</td><td><textarea rows=6 cols=50 name=Links id=ae_Links>Uno per linea</textarea></td></tr>
+                    </table>
+                    <input type=submit onclick="addEvent();"
+                </form>
+            </div>
+        </div>
+        <!--END FORMPANEL COMPOENTS-->
         
         <!--BEGIN SCROLL ARROW COMPONENTS
         Specifies for the positioning and functionality of the arrows displayed to either side of the conent panel component.
