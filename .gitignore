@@ -14,3 +14,7 @@
 # Word Documents, Except for the todo list
 *.docx
 *.doc
+
+# Emacs Backup files
+\#*\#
+*~

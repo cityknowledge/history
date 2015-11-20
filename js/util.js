@@ -3,20 +3,32 @@
 
 function yearToSliderPos(year) {
     'use strict';
-    var ystart = parseInt(window.$scope.events[0].Year, 10),
-        ylen = parseInt(window.$scope.events[window.$scope.events.length - 1].Year, 10) - ystart,
-        sstart = 22,
-        slen = document.getElementById("axis").width - 72;
+    var events, ystart, ylen, sstart, slen;
+    if (typeof window.$scope.getFilter !== undefined) {
+        events = window.$filter('filter')(window.$scope.events, window.$scope.getFilter());
+    } else {
+        events = window.$scope.events;
+    }
+    ystart = 400;
+    ylen = 2015 - ystart;
+    sstart = 22;
+    slen = document.getElementById("axis").width - 72;
     
     return (year - ystart) / ylen * slen + sstart;
 }
 
 function sliderPosToYear(sliderPos) {
     'use strict';
-    var ystart = parseInt(window.$scope.events[0].Year, 10),
-        ylen = parseInt(window.$scope.events[window.$scope.events.length - 1].Year, 10) - ystart,
-        sstart = 22,
-        slen = document.getElementById("axis").width - 72;
+    var events, ystart, ylen, sstart, slen;
+    if (typeof window.$scope.getFilter !== undefined) {
+        events = window.$filter('filter')(window.$scope.events, window.$scope.getFilter());
+    } else {
+        events = window.$scope.events;
+    }
+    ystart = 400;
+    ylen = 2015 - ystart;
+    sstart = 22;
+    slen = document.getElementById("axis").width - 72;
     return (sliderPos - sstart) / slen * ylen + ystart;
 }
 
