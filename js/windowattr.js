@@ -69,7 +69,7 @@ window.onscroll = function () {
     time = getTimePeriodFromYear(events[getFirstEventShown()].Year);
     if (window.$scope.tp !== time) {
         window.$scope.tp = time;
-        window.$scope.$apply();
+        document.getElementById("timeperiod").innerHTML = time.title + " (" + time.start + " - " + time.end + ")";
     }
     
     return true;
