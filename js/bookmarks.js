@@ -1,4 +1,4 @@
-/*jslint plusplus: true*/
+/*jshint browser: true*/
 /*global $*/
 
 function addBookmark(group, uid) {

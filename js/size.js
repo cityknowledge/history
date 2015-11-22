@@ -1,5 +1,6 @@
-/*jslint plusplus: true*/
+/*jshint browser: true*/
 /*global $*/
+
 function size() {
     'use strict';
     

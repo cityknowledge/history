@@ -1,5 +1,5 @@
+/*jshint browser: true*/
 /*global $, shouldScroll: true*/
-/*jslint plusplus: true*/
 
 function hover(id) {
     'use strict';

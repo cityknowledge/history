@@ -1,4 +1,4 @@
-/*jslint plusplus: true*/
+/*jshint browser: true*/
 /*global Rectangle, $, timePeriods, yearToSliderPos*/
 
 var drawTick, drawTicks;

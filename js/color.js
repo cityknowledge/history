@@ -1,5 +1,5 @@
+/*jshint browser: true*/
 /*global $, getTimePeriodFromYear*/
-/*jslint plusplus: true*/
 
 function colorArticles() {
     'use strict';

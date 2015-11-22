@@ -1,3 +1,5 @@
+/*jshint browser: true*/
+
 var shouldScroll = true;
 
 function scroll(event) {

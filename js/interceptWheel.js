@@ -4,10 +4,8 @@ This code is written by Mozilla Contributors, and is available under the CC-0 li
 */
 
 /*
-IGNORE JSLINT WARNINGS FOR THIS SECTION OF CODE.
-*/
-
-/*jslint nomen: true*/
+IGNORE JHLINT WARNINGS FOR THIS SECTION OF CODE.
+*//*jshint ignore: start*/
 
 (function (window, document) {
     'use strict';

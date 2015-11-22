@@ -1,5 +1,5 @@
+/*jshint browser: true*/
 /*global $*/
-/*jslint plusplus: true*/
 
 function yearToSliderPos(year) {
     'use strict';

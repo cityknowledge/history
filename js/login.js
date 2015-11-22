@@ -1,3 +1,4 @@
+/*jshint browser: true*/
 /*global Firebase, $*/
 
 function loggedIn() {

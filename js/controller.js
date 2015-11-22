@@ -1,5 +1,5 @@
+/*jshint browser: true*/
 /*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods, Firebase*/
-/*jslint plusplus: true, es5: true*/
 
 var app = new angular.module('appTimeline', []);
 var maxZoom = 2;

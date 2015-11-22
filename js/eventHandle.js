@@ -1,4 +1,4 @@
-/*jslint plusplus: true*/
+/*jshint browser: true*/
 /*global $, draw, scrollToYear, sliderPosToYear, relocate:true, sliderPosToRealSliderPos*/
 
 //http://simonsarris.com/blog/510-making-html5-canvas-useful

@@ -1,5 +1,5 @@
+/*jshint browser: true*/
 /*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, colorArticles, realSliderPosToSliderPos, getTimePeriodFromYear*/
-/*jslint plusplus: true*/
 
 // Global scroll delta.
 var scrollVal = 0;
@@ -31,8 +31,8 @@ window.controllerLoad = function () {
     
     // Repeating function that scrolls by scroll delta every five milliseconds.
     window.setInterval(function () {
-        window.scrollBy(scrollVal * 4, 0);
-    }, 20);
+        window.scrollBy(scrollVal * 3, 0);
+    }, 15);
 };
 
 // Function called when the window is resized.

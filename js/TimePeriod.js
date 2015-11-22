@@ -1,5 +1,3 @@
-/*jslint plusplus: true*/
-
 var timePeriods = [];
 
 function TimePeriod(title, start, end, color) {
