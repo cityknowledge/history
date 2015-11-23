@@ -279,6 +279,19 @@
 
 /* END UNOBSCURE ANIMATION */
 
+/* BEGIN COMPRESS ANIMATION */
+
+@keyframes compress {
+    0% {
+        
+    }
+    100% {
+        
+    }
+}
+
+/* END COMPRESS ANIMATION */
+
 /* Styling information */
 html, body {
     height: 100%;
@@ -605,6 +618,10 @@ div#infopanel {
 div#infopanel h2 {
     padding-top: 0;
     margin-top: 0;
+}
+
+div#infopanel p {
+    font-size: 12pt;
 }
 
 .timeperiod {

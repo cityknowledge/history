@@ -50,6 +50,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         $("#load").css("display", "none");
         $(".fadein").css("display", "block");
         $(".slidein").css("display", "block");
+        window.handleParams();
     });
     // ref.orderByChild("height").on("child_added", function(snapshot) {
     //   console.log(snapshot.key() + " was " + snapshot.val().height + " meters tall");
@@ -143,6 +144,8 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         string += "<h2>" + (event.Date + " " + event.Year) + (event.Title ? (": " + event.Title + "</h2>") : "</h2>");
         
         string += "<p>" + event.Content + "</p>";
+        
+        string += "<a href=\"?event=" + event.key + "\">Link to this event</a>";
         
         document.getElementById("infopanel").innerHTML = string;
         

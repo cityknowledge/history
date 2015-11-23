@@ -1,5 +1,5 @@
 /*jshint browser: true*/
-/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, colorArticles, realSliderPosToSliderPos, getTimePeriodFromYear*/
+/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, colorArticles, realSliderPosToSliderPos, getTimePeriodFromYear, panelNoToXPos*/
 
 // Global scroll delta.
 var scrollVal = 0;
@@ -73,6 +73,34 @@ window.onscroll = function () {
     }
     
     return true;
+};
+
+window.handleParams = function () {
+    var param, name, val, x,
+        params = window.location.search.replace("?", ""),
+        parlist = params.split("&");
+    
+    if (params) {
+        parlist.forEach( function (param) {
+            name = param.split("=")[0];
+            val = param.split("=")[1];
+            switch (name) {
+            case "event":
+                for (x = 0; x < window.$scope.events.length; x++) {
+                    if (window.$scope.events[x].key === val) {
+                        window.$scope.zoom = 3;
+                        window.scrollTo(panelNoToXPos(x + 1), 0);
+                        window.$scope.$apply();
+                        window.$scope.displayInfoPanel(x + 1);
+                        break;
+                    }
+                }
+                break;
+            default:
+                break;
+            }
+        });
+    }
 };
 
 // Adds the scroll function as a wheel listener.
