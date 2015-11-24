@@ -6,11 +6,13 @@ class Entry
     @caption = ''
     @content = ''
     @page = ''
+    @id = 0
   end
 
   attr_accessor :caption
   attr_accessor :content
   attr_accessor :page
+  attr_accessor :id
 
 end
 
@@ -22,6 +24,10 @@ $current_entry = Entry.new()
 $current_page = '8'
 
 $line = '0'
+$current_id = 0
+
+#flip which lets the algorithm check for dates on multiple lines
+$name_flip = false
 
 
 #begin parse algorithm
@@ -42,13 +48,35 @@ File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
   elsif(/\A[A-Z]\Z/.match(line))
     #do nothing
 
+  #keep serching content to see if entry is a name
+  elsif($name_flip)
+    if(/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line))
+      $name_flip = false
+      $current_entry.caption = $current_entry.caption + ' ' + 'name'
+      puts line + ':' + $current_entry.caption
+    elsif(/\./.match(line))
+      $name_flip = false
+    end
+
   #Entry start
   elsif(/\A@(?<caption>([^,]+)),/.match(line))
     data = /\A@(?<caption>([^,]+)),/.match(line)
     #save the old entry
     $entries << $current_entry
+    $current_id += 1
     $current_entry = Entry.new()
-    $current_entry.caption = data[:caption]
+    $current_entry.id = $current_id
+    #Look for special entries, people and family names
+    if(/\w+,\sfamiglia/.match(line))
+      $current_entry.caption = data[:caption] + ' ' + 'famiglia'
+    elsif (/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line))
+      $current_entry.caption = data[:caption] + ' ' + 'name'
+    else
+      #this may still be a name that dosnt have its dob - dod so we flip the name flip to true
+      $name_flip = true
+      $current_entry.caption = data[:caption]
+    end
+
     $current_entry.page = $current_page
 
     #if the line contains more information than just the date it is content.
@@ -74,6 +102,7 @@ $entries << $current_entry
 
 #now print the result of parsing
 out_file = File.new('JSON_EN.txt', 'w:utf-8')
+link_file = File.new('Link_File.txt', 'w:utf-8')
 num = 0
 out_file.print "{\n"
 out_file.print '  "entries" : [' + "\n"
@@ -81,6 +110,18 @@ out_file.print '  "entries" : [' + "\n"
 $entries.each do |entry|
   out_file.print "    {\n"
   out_file.print '      "Caption" : "' + entry.caption + %Q[",\n]
+  if(entry.id < 10)
+    link_file.print  '    ' + entry.id.to_s + ':' + entry.caption + %Q[\n]
+  elsif(entry.id < 100)
+    link_file.print  '   ' + entry.id.to_s + ':' + entry.caption + %Q[\n]
+  elsif(entry.id < 1000)
+    link_file.print  '  ' + entry.id.to_s + ':' + entry.caption + %Q[\n]
+  elsif(entry.id < 10000)
+    link_file.print  ' ' + entry.id.to_s + ':' + entry.caption + %Q[\n]
+  else
+    link_file.print  entry.id.to_s + ':' + entry.caption + %Q[\n]
+  end
+
   out_file.print '      "Content" : "' + entry.content + %Q[",\n]
   out_file.print %q[    "Citation" : "Distefano, Giovanni. Enciclopedia storica di Venezia. Venice, Italy: Supernova Edizioni srl, 2011. ] + entry.page + %Q["\n]
   out_file.print "    },\n"
@@ -90,3 +131,5 @@ end
 out_file.print "  ]\n"
 out_file.print '}'
 
+out_file.close
+link_file.close
