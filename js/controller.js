@@ -111,7 +111,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             image,
             i,
             toRet,
-            string = "";
+            string = "",
+            content = "",
+            content2 = "",
+            val, pos;
         
         shouldScroll = false;
         
@@ -131,7 +134,12 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             toRet = true;
         }
         
-        $("div#infopanel_wrap").css("display", "block");
+        $("div#infopanel_wrap")
+            .css("display", "block")
+            .css("-webkit-animation-name", "fadein")
+            .css("-moz-animation-name", "fadein")
+            .css("-o-animation-name", "fadein")
+            .css("animation-name", "fadein");
         
         if (event.Image) {
             string += "<div style=\"float:right;width:50%;display:block;\">";
@@ -143,9 +151,27 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         
         string += "<h2>" + (event.Date + " " + event.Year) + (event.Title ? (": " + event.Title + "</h2>") : "</h2>");
         
-        string += "<p>" + event.Content + "</p>";
+        content = event.Content;
         
-        string += "<a href=\"?event=" + event.key + "\">Link to this event</a>";
+        while (content && content.indexOf("@") >= 0) {
+            pos = content.indexOf("@");
+            content2 += content.substr(0, pos);
+            content = content.substr(pos + 1);
+            pos = content.indexOf("#");
+            val = content.substr(0, pos);
+            content2 += "<a style='cursor: pointer' onclick=\"openEncycl(&quot;" + val + "&quot;)\">" + val + "</a>";
+            content = content.substr(pos + 1);
+        }
+        
+        if (content) {
+            content2 += content;
+        }
+        
+        string += "<p>" + content2 + "</p>";
+        
+        string += "<p>Citazione: " + event.Citation + "</p>";
+        
+        string += "<a href=\"?event=" + event.key + "\">Collegamento permanente a quest&#8217;evento</a>";
         
         document.getElementById("infopanel").innerHTML = string;
         
@@ -174,13 +200,13 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             $scope.hideInfoPanel();
             break;
         case "last":
-            $scope.hideInfoPanel();
+            $scope.hideInfoPanel(true);
             if (!$scope.displayInfoPanel($scope.ipevent - 1)) {
                 $scope.ipevent++;
             }
             break;
         case "next":
-            $scope.hideInfoPanel();
+            $scope.hideInfoPanel(true);
             if (!$scope.displayInfoPanel($scope.ipevent + 1)) {
                 $scope.ipevent--;
             }
@@ -245,6 +271,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.getTimePeriod = window.getTimePeriodFromYear;
     
     $scope.newGroup = function () {window.newGroup(); };
+    
+    $scope.getText = function (text) {
+        return ((text.length > 200) ? text.substr(0, 200) + "..." : text).replace(/@|#/g, "");
+    };
 });
 
 window.controllerLoad();

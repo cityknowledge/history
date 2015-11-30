@@ -11,7 +11,11 @@ function colorArticles() {
 
         for (x = 0; x < events.length; x++) {
             color = getTimePeriodFromYear(events[x].Year).color;
-            articles[x].setAttribute("style", "background-color: rgba(" + color.r + "," + color.g + "," + color.b + ",.5);");
+            if (articles[x]) {
+                articles[x].setAttribute("style", "background-color: rgba(" + color.r + "," + color.g + "," + color.b + ",.5);");
+            } else {
+                break;
+            }
         }
 
     }

@@ -31,6 +31,7 @@
         <script src="js/login.js"></script>
         <script src="js/addevent.js"></script>
         <script src="js/cite.js"></script>
+        <script src="js/encycl.js"></script>
         <!--
         <script src="js/min.js"></script>
         -->
@@ -67,7 +68,7 @@
         <h1 class="fadein">Storia di Venezia</h1>
         
         <!--BEGIN TIME PERIOD COMPONENT-->
-        <p class="timeperiod" data-ng-if="zoom !== 0" id="timeperiod">L'Impero Romano (400 - 538)</p>
+        <p class="timeperiod" data-ng-if="zoom !== 0" id="timeperiod">L&#8217;Impero Romano (400 - 538)</p>
         <!--END TIME PERIOD COMPONENT-->
         
         <!--BEGIN NAVBAR COMPONENT
@@ -101,7 +102,7 @@
             <!--For each event in the JSON file, display it iff its content matches the search, if present, and its taglist (Filter) contains the selected filter, if any.-->
             <article id="art" data-ng-if="(zoom >= 1)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events | filter:getFilter()" data-ng-click="displayInfoPanel(mouseEventToPanelNo($event));obscure();">
                 <!--Display the content's date (or year) and its title-->       <h2 data-ng-bind="(event.Date + &quot; &quot; + event.Year) +  (event.Title ? ': ' + event.Title : '')"></h2>
-                <!--Display the event's content iff no image-->                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml((event.Content.length > 200) ? event.Content.substr(0, 200) + &quot;...&quot; : event.Content)"></p>
+                <!--Display the event's content iff no image-->                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content))"></p>
                 <!--Display a bookmark if there are bookmarks-->                <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
                 <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-repeat="image in event.Image" data-ng-attr-src="image" data-ng-attr-alt="event.Title">
             </article>
@@ -131,6 +132,16 @@
         </div>
         <!--END INFOPANEL COMPONENT-->
         
+        <!--BEGIN ENCYCLOPAEDIA COMPONENT-->
+        <div id="encycl_wrap">
+            <div class="bar">
+                <img src="icon/pclose.png" onmouseup="enclanim();">
+            </div>
+            <div id="encycl">
+            </div>
+        </div>
+        <!--END ENCYCLOPAEDIA COMPONENT-->
+        
         <!--BEGIN FORMPANEL COMPONENTS-->
         <div class="formpanel" id="loginform">
             <div class="bar">
@@ -153,7 +164,7 @@
             </div>
             <div>
                 <h2>Aggiungere un nuovo evento</h2>
-                <p>Per modificare un evento che già esiste, preghiamo di usare il API Firebase in <a href="http://venicedata.firebaseio.com/history" target="_blank">venicedata.firebaseio.com/history</a></p>
+                <p>Per modificare un evento che gi&agrave; esiste, si preghiamo d&#8217;usare l&#8217;API Firebase in <a href="http://venicedata.firebaseio.com/history" target="_blank">venicedata.firebaseio.com/history</a></p>
                 <form id=addevent>
                     <table>
                         <tr><td>*Anno:</td><td><input type="number" value=2015 name="Year" id="ae_Year" required></td></tr>

@@ -119,6 +119,46 @@
 
 /* END FADEIN ANIMATION */
 
+/* BEGIN FADEOUT ANIMATION */
+
+@-webkit-keyframes fadeout {
+    0%, 50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fadeout {
+    0%, 50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes fadeout {
+    0%, 50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    0%, 50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* END FADEOUT ANIMATION */
+
 /* BEGIN GTSLIDEIN ANIMATION */
 
 @-webkit-keyframes gt_slidein {
@@ -281,16 +321,99 @@
 
 /* BEGIN COMPRESS ANIMATION */
 
-@keyframes compress {
+@-webkit-keyframes compress {
     0% {
-        
+        width: 80%;
+        left: 10%;
     }
     100% {
-        
+        width: 42%;
+        left: 5%;
+    }
+}
+
+@-moz-keyframes compress {
+    0% {
+        width: 80%;
+        left: 10%;
+    }
+    100% {
+        width: 42%;
+        left: 5%;
+    }
+}
+
+@-o-keyframes compress {
+    0% {
+        width: 80%;
+        left: 10%;
+    }
+    100% {
+        width: 42%;
+        left: 5%;
+    }
+}
+    
+@keyframes compress {
+    0% {
+        width: 80%;
+        left: 10%;
+    }
+    100% {
+        width: 42%;
+        left: 5%;
     }
 }
 
 /* END COMPRESS ANIMATION */
+
+/* BEGIN UNCOMPRESS ANIMATION */
+
+@-webkit-keyframes uncompress {
+    0% {
+        width: 42%;
+        left: 5%;
+    }
+    100% {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+@-moz-keyframes uncompress {
+    0% {
+        width: 42%;
+        left: 5%;
+    }
+    100% {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+@-o-keyframes uncompress {
+    0% {
+        width: 42%;
+        left: 5%;
+    }
+    100% {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+@keyframes uncompress {
+    0% {
+        width: 42%;
+        left: 5%;
+    }
+    100% {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+/* END UNCOMPRESS ANIMATION */
 
 /* Styling information */
 html, body {
@@ -331,16 +454,17 @@ body {
     background-image: url("icon/zoomout.png");
 }
 
-a {
-    color: rgba(96, 96, 256, 1);
-    z-index: 6;
-}
-
 #google_translate_element {
     height: 0px;
     position: fixed;
     top: 10px;
     z-index: 1;
+}
+
+iframe {
+    visibility: hidden !important;
+    display: none !important;
+    height: 0px !important
 }
 
 .slidein {
@@ -355,10 +479,16 @@ a {
     display: none;
 }
 
-iframe {
-    visibility: hidden !important;
-    display: none !important;
-    height: 0px !important
+.fadein {
+    display: none;
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 2s;
+    -moz-animation-name: fadein;
+    -moz-animation-duration: 2s;
+    -o-animation-name: fadein;
+    -o-animation-duration: 2s;
+    animation-name: fadein;
+    animation-duration: 2s;
 }
 
 h1 {
@@ -376,21 +506,14 @@ h1 {
     font-size: 50px;
 }
 
+a {
+    color: rgba(96, 96, 256, 1);
+    z-index: 6;
+}
+
 div {
     margin: 0;
     padding: 0;
-}
-
-.fadein {
-    display: none;
-    -webkit-animation-name: fadein;
-    -webkit-animation-duration: 2s;
-    -moz-animation-name: fadein;
-    -moz-animation-duration: 2s;
-    -o-animation-name: fadein;
-    -o-animation-duration: 2s;
-    animation-name: fadein;
-    animation-duration: 2s;
 }
 
 div#nav, div#buttons, div#timeAxis {
@@ -461,6 +584,9 @@ div#nav a, div#func a {
     display: none;
     color: rgba(0, 0, 0, 1);
     padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #wpilink {
@@ -550,12 +676,16 @@ div#timeline {
     top: 130px;
     left: 60px;
     padding-right: 60px;
-    box-sizing: padding-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     z-index: 2;
 }
 
 div#timeline article {
     display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 500px;
     color: rgba(256, 256, 256, 1);
@@ -577,6 +707,7 @@ article {
     margin-right: 10px;
     white-space: normal;
     vertical-align: text-top;
+    position: relative;
 }
 
 img.ipimg {
@@ -610,7 +741,6 @@ div#load {
 }
 
 div#infopanel {
-    font-size: 200%;
     overflow: auto;
     height: calc(100% - 52px);
 }
@@ -618,10 +748,6 @@ div#infopanel {
 div#infopanel h2 {
     padding-top: 0;
     margin-top: 0;
-}
-
-div#infopanel p {
-    font-size: 12pt;
 }
 
 .timeperiod {
@@ -669,4 +795,39 @@ form#login table, form#addevent table {
 
 form#login table tr td:first-child, form#addevent table tr td:first-child {
     text-align: right;
+}
+
+div#encycl_wrap {
+    position: fixed;
+    background-color: rgba(256, 256, 256, 1);
+    right: 5%;
+    top: 10%;
+    height: 80%;
+    width: 42%;
+    display: none;
+    z-index: 12;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bookmark {
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    width: 64px;
+    height: 64px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
 }

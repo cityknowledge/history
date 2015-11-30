@@ -88,6 +88,7 @@ window.handleParams = function () {
             case "event":
                 for (x = 0; x < window.$scope.events.length; x++) {
                     if (window.$scope.events[x].key === val) {
+                        window.$scope.obscure();
                         window.$scope.zoom = 3;
                         window.scrollTo(panelNoToXPos(x + 1), 0);
                         window.$scope.$apply();
