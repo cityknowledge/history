@@ -1,5 +1,9 @@
 #File which defines the Atlas Parsing Algorithm
+#//i (case insensative)
 
+$line = 0
+
+$location_test_file = File.new('LOC_test.txt', 'w:utf-8')
 
 class Event
   def initialize(year = '0')
@@ -10,6 +14,28 @@ class Event
     @page = ''
   end
 
+#function which looks for location data
+def locationSearch()
+  #$locations.each do |place|
+    loc_match = /(?<location>(Chiesa di(\s[[:upper:]]\S+)+))/
+    if(loc_match.match(content))
+        m_data = loc_match.match(content)
+        @location = m_data[:location]
+        
+        $location_test_file.print year
+        $location_test_file.print "\n"
+        $location_test_file.print m_data[:location]
+        $location_test_file.print "\n"
+          #puts year
+          #puts location
+        #break
+      end
+  #end
+    if(location.length > 0)
+        $line += 1
+    end
+end    
+    
   attr_accessor :year
   attr_accessor :date
   attr_accessor :content
@@ -24,8 +50,8 @@ end
 #Mercato di Rialto
 #Gerusalemme
 #Ponte di Rialto
-#Chiesa dell’Ascensione o Santa Maria
-#all’Ospedale degli Incurabili
+#Chiesa dellâ€™Ascensione o Santa Maria
+#allâ€™Ospedale degli Incurabili
 #castello di Blois(lowercase)
 #Palazzo Ducale
 #Ca' (palace)
@@ -37,42 +63,69 @@ end
 #torre del Porto del Lido (tower)
 #Arsenale
 #An array of strings
+$connectors = [
+    /di/,
+    /del/,
+    /della/,
+    /dei/,
+    /degli/,
+    /delle/,
+    /dello/,
+    /dell'/,
+    /il/,
+    /e/,
+    /da/,
+    /a/
+    
+    ]
+
 $locations = [
-    /Monastero/,
-    /monastero/,
-    /Basilica/,
-    /basilica/,
-    /Mercato/,
-    /mercato/,
-    /gerusalemme/,
-    /Gerusalemme/,
-    /Ponte/,
-    /ponte/,
-    /Chiesa/,
-    /chiesa/,
-    /Ospedale/,
-    /ospedale/,
-    /castello/,
-    /Castello/,
-    /Palazzo/,
-    /palazzo/,
-    /Ca'/,
-    /ca'/,
-    /Piazza/,
-    /piazza/,
-    /valle/,
-    /Valle/,
-    /rive/,
-    /Rive/,
-    /Comacchio/,
-    /isola/,
-    /Isola/,
-    /torre/,
-    /Torre/,
-    /Arsenale/,
-    /arsenale/,
-    /Canale/,
-    /canale/
+    
+    /Chiesa di.+[[:upper:]][[:alpha:]]+/,
+    /Chiesa del/,
+    /Chiesa della/,
+    /Chiesa dei/,
+    /Chiesa degli/,
+    /Chiesa delle/,
+    /Chiesa dello/,
+    /Chiesa dell'/
+    
+        
+    #/Monastero/,
+    #/monastero/,
+    #/Basilica/,
+    #/basilica/,
+    #/Mercato/,
+    #/mercato/,
+    #/gerusalemme/,
+    #/Gerusalemme/,
+    #/Ponte/,
+    #/ponte/,
+    #/Chiesa/,
+    #/chiesa/,
+    #/Ospedale/,
+    #/ospedale/,
+    #/castello/,
+    #/Castello/,
+    #/Palazzo/,
+    #/palazzo/,
+    #/Ca'/,
+    #/ca'/,
+    #/Piazza/,
+    #/piazza/,
+    #/valle/,
+    #/Valle/,
+    #/rive/,
+    #/Rive/,
+    #/Comacchio/,
+    #/isola/,
+    #/Isola/,
+    #/torre/,
+    #/Torre/,
+    #/Arsenale/,
+    #/arsenale/,
+    #/Canale/,
+    #/canale/
 ]
 
 
@@ -83,7 +136,7 @@ $current_event = Event.new
 $current_page = '23'
 $current_year = '400'
 
-$line = 0
+
 $line_flip = false
 
 #Boolean to control ratchet miss page numberings
@@ -91,18 +144,6 @@ $flip = true
 
 #begin parse algorithm
 File.open('AD_no_image_text.txt', 'r:utf-8').each_line do |line|
-
-  $locations.each do |place|
-    if(place.match(line))
-      if($line_flip == false)
-        $current_event.location =  place.to_s[7, place.to_s.length - 8]
-        puts $current_event.location
-        $line += 1
-        $line_flip = true
-      end
-
-    end
-  end
 
   #if a number that is the only text on a line
   if(/\A\d+\Z/.match(line))
@@ -144,9 +185,13 @@ File.open('AD_no_image_text.txt', 'r:utf-8').each_line do |line|
 
   #Event start with a date
   elsif(/\A\.(?<date>((\d+\s{1}\w+)|(\w+))):/.match(line))
-    $line_flip = false
     data = /\A\.(?<date>((\d+\s{1}\w+)|(\w+))):/.match(line)
+      
+    #look at old event content for location data
+      $current_event.locationSearch
+    #save old event before creating next event
     $events << $current_event
+      
     $current_event = Event.new($current_year)
     $current_event.date = data[:date]
     $current_event.page = $current_page
@@ -163,7 +208,10 @@ File.open('AD_no_image_text.txt', 'r:utf-8').each_line do |line|
 
   #Event start without a date
   elsif(/\A\./.match(line))
-    $line_flip = false
+      
+    #look at old event content for location data
+     $current_event.locationSearch
+    #save old event before creating next event
     $events << $current_event
     $current_event = Event.new($current_year)
     $current_event.page = $current_page
@@ -186,6 +234,8 @@ puts "Hits: " + $line.to_s
 #add last event ot event list
 $events << $current_event
 
+
+
 #now print the result of parsing
 out_file = File.new('JSON.txt', 'w:utf-8')
 num = 0
@@ -200,7 +250,8 @@ $events.each do |event|
   out_file.print '      "Content" : "' + cur_content  + %Q[",\n]
   out_file.print '      "Location" : "' + event.location + %Q[",\n]
   out_file.print '      "Filter" : "' + %Q[",\n]
-  out_file.print '      "UID" : "' + num.to_s + %Q[",\n]  
+  out_file.print '      "UID" : "' + num.to_s + %Q[",\n]
+  out_file.print '      "Count" : "0",' + %Q[\n]
   out_file.print %Q[      "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. ] + event.page + %Q["\n]
   out_file.print "    },\n"
     num += 1
@@ -208,4 +259,7 @@ end
 
 out_file.print "  ]\n"
 out_file.print '}'
+
+out_file.close
+$location_test_file.close
 
