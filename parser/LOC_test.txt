@@ -65,13 +65,13 @@ Chiesa di S. Zaccaria,
 870
 Chiesa di S. Basilio,
 881
-Chiesa di S. Cornelio
+Chiesa di S. Cornelio e Cipriano
 887
 Chiesa di S. Eufemia,
 894
 Chiesa di S. Marco
 900
-Chiesa di S. Filippo
+Chiesa di S. Filippo e Giacomo
 916
 Chiesa di S. Benedetto
 917
@@ -203,7 +203,7 @@ Chiesa di S. Marciliano
 1134
 Chiesa di S. Fantin
 1138
-Chiesa di S. Simeone
+Chiesa di S. Simeone e Giuda
 1140
 Chiesa di S. Stefano
 1154
@@ -239,7 +239,7 @@ Chiesa di S. Giustina
 1212
 Chiesa di S. Pietro
 1222
-Chiesa di S. Biagio
+Chiesa di S. Biagio e Cataldo. La
 1222
 Chiesa di S.M. Maddalena
 1223
@@ -267,25 +267,25 @@ Chiesa di S. Antonio Abate. Nel
 1247
 Chiesa di S. Giovanni
 1249
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo,
 1255
 Chiesa di S. Saba
 1257
 Chiesa di S. Saba,
 1260
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo;
 1268
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo:
 1268
 Chiesa di San Marco
 1274
 Chiesa di S. Giorgio Maggiore.
 1275
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1280
 Chiesa di S. Lucia
 1289
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Lo
 1292
 Chiesa di S. Geremia,
 1294
@@ -309,7 +309,7 @@ Chiesa di S. Vio
 1311
 Chiesa di S. Domenico
 1312
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Nel
 1315
 Chiesa di S. Marta
 1316
@@ -341,17 +341,17 @@ Chiesa di S. Antonio
 1348
 Chiesa di S. Vidal
 1355
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo,
 1357
 Chiesa di S. Giovanni
 1361
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Per
 1362
 Chiesa di S. Bernardo
 1364
 Chiesa di S. Nicolò
 1368
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1369
 Chiesa di S. Giovanni Evangelista
 1371
@@ -371,7 +371,7 @@ Chiesa di Sant’Antonio
 1382
 Chiesa di S. Stefano.
 1382
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Il
 1385
 Chiesa di S. Marco,
 1388
@@ -381,7 +381,7 @@ Chiesa di S. Alvise
 1389
 Chiesa di S. Procolo,
 1390
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1392
 Chiesa di S. Maria
 1393
@@ -393,7 +393,7 @@ Chiesa di S. Tomà
 1396
 Chiesa di S. Sebastiano
 1400
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1401
 Chiesa di S. Francesco
 1412
@@ -401,13 +401,13 @@ Chiesa di S.M.
 1418
 Chiesa di S. Gioacchino
 1423
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Nel
 1423
 Chiesa di S. Rocco
 1425
 Chiesa di S. Girolamo
 1449
-Chiesa di S. Cosma
+Chiesa di S. Cosma e Damiano
 1451
 Chiesa di S. Giorgio
 1453
@@ -417,7 +417,7 @@ Chiesa di S. Zaccaria. Nel
 1455
 Chiesa di S. Stefano
 1462
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Il
 1463
 Chiesa di S. Marco
 1463
@@ -433,13 +433,13 @@ Chiesa di S. Nicolò
 1474
 Chiesa di S. Marina. Il
 1476
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Il
 1478
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1479
 Chiesa di San Marco,
 1485
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1486
 Chiesa di S.M.
 1486
@@ -491,13 +491,13 @@ Chiesa di S. Giobbe,
 1516
 Chiesa di S. Giovanni Grisostomo.
 1521
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Gli
 1523
 Chiesa di S. Antonio
 1527
 Chiesa di S. Giobbe
 1527
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo,
 1528
 Chiesa di S. Nicola
 1532
@@ -505,17 +505,17 @@ Chiesa di S. Giovanni Grisostomo,
 1535
 Chiesa di S.M. Nova.
 1539
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Poi
 1539
 Chiesa di S. Giorgio
 1540
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1542
 Chiesa di Santa Maria Formosa.
 1545
 Chiesa di S. Antonino
 1549
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1549
 Chiesa di S. Marcuola,
 1552
@@ -525,7 +525,7 @@ Chiesa di S. Sebastiano.
 1555
 Chiesa di S. Angelo
 1556
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo; Madonna
 1558
 Chiesa di S. Domenico. Bambina
 1559
@@ -549,7 +549,7 @@ Chiesa di S. Giovanni Evangelista.
 1574
 Chiesa di San Marco»
 1577
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1577
 Chiesa di S. Zulian
 1577
@@ -611,9 +611,9 @@ Chiesa di S.M.
 1613
 Chiesa di S. Marco,
 1616
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo. Il
 1617
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1618
 Chiesa di S. Lorenzo
 1618
@@ -643,7 +643,7 @@ Chiesa di S. Marco,
 1631
 Chiesa di S. Maria Nova
 1638
-Chiesa di Gesù
+Chiesa di Gesù e Maria
 1644
 Chiesa di S. Marco
 1645
@@ -665,7 +665,7 @@ Chiesa di S. Giobbe
 1659
 Chiesa di S.M. Gloriosa
 1660
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1669
 Chiesa di S. Tito
 1675
@@ -695,7 +695,7 @@ Chiesa di S. Teresa
 1694
 Chiesa di S. Stefano. Al
 1700
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo,
 1703
 Chiesa di S. Gallo
 1703
@@ -703,7 +703,7 @@ Chiesa di S.M.
 1704
 Chiesa di S. Pantalon
 1705
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1708
 Chiesa di S. Giovanni
 1709
@@ -713,7 +713,7 @@ Chiesa di S. Stae.
 1712
 Chiesa di S.M.
 1716
-Chiesa di S. Vito
+Chiesa di S. Vito e Modesto
 1721
 Chiesa di S. Marco
 1722
@@ -721,7 +721,7 @@ Chiesa di S. Basso
 1728
 Chiesa di S. Andrea
 1732
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1733
 Chiesa di S. Marco.
 1737
@@ -739,7 +739,7 @@ Chiesa di S. Barnaba.
 1753
 Chiesa di S. Giovanni Novo
 1754
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1754
 Chiesa di S. Marco
 1756
@@ -753,7 +753,7 @@ Chiesa di S. Servolo,
 1760
 Chiesa di Santa Maria Nova.
 1762
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1763
 Chiesa di S. Stae.
 1773
@@ -763,7 +763,7 @@ Chiesa di S.M.
 1778
 Chiesa di Santa Maria
 1778
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1779
 Chiesa di S. Trovaso
 1783
@@ -787,7 +787,7 @@ Chiesa di S. Giorgio
 1806
 Chiesa di S.M.
 1806
-Chiesa di S. Marco
+Chiesa di S. Marco e Andrea
 1806
 Chiesa di S. Giustina
 1807
@@ -821,7 +821,7 @@ Chiesa di S. Angelo
 1838
 Chiesa di S. Cipriano
 1848
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo,
 1851
 Chiesa di S. Geremia
 1853
@@ -833,9 +833,9 @@ Chiesa di Santa Maria
 1861
 Chiesa di S. Lucia
 1867
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1867
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1871
 Chiesa di S. Paternian
 1873
@@ -849,11 +849,11 @@ Chiesa di S. Giovanni Elemosinario
 1904
 Chiesa di S. Pietro
 1907
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1916
 Chiesa di S. Maria Formosa,
 1918
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo.
 1918
 Chiesa di S. Marco
 1919
@@ -881,11 +881,11 @@ Chiesa di S. Elena,
 1963
 Chiesa di S. Gerardo Sagredo,
 1971
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1971
 Chiesa di S. Ignazio
 1971
-Chiesa di S. Giovanni
+Chiesa di S. Giovanni e Paolo
 1976
 Chiesa di S. Francesco
 1984

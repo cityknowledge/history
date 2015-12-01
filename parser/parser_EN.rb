@@ -66,20 +66,24 @@ File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
     $current_id += 1
     $current_entry = Entry.new()
     $current_entry.id = $current_id
-    #Look for special entries, people and family names
+        
+    #Look for special entries~
+    #look for family names
     if(/\w+,\sfamiglia/.match(line))
       $current_entry.caption = data[:caption] + ' ' + 'famiglia'
+        #look for people with a date of birth, death, or both within brackets
     elsif (/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line))
       $current_entry.caption = data[:caption] + ' ' + 'name'
     else
-      #this may still be a name that dosnt have its dob - dod so we flip the name flip to true
+        #this may still be a name that dosnt have its dob/dod
+        #flip the name flip to true check next line dob/dod
       $name_flip = true
       $current_entry.caption = data[:caption]
     end
 
     $current_entry.page = $current_page
 
-    #if the line contains more information than just the date it is content.
+    #if the line contains more information than just the tag it is content.
     if(line.length - (data[:caption].length + 3) > 0)
       tmp_content = line[data[:caption].length + 3, (line.length - (data[:caption].length + 4))] + ' '
       tmp_content = tmp_content.slice(0,1).capitalize + tmp_content.slice(1..-1)

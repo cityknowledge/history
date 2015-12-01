@@ -17,7 +17,7 @@ class Event
 #function which looks for location data
 def locationSearch()
   #$locations.each do |place|
-    loc_match = /(?<location>(Chiesa di(\s[[:upper:]]\S+)+))/
+    loc_match = /(?<location>(Chiesa di(\s[[:upper:]]\S+|\se(?=\s[[:upper:]]))+))/
     if(loc_match.match(content))
         m_data = loc_match.match(content)
         @location = m_data[:location]
@@ -71,11 +71,9 @@ $connectors = [
     /degli/,
     /delle/,
     /dello/,
-    /dell'/,
+    /dell’/,
     /il/,
-    /e/,
-    /da/,
-    /a/
+    /e/
     
     ]
 
@@ -251,7 +249,7 @@ $events.each do |event|
   out_file.print '      "Location" : "' + event.location + %Q[",\n]
   out_file.print '      "Filter" : "' + %Q[",\n]
   out_file.print '      "UID" : "' + num.to_s + %Q[",\n]
-  out_file.print '      "Count" : "0",' + %Q[\n]
+  out_file.print '      "Count" : 0,' + %Q[\n]
   out_file.print %Q[      "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. ] + event.page + %Q["\n]
   out_file.print "    },\n"
     num += 1
