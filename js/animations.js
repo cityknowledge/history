@@ -36,6 +36,9 @@ function unobscure() {
 
 function hideInfoPanel(doNotUndisplay) {
     'use strict';
+    if ($("#sticky").css("display") !== "none") {
+        $("#sticky").css("display", "none");
+    }
     $("div#infopanel_wrap, div#encycl_wrap")
         .css("-webkit-animation-name", "fadeout")
         .css("-moz-animation-name", "fadeout")

@@ -1,5 +1,5 @@
 /* jshint browser: true */
-/* global Firebase, enopanim */
+/* global $, Firebase, enopanim */
 
 function openEncycl(artname) {
     var content,
@@ -9,5 +9,7 @@ function openEncycl(artname) {
         document.getElementById("encycl").innerHTML = "<h2>" + snapshot.Title + "</h2>" + "<p>" + snapshot.Text + "</p>";
     });
     
-    enopanim();
+    if ($("div#encycl_wrap").css("display") === "none") {
+        enopanim();
+    }
 }

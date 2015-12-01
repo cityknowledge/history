@@ -32,6 +32,7 @@
         <script src="js/addevent.js"></script>
         <script src="js/cite.js"></script>
         <script src="js/encycl.js"></script>
+        <script src="js/sticky.js"></script>
         <!--
         <script src="js/min.js"></script>
         -->
@@ -124,13 +125,18 @@
                 <img src="icon/pclose.png" data-ng-mouseup="barAct('close');">
                 <img src="icon/pright.png" data-ng-mouseup="barAct('next');">
                 <img src="icon/pleft.png" data-ng-mouseup="barAct('last');">
-                <img src="icon/pback.png" data-ng-mouseup="barAct('back');">
                 <img src="icon/bookmark.png" data-ng-mouseup="bookmark();">
+                <img src="icon/sticky.png" onmouseup="popsticky();">
             </div>
             <div id="infopanel">
             </div>
         </div>
         <!--END INFOPANEL COMPONENT-->
+        
+        <!--BEGIN STICKY COMPONENT-->
+        <div id="sticky">
+        </div>
+        <!--END STICKY COMPONENT-->
         
         <!--BEGIN ENCYCLOPAEDIA COMPONENT-->
         <div id="encycl_wrap">

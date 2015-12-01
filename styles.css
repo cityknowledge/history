@@ -831,3 +831,22 @@ a {
 a:hover {
     text-decoration:underline;
 }
+
+#sticky {
+    color: rgba(0, 0, 0, 1);
+    display: none;
+    position: fixed;
+    border-color: rgba(0, 0, 0, 1);
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(256, 256, 256, 1);
+    width: 600px;
+    height: 500px;
+    left: calc(50vw - 300px);
+    top: calc(50vh - 250px);
+    z-index: 20;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
