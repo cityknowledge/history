@@ -741,6 +741,7 @@ div#load {
 }
 
 div#infopanel {
+    font-size: 120%;
     overflow: auto;
     height: calc(100% - 52px);
 }
@@ -787,6 +788,7 @@ div#infopanel h2 {
     color: rgba(0, 0, 0, 1);
     padding-left: 20px;
     z-index: 12;
+    overflow-y: auto;
 }
 
 form#login table, form#addevent table {
