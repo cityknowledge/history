@@ -27,12 +27,12 @@
         <script src="js/eventHandle.js"></script>
         <script src="js/animations.js"></script>
         <script src="js/search.js"></script>
-        <script src="js/bookmarks.js"></script>
+        <script src="js/bookmarks2.js"></script>
         <script src="js/login.js"></script>
         <script src="js/addevent.js"></script>
         <script src="js/cite.js"></script>
         <script src="js/encycl.js"></script>
-        <script src="js/sticky.js"></script>
+        <script src="js/sticky2.js"></script>
         <!--
         <script src="js/min.js"></script>
         -->
@@ -125,8 +125,7 @@
                 <img src="icon/pclose.png" data-ng-mouseup="barAct('close');">
                 <img src="icon/pright.png" data-ng-mouseup="barAct('next');">
                 <img src="icon/pleft.png" data-ng-mouseup="barAct('last');">
-                <img src="icon/bookmark.png" data-ng-mouseup="bookmark();">
-                <img src="icon/sticky.png" onmouseup="popsticky();">
+                <img src="icon/bookmark.png" onmouseup="popsticky();">
             </div>
             <div id="infopanel">
             </div>
@@ -177,7 +176,7 @@
                         <tr><td>Mese:</td><td><input type="text" value="Gennaio" name=Month id=ae_Month></td></tr>
                         <tr><td>Data:</td><td><input type=number value=21 name=Date id=ae_Date></td></tr>
                         <tr><td>*Testo:</td><td><textarea rows=6 cols=50 name=Content id=ae_Content required></textarea></td></tr>
-                        <tr><td>*Citazione (Chicago):</td><td><input type=text name=Citation id=ae_Citation required></td></tr>
+                        <tr><td>*Citazione:</td><td><input type=text name=Citation id=ae_Citation required></td></tr>
                         <tr><td>Immagine:</td><td><input type=file name=Image id=ae_Image></td></tr>
                         <tr><td>Web link:</td><td><textarea rows=6 cols=50 name=Links id=ae_Links>Uno per linea</textarea></td></tr>
                     </table>
@@ -235,12 +234,12 @@
             Specifies for the inclusion of the filter dropdown, including the different options located in it.
             These filters are used to filter the content which is shown above, in the CONTENT PANEL COMPONENT.
             -->
-            Gruppo di segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}else{colorArticles();}" id="bkmk">
+            Segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}else{colorArticles();}" id="bkmk">
                 <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
                 <option value="new">Nuovo...</option>
             </select>
             <!--END FILTER DROPDOWN-->
-            Segnalibri soli: <input type="checkbox" data-ng-model="bkonly">
+            Mostra segnalibri: <input type="checkbox" data-ng-model="bkonly">
             <!--SEARCH BOX-->
             Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" onchange="colorArticles();" id="search">
             Cerca in: <select onchange="searchchange();" id="searchtype">
