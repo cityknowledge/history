@@ -852,3 +852,8 @@ a:hover {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+div#sticky div#stickybuttons button {
+    margin-right: 20px;
+    width: 100px;
+}
