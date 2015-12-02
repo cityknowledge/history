@@ -31,8 +31,8 @@ window.controllerLoad = function () {
     
     // Repeating function that scrolls by scroll delta every five milliseconds.
     window.setInterval(function () {
-        window.scrollBy(scrollVal * 3, 0);
-    }, 15);
+        window.scrollBy(scrollVal * 25, 0);
+    }, 250);
 };
 
 // Function called when the window is resized.

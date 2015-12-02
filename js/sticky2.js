@@ -8,10 +8,10 @@ function stickyText(text) {
 function stickyButtons(exists, group, key) {
     if (exists) {
         document.getElementById("stickybuttons").innerHTML =
-            "<button onclick=\"addBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;, document.getElementById(&quot;stickytext&quot;).value);closeSticky();\">Aggiornare</button><button onclick=\"closesticky()\">Annulare</button><button onclick=\"remBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;);closeSticky();\">Cancellare</button>";
+            "<button onclick=\"addBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;, document.getElementById(&quot;stickytext&quot;).value);closeSticky();\">Aggiornare</button><button onclick=\"closeSticky()\">Annulare</button><button onclick=\"remBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;);closeSticky();\">Cancellare</button>";
     } else {
         document.getElementById("stickybuttons").innerHTML =
-            "<button onclick=\"addBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;,document.getElementById(&quot;stickytext&quot;).value);closeSticky();\">Aggiungere</button><button onclick=\"closesticky();\">Annulare</button>";
+            "<button onclick=\"addBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;,document.getElementById(&quot;stickytext&quot;).value);closeSticky();\">Aggiungere</button><button onclick=\"closeSticky();\">Annulare</button>";
     }
 }
 
