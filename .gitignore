@@ -8,8 +8,9 @@
 # Batch files
 *.bat
 
-# Minified JavaScript File
-/js/min.js
+# Minified JavaScript Files
+/js/*min.js
+
 
 # Word Documents, Except for the todo list
 *.docx

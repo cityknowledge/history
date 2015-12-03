@@ -33,6 +33,7 @@
         <script src="js/text.js"></script>
         <script src="js/encycl.js"></script>
         <script src="js/sticky2.js"></script>
+        <script src="js/fbc.js"></script>
         <!--
         <script src="js/min.js"></script>
         -->
@@ -101,11 +102,23 @@
         -->
         <div id=timeline class=fadein>
             <!--For each event in the JSON file, display it iff its content matches the search, if present, and its taglist (Filter) contains the selected filter, if any.-->
-            <article id="art" data-ng-if="(zoom >= 1)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events | filter:getFilter()" data-ng-click="displayInfoPanel(mouseEventToPanelNo($event));obscure();">
+            <article data-ng-if="(zoom === 1)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events1 | filter:getFilter()" data-ng-click="displayInfoPanel(events1, mouseEventToPanelNo($event));obscure();">
+                <h2 data-ng-bind="(event.Date + ' ' + event.Year) + (event.Title ? ': ' + event.Title : '')"></h2>
+                <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content))"></p>
+                <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
+                <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
+            </article>
+            <article data-ng-if="(zoom === 2)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events2 | filter:getFilter()" data-ng-click="displayInfoPanel(events2, mouseEventToPanelNo($event));obscure();">
+                <h2 data-ng-bind="(event.Date + &quot; &quot; + event.Year) + (event.Title ? ': ' + event.Title : '')"></h2>
+                <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content));"></p>
+                <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
+                <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
+            </article>
+            <article id="art" data-ng-if="(zoom === 3)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events | filter:getFilter()" data-ng-click="displayInfoPanel(events, mouseEventToPanelNo($event));obscure();sendFBCUD(event.key, event.Count + 1);">
                 <!--Display the content's date (or year) and its title-->       <h2 data-ng-bind="(event.Date + &quot; &quot; + event.Year) +  (event.Title ? ': ' + event.Title : '')"></h2>
                 <!--Display the event's content iff no image-->                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content))"></p>
                 <!--Display a bookmark if there are bookmarks-->                <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
-                <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-repeat="image in event.Image" data-ng-attr-src="image" data-ng-attr-alt="event.Title">
+                <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
             </article>
             <article data-ng-if="zoom === 0" data-ng-repeat="period in timePeriods" style="background-color: rgba({{period.color.r}}, {{period.color.g}}, {{period.color.b}}, .5);" data-ng-click="zoomWithDest(period);">
                 <h2 data-ng-bind="period.start + &quot;&ndash;&quot; + period.end + &quot;: &quot; + period.title"></h2>
