@@ -1,14 +1,21 @@
 #File which defines the Encyclopedia Parsing Algorithm
+#Author: August Beers
 
+#look for Bembo, error with name and content
 
 class Entry
-  def initialize()
+    def initialize()
     @caption = ''
     @content = ''
     @page = ''
     @id = 0
-  end
+    end
 
+    def getcleanlink
+        link = caption.gsub(/\s\(.+\)/, '')
+        link = link.gsub(/\*/, '')
+        return link
+    end
   attr_accessor :caption
   attr_accessor :content
   attr_accessor :page
@@ -26,9 +33,7 @@ $current_page = '8'
 $line = '0'
 $current_id = 0
 
-#flip which lets the algorithm check for dates on multiple lines
-$name_flip = false
-
+#$name_flip = false
 
 #begin parse algorithm
 File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
@@ -48,16 +53,16 @@ File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
   elsif(/\A[A-Z]\Z/.match(line))
     #do nothing
 
-  #keep serching content to see if entry is a name
-  elsif($name_flip)
-    if(/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line))
-      $name_flip = false
-      $current_entry.caption = $current_entry.caption + ' ' + 'name'
-      puts line + ':' + $current_entry.caption
-    elsif(/\./.match(line))
-      $name_flip = false
-    end
-
+      
+      #keep serching content to see if entry is a name
+  #elsif($name_flip)
+  #  if(/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line))
+   #   $name_flip = false
+   #   $current_entry.caption = $current_entry.caption + ' name!!!!!'  #data[:sir_name]
+    #elsif(/\./.match(line))
+     # $name_flip = false
+    #end  
+      
   #Entry start
   elsif(/\A@(?<caption>([^,]+)),/.match(line))
     data = /\A@(?<caption>([^,]+)),/.match(line)
@@ -66,18 +71,32 @@ File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
     $current_id += 1
     $current_entry = Entry.new()
     $current_entry.id = $current_id
-        
+       
+      
+      
     #Look for special entries~
     #look for family names
     if(/\w+,\sfamiglia/.match(line))
       $current_entry.caption = data[:caption] + ' ' + 'famiglia'
-        #look for people with a date of birth, death, or both within brackets
-    elsif (/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line))
-      $current_entry.caption = data[:caption] + ' ' + 'name'
-    else
-        #this may still be a name that dosnt have its dob/dod
+        
+    #look for people with a date of birth, death, or both within brackets    
+    #Problems, Associazione, 
+    elsif (/\A@(?<caption>([^,]+)),(?<sir_name>((\s[[:upper:]]\S+)+))(,|\s\()/.match(line)) #&& 
+         #(/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line)))
+            
+        
+        data = /\A@(?<caption>([^,]+)),(?<sir_name>((\s[[:upper:]]\S+)+))(,|\s\()/.match(line)
+        $current_entry.caption = data[:caption] + data[:sir_name]
+    
+    #the current event may still be a name that dosnt have its dob/dod 
+    #vissuto 
+    #elsif(/\A@(?<caption>([^,]+)),(?<sir_name>((\s[[:upper:]]\S+)+))(,|\s\()/.match(line))
+        
         #flip the name flip to true check next line dob/dod
-      $name_flip = true
+        #$name_flip = true
+            
+    #other wise we just have a regula caption
+    else
       $current_entry.caption = data[:caption]
     end
 
@@ -115,15 +134,15 @@ $entries.each do |entry|
   out_file.print "    {\n"
   out_file.print '      "Caption" : "' + entry.caption + %Q[",\n]
   if(entry.id < 10)
-    link_file.print  '    ' + entry.id.to_s + ':' + entry.caption + %Q[\n]
+      link_file.print  '    ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
   elsif(entry.id < 100)
-    link_file.print  '   ' + entry.id.to_s + ':' + entry.caption + %Q[\n]
+      link_file.print  '   ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
   elsif(entry.id < 1000)
-    link_file.print  '  ' + entry.id.to_s + ':' + entry.caption + %Q[\n]
+    link_file.print  '  ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
   elsif(entry.id < 10000)
-    link_file.print  ' ' + entry.id.to_s + ':' + entry.caption + %Q[\n]
+    link_file.print  ' ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
   else
-    link_file.print  entry.id.to_s + ':' + entry.caption + %Q[\n]
+    link_file.print  entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
   end
 
   out_file.print '      "Content" : "' + entry.content + %Q[",\n]

@@ -1,5 +1,6 @@
 #File which defines the Atlas Parsing Algorithm
 #//i (case insensative)
+#Author: August Beers
 
 $line = 0
 

@@ -26,8 +26,8 @@ SRC = "https://venicedata.firebaseio.com/"
 KEY = "gG1wZ2oyUxca6Rro3XYsXaKH9ODG7nrKEUqVujWm"
 FB = Firebase::Client.new(SRC, KEY); nil
 #This is where we delette the old data
-FB.child('history').delete()
-infos = JSON.parse( File.open("../data.json").read ); nil
+FB.delete('history')
+infos = JSON.parse( File.open("data.json").read ); nil
 
 i = 0
 infos['events'].each{|e|
