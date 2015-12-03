@@ -13,15 +13,23 @@ class Entry
 
     def getcleanlink
         link = caption.gsub(/\s\(.+\)/, '')
-        link = link.gsub(/\*/, '')
+        link = link.gsub(/\*/, '')  
+        link = link.gsub(/d’ /, 'D’')
+        link = ' ' + link
         return link
     end
+    
   attr_accessor :caption
   attr_accessor :content
   attr_accessor :page
   attr_accessor :id
 
 end
+
+
+
+
+$connectors = [/d’/]
 
 #entries
 $entries = Array.new
@@ -54,14 +62,7 @@ File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
     #do nothing
 
       
-      #keep serching content to see if entry is a name
-  #elsif($name_flip)
-  #  if(/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line))
-   #   $name_flip = false
-   #   $current_entry.caption = $current_entry.caption + ' name!!!!!'  #data[:sir_name]
-    #elsif(/\./.match(line))
-     # $name_flip = false
-    #end  
+
       
   #Entry start
   elsif(/\A@(?<caption>([^,]+)),/.match(line))
@@ -80,20 +81,13 @@ File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
       $current_entry.caption = data[:caption] + ' ' + 'famiglia'
         
     #look for people with a date of birth, death, or both within brackets    
-    #Problems, Associazione, 
-    elsif (/\A@(?<caption>([^,]+)),(?<sir_name>((\s[[:upper:]]\S+)+))(,|\s\()/.match(line)) #&& 
-         #(/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line)))
-            
+    #Problems, Associazione,
+    elsif (/\A@(?<caption>([^,]+)),(?<sir_name>((\s[[:upper:]]\S+|\s(d’|e|di|del|della|dei|degli|delle|dello|dell’|il))+))(,|\s\()/.match(line)) #&& 
         
-        data = /\A@(?<caption>([^,]+)),(?<sir_name>((\s[[:upper:]]\S+)+))(,|\s\()/.match(line)
-        $current_entry.caption = data[:caption] + data[:sir_name]
+        data = /\A@(?<caption>([^,]+)),(?<sir_name>((\s[[:upper:]]\S+|\s(d’|e|di|del|della|dei|degli|delle|dello|dell’|il))+))(,|\s\()/.match(line)
+            $current_entry.caption =data[:sir_name][1, data[:sir_name].length] + ' ' + data[:caption]
     
-    #the current event may still be a name that dosnt have its dob/dod 
-    #vissuto 
-    #elsif(/\A@(?<caption>([^,]+)),(?<sir_name>((\s[[:upper:]]\S+)+))(,|\s\()/.match(line))
-        
-        #flip the name flip to true check next line dob/dod
-        #$name_flip = true
+
             
     #other wise we just have a regula caption
     else
@@ -156,3 +150,30 @@ out_file.print '}'
 
 out_file.close
 link_file.close
+    
+    
+    
+    #graveyard
+    
+    
+    #Looking at multiple lines with name_flip -----------------------
+    
+    #reg ex:::: #(/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line)))
+    
+    #keep serching content to see if entry is a name
+  #elsif($name_flip)
+  #  if(/\(.+\d+.+/.match(line)  && !/\(.+\d+.+ettari/.match(line))
+   #   $name_flip = false
+   #   $current_entry.caption = $current_entry.caption + ' name!!!!!'  #data[:sir_name]
+    #elsif(/\./.match(line))
+     # $name_flip = false
+    #end  
+    
+    
+    #part 2--------------
+        #the current event may still be a name that dosnt have its dob/dod 
+    #vissuto 
+    #elsif(/\A@(?<caption>([^,]+)),(?<sir_name>((\s[[:upper:]]\S+)+))(,|\s\()/.match(line))
+        
+        #flip the name flip to true check next line dob/dod
+        #$name_flip = true

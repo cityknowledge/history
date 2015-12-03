@@ -27,7 +27,7 @@ KEY = "gG1wZ2oyUxca6Rro3XYsXaKH9ODG7nrKEUqVujWm"
 FB = Firebase::Client.new(SRC, KEY); nil
 #This is where we delette the old data
 FB.delete('history')
-infos = JSON.parse( File.open("data.json").read ); nil
+infos = JSON.parse( File.open("data.json", 'r:utf-8').read ); nil
 
 i = 0
 infos['events'].each{|e|

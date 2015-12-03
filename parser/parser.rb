@@ -17,21 +17,14 @@ class Event
 
 #function which looks for location data
 def locationSearch()
-  #$locations.each do |place|
-    loc_match = /(?<location>(Chiesa di(\s[[:upper:]]\S+|\se(?=\s[[:upper:]]))+))/
+    
+    loc_match = /(?<location>(Chiesa di(\s[[:upper:]]\S+|\s(e|di|del|della|dei|degli|delle|dello|dell’|il)(?=\s[[:upper:]]))+))/
     if(loc_match.match(content))
         m_data = loc_match.match(content)
         @location = m_data[:location]
-        
-        $location_test_file.print year
-        $location_test_file.print "\n"
-        $location_test_file.print m_data[:location]
-        $location_test_file.print "\n"
-          #puts year
-          #puts location
-        #break
-      end
-  #end
+
+    end
+
     if(location.length > 0)
         $line += 1
     end
@@ -74,7 +67,7 @@ $connectors = [
     /dello/,
     /dell’/,
     /il/,
-    /e/
+    /e/,
     
     ]
 
@@ -236,12 +229,19 @@ $events << $current_event
 
 
 #now print the result of parsing
-out_file = File.new('JSON.txt', 'w:utf-8')
+out_file = File.new('data.txt', 'w:utf-8')
 num = 0
 out_file.print "{\n"
 out_file.print '  "events" : [' + "\n"
 
 $events.each do |event|
+    if(event.location.length > 0)
+        $location_test_file.print event.year
+        $location_test_file.print "\n"
+        $location_test_file.print event.location
+        $location_test_file.print "\n"
+    end
+    
   out_file.print "    {\n"
   out_file.print '      "Year" : "' + event.year + %Q[",\n]
   out_file.print '      "Date" : "' + event.date + %Q[",\n]
@@ -250,7 +250,13 @@ $events.each do |event|
   out_file.print '      "Location" : "' + event.location + %Q[",\n]
   out_file.print '      "Filter" : "' + %Q[",\n]
   out_file.print '      "UID" : "' + num.to_s + %Q[",\n]
-  out_file.print '      "Count" : 0,' + %Q[\n]
+  count_print = '      "Count" : 0,' + %Q[\n]
+    if(num < 150)
+        count_print = count_print.gsub(/0/, '2')
+    elsif(num< 600)
+        count_print = count_print.gsub(/0/, '1')
+    end
+  out_file.print count_print       
   out_file.print %Q[      "Citation" : "Distefano, Giovanni. L'atlante Storico Di Venezia. Venice, Italy: Supernova Edizioni srl, 2007. ] + event.page + %Q["\n]
   out_file.print "    },\n"
     num += 1
