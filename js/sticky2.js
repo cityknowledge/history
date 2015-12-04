@@ -42,15 +42,15 @@ function popsticky() {
         key = events[id].key,
         text = ls[key] || "";
     
-    document.getElementById("sticky").innerHTML = 
-        "<h3>Le sue note su quest’evento</h3><p>Potrà leggere queste note dopo; non saranno disponibili al pubblico.</p>Gruppo di segnalibri: <select id=bkgr onchange=\"if(document.getElementById(&quot;bkgr&quot;).value===&quot;new&quot;){newGroup();stickySelect();}else{updateSticky(document.getElementById(&quot;bkgr&quot;).value,&quot;" + key + "&quot;)}\"></select><br><textarea id=stickytext cols=50 rows=20>" + text + "</textarea><br><div id=stickybuttons></div>";
+    document.getElementById("stick").innerHTML = 
+        "<h3>Le sue note su quest’evento</h3><p>Potrà leggere queste note dopo; non saranno disponibili al pubblico.</p>Gruppo di segnalibri: <select id=bkgr onchange=\"if(document.getElementById(&quot;bkgr&quot;).value===&quot;new&quot;){newGroup();stickySelect();}else{updateSticky(document.getElementById(&quot;bkgr&quot;).value,&quot;" + key + "&quot;)}\"></select><br><textarea id=stickytext cols=70 rows=15>" + text + "</textarea><br><div id=stickybuttons></div>";
     
     stickySelect();
     
-    $("#sticky").css("display", "block");
+    $("#sticky_wrap").css("display", "block");
 }
 
 function closeSticky() {
     'use strict';
-    $("#sticky").css("display", "none");
+    $("#sticky_wrap").css("display", "none");
 }
