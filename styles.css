@@ -694,7 +694,7 @@ div#timeline article {
     height: calc(100vh - 335px);
     z-index: 2;
     cursor: pointer;
-    overflow-y: hidden;
+    overflow-y: visible;
     font-size: 150%;
 }
 
@@ -820,10 +820,10 @@ div#encycl_wrap {
 
 .bookmark {
     position: absolute;
-    top: 0px;
+    top: -10px;
     right: 10%;
     width: 64px;
-    height: 64px;
+    height: 79px;
 }
 
 a {

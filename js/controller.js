@@ -1,8 +1,8 @@
 /*jshint browser: true*/
-/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods, Firebase*/
+/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods, Firebase, calculatePercentileThreshold, generateSubset*/
 
 var app = new angular.module('appTimeline', []);
-var maxZoom = 2;
+var maxZoom = 3;
 app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate, $sce, $timeout) {
     'use strict';
     
@@ -50,6 +50,8 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         $("#load").css("display", "none");
         $(".fadein").css("display", "block");
         $(".slidein").css("display", "block");
+        $scope.events2 = generateSubset($scope.events, calculatePercentileThreshold(6));
+        $scope.events1 = generateSubset($scope.events, calculatePercentileThreshold(2));
         window.handleParams();
     });
     // ref.orderByChild("height").on("child_added", function(snapshot) {
@@ -104,10 +106,9 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         scrollVal = 0;
     };
     
-    $scope.displayInfoPanel = function (panelNo) {
+    $scope.displayInfoPanel = function (events, panelNo) {
         
-        var events,
-            event,
+        var event,
             image,
             i,
             toRet,
@@ -120,7 +121,6 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         
         $scope.ipevent = panelNo;
         
-        events = $scope.events;
         events = $scope.search ? $filter('filter')(events, $scope.getFilter()) : events;
         
         if (panelNo < 1) {
@@ -275,6 +275,8 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.getText = function (text) {
         return ((text.length > 200) ? text.substr(0, 200) + "..." : text).replace(/@|#/g, "");
     };
+    
+    $scope.sendFBCUD = window.sendFBCUD;
 });
 
 window.controllerLoad();

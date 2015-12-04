@@ -111,3 +111,41 @@ function realSliderPosToSliderPos(realSliderPos) {
     
     return ((realSliderPos - rspstart) / (rspend - rspstart) * (spend - spstart)) + spstart;
 }
+
+function insertSorted(arr, val) {
+    if (arr.length === 0) {
+        arr.push(val);
+        return;
+    }
+    var x;
+    for (x = 0; x < arr.length; x++) {
+        if (val > arr[x]) {
+            arr.splice(x, 0, val);
+            return;
+        }
+    }
+    arr.push(val);
+}
+
+function calculatePercentileThreshold(percentile) {
+    var arr = [];
+    
+    // Build the percentile array
+    window.$scope.events.forEach(function (event) {
+        insertSorted(arr, event.Count);
+    });
+    
+    return arr[Math.floor(arr.length * percentile / 100)];
+}
+
+function generateSubset(set, cutoff) {
+    var arr = [];
+    
+    set.forEach(function (item) {
+        if (item.Count >= cutoff) {
+            arr.push(item);
+        }
+    });
+    
+    return arr;
+}
