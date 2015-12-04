@@ -214,13 +214,13 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             break;
         case "last":
             $scope.hideInfoPanel(true);
-            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : $scope.events1), $scope.ipevent - 1)) {
+            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : ($scope.zoom === 1 ? $scope.events1 : $scope.centuries)), $scope.ipevent - 1)) {
                 $scope.ipevent++;
             }
             break;
         case "next":
             $scope.hideInfoPanel(true);
-            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : $scope.events1), $scope.ipevent + 1)) {
+            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : ($scope.zoom === 1 ? $scope.events1 : $scope.centuries)), $scope.ipevent + 1)) {
                 $scope.ipevent--;
             }
             break;
