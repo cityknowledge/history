@@ -15,7 +15,7 @@ class Entry
         link = caption.gsub(/\s\(.+\)/, '')
         link = link.gsub(/\*/, '')  
         link = link.gsub(/d’ /, 'D’')
-        link = ' ' + link
+        
         return link
     end
     
