@@ -9,6 +9,7 @@ require 'json'
 class Link
   def initialize()
       @reg_ex = nil
+      @text = nil
       @start = nil
       @end = nil
       @is_family = false
@@ -20,6 +21,7 @@ class Link
   attr_accessor :end
   attr_accessor :length
   attr_accessor :is_family
+  attr_accessor :text
     
 end
 
@@ -42,17 +44,17 @@ File.open('Link_File.txt', 'r:utf-8').each_line do |line|
     if(/\s\s\s\s0:/.match(line))
         #do nothing
     elsif(/famiglia/.match(line))
-        #6 is the offset from the tight in the link file to ignore the id
+        #6 is the offset from the start of lines in the link file to ignore the id
         #17 = 6 + the length of the word famiglia and one space
         link = Regexp.new($front_reg_ex.to_s[0, $front_reg_ex.to_s.length - 1] +
-                      line[6, line.length - 17] +
+                      "(?<link>" + line[6, line.length - 17] + ")" +
                       $end_reg_ex.to_s[7, $end_reg_ex.to_s.length])
         $linked_data.print link
         $linked_data.print "\n"
         $regex_link_array << link
     else 
         link = Regexp.new($front_reg_ex.to_s[0, $front_reg_ex.to_s.length - 1] +
-                          line[6, line.length - 7] + 
+                          "(?<link>" + line[6, line.length - 7] +  ")" +
                           $end_reg_ex.to_s[7, $end_reg_ex.to_s.length])
         $linked_data.print link
         $linked_data.print "\n"
@@ -65,7 +67,10 @@ end
 
 #if(false)
 $hits = 0
-infos = JSON.parse( File.open("../data.json", 'r:utf-8').read ); nil
+
+$link_hits = Array.new
+
+infos = JSON.parse(File.open("../data.json", 'r:utf-8').read ); nil
 
 #iterate through the content of each event to search for links
 infos['events'].each{|e|
@@ -73,12 +78,36 @@ infos['events'].each{|e|
     if(e["UID"].to_i % 100 == 0)
         puts e["UID"] 
     end
+    
+    link_array = 
     #Iterate through the array of regEx generated from the link
-    #file matching each regEx to the
+    #file matching each regEx to the content of events
     $regex_link_array.each do |link|
         
         if(link.match(e["Content"]))
+            data = link.match(e["Content"])
+            new_link = Link.new
+            new_link.text = data[:link]
+            new_link.start =  data.begin(:link)
+            new_link.end = data.end(:link)
+            new_link.length = new_link.end - new_link.start
+  
+            $linked_data.print link
+
+            $linked_data.print "\n"
+            $linked_data.print new_link.text
+            $linked_data.print ":"  
+            $linked_data.print new_link.start
+            $linked_data.print ","
+            $linked_data.print new_link.end
+            $linked_data.print "=>"
+            $linked_data.print new_link.length
+            $linked_data.print " #"
+            $linked_data.print e["UID"]
+            $linked_data.print "\n"
+            #inciment matches
             $hits += 1
+            
         end   
     end
 }
@@ -91,6 +120,22 @@ $linked_data.close
 
 
 #graveyard
+
+
+#concat capture test
+#stringttt = "yo im a string yo"
+#test4 = /(?<link>yo)/
+#puts test4.match(stringttt)
+#puts test4.to_s
+#test5 = Regexp.new("(?<link>yo)")
+#puts test5.match(stringttt)
+#puts test5.to_s
+
+
+
+
+
+
 #concat test add ()!!!!!!!!
 #stt = "[Jack:"
 #test_reg = /Jack/ 
