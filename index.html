@@ -49,7 +49,7 @@
         <!--BEGIN PAGE CONTENT-->
         
         <!--TITLE-->
-        <h1 class="fadein" style="width:100%">Storia di Venezia</h1>
+        <h1 class="fadein" style="width:100%"><img src="icon/title.png"></h1>
         
         <!--BEGIN TIME PERIOD COMPONENT-->
         <p class="timeperiod fadein" id="timeperiod">L&#8217;Impero Romano (400 - 538)</p>
@@ -68,10 +68,10 @@
 
         <!--BEGIN FUNCTIONBAR COMPONENT-->
         <div id=func class=fadein>
-            <!--Login-->                <a id="loginb" onclick="openLogin();" title="Effetuare login"></a>
-            <!--Add event-->            <a id="addeventb" onclick="openAEF();" title="Aggiungere un nuovo evento"></a>
-            <!--Logout-->               <a id="logoutb" onclick="logout();" title="Uscire"></a>
-            <!--Credits/Help-->         <a href="crediti.html" target="_blank" id="credlink" title="Crediti ed Informazione"></a>
+            <!--Login-->                <a id="loginb" onclick="openLogin();" onmouseover="hover('loginb');" onmouseout="unhover('loginb')" title="Effetuare login"></a>
+            <!--Add event-->            <a id="addeventb" onclick="openAEF();" title="Aggiungere un nuovo evento" onmouseover="hover('addeventb');" onmouseout="unhover('addeventb')"></a>
+            <!--Logout-->               <a id="logoutb" onclick="logout();" title="Uscire" onmouseover="hover('logoutb');" onmouseout="unhover('logoutb');"></a>
+            <!--Credits/Help-->         <a href="crediti.html" target="_blank" id="credlink" title="Crediti ed Informazione" onmouseover="hover('credlink');" onmouseout="unhover('credlink');"></a>
         </div>
         <!--END FUNCTIONBAR COMPONENT-->
         
