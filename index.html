@@ -30,12 +30,29 @@
         </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <!--END GOOGLE TRANSLATE COMPONENT-->
         
+        <!--BEGIN SEARCH COMPONENT-->
+        <div id="searchcomp" class="fadein">
+            <!--SEARCH BOX-->
+            Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" id="search">
+            <span id=advsearch>
+                Segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}" id="bkmk">
+                    <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
+                    <option value="new">Nuovo...</option>
+                </select>
+                <!--END FILTER DROPDOWN-->
+                Mostra solo i segnalibri: <input type="checkbox" data-ng-model="bkonly">
+            </span>
+            <a onclick="toggleAdvSearch();" id=togglebutton>Mostra più</a>
+        </div>
+        <!--END SEARCH COMPONENT-->
+
         <!--BEGIN PAGE CONTENT-->
+        
         <!--TITLE-->
         <h1 class="fadein">Storia di Venezia</h1>
         
         <!--BEGIN TIME PERIOD COMPONENT-->
-        <p class="timeperiod" data-ng-if="zoom !== 0" id="timeperiod">L&#8217;Impero Romano (400 - 538)</p>
+        <p class="timeperiod fadein" data-ng-if="zoom !== 0" id="timeperiod">L&#8217;Impero Romano (400 - 538)</p>
         <!--END TIME PERIOD COMPONENT-->
         
         <!--BEGIN NAVBAR COMPONENT
@@ -86,7 +103,7 @@
                 <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
             </article>
             <article data-ng-if="(zoom === 0)" data-ng-repeat="event in centuries" data-ng-click="displayInfoPanel(centuries, mouseEventToPanelNo($event));obscure();" data-ng-style="{'background-color': getColor(event)}">
-                <h2 data-ng-bind="event.Year + 's'"></h2>
+                <h2 data-ng-bind="event.Year"></h2>
                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content))"></p>
                 <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
                 <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
@@ -128,6 +145,7 @@
         <!--BEGIN ENCYCLOPAEDIA COMPONENT-->
         <div id="encycl_wrap" class="formpanel">
             <div class="bar">
+                <h2 id="encycltitle" style="float:left"></h2>
                 <img src="icon/pclose.png" onmouseup="enclanim();">
             </div>
             <div id="encycl">
@@ -157,7 +175,6 @@
             </div>
             <div>
                 <h2>Aggiungere un nuovo evento</h2>
-                <p>Per modificare un evento che gi&agrave; esiste, si preghiamo d&#8217;usare l&#8217;API Firebase in <a href="http://venicedata.firebaseio.com/history" target="_blank">venicedata.firebaseio.com/history</a></p>
                 <form id=addevent>
                     <table>
                         <tr><td>*Anno:</td><td><input type="number" value=2015 name="Year" id="ae_Year" required></td></tr>
@@ -166,7 +183,7 @@
                         <tr><td>*Testo:</td><td><textarea rows=6 cols=50 name=Content id=ae_Content required></textarea></td></tr>
                         <tr><td>*Citazione:</td><td><input type=text name=Citation id=ae_Citation required></td></tr>
                         <tr><td>Immagine:</td><td><input type=file name=Image id=ae_Image></td></tr>
-                        <tr><td>Web link:</td><td><textarea rows=6 cols=50 name=Links id=ae_Links>Uno per linea</textarea></td></tr>
+                        <tr><td>Collegamenti:</td><td><textarea rows=6 cols=50 name=Links id=ae_Links>Uno per linea</textarea></td></tr>
                     </table>
                     <input type=submit onclick="addEvent();">
                 </form>
@@ -215,26 +232,12 @@
             For the function that handles the unhover animation, see animations.js::unhover().
             -->
             <button data-ng-click="zoomOut()" onmouseover="hover('zoom_out');" onmouseout="unhover('zoom_out');" id="zoom_out"></button>
+            <button data-ng-click="zoomTo(0);" onmouseover="hover('zoom_0');" onmouseout="unhover('zoom_0');" id="zoom_0"></button>
+            <button data-ng-click="zoomTo(1);" onmouseover="hover('zoom_1');" onmouseout="unhover('zoom_1');" id="zoom_1"></button>
+            <button data-ng-click="zoomTo(2);" onmouseover="hover('zoom_2');" onmouseout="unhover('zoom_2');" id="zoom_2"></button>
+            <button data-ng-click="zoomTo(3);" onmouseover="hover('zoom_3');" onmouseout="unhover('zoom_3');" id="zoom_3"></button>
             <button data-ng-click="zoomIn()" onmouseover="hover('zoom_in');" onmouseout="unhover('zoom_in');" id="zoom_in"></button>
             <!--END ZOOM BUTTONS-->
-            
-            <!--BEGIN FILTER DROPDOWN
-            Specifies for the inclusion of the filter dropdown, including the different options located in it.
-            These filters are used to filter the content which is shown above, in the CONTENT PANEL COMPONENT.
-            -->
-            Segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}" id="bkmk">
-                <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
-                <option value="new">Nuovo...</option>
-            </select>
-            <!--END FILTER DROPDOWN-->
-            Mostra segnalibri: <input type="checkbox" data-ng-model="bkonly">
-            <!--SEARCH BOX-->
-            Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" id="search">
-            Cerca in: <select onchange="searchchange();" id="searchtype">
-                <option value="" selected>Tutto</option>
-                <option value="Content">Testo</option>
-                <option value="Year">Anno</option>
-            </select>
         </div>
         <!--END CONTROL BUTTONS COMPONENT-->
         
@@ -260,7 +263,6 @@
         <!--OUR SCRIPTS | I NOSTRI SCRIPT-->
         <script src="js/util.js"></script>
         <script src="js/TimePeriod.js"></script>
-        <script src="js/color.js"></script>
 		<script src="js/interceptWheel.js"></script>
         <script src="js/size.js"></script>
         <script src="js/draw.js"></script>

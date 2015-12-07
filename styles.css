@@ -163,37 +163,37 @@
 
 @-webkit-keyframes gt_slidein {
     0%, 50% {
-        top: -20px;
+        bottom: -10px;
     }
     100% {
-        top: 10px;
+        bottom: 35px;
     }
 }
 
 @-moz-keyframes gt_slidein {
     0%, 50% {
-        top: -20px;
+        bottom: -10px;
     }
     100% {
-        top: 10px;
+        bottom: 35px;
     }
 }
 
 @-o-keyframes gt_slidein {
     0%, 50% {
-        top: -20px;
+        bottom: -10px;
     }
     100% {
-        top: 10px;
+        bottom: 35px;
     }
 }
 
 @keyframes gt_slidein {
     0%, 50% {
-        top: -25px;
+        bottom: -10px;
     }
     100% {
-        top: 10px;
+        bottom: 35px;
     }
 }
 
@@ -430,7 +430,7 @@ body {
     margin-left: 8px;
 }
 
-#zoom_in, #zoom_out {
+#zoom_in, #zoom_out, #zoom_1, #zoom_2, #zoom_3, #zoom_0 {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     background-size: 30px 30px;
@@ -454,11 +454,28 @@ body {
     background-image: url("icon/zoomout.png");
 }
 
+#zoom_0 {
+    background-image: url("icon/zoom0.png");
+}
+
+#zoom_1 {
+    background-image: url("icon/zoom1.png");
+}
+
+#zoom_2 {
+    background-image: url("icon/zoom2.png");
+}
+
+#zoom_3 {
+    background-image: url("icon/zoom3.png");
+}
+
 #google_translate_element {
     height: 0px;
     position: fixed;
-    top: 10px;
-    z-index: 1;
+    bottom: 35px;
+    left: 10px;
+    z-index: 6;
 }
 
 iframe {
@@ -840,6 +857,10 @@ div#encycl_wrap {
     box-sizing: border-box;
 }
 
+div#encycl {
+    font-size: 140%;
+}
+
 .bookmark {
     position: absolute;
     top: -10px;
@@ -875,7 +896,7 @@ div#stick div#stickybuttons button {
     width: 100px;
 }
 
-#iptitle {
+#iptitle, #encycltitle {
     float: left;
     position: absolute;
     font-size: 200%;
@@ -896,4 +917,20 @@ div#stick div#stickybuttons button {
     border-width: 10px;
     border-color: rgba(150, 0, 0, 1);
     border-style: solid;
+}
+
+#searchcomp {
+    position: fixed;
+}
+
+#searchcomp *:not(span) {
+    margin-right: 20px;
+}
+
+#togglebutton {
+    cursor: pointer;
+}
+
+#advsearch {
+    display: none;
 }

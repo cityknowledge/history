@@ -142,3 +142,13 @@ function enclanim() {
             .css("animation-timing-function", "initial");
     }, 3000);
 }
+
+function toggleAdvSearch() {
+    if ($("#advsearch").css("display") === "none") {
+        $("#advsearch").css("display", "inline");
+        document.getElementById("togglebutton").innerHTML = "Mostra meno";
+    } else {
+        $("#advsearch").css("display", "none");
+        document.getElementById("togglebutton").innerHTML = "Mostra più";
+    }
+}
