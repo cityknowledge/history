@@ -299,6 +299,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             obj = {"background-color": "rgba(" + color.r + "," + color.g + "," + color.b + ",.5)"};
         return obj["background-color"];
     };
+    
+    $scope.zoomTo = function (level) {
+        $scope.zoom = level;
+    };
 });
 
 window.controllerLoad();
