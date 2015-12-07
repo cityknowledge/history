@@ -454,6 +454,22 @@ body {
     background-image: url("icon/zoomout.png");
 }
 
+#zoom_0 {
+    background-image: url("icon/zoom0.png");
+}
+
+#zoom_1 {
+    background-image: url("icon/zoom1.png");
+}
+
+#zoom_2 {
+    background-image: url("icon/zoom2.png");
+}
+
+#zoom_3 {
+    background-image: url("icon/zoom3.png");
+}
+
 #google_translate_element {
     height: 0px;
     position: fixed;
@@ -841,6 +857,10 @@ div#encycl_wrap {
     box-sizing: border-box;
 }
 
+div#encycl {
+    font-size: 140%;
+}
+
 .bookmark {
     position: absolute;
     top: -10px;
@@ -876,7 +896,7 @@ div#stick div#stickybuttons button {
     width: 100px;
 }
 
-#iptitle {
+#iptitle, #encycltitle {
     float: left;
     position: absolute;
     font-size: 200%;
@@ -903,7 +923,7 @@ div#stick div#stickybuttons button {
     position: fixed;
 }
 
-#searchcomp * {
+#searchcomp *:not(span) {
     margin-right: 20px;
 }
 
