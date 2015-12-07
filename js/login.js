@@ -29,6 +29,7 @@ function login() {
             loggedIn();
         }
     });
+    window.$scope.auth = true;
 }
 
 function logout() {
@@ -37,6 +38,7 @@ function logout() {
     FB.unauth();
     window.alert("Lei s'è uscito con successo.");
     loggedOut();
+    window.$scope.auth = false;
 }
 
 function openLogin() {

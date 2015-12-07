@@ -1,5 +1,5 @@
 /*jshint browser: true*/
-/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, colorArticles, realSliderPosToSliderPos, getTimePeriodFromYear, panelNoToXPos*/
+/*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, realSliderPosToSliderPos, getTimePeriodFromYear, panelNoToXPos*/
 
 // Global scroll delta.
 var scrollVal = 0;

@@ -3,41 +3,6 @@
     <head>
         <meta charset="utf-8">
         
-        <!--STYLESHEET-->
-        <link rel="stylesheet" href="styles.css">
-        
-        <!--ANGULARJS-->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
-        
-        <!--JQUERY-->
-        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
-        
-        <!--FIREBASE-->
-        <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
-        
-        <!--OUR SCRIPTS | I NOSTRI SCRIPT-->
-        <script src="js/util.js"></script>
-        <script src="js/TimePeriod.js"></script>
-        <script src="js/color.js"></script>
-		<script src="js/interceptWheel.js"></script>
-        <script src="js/size.js"></script>
-        <script src="js/draw.js"></script>
-        <script src="js/scroll.js"></script>
-        <script src="js/windowattr.js"></script>
-        <script src="js/eventHandle.js"></script>
-        <script src="js/animations.js"></script>
-        <script src="js/search.js"></script>
-        <script src="js/bookmarks2.js"></script>
-        <script src="js/login.js"></script>
-        <script src="js/addevent.js"></script>
-        <script src="js/text.js"></script>
-        <script src="js/encycl.js"></script>
-        <script src="js/sticky2.js"></script>
-        <script src="js/fbc.js"></script>
-        <!--
-        <script src="js/min.js"></script>
-        -->
-        
         <!--SHORTCUT ICON-->
         <link rel="shortcut icon" href="favicon.ico">
         
@@ -102,26 +67,29 @@
         -->
         <div id=timeline class=fadein>
             <!--For each event in the JSON file, display it iff its content matches the search, if present, and its taglist (Filter) contains the selected filter, if any.-->
-            <article data-ng-if="(zoom === 1)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events1 | filter:getFilter()" data-ng-click="displayInfoPanel(events1, mouseEventToPanelNo($event));obscure();">
+            <article data-ng-if="(zoom === 1)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events1 | filter:getFilter()" data-ng-click="displayInfoPanel(events1, mouseEventToPanelNo($event));obscure();" data-ng-style="{'background-color': getColor(event)}">
                 <h2 data-ng-bind="(event.Date + ' ' + event.Year) + (event.Title ? ': ' + event.Title : '')"></h2>
                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content))"></p>
                 <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
                 <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
             </article>
-            <article data-ng-if="(zoom === 2)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events2 | filter:getFilter()" data-ng-click="displayInfoPanel(events2, mouseEventToPanelNo($event));obscure();">
+            <article data-ng-if="(zoom === 2)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events2 | filter:getFilter()" data-ng-click="displayInfoPanel(events2, mouseEventToPanelNo($event));obscure();" data-ng-style="{'background-color': getColor(event)}">
                 <h2 data-ng-bind="(event.Date + &quot; &quot; + event.Year) + (event.Title ? ': ' + event.Title : '')"></h2>
                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content));"></p>
                 <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
                 <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
             </article>
-            <article id="art" data-ng-if="(zoom === 3)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events | filter:getFilter()" data-ng-click="displayInfoPanel(events, mouseEventToPanelNo($event));obscure();sendFBCUD(event.key, event.Count + 1);">
+            <article id="art" data-ng-if="(zoom === 3)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in events | filter:getFilter()" data-ng-click="displayInfoPanel(events, mouseEventToPanelNo($event));obscure();sendFBCUD(event.key, event.Count + 1);" data-ng-style="{'background-color': getColor(event)}">
                 <!--Display the content's date (or year) and its title-->       <h2 data-ng-bind="(event.Date + &quot; &quot; + event.Year) +  (event.Title ? ': ' + event.Title : '')"></h2>
                 <!--Display the event's content iff no image-->                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content))"></p>
                 <!--Display a bookmark if there are bookmarks-->                <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
                 <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
             </article>
-            <article data-ng-if="zoom === 0" data-ng-repeat="period in timePeriods" style="background-color: rgba({{period.color.r}}, {{period.color.g}}, {{period.color.b}}, .5);" data-ng-click="zoomWithDest(period);">
-                <h2 data-ng-bind="period.start + &quot;&ndash;&quot; + period.end + &quot;: &quot; + period.title"></h2>
+            <article data-ng-if="(zoom === 0)" data-ng-repeat="event in centuries" data-ng-click="displayInfoPanel(centuries, mouseEventToPanelNo($event));obscure();" data-ng-style="{'background-color': getColor(event)}">
+                <h2 data-ng-bind="event.Year + 's'"></h2>
+                <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content))"></p>
+                <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
+                <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
             </article>
         </div>
         <!--END CONTENT PANEL COMPONENT-->
@@ -133,12 +101,14 @@
         The obscure layer defines an eventListener for mouseup, which calls the functions at controller.js::$scope.hideInfoPanel() and controller.js::$scope.unobscure().
         -->
         <div id="obscure" data-ng-mouseup="hideInfoPanel();unobscure();"></div>
-        <div id="infopanel_wrap">
+        <div id="infopanel_wrap" class=formpanel>
             <div class="bar">
+                <h2 id="iptitle" style="float:left"></h2>
                 <img src="icon/pclose.png" data-ng-mouseup="barAct('close');">
                 <img src="icon/pright.png" data-ng-mouseup="barAct('next');">
                 <img src="icon/pleft.png" data-ng-mouseup="barAct('last');">
                 <img src="icon/bookmark.png" onmouseup="popsticky();">
+                <img src="icon/flag.png" data-ng-if="auth" id="flagbutton">
             </div>
             <div id="infopanel">
             </div>
@@ -146,12 +116,17 @@
         <!--END INFOPANEL COMPONENT-->
         
         <!--BEGIN STICKY COMPONENT-->
-        <div id="sticky">
+        <div class=formpanel id="sticky_wrap">
+            <div class="bar">
+                <img src="icon/pclose.png" onmouseup="closeSticky();">
+            </div>
+            <div id="stick">
+            </div>
         </div>
         <!--END STICKY COMPONENT-->
         
         <!--BEGIN ENCYCLOPAEDIA COMPONENT-->
-        <div id="encycl_wrap">
+        <div id="encycl_wrap" class="formpanel">
             <div class="bar">
                 <img src="icon/pclose.png" onmouseup="enclanim();">
             </div>
@@ -162,7 +137,7 @@
         
         <!--BEGIN FORMPANEL COMPONENTS-->
         <div class="formpanel" id="loginform">
-            <div class="bar">
+            <div class="bar_small">
                 <img src="icon/pclose.png" onmouseup="closeLogin();">
             </div>
             <div>
@@ -176,7 +151,7 @@
             </div>
         </div>
         
-        <div class=formpanel id=addeventform>
+        <div class="formpanel" id=addeventform>
             <div class=bar>
                 <img src="icon/pclose.png" onmouseup="closeAEF();">
             </div>
@@ -247,14 +222,14 @@
             Specifies for the inclusion of the filter dropdown, including the different options located in it.
             These filters are used to filter the content which is shown above, in the CONTENT PANEL COMPONENT.
             -->
-            Segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}else{colorArticles();}" id="bkmk">
+            Segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}" id="bkmk">
                 <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
                 <option value="new">Nuovo...</option>
             </select>
             <!--END FILTER DROPDOWN-->
             Mostra segnalibri: <input type="checkbox" data-ng-model="bkonly">
             <!--SEARCH BOX-->
-            Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" onchange="colorArticles();" id="search">
+            Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" id="search">
             Cerca in: <select onchange="searchchange();" id="searchtype">
                 <option value="" selected>Tutto</option>
                 <option value="Content">Testo</option>
@@ -270,7 +245,42 @@
         <!--END PAGE CONTENT-->
         
         <!--Load the controller-->
-        <span data-ng-bind="colorArticles();"></span>
+        <!--STYLESHEET-->
+        <link rel="stylesheet" href="styles.css">
+        
+        <!--ANGULARJS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+        
+        <!--JQUERY-->
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+        
+        <!--FIREBASE-->
+        <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+        
+        <!--OUR SCRIPTS | I NOSTRI SCRIPT-->
+        <script src="js/util.js"></script>
+        <script src="js/TimePeriod.js"></script>
+        <script src="js/color.js"></script>
+		<script src="js/interceptWheel.js"></script>
+        <script src="js/size.js"></script>
+        <script src="js/draw.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/windowattr.js"></script>
+        <script src="js/eventHandle.js"></script>
+        <script src="js/animations.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/bookmarks2.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/addevent.js"></script>
+        <script src="js/text.js"></script>
+        <script src="js/encycl.js"></script>
+        <script src="js/sticky2.js"></script>
+        <script src="js/fbc.js"></script>
+        <script src="js/flag.js"></script>
+        <!--
+        <script src="js/min.js"></script>
+        -->
+        
         <script src="js/controller.js"></script>
     </body>
 </html>

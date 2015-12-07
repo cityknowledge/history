@@ -246,7 +246,7 @@
         background-color: rgba(0, 0, 0, 0);
     }
     100% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .35);
     }
 }
 
@@ -255,7 +255,7 @@
         background-color: rgba(0, 0, 0, 0);
     }
     100% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .35);
     }
 }
 
@@ -264,7 +264,7 @@
         background-color: rgba(0, 0, 0, 0);
     }
     100% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .35);
     }
 }
 
@@ -273,7 +273,7 @@
         background-color: rgba(0, 0, 0, 0);
     }
     100% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .35);
     }
 }
 
@@ -283,7 +283,7 @@
 
 @-webkit-keyframes unobscure {
     0% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .35);
     }
     100% {
         background-color: rgba(0, 0, 0, 0);
@@ -292,25 +292,25 @@
 
 @-moz-keyframes unobscure {
     0% {
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, .35);
     }
     100% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, 0);
     }
 }
 
 @-o-keyframes unobscure {
     0% {
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, .35);
     }
     100% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, 0);
     }
 }
 
 @keyframes unobscure {
     0% {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .35);
     }
     100% {
         background-color: rgba(0, 0, 0, 0);
@@ -558,7 +558,7 @@ div#nav a, div#func a {
 }
 
 #obscure {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .35);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -570,7 +570,6 @@ div#nav a, div#func a {
 }
 
 #infopanel_wrap {
-    background-color: rgba(256, 256, 256, 1);
     width: 80%;
     height: 80%;
     z-index: 12;
@@ -583,10 +582,6 @@ div#nav a, div#func a {
     animation-duration: 1s;
     display: none;
     color: rgba(0, 0, 0, 1);
-    padding: 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 #wpilink {
@@ -719,15 +714,46 @@ img.ipimg {
 
 div.bar img {
     float: right;
-    margin: 10px;
     width: 32px;
     height: 32px;
+    margin-top: 10px;
+    margin-right: 10px;
     cursor: pointer;
+    background-color: rgba(200, 200, 200, 1);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 div.bar {
+    position: relative;
     height: 52px;
     width: 100%;
+    background-color: rgba(255, 175, 20, 1);
+    background-image: url("icon/bar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.bar_small img {
+    float: right;
+    margin: 5px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-color: rgba(200, 200, 200, 1);
+}
+
+div.bar_small {
+    position: relative;
+    height: 26px;
+    width:100%;
+    background-color: rgba(255, 175, 20, 1);
+    background-image: url("icon/bar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 div#load {
@@ -741,7 +767,7 @@ div#load {
 }
 
 div#infopanel {
-    font-size: 120%;
+    font-size: 140%;
     overflow: auto;
     height: calc(100% - 52px);
 }
@@ -766,10 +792,8 @@ div#infopanel h2 {
 
 #loginform {
     display: none;
-    background-color: rgba(256, 256, 256, 1);
     width: 300px;
     height: 150px;
-    padding-left: 20px;
     z-index: 12;
     position:fixed;
     right: 0;
@@ -779,7 +803,6 @@ div#infopanel h2 {
 
 #addeventform {
     display: none;
-    background-color: rgba(256, 256, 256, 1);
     width: 60%;
     height: 80%;
     position: fixed;
@@ -801,7 +824,6 @@ form#login table tr td:first-child, form#addevent table tr td:first-child {
 
 div#encycl_wrap {
     position: fixed;
-    background-color: rgba(256, 256, 256, 1);
     right: 5%;
     top: 10%;
     height: 80%;
@@ -834,26 +856,44 @@ a:hover {
     text-decoration:underline;
 }
 
-#sticky {
+#sticky_wrap {
     color: rgba(0, 0, 0, 1);
     display: none;
     position: fixed;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 1px;
-    border-style: solid;
-    background-color: rgba(256, 256, 256, 1);
     width: 600px;
     height: 500px;
     left: calc(50vw - 300px);
     top: calc(50vh - 250px);
     z-index: 20;
-    padding: 10px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-div#sticky div#stickybuttons button {
+div#stick div#stickybuttons button {
     margin-right: 20px;
     width: 100px;
+}
+
+#iptitle {
+    float: left;
+    position: absolute;
+    font-size: 200%;
+    vertical-align: top;
+    bottom: -20px;
+    left: 10px;
+    font-weight: bold;
+    background-color: rgba(200, 200, 200, 1);
+}
+
+.formpanel {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(200, 200, 200, 1);
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 10px;
+    border-color: rgba(150, 0, 0, 1);
+    border-style: solid;
 }

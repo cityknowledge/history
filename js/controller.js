@@ -37,12 +37,18 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     */
     FB = new Firebase("https://venicedata.firebaseio.com");
     FB.child('history').on('value', function (snapshot) {
+        var lcent = 0;
         $scope.events = [];
+        $scope.centuries = [];
         snapshot.forEach(function (value) {
             var item = value.val(),
                 key = value.key();
             item.key = key;
             $scope.events.push(item);
+            if (item.Year % 100 === 0 && item.Year != lcent) {
+                lcent = item.Year;
+                $scope.centuries.push(item);
+            }
         });
         state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
         state.drawState();
@@ -53,10 +59,8 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         $scope.events2 = generateSubset($scope.events, calculatePercentileThreshold(6));
         $scope.events1 = generateSubset($scope.events, calculatePercentileThreshold(2));
         window.handleParams();
+        $scope.$apply();
     });
-    // ref.orderByChild("height").on("child_added", function(snapshot) {
-    //   console.log(snapshot.key() + " was " + snapshot.val().height + " meters tall");
-    // });
     
     $scope.zoomIn = function () {
         $("#load").css("display", "block");
@@ -134,6 +138,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             toRet = true;
         }
         
+        if ($scope.auth) {
+            document.getElementById("flagbutton").setAttribute("onmouseup", "flag('" + event.key + "');");
+        }
+            
         $("div#infopanel_wrap")
             .css("display", "block")
             .css("-webkit-animation-name", "fadein")
@@ -141,15 +149,20 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             .css("-o-animation-name", "fadein")
             .css("animation-name", "fadein");
         
-        if (event.Image) {
+        if (event.Image || event.Location) {
             string += "<div style=\"float:right;width:50%;display:block;\">";
-            for (i = 0; i < event.Image.length; i++) {
-                string += "<img src=\"" + event.Image[i] + "\" style=\"max-width:100%;vertical-align:top;\">";
+            if (event.Image) {
+                for (i = 0; i < event.Image.length; i++) {
+                    string += "<img src=\"" + event.Image[i] + "\" style=\"max-width:100%;vertical-align:top;\">";
+                }
+            }
+            if (event.Location) {
+                string += "<iframe src=\"http://cartography.veniceprojectcenter.org/?loc=" + encodeURIComponent(event.Location) + "\" style=\"width:100%;height: 500px !important; visibility: visible !important; display: block !important;\"></iframe>";
             }
             string += "</div>";
         }
         
-        string += "<h2>" + (event.Date + " " + event.Year) + (event.Title ? (": " + event.Title + "</h2>") : "</h2>");
+        document.getElementById("iptitle").innerHTML = (event.Date + " " + event.Year) + (event.Title ? (": " + event.Title) : "");
         
         content = event.Content;
         
@@ -201,13 +214,13 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             break;
         case "last":
             $scope.hideInfoPanel(true);
-            if (!$scope.displayInfoPanel($scope.ipevent - 1)) {
+            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : ($scope.zoom === 1 ? $scope.events1 : $scope.centuries)), $scope.ipevent - 1)) {
                 $scope.ipevent++;
             }
             break;
         case "next":
             $scope.hideInfoPanel(true);
-            if (!$scope.displayInfoPanel($scope.ipevent + 1)) {
+            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : ($scope.zoom === 1 ? $scope.events1 : $scope.centuries)), $scope.ipevent + 1)) {
                 $scope.ipevent--;
             }
             break;
@@ -227,7 +240,6 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
     
     $scope.scrollToYear = window.scrollToYear;
-    $scope.colorArticles = window.colorArticles;
     
     $scope.zoomWithDest = function (period) {
         $scope.zoomIn();
@@ -277,6 +289,16 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
     
     $scope.sendFBCUD = window.sendFBCUD;
+    
+    $scope.auth = false;
+    
+    $scope.getTimePeriodFromYear = window.getTimePeriodFromYear;
+    
+    $scope.getColor = function(event) {
+        var color = window.getTimePeriodFromYear(event.Year).color,
+            obj = {"background-color": "rgba(" + color.r + "," + color.g + "," + color.b + ",.5)"};
+        return obj["background-color"];
+    };
 });
 
 window.controllerLoad();
