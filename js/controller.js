@@ -296,7 +296,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     
     $scope.getColor = function(event) {
         var color = window.getTimePeriodFromYear(event.Year).color,
-            obj = {"background-color": "rgba(" + color.r + "," + color.g + "," + color.b + ",.5)"};
+            obj = {"background-color": "rgba(" + color.r + "," + color.g + "," + color.b + ",1)"};
         return obj["background-color"];
     };
     

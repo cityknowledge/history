@@ -146,9 +146,9 @@ function enclanim() {
 function toggleAdvSearch() {
     if ($("#advsearch").css("display") === "none") {
         $("#advsearch").css("display", "inline");
-        document.getElementById("togglebutton").innerHTML = "Mostra meno";
+        document.getElementById("togglebutton").innerHTML = "&lt; Nasconde segnalibri";
     } else {
         $("#advsearch").css("display", "none");
-        document.getElementById("togglebutton").innerHTML = "Mostra più";
+        document.getElementById("togglebutton").innerHTML = "Segnalibri >";
     }
 }
