@@ -786,6 +786,9 @@ div#infopanel {
     font-size: 140%;
     overflow: auto;
     height: calc(100% - 52px);
+    background-image: url(icon/wm.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 div#infopanel h2 {
@@ -858,6 +861,11 @@ div#encycl_wrap {
 
 div#encycl {
     font-size: 140%;
+    overflow: auto;
+    height: calc(100% - 52px);
+    background-image: url(icon/wm.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .bookmark {

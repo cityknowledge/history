@@ -37,7 +37,7 @@ function draw(canvasState) {
     
     for (x = 0; x < timePeriods.length; x++) {
         start = yearToSliderPos(timePeriods[x].start);
-        rect = new Rectangle(start, top + 20, yearToSliderPos(timePeriods[x].end) - start + 1, bottom, "rgb(" + timePeriods[x].color.r + "," + timePeriods[x].color.g + "," + timePeriods[x].color.b + ")");
+        rect = new Rectangle(start, top + 20, yearToSliderPos(timePeriods[x].end) - start + 1, 20, "rgb(" + timePeriods[x].color.r + "," + timePeriods[x].color.g + "," + timePeriods[x].color.b + ")");
         rect.drawRect(ctx);
     }
     
@@ -45,9 +45,9 @@ function draw(canvasState) {
     
     for (x = 400; x <= 2015; x += 100) {
         if (x % 200) {
-            drawTick(yearToSliderPos(x), "", ctx, top, top + 20);
+            drawTick(yearToSliderPos(x), "", ctx, top, bottom + 10);
         } else {
-            drawTick(yearToSliderPos(x), x, ctx, top, top + 20);
+            drawTick(yearToSliderPos(x), x, ctx, top, bottom + 10);
         }
     }
     

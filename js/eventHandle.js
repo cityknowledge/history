@@ -13,18 +13,24 @@ Class which defines the shape of a rectangle
 This enttiry class deliminates the atributes of a
 rectangle on a canvas
 */
-function Rectangle(x, y, w, h, fill) {
+function Rectangle(x, y, w, h, fill, img) {
     'use strict';
     this.x = x || 0;
     this.y = y || 0;
     this.w = w || 1;
     this.h = h || 1;
     this.fill = fill || '#551a8b';
+    this.img = img || null;
     
     //test function for rectangle draw
     this.drawRect = function (ctx) {
-        ctx.fillStyle = this.fill;
-        ctx.fillRect(this.x, this.y, this.w, this.h);
+        if (this.img) {
+            this.img.onload = function () {ctx.drawImage(img, this.x, this.y, this.w, this.h);};
+            ctx.drawImage(img, this.x, this.y, this.w, this.h);
+        } else {
+            ctx.fillStyle = this.fill;
+            ctx.fillRect(this.x, this.y, this.w, this.h);
+        }
     };
     
     //tests to see if a given corrdinate is contained by a rectagle
@@ -99,9 +105,15 @@ function CanvasState(canvas) {
     /*
     Initialize all rectangles here, could be an arrray of sliders instead of one
     */
-    this.slider = new Rectangle(0, 15, 10, 20, "rgba(256, 256, 256, 1)");
-    this.left = new Rectangle(0, 60, 10, 30, "rgba(256, 256, 256, 1)");
-    this.right = new Rectangle(t - 22, 60, 10, 30, "rgba(256, 256, 256, 1)");
+    var img = new Image();
+    img.src = "icon/slider.png";
+    this.slider = new Rectangle(0, 5, 10, 40, "rgba(256, 256, 256, 1)", img);
+    var img2 = new Image();
+    img2.src = "icon/sla.png";
+    this.left = new Rectangle(0, 60, 10, 40, "rgba(256, 256, 256, 1)", img2);
+    var img3 = new Image();
+    img3.src = "icon/sra.png";
+    this.right = new Rectangle(t - 22, 60, 10, 40, "rgba(256, 256, 256, 1)", img3);
     //keep trac of if something is being dragged
     this.dragging = false;
     this.dragleft = false;
