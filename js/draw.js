@@ -44,16 +44,49 @@ function draw(canvasState) {
     ctx.fillStyle = "#ffffff";
     
     for (x = 400; x <= 2015; x += 100) {
-        drawTick(yearToSliderPos(x), x, ctx, top, top + 20);
+        if (x % 200) {
+            drawTick(yearToSliderPos(x), "", ctx, top, top + 20);
+        } else {
+            drawTick(yearToSliderPos(x), x, ctx, top, top + 20);
+        }
     }
     
     
 }
 
+function calculateInterval(range) {
+    if (range >= 1000) {
+        return 100;
+    } else if (range >= 500) {
+        return 50;
+    } else if (range >= 250) {
+        return 25;
+    } else if (range >= 100) {
+        return 10;
+    } else if (range >= 50) {
+        return 5;
+    } else if (range >= 20) {
+        return 2;
+    } else if (range >= 10) {
+        return 1;
+    }
+}
+
 // Calculates how many ticks get drawn, where they get drawn, and what years are displayed.
 function drawTicks(left, eltWidth, ctx, top, bottom, canvasState) {
     'use strict';
+    var x, y,
+        range = canvasState.rightSide - canvasState.leftSide,
+        interval = calculateInterval(range),
+        yinterval = eltWidth / range;
     
+    for (x = canvasState.leftSide, y = left; x < canvasState.rightSide; x++, y += yinterval) {
+        if (x % interval === 0) {
+            drawTick(y, x, ctx, top, bottom);
+        }
+    }
+    
+    /*
     var count = Math.round(eltWidth / 100),
         startYear = canvasState.leftSide,
         endYear = canvasState.rightSide,
@@ -69,7 +102,7 @@ function drawTicks(left, eltWidth, ctx, top, bottom, canvasState) {
         position = left + (delta * x);
         drawTick(position, label.toString(), ctx, top, bottom);
     }
-    
+    */
 }
 
 // Draws a tick at the specified location
