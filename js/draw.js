@@ -1,5 +1,5 @@
 /*jshint browser: true*/
-/*global Rectangle, $, timePeriods, yearToSliderPos, sliderPosToRealSliderPos*/
+/*global Rectangle, $, timePeriods, yearToSliderPos, sliderPosToRealSliderPos, realSliderPosToSliderPos*/
 
 var drawTick, drawTicks;
 
