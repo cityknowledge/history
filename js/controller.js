@@ -249,13 +249,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
     
     $scope.getFilter = function () {
-        switch ($scope.ftype) {
-        case "":
+        if (isNaN($scope.search)) {
             return $scope.search;
-        case "Year":
+        } else {
             return {Year: $scope.search};
-        case "Text":
-            return {Content: $scope.search};
         }
     };
     
