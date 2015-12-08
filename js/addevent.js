@@ -25,6 +25,8 @@ function addEvent() {
         Citation = document.getElementById("ae_Citation").value,
         Image = document.getElementById("ae_Image").value,
         Links = document.getElementById("ae_Links").value.split("\n"),
+        Location = document.getElementById("ae_Location"),
+        Title = document.getElementById("ae_Title"),
         months = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"];
     
     if (!Year) {
@@ -72,6 +74,8 @@ function addEvent() {
     // Insert code for image handling here.
     if (Links) {event.Links = Links;}
     event.Count = 0;
+    event.Location = Location;
+    event.Title = Title;
     event.timestamp = [
             ("0000" + Year).substr(Year.length),
             Month ? ("00" + months.indexOf(Month.toLowerCase()).toString()).substr(months.indexOf(Month.toLowerCase()).toString().length) + 1 : "00",

@@ -106,8 +106,8 @@ function realSliderPosToSliderPos(realSliderPos) {
     
     var spstart = parseInt(window.$scope.events[0].Year, 10),
         spend = window.$scope.events[window.$scope.events.length - 1].Year,
-        rspstart = $("canvas")[0].canvasState.leftSide,
-        rspend = $("canvas")[0].canvasState.rightSide;
+        rspstart = $("canvas")[0].canvasState ? $("canvas")[0].canvasState.leftSide : 400,
+        rspend = $("canvas")[0].canvasState ? $("canvas")[0].canvasState.rightSide : 2015;
     
     return ((realSliderPos - rspstart) / (rspend - rspstart) * (spend - spstart)) + spstart;
 }

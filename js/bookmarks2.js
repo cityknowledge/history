@@ -52,6 +52,9 @@ function newGroup() {
     'use strict';
     var ls = JSON.parse(localStorage.getItem("history") || "{}"),
         name = window.prompt("Nome", "");
+    if (name === "") {
+        window.alert("C'era un errore! Non è possibile creare un gruppo senz'un nome! Si preghiamo di scegliere un nome, e ritrova.");
+    }
     if (name === "new") {
         window.alert("C'era un errore! Non è possibile creare un gruppo col nome \"new\" perché questa parola è riservata. Si preghiamo di scegliere un altro nome.");
         return;

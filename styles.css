@@ -963,6 +963,7 @@ div#stick div#stickybuttons button {
 
 div#addeventform {
     overflow-x: hidden;
+    height: calc(100% - 52px);
 }
 
 form#addevent > *:not(span):not(#submitae), form#addevent > table > tbody > tr > td > *:not(span) {

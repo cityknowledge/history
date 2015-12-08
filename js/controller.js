@@ -1,5 +1,5 @@
 /*jshint browser: true*/
-/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods, Firebase, calculatePercentileThreshold, generateSubset*/
+/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods, Firebase, calculatePercentileThreshold, generateSubset, draw*/
 
 var app = new angular.module('appTimeline', []);
 var maxZoom = 3;
@@ -61,6 +61,19 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         window.handleParams();
         $scope.$apply();
     });
+    
+    $scope.getEvents = function () {
+        switch ($scope.zoom) {
+            case 0:
+                return $scope.centuries;
+            case 1:
+                return $scope.events1;
+            case 2:
+                return $scope.events2;
+            case 3:
+                return $scope.events;
+        }
+    };
     
     $scope.zoomIn = function () {
         $("#load").css("display", "block");
@@ -214,13 +227,13 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             break;
         case "last":
             $scope.hideInfoPanel(true);
-            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : ($scope.zoom === 1 ? $scope.events1 : $scope.centuries)), $scope.ipevent - 1)) {
+            if (!$scope.displayInfoPanel($scope.getEvents(), $scope.ipevent - 1)) {
                 $scope.ipevent++;
             }
             break;
         case "next":
             $scope.hideInfoPanel(true);
-            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : ($scope.zoom === 1 ? $scope.events1 : $scope.centuries)), $scope.ipevent + 1)) {
+            if (!$scope.displayInfoPanel($scope.getEvents(), $scope.ipevent + 1)) {
                 $scope.ipevent--;
             }
             break;
@@ -257,7 +270,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
     
     $scope.bookmark = function () {
-        var events = $scope.events;
+        var events = $scope.getEvents();
         events = $scope.search ? $filter('filter')(events, $scope.getFilter()) : events;
         
         if (!window.hasBookmark($scope.filter, events[$scope.ipevent - 1].key)) {

@@ -38,9 +38,11 @@ function popsticky() {
     'use strict';
     var ls = JSON.parse(localStorage.getItem("history") || "{}"),
         id = window.$scope.ipevent - 1,
-        events = window.$scope.search ? window.$filter('filter')(window.$scope.events, window.$scope.getFilter()) : window.$scope.events,
-        key = events[id].key,
-        text = ls[key] || "";
+        events, key, text;
+    events = window.$scope.getEvents();
+    events = window.$scope.search ? window.$filter('filter')(events, window.$scope.getFilter()) : events;
+    key = events[id].key;
+    text = ls[key] || "";
     
     document.getElementById("stick").innerHTML = 
         "<h3>Le sue note su quest’evento</h3><p>Potrà leggere queste note dopo; non saranno disponibili al pubblico.</p>Gruppo di segnalibri: <select id=bkgr onchange=\"if(document.getElementById(&quot;bkgr&quot;).value===&quot;new&quot;){newGroup();stickySelect();}else{updateSticky(document.getElementById(&quot;bkgr&quot;).value,&quot;" + key + "&quot;)}\"></select><br><textarea id=stickytext cols=70 rows=15>" + text + "</textarea><br><div id=stickybuttons></div>";

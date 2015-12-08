@@ -1,12 +1,12 @@
 /*jshint browser: true*/
-/*global Rectangle, $, timePeriods, yearToSliderPos*/
+/*global Rectangle, $, timePeriods, yearToSliderPos, sliderPosToRealSliderPos*/
 
 var drawTick, drawTicks;
 
 function draw(canvasState) {
     'use strict';
     
-    var x, rect, start,
+    var x, rect, start, events, lastYear,
         canvas = document.getElementById('axis'),
         ctx = canvas.getContext("2d"),
         w = window,
@@ -32,6 +32,25 @@ function draw(canvasState) {
     
     drawTicks(left, right - 22, ctx, top, bottom, canvasState);
     
+    events = window.$scope.getEvents();
+    events = window.$scope.search ? window.$filter('filter')(events, window.$scope.getFilter()) : events;
+    
+    try {
+        for (x = 0; x < events.length; x++) {
+            if (events[x].Year < canvasState.leftSide) {
+                continue;
+            } else if (events[x].Year > canvasState.rightSide) {
+                break;
+            }
+            if (lastYear === events[x].Year) {
+                continue;
+            }
+            drawTick(yearToSliderPos(realSliderPosToSliderPos(events[x].Year)), "", ctx, top, bottom);
+            lastYear = events[x].Year;
+        }
+    } catch (err) {
+    }
+    
     // Start drawing the second bar.
     top = 50;
     
@@ -50,8 +69,6 @@ function draw(canvasState) {
             drawTick(yearToSliderPos(x), x, ctx, top, bottom + 10);
         }
     }
-    
-    
 }
 
 function calculateInterval(range) {
@@ -76,14 +93,18 @@ function calculateInterval(range) {
 function drawTicks(left, eltWidth, ctx, top, bottom, canvasState) {
     'use strict';
     var x, y,
-        range = canvasState.rightSide - canvasState.leftSide,
+        range = canvasState ? canvasState.rightSide - canvasState.leftSide : 1615,
         interval = calculateInterval(range),
         yinterval = eltWidth / range;
     
+    try {
     for (x = canvasState.leftSide, y = left; x < canvasState.rightSide; x++, y += yinterval) {
         if (x % interval === 0) {
-            drawTick(y, x, ctx, top, bottom);
+            drawTick(yearToSliderPos(realSliderPosToSliderPos(x)), x, ctx, top, bottom);
         }
+    }
+    } catch (e) {
+        window.setTimeout(draw, 1000);
     }
     
     /*
