@@ -92,7 +92,7 @@ window.handleParams = function () {
                         window.$scope.zoom = 3;
                         window.scrollTo(panelNoToXPos(x + 1), 0);
                         window.$scope.$apply();
-                        window.$scope.displayInfoPanel(x + 1);
+                        window.$scope.displayInfoPanel(window.$scope.events, x + 1);
                         break;
                     }
                 }
