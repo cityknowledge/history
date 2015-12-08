@@ -820,7 +820,7 @@ div#infopanel h2 {
     color: rgba(0, 0, 0, 1);
 }
 
-#addeventform {
+#addeventform_wrap {
     display: none;
     width: 60%;
     height: 80%;
@@ -830,6 +830,9 @@ div#infopanel h2 {
     color: rgba(0, 0, 0, 1);
     padding-left: 20px;
     z-index: 12;
+}
+
+#addeventform {
     overflow-y: auto;
 }
 
@@ -837,7 +840,7 @@ form#login table, form#addevent table {
     border: none;
 }
 
-form#login table tr td:first-child, form#addevent table tr td:first-child {
+form#login table tr td:first-child {
     text-align: right;
 }
 
@@ -935,8 +938,15 @@ div#stick div#stickybuttons button {
     position: fixed;
 }
 
-#searchcomp *:not(span) {
+#searchcomp img {
+    vertical-align: top;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#searchcomp *:not(span):not(img) {
     margin-right: 20px;
+    vertical-align: top;
 }
 
 #togglebutton {
@@ -945,4 +955,21 @@ div#stick div#stickybuttons button {
 
 #advsearch {
     display: none;
+}
+
+.red {
+    color: rgba(255, 0, 0, 1);
+}
+
+div#addeventform {
+    overflow-x: hidden;
+}
+
+form#addevent > *:not(span):not(#submitae), form#addevent > table > tbody > tr > td > *:not(span) {
+    width: 100%;
+    margin: 0px;
+}
+
+form#addevent table td {
+    width: 33%;
 }

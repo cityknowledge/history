@@ -33,7 +33,7 @@
         <!--BEGIN SEARCH COMPONENT-->
         <div id="searchcomp" class="fadein">
             <!--SEARCH BOX-->
-            Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" id="search">
+            <img src="icon/search.png"><input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" id="search">
             <span id=advsearch>
                 Segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}" id="bkmk">
                     <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
@@ -169,23 +169,63 @@
             </div>
         </div>
         
-        <div class="formpanel" id=addeventform>
+        <div class="formpanel" id=addeventform_wrap>
             <div class=bar>
                 <img src="icon/pclose.png" onmouseup="closeAEF();" title="Chiudere questo forma">
             </div>
-            <div>
+            <div id="addeventform">
                 <h2>Aggiungere un nuovo evento</h2>
                 <form id=addevent>
+                    <!--
+                    Year | label: Anno | type: number | name: Year | id:ae_Year | required
+                    Month | Mese | text | Month | ae_Month
+                    Date | Data | number | Date | ae_Date
+                    Text | Testo | textarea 6x50 | Content | ae_Content | required
+                    Citation | Citazione | text | Citation | ae_Citation | required
+                    Image | Immagine | file | Image | ae_Image
+                    Links | ___ | textarea 6x50 | Links | ae_Links
+-->
                     <table>
-                        <tr><td>*Anno:</td><td><input type="number" value=2015 name="Year" id="ae_Year" required></td></tr>
-                        <tr><td>Mese:</td><td><input type="text" value="Gennaio" name=Month id=ae_Month></td></tr>
-                        <tr><td>Data:</td><td><input type=number value=21 name=Date id=ae_Date></td></tr>
-                        <tr><td>*Testo:</td><td><textarea rows=6 cols=50 name=Content id=ae_Content required></textarea></td></tr>
-                        <tr><td>*Citazione:</td><td><input type=text name=Citation id=ae_Citation required></td></tr>
-                        <tr><td>Immagine:</td><td><input type=file name=Image id=ae_Image></td></tr>
-                        <tr><td>Collegamenti:</td><td><textarea rows=6 cols=50 name=Links id=ae_Links>Uno per linea</textarea></td></tr>
-                    </table>
-                    <input type=submit onclick="addEvent();">
+                        <tbody>
+                            <tr>
+                                <td><span class="red">*</span>Anno</td><td>Mese</td><td>Data</td>
+                            </tr>
+                            <tr>
+                                <td><input type="number" name="Year" id="ae_Year" value="2015" onfocus="document.getElementById('ae_Year').value = '';" required></td>
+                                <td>
+                                    <select name="Month" id="ae_Month" onchange="calcdates();">
+                                        <option value="" selected>Mese sconosciuta / Nessuna mese</option>
+                                        <option value="gennaio">Gennaio</option>
+                                        <option value="febbraio">Febbraio</option>
+                                        <option value="marzo">Marzo</option>
+                                        <option value="aprile">Aprile</option>
+                                        <option value="maggio">Maggio</option>
+                                        <option value="giugno">Giugno</option>
+                                        <option value="luglio">Luglio</option>
+                                        <option value="agosto">Agosto</option>
+                                        <option value="settembre">Settembre</option>
+                                        <option value="ottobre">Ottobre</option>
+                                        <option value="novembre">Novembre</option>
+                                        <option value="dicembre">Dicembre</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="Date" id="ae_Date" disabled>
+                                        <option value="" selected>Data sconosciuta / Nessuna data</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table><br>
+                    <span class="red">*</span>Testo dell&#8217;evento:<br>
+                    <textarea rows="6" name="Content" id="ae_Content" required></textarea><br><br>
+                    <span class="red">*</span>Citazione (Formato Chicago):<br>
+                    <input type="text" name="Citation" id="ae_Citation" required><br><br>
+                    Immagine:<br>
+                    <input type="file" name="Image" id="ae_Image"><br><br>
+                    URL delle letture suplementari on-line (uno a linea):<br>
+                    <textarea rows="6" name="Links" id="ae_Links"></textarea><br><br>
+                    <input id="submitae" type=submit onclick="addEvent();">
                 </form>
             </div>
         </div>
@@ -279,10 +319,7 @@
         <script src="js/sticky2.js"></script>
         <script src="js/fbc.js"></script>
         <script src="js/flag.js"></script>
-        <!--
-        <script src="js/min.js"></script>
-        -->
-        
+        <script src="js/dates.js"></script>
         <script src="js/controller.js"></script>
     </body>
 </html>

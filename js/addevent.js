@@ -1,14 +1,18 @@
 /*jshint browser: true*/
-/*global Firebase, $*/
+/*global Firebase, $, shouldScroll:true, unobscure*/
 
 function openAEF() {
     'use strict';
-    $("#addeventform").css("display", "block");
+    window.$scope.obscure();
+    $("#addeventform_wrap").css("display", "block");
+    shouldScroll = false;
 }
 
 function closeAEF() {
     'use strict';
-    $("#addeventform").css("display", "none");
+    unobscure();
+    $("#addeventform_wrap").css("display", "none");
+    shouldScroll = true;
 }
 
 function addEvent() {
