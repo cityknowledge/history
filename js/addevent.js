@@ -74,6 +74,9 @@ function addEvent() {
         return false;
     }
     
+    // UPLOAD IMAGE AT THIS POINT WHEN READY TO DO
+    
+    
     date = Month ? Date ? Date.toString() + " " + Month : Month.charAt(0).toUpperCase() + Month.substr(1) : null;
     event = {};
     event.Year = Year;

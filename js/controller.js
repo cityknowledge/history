@@ -1,12 +1,13 @@
 /*jshint browser: true*/
 /*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods, Firebase, calculatePercentileThreshold, generateSubset, draw*/
 
+var FB = new Firebase("http://venicedata.firebaseio.com/");
 var app = new angular.module('appTimeline', []);
 var maxZoom = 3;
 app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate, $sce, $timeout) {
     'use strict';
     
-    var state, FB;
+    var state;
     
     window.$scope = $scope;
     window.$filter = $filter;
@@ -35,7 +36,6 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     var authData = FB.getAuth();
     FB.createUser({email: 'test@xx.com', password: '123'}, function(e){alert('ok');})
     */
-    FB = new Firebase("https://venicedata.firebaseio.com");
     FB.child('history').on('value', function (snapshot) {
         var lcent = 0;
         $scope.events = [];
@@ -56,6 +56,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         $("#load").css("display", "none");
         $(".fadein").css("display", "block");
         $(".slidein").css("display", "block");
+        $("body").css("cursor", "initial");
         $scope.events2 = generateSubset($scope.events, calculatePercentileThreshold(6));
         $scope.events1 = generateSubset($scope.events, calculatePercentileThreshold(2));
         window.handleParams();
@@ -170,7 +171,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
                 }
             }
             if (event.Location) {
-                string += "<iframe src=\"http://cartography.veniceprojectcenter.org/?layer=church&amp;feature=" + encodeURIComponent(event.Location.replace("Chiesa di ", "Church of ")) + "\" style=\"width:100%;height: 500px !important; visibility: visible !important; display: block !important;\"></iframe>";
+                string += "<a href=\"http://cartography.veniceprojectcenter.org/?layer=church&amp;feature=" + encodeURIComponent(event.Location.replace("Chiesa di ", "Church of ").replace("S.", "San")) + "\" style=\"width:100%;height: 500px !important; visibility: visible !important; display: block !important;\">" + event.Location + "</a>";
             }
             string += "</div>";
         }

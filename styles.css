@@ -428,6 +428,7 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     margin-left: 8px;
+    cursor: wait;
 }
 
 #zoom_in, #zoom_out, #zoom_1, #zoom_2, #zoom_3, #zoom_0 {

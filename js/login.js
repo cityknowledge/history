@@ -1,5 +1,5 @@
 /*jshint browser: true*/
-/*global Firebase, $*/
+/*global Firebase, $, FB*/
 
 function loggedIn() {
     'use strict';
@@ -18,8 +18,7 @@ function loggedOut() {
 function login() {
     'use strict';
     var user = document.getElementById("login_user").value,
-        pass = document.getElementById("login_pass").value,
-        FB = new Firebase("https://venicedata.firebaseio.com/");
+        pass = document.getElementById("login_pass").value;
     
     FB.authWithPassword({email: user, password: pass}, function (error, authData) {
         if (error) {
@@ -34,7 +33,6 @@ function login() {
 
 function logout() {
     'use strict';
-    var FB = new Firebase("https://venicedata.firebaseio.com/");
     FB.unauth();
     window.alert("Lei s'è uscito/a con successo.");
     loggedOut();
