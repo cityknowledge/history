@@ -170,7 +170,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
                 }
             }
             if (event.Location) {
-                string += "<iframe src=\"http://cartography.veniceprojectcenter.org/?loc=" + encodeURIComponent(event.Location) + "\" style=\"width:100%;height: 500px !important; visibility: visible !important; display: block !important;\"></iframe>";
+                string += "<iframe src=\"http://cartography.veniceprojectcenter.org/?layer=church&amp;feature=" + encodeURIComponent(event.Location.replace("Chiesa di ", "Church of ")) + "\" style=\"width:100%;height: 500px !important; visibility: visible !important; display: block !important;\"></iframe>";
             }
             string += "</div>";
         }

@@ -54,10 +54,11 @@ function newGroup() {
         name = window.prompt("Nome", "");
     if (name === "") {
         window.alert("C'era un errore! Non è possibile creare un gruppo senz'un nome! Si preghiamo di scegliere un nome, poi riprove.");
-    }
-    if (name === "new") {
+    } else if (name === "new") {
         window.alert("C'era un errore! Non è possibile creare un gruppo col nome \"new\" perché questa parola è riservata. Si preghiamo di scegliere un altro nome.");
         return;
+    } else if (name === "all") {
+        window.alert("C'era un errore! Non è possibile creare un gruppo col nome \"all\" perché questa parola è riservata. Si preghiamo di scegliere un altro nome.");
     }
     ls[name] = {};
     localStorage.setItem("history", JSON.stringify(ls));
@@ -88,7 +89,11 @@ function getAllBookmarks() {
 function hasBookmark(group, key) {
     'use strict';
     var ls = JSON.parse(localStorage.getItem("history") || "{}"),
-        g = ls[group] || {};
+        g = group !== "all" ? ls[group] || {} : getAllBookmarks();
     
-    return g[key] !== undefined;
+    if (group !== "all") {
+        return g[key] !== undefined;
+    } else {
+        return g.indexOf(key) >= 0;
+    }
 }

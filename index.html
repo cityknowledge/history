@@ -38,12 +38,13 @@
                 Segnalibri:
                 <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}if(document.getElementById('bkmk').value===''){document.getElementById('ppb').disabled=true;}else{document.getElementById('ppb').disabled=false;}" id="bkmk">
                     <option value="" selected>Nessun segnalibro</option>
+                    <option value="all" selected>Tutti i segnalibri</option>
                     <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
                     <option value="new">Nuovo...</option>
                 </select>
                 <!--END FILTER DROPDOWN-->
                 Mostra solo i segnalibri: <input type="checkbox" data-ng-model="bkonly">
-                <button type="button" onclick="presentPage();" id=ppb disabled>Vedere i segnalibri</button>
+                <button type="button" onclick="presentPage();" id=ppb disabled>Scaricare i segnalibri</button>
             </span>
             <a onclick="toggleAdvSearch();" id=togglebutton title="Mostra o nasconde le opzioni di segnalibri">Segnalibri ></a>
         </div>
@@ -105,7 +106,7 @@
                 <!--Display a bookmark if there are bookmarks-->                <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
                 <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
             </article>
-            <article data-ng-if="(zoom === 0)" data-ng-repeat="event in centuries | filter:getFilter()" data-ng-click="displayInfoPanel(centuries, mouseEventToPanelNo($event));obscure();" data-ng-style="{'background-color': getColor(event)}">
+            <article data-ng-if="(zoom === 0)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in centuries | filter:getFilter()" data-ng-click="displayInfoPanel(centuries, mouseEventToPanelNo($event));obscure();" data-ng-style="{'background-color': getColor(event)}">
                 <h2 data-ng-bind="event.Year"></h2>
                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content))"></p>
                 <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">

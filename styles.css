@@ -513,9 +513,10 @@ h1 {
     text-decoration: underline overline;
     font-variant: small-caps;
     position: fixed;
-    top: 20px;
+    top: 35px;
     left: 0;
     right: 0;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     height: 50px;
@@ -648,8 +649,8 @@ div.arrow {
     background-size: contain;
     background-repeat: no-repeat;
     width: 60px;
-    height: calc(100vh - 335px);
-    top: 138px;
+    height: calc(100vh - 345px);
+    top: 148px;
     z-index: 3;
     cursor: pointer;
     -webkit-animation-name: fadein;
@@ -685,7 +686,7 @@ div#timeline {
     white-space: nowrap;
     position: absolute;
     height: 100%;
-    top: 130px;
+    top: 140px;
     left: 60px;
     padding-right: 60px;
     -webkit-box-sizing: border-box;
@@ -703,7 +704,7 @@ div#timeline article {
     color: rgba(256, 256, 256, 1);
     background-color: rgba(25, 25, 25, .5);
     padding: 10px 30px;
-    height: calc(100vh - 335px);
+    height: calc(100vh - 345px);
     z-index: 2;
     cursor: pointer;
     overflow-y: visible;
@@ -798,9 +799,11 @@ div#infopanel h2 {
 
 .timeperiod {
     position: fixed;
-    top: 40px;
+    top: 75px;
     left: 0;
+    width: 100%;
     font-size: 20pt;
+    text-align: center;
 }
 
 #func {
@@ -973,4 +976,8 @@ form#addevent > *:not(span):not(#submitae), form#addevent > table > tbody > tr >
 
 form#addevent table td {
     width: 33%;
+}
+
+#togglebutton {
+    color: rgba(255, 255, 255, 1);
 }
