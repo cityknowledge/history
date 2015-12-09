@@ -23,7 +23,7 @@ function login() {
     
     FB.authWithPassword({email: user, password: pass}, function (error, authData) {
         if (error) {
-            window.alert("C'era un errore. Preghiamo di controllare il suo username e password.");
+            window.alert("C'era un errore. Si preghiamo di controllare il suo username e password.");
         } else {
             window.alert("Il suo login è effettuato con successo.");
             loggedIn();
@@ -36,7 +36,7 @@ function logout() {
     'use strict';
     var FB = new Firebase("https://venicedata.firebaseio.com/");
     FB.unauth();
-    window.alert("Lei s'è uscito con successo.");
+    window.alert("Lei s'è uscito/a con successo.");
     loggedOut();
     window.$scope.auth = false;
 }
