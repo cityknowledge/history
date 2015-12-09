@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "nodemailer": "",
-    "node-feedparser": ""
+    "node-feedparser": "",
+    "request": "",
+    "firebase": ""
   }
 }

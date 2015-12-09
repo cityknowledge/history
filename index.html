@@ -177,7 +177,7 @@
                 <img src="icon/pclose.png" onmouseup="closeAEF();" title="Chiudere questo forma">
             </div>
             <div id="addeventform">
-                <h2>Aggiungere un nuovo evento</h2>
+                <h2>Aggiunge un nuovo evento</h2>
                 <form id=addevent>
                     <!--
                     Year | label: Anno | type: number | name: Year | id:ae_Year | required
@@ -197,7 +197,7 @@
                                 <td><input type="number" name="Year" id="ae_Year" value="2015" onfocus="document.getElementById('ae_Year').value = '';" required></td>
                                 <td>
                                     <select name="Month" id="ae_Month" onchange="calcdates();">
-                                        <option value="" selected>Mese sconosciuta / Nessuna mese</option>
+                                        <option value="" selected>Mese sconosciuto / Nessun mese</option>
                                         <option value="gennaio">Gennaio</option>
                                         <option value="febbraio">Febbraio</option>
                                         <option value="marzo">Marzo</option>
@@ -224,16 +224,16 @@
                     <input type="text" name="Title" id="ae_Title"><br><br>
                     <span class="red">*</span>Testo dell&#8217;evento:<br>
                     <textarea rows="6" name="Content" id="ae_Content" required></textarea><br><br>
-                    <span class="red">*</span>Citazione (Formato Chicago):<br>
+                    <span class="red">*</span>Citazione (<a href="http://www.chicagomanualofstyle.org/tools_citationguide.html">Chicago format</a>):<br>
                     <input type="text" name="Citation" id="ae_Citation" required><br><br>
                     Luogo dell&#8217;evento:<br>
                     <input type="text" name="Location" id="ae_Location"><br><br>
                     Immagine:<br>
                     <input type="file" name="Image" id="ae_Image"><br><br>
-                    URL delle letture suplementari on-line (uno a linea):<br>
+                    URL delle letture suplementari on-line (uno per linea):<br>
                     <textarea rows="6" name="Links" id="ae_Links"></textarea><br><br>
                     <input id="submitae" type=submit onclick="addEvent();"><br><br>
-                    <span class="red">*I campi macchiati con l&#8217;asterisco sono richiesti.</span>
+                    <span class="red">*I campi contrassegnati con l&#8217;asterisco sono richiesti.</span>
                 </form>
             </div>
         </div>
