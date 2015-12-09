@@ -54,11 +54,13 @@ function newGroup() {
         name = window.prompt("Nome", "");
     if (name === "") {
         window.alert("C'era un errore! Non è possibile creare un gruppo senz'un nome! Si preghiamo di scegliere un nome, poi riprove.");
+        return;
     } else if (name === "new") {
         window.alert("C'era un errore! Non è possibile creare un gruppo col nome \"new\" perché questa parola è riservata. Si preghiamo di scegliere un altro nome.");
         return;
     } else if (name === "all") {
         window.alert("C'era un errore! Non è possibile creare un gruppo col nome \"all\" perché questa parola è riservata. Si preghiamo di scegliere un altro nome.");
+        return;
     }
     ls[name] = {};
     localStorage.setItem("history", JSON.stringify(ls));
