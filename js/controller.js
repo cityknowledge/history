@@ -126,7 +126,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
 	
 	$scope.remSpec = function (str) {
-		return str.replace(/’/g, "'").replace(/ /g, "_").replace(/à|À/g, "a").replace(/é|É|è|È/g, "e").replace(/ì|Ì/g, "i").replace(/ó|Ó|ò|Ò/g, "o").replace(/ù|Ù/g, "u");
+		return str.replace(/ /g, "_").replace(/[^A-Za-z0-9_]/g, "");
 	};
     
     $scope.displayInfoPanel = function (events, panelNo) {
@@ -174,9 +174,6 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
                 for (i = 0; i < event.Image.length; i++) {
                     string += "<img src=\"" + event.Image[i] + "\" style=\"max-width:100%;vertical-align:top;\">";
                 }
-            }
-            if (event.Location) {
-                string += "<a href=\"http://cartography.veniceprojectcenter.org/?layer=church&amp;feature=" + encodeURIComponent(event.Location.replace("Chiesa di ", "Church of ").replace("S.", "San")) + "\" style=\"width:100%;height: 500px !important; visibility: visible !important; display: block !important;\">" + event.Location + "</a>";
             }
             string += "</div>";
         }

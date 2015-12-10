@@ -339,6 +339,16 @@ function CanvasState(canvas) {
             shape.drawRect(ctx);
             this.left.drawRect(ctx);
             this.right.drawRect(ctx);
+			
+			//draw the connectors
+			ctx.beginPath();
+			ctx.strokeStyle = "#ffcc00";
+			ctx.moveTo(this.left.x, this.left.y);
+			ctx.lineTo(this.right.x + this.right.w, this.right.y);
+			ctx.moveTo(this.left.x, this.left.y + this.left.h);
+			ctx.lineTo(this.right.x + this.right.w, this.right.y + this.right.h);
+			ctx.stroke();
+			ctx.closePath();
             
             //check to see if selected
             if (this.selection !== null) {

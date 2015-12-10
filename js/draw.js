@@ -3,7 +3,7 @@
 
 var drawTick, drawTicks;
 
-function draw(canvasState) {
+function draw(canvasState, mx, my) {
     'use strict';
     
     var x, y, rect, start, events, lastYear,
@@ -55,10 +55,17 @@ function draw(canvasState) {
     
     // Start drawing the second bar.
     top = 50;
+	
+	if (!canvasState.tparr) {
+		canvasState.tparr = [];
+	}
     
     for (x = 0; x < timePeriods.length; x++) {
         start = yearToSliderPos(timePeriods[x].start);
-        rect = new Rectangle(start, top + 20, yearToSliderPos(timePeriods[x].end) - start + 1, 20, "rgb(" + timePeriods[x].color.r + "," + timePeriods[x].color.g + "," + timePeriods[x].color.b + ")");
+		if (!canvasState.tparr[x]) {
+        	canvasState.tparr[x] = new Rectangle(start, top + 20, yearToSliderPos(timePeriods[x].end) - start + 1, 20, "rgb(" + timePeriods[x].color.r + "," + timePeriods[x].color.g + "," + timePeriods[x].color.b + ")");
+		}
+		rect = canvasState.tparr[x];
         rect.drawRect(ctx);
     }
     
@@ -68,7 +75,7 @@ function draw(canvasState) {
         if (x % 200) {
             drawTick(yearToSliderPos(x), "", ctx, top, bottom + 10);
         } else {
-            drawTick(yearToSliderPos(x), x, ctx, top, bottom + 10);
+            drawTick(yearToSliderPos(x), x, ctx, top - 8, bottom + 10 + 8);
         }
     }
 }
