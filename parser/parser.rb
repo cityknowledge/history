@@ -1,6 +1,7 @@
 #File which defines the Atlas Parsing Algorithm
 #//i (case insensative)
 #Author: August Beers
+#https://s3.amazonaws.com/cityknowledge/history/Part3_4114.tif
 
 $line = 0
 
@@ -80,7 +81,8 @@ $locations = [
     /Chiesa degli/,
     /Chiesa delle/,
     /Chiesa dello/,
-    /Chiesa dell'/
+    /Chiesa dell'/,
+    /Basilica di/
     
         
     #/Monastero/,
@@ -176,8 +178,8 @@ File.open('AD_no_image_text.txt', 'r:utf-8').each_line do |line|
   #At this point we have found content that is part of an event
 
   #Event start with a date
-  elsif(/\A\.(?<date>((\d+\s{1}\w+)|(\w+))):/.match(line))
-    data = /\A\.(?<date>((\d+\s{1}\w+)|(\w+))):/.match(line)
+  elsif(/\A\.(?<date>(((\d|°)+\s{1}\w+)|(\w+))):/.match(line))
+    data = /\A\.(?<date>(((\d|°)+\s{1}\w+)|(\w+))):/.match(line)
       
     #look at old event content for location data
       $current_event.locationSearch
