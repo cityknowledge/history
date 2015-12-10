@@ -53,6 +53,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
         state.drawState();
         document.getElementById("axis").canvasState = state;
+		$("#wait").css("display", "none");
         $("#load").css("display", "none");
         $(".fadein").css("display", "block");
         $(".slidein").css("display", "block");
@@ -123,6 +124,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     $scope.stopScroll = function () {
         scrollVal = 0;
     };
+	
+	$scope.remSpec = function (str) {
+		return str.replace(/’/g, "'").replace(/ /g, "_").replace(/à|À/g, "a").replace(/é|É|è|È/g, "e").replace(/ì|Ì/g, "i").replace(/ó|Ó|ò|Ò/g, "o").replace(/ù|Ù/g, "u");
+	};
     
     $scope.displayInfoPanel = function (events, panelNo) {
         
@@ -186,7 +191,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             content = content.substr(pos + 1);
             pos = content.indexOf("#");
             val = content.substr(0, pos);
-            content2 += "<a style='cursor: pointer' onclick=\"openEncycl(&quot;" + val.replace(/ /g, "_") + "&quot;)\">" + val + "</a>";
+            content2 += "<a style='cursor: pointer' onclick=\"openEncycl(&quot;" + encodeURI($scope.remSpec(val)) + "&quot;)\">" + val + "</a>";
             content = content.substr(pos + 1);
         }
         

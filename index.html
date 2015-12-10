@@ -23,6 +23,9 @@
         Includes the Google Translate component on the page.
         Specifies the layout of the component as well as its specific settings.
         -->
+		
+		<img src="icon/wait.png" id="wait">
+		
         <div id="google_translate_element" class="slidein"></div><script type="text/javascript">
             function googleTranslateElementInit() {
                 new google.translate.TranslateElement({pageLanguage: 'it', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, autoDisplay: false}, 'google_translate_element');
@@ -75,6 +78,7 @@
             <!--Login-->                <a id="loginb" onclick="openLogin();" onmouseover="hover('loginb');" onmouseout="unhover('loginb')" title="Effetuare login"></a>
             <!--Add event-->            <a id="addeventb" onclick="openAEF();" title="Aggiungere un nuovo evento" onmouseover="hover('addeventb');" onmouseout="unhover('addeventb')"></a>
             <!--Logout-->               <a id="logoutb" onclick="logout();" title="Uscire" onmouseover="hover('logoutb');" onmouseout="unhover('logoutb');"></a>
+			<!--Random-->				<a id="random" onclick="random();" title="Andare a un evento casuale" onmouseover="hover('random');" onmouseout="unhover('random');"></a>
             <!--Credits/Help-->         <a href="crediti.html" target="_blank" id="credlink" title="Crediti ed Informazione" onmouseover="hover('credlink');" onmouseout="unhover('credlink');"></a>
         </div>
         <!--END FUNCTIONBAR COMPONENT-->
@@ -129,6 +133,7 @@
                 <img src="icon/pright.png" data-ng-mouseup="barAct('next');" title="Andare al prossimo evento">
                 <img src="icon/pleft.png" data-ng-mouseup="barAct('last');" title="Andare allo scorso evento">
                 <img src="icon/bookmark.png" onmouseup="popsticky();" title="Lasciare un segnalibro qua">
+				<img src="icon/randomb.png" onmouseup="random();" title="Andare ad un evento casuale">
                 <img src="icon/flag.png" data-ng-if="auth" id="flagbutton" title="Indicare un problema con quest&#8217;evento">
             </div>
             <div id="infopanel">
@@ -329,6 +334,7 @@
         <script src="js/fbc.js"></script>
         <script src="js/flag.js"></script>
         <script src="js/dates.js"></script>
+		<script src="js/random.js"></script>
         <script src="js/controller.js"></script>
     </body>
 </html>

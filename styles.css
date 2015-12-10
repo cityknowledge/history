@@ -566,14 +566,25 @@ div#timeAxis {
 }
 
 div#nav a, div#func a {
-    padding-left: 10px;
-    padding-right: 10px;
     width: 32px;
     height: 32px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     cursor: pointer;
+}
+
+div#nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+	background-size: auto;
+}
+
+div#func a {
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
 }
 
 #obscure {
@@ -641,6 +652,11 @@ div#nav a, div#func a {
 #addeventb {
     background-image: url("icon/aeb.png");
     display: none;
+}
+
+#random {
+	background-image: url("icon/random.png");
+	display: inline-block;
 }
 
 div.arrow {
@@ -975,4 +991,22 @@ form#addevent table td {
 
 #togglebutton {
     color: rgba(255, 255, 255, 1);
+}
+
+#wait {
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-name: fadein;
+	-moz-animation-name: fadein;
+	-o-animation-name: fadein;
+	animation-name: fadein;
+	display: block;
+	width: 660;
+	height: 380;
+	position: fixed;
+	top: calc(50vh - 190px);
+	left: calc(50vw - 330px);
+	z-index: 0;
 }

@@ -2,7 +2,7 @@
 /*global size, draw, scroll, $, CanvasState, yearToSliderPos, getFirstEventShown, realSliderPosToSliderPos, getTimePeriodFromYear, panelNoToXPos*/
 
 // Global scroll delta.
-var scrollVal = 0;
+var scrollVal = 1;
 var relocate = true;
 
 // Function called after the controller is loaded.

@@ -1,10 +1,12 @@
 /*jshint browser: true*/
+/*global scrollVal: true*/
 
 var shouldScroll = true;
 
 function scroll(event) {
     'use strict';
-    
+    scrollVal = 0;
+	
     if (shouldScroll) {
         if (event.deltaMode === 0) { // DOM_DELTA_PIXEL
             window.scrollBy(event.deltaY + event.deltaX, 0);

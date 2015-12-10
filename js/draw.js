@@ -100,14 +100,12 @@ function drawTicks(left, eltWidth, ctx, top, bottom, canvasState) {
         yinterval = eltWidth / range;
     
     try {
-    for (x = canvasState.leftSide, y = left; x < canvasState.rightSide; x++, y += yinterval) {
-        if (x % interval === 0) {
-            drawTick(yearToSliderPos(realSliderPosToSliderPos(x)), x, ctx, top, bottom);
-        }
-    }
-    } catch (e) {
-        window.setTimeout(draw, 1000);
-    }
+		for (x = canvasState.leftSide, y = left; x < canvasState.rightSide; x++, y += yinterval) {
+			if (x % interval === 0) {
+				drawTick(yearToSliderPos(realSliderPosToSliderPos(x)), x, ctx, top, bottom);
+			}
+		}
+    } catch (e) {}
     
     /*
     var count = Math.round(eltWidth / 100),
