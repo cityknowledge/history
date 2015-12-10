@@ -1,12 +1,13 @@
 /*jshint browser: true*/
-/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods, Firebase, calculatePercentileThreshold, generateSubset*/
+/*global angular, scrollVal: true, $, hideInfoPanel, unobscure, shouldScroll: true, mouseEventToPanelNo, CanvasState, timePeriods, Firebase, calculatePercentileThreshold, generateSubset, draw*/
 
+var FB = new Firebase("http://venicedata.firebaseio.com/");
 var app = new angular.module('appTimeline', []);
 var maxZoom = 3;
 app.controller("controllerTimeline", function ($scope, $http, $filter, $interpolate, $sce, $timeout) {
     'use strict';
     
-    var state, FB;
+    var state;
     
     window.$scope = $scope;
     window.$filter = $filter;
@@ -35,7 +36,6 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     var authData = FB.getAuth();
     FB.createUser({email: 'test@xx.com', password: '123'}, function(e){alert('ok');})
     */
-    FB = new Firebase("https://venicedata.firebaseio.com");
     FB.child('history').on('value', function (snapshot) {
         var lcent = 0;
         $scope.events = [];
@@ -56,11 +56,25 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
         $("#load").css("display", "none");
         $(".fadein").css("display", "block");
         $(".slidein").css("display", "block");
+        $("body").css("cursor", "initial");
         $scope.events2 = generateSubset($scope.events, calculatePercentileThreshold(6));
         $scope.events1 = generateSubset($scope.events, calculatePercentileThreshold(2));
         window.handleParams();
         $scope.$apply();
     });
+    
+    $scope.getEvents = function () {
+        switch ($scope.zoom) {
+            case 0:
+                return $scope.centuries;
+            case 1:
+                return $scope.events1;
+            case 2:
+                return $scope.events2;
+            case 3:
+                return $scope.events;
+        }
+    };
     
     $scope.zoomIn = function () {
         $("#load").css("display", "block");
@@ -157,7 +171,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
                 }
             }
             if (event.Location) {
-                string += "<iframe src=\"http://cartography.veniceprojectcenter.org/?loc=" + encodeURIComponent(event.Location) + "\" style=\"width:100%;height: 500px !important; visibility: visible !important; display: block !important;\"></iframe>";
+                string += "<a href=\"http://cartography.veniceprojectcenter.org/?layer=church&amp;feature=" + encodeURIComponent(event.Location.replace("Chiesa di ", "Church of ").replace("S.", "San")) + "\" style=\"width:100%;height: 500px !important; visibility: visible !important; display: block !important;\">" + event.Location + "</a>";
             }
             string += "</div>";
         }
@@ -214,13 +228,13 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             break;
         case "last":
             $scope.hideInfoPanel(true);
-            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : ($scope.zoom === 1 ? $scope.events1 : $scope.centuries)), $scope.ipevent - 1)) {
+            if (!$scope.displayInfoPanel($scope.getEvents(), $scope.ipevent - 1)) {
                 $scope.ipevent++;
             }
             break;
         case "next":
             $scope.hideInfoPanel(true);
-            if (!$scope.displayInfoPanel($scope.zoom === 3 ? $scope.events : ($scope.zoom === 2 ? $scope.events2 : ($scope.zoom === 1 ? $scope.events1 : $scope.centuries)), $scope.ipevent + 1)) {
+            if (!$scope.displayInfoPanel($scope.getEvents(), $scope.ipevent + 1)) {
                 $scope.ipevent--;
             }
             break;
@@ -249,18 +263,15 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     };
     
     $scope.getFilter = function () {
-        switch ($scope.ftype) {
-        case "":
+        if (isNaN($scope.search)) {
             return $scope.search;
-        case "Year":
+        } else {
             return {Year: $scope.search};
-        case "Text":
-            return {Content: $scope.search};
         }
     };
     
     $scope.bookmark = function () {
-        var events = $scope.events;
+        var events = $scope.getEvents();
         events = $scope.search ? $filter('filter')(events, $scope.getFilter()) : events;
         
         if (!window.hasBookmark($scope.filter, events[$scope.ipevent - 1].key)) {
@@ -296,7 +307,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     
     $scope.getColor = function(event) {
         var color = window.getTimePeriodFromYear(event.Year).color,
-            obj = {"background-color": "rgba(" + color.r + "," + color.g + "," + color.b + ",.5)"};
+            obj = {"background-color": "rgba(" + color.r + "," + color.g + "," + color.b + ",1)"};
         return obj["background-color"];
     };
     

@@ -1,5 +1,5 @@
 /*jshint browser: true*/
-/*global Firebase, $*/
+/*global Firebase, $, FB*/
 
 function loggedIn() {
     'use strict';
@@ -18,12 +18,11 @@ function loggedOut() {
 function login() {
     'use strict';
     var user = document.getElementById("login_user").value,
-        pass = document.getElementById("login_pass").value,
-        FB = new Firebase("https://venicedata.firebaseio.com/");
+        pass = document.getElementById("login_pass").value;
     
     FB.authWithPassword({email: user, password: pass}, function (error, authData) {
         if (error) {
-            window.alert("C'era un errore. Preghiamo di controllare il suo username e password.");
+            window.alert("C'era un errore. Si preghiamo di controllare il suo username e password.");
         } else {
             window.alert("Il suo login è effettuato con successo.");
             loggedIn();
@@ -34,9 +33,8 @@ function login() {
 
 function logout() {
     'use strict';
-    var FB = new Firebase("https://venicedata.firebaseio.com/");
     FB.unauth();
-    window.alert("Lei s'è uscito con successo.");
+    window.alert("Lei s'è uscito/a con successo.");
     loggedOut();
     window.$scope.auth = false;
 }

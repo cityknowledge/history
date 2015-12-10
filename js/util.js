@@ -5,9 +5,9 @@ function yearToSliderPos(year) {
     'use strict';
     var events, ystart, ylen, sstart, slen;
     if (typeof window.$scope.getFilter !== undefined) {
-        events = window.$filter('filter')(window.$scope.events, window.$scope.getFilter());
+        events = window.$filter('filter')(window.$scope.zoom === 0 ? window.$scope.centuries : window.$scope.zoom === 1 ? window.$scope.events1 : window.$scope.zoom === 2 ? window.$scope.events2 : window.$scope.events, window.$scope.getFilter());
     } else {
-        events = window.$scope.events;
+        events = window.$scope.zoom === 0 ? window.$scope.centuries : window.$scope.zoom === 1 ? window.$scope.events1 : window.$scope.zoom === 2 ? window.$scope.events2 : window.$scope.events;
     }
     ystart = 400;
     ylen = 2015 - ystart;
@@ -21,9 +21,9 @@ function sliderPosToYear(sliderPos) {
     'use strict';
     var events, ystart, ylen, sstart, slen;
     if (typeof window.$scope.getFilter !== undefined) {
-        events = window.$filter('filter')(window.$scope.events, window.$scope.getFilter());
+        events = window.$filter('filter')(window.$scope.zoom === 0 ? window.$scope.centuries : window.$scope.zoom === 1 ? window.$scope.events1 : window.$scope.zoom === 2 ? window.$scope.events2 : window.$scope.events, window.$scope.getFilter());
     } else {
-        events = window.$scope.events;
+        events = window.$scope.zoom === 0 ? window.$scope.centuries : window.$scope.zoom === 1 ? window.$scope.events1 : window.$scope.zoom === 2 ? window.$scope.events2 : window.$scope.events;
     }
     ystart = 400;
     ylen = 2015 - ystart;
@@ -45,7 +45,7 @@ function scrollToYear(year) {
     var events, panelNo, xPos;
     
     // Calculate which is the first event in this year
-    events = window.$scope.events;
+    events = window.$scope.zoom === 0 ? window.$scope.centuries : window.$scope.zoom === 1 ? window.$scope.events1 : window.$scope.zoom === 2 ? window.$scope.events2 : window.$scope.events;
     events = window.$scope.search ? window.$filter('filter')(events, window.$scope.getFilter()) : events;
     
     for (panelNo = 0; panelNo < events.length; panelNo++) {
@@ -106,8 +106,8 @@ function realSliderPosToSliderPos(realSliderPos) {
     
     var spstart = parseInt(window.$scope.events[0].Year, 10),
         spend = window.$scope.events[window.$scope.events.length - 1].Year,
-        rspstart = $("canvas")[0].canvasState.leftSide,
-        rspend = $("canvas")[0].canvasState.rightSide;
+        rspstart = $("canvas")[0].canvasState ? $("canvas")[0].canvasState.leftSide : 400,
+        rspend = $("canvas")[0].canvasState ? $("canvas")[0].canvasState.rightSide : 2015;
     
     return ((realSliderPos - rspstart) / (rspend - rspstart) * (spend - spstart)) + spstart;
 }

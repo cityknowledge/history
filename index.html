@@ -33,26 +33,30 @@
         <!--BEGIN SEARCH COMPONENT-->
         <div id="searchcomp" class="fadein">
             <!--SEARCH BOX-->
-            Cerca: <input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" id="search">
+            <img src="icon/search.png"><input type="text" data-ng-model="actsearch" data-ng-keypress="updateSearch($event);" id="search">
             <span id=advsearch>
-                Segnalibri: <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}" id="bkmk">
+                Segnalibri:
+                <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}if(document.getElementById('bkmk').value===''){document.getElementById('ppb').disabled=true;}else{document.getElementById('ppb').disabled=false;}" id="bkmk">
+                    <option value="" selected>Nessun segnalibro</option>
+                    <option value="all" selected>Tutti i segnalibri</option>
                     <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
                     <option value="new">Nuovo...</option>
                 </select>
                 <!--END FILTER DROPDOWN-->
                 Mostra solo i segnalibri: <input type="checkbox" data-ng-model="bkonly">
+                <button type="button" onclick="presentPage();" id=ppb disabled>Scaricare i segnalibri</button>
             </span>
-            <a onclick="toggleAdvSearch();" id=togglebutton>Mostra più</a>
+            <a onclick="toggleAdvSearch();" id=togglebutton title="Mostra o nasconde le opzioni di segnalibri">Segnalibri ></a>
         </div>
         <!--END SEARCH COMPONENT-->
 
         <!--BEGIN PAGE CONTENT-->
         
         <!--TITLE-->
-        <h1 class="fadein">Storia di Venezia</h1>
+        <h1 class="fadein" style="width:100%"><img src="icon/title.png"></h1>
         
         <!--BEGIN TIME PERIOD COMPONENT-->
-        <p class="timeperiod fadein" data-ng-if="zoom !== 0" id="timeperiod">L&#8217;Impero Romano (400 - 538)</p>
+        <p class="timeperiod fadein" id="timeperiod">L&#8217;Impero Romano (400 - 538)</p>
         <!--END TIME PERIOD COMPONENT-->
         
         <!--BEGIN NAVBAR COMPONENT
@@ -68,10 +72,10 @@
 
         <!--BEGIN FUNCTIONBAR COMPONENT-->
         <div id=func class=fadein>
-            <!--Login-->                <a id="loginb" onclick="openLogin();"></a>
-            <!--Add event-->            <a id="addeventb" onclick="openAEF();"></a>
-            <!--Logout-->               <a id="logoutb" onclick="logout();"></a>
-            <!--Credits/Help-->         <a href="crediti.html" target="_blank" id="credlink" title="Crediti"></a>
+            <!--Login-->                <a id="loginb" onclick="openLogin();" onmouseover="hover('loginb');" onmouseout="unhover('loginb')" title="Effetuare login"></a>
+            <!--Add event-->            <a id="addeventb" onclick="openAEF();" title="Aggiungere un nuovo evento" onmouseover="hover('addeventb');" onmouseout="unhover('addeventb')"></a>
+            <!--Logout-->               <a id="logoutb" onclick="logout();" title="Uscire" onmouseover="hover('logoutb');" onmouseout="unhover('logoutb');"></a>
+            <!--Credits/Help-->         <a href="crediti.html" target="_blank" id="credlink" title="Crediti ed Informazione" onmouseover="hover('credlink');" onmouseout="unhover('credlink');"></a>
         </div>
         <!--END FUNCTIONBAR COMPONENT-->
         
@@ -102,7 +106,7 @@
                 <!--Display a bookmark if there are bookmarks-->                <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
                 <!--Display the event's image iff present-->                    <img class="ipimg" data-ng-if="event.Image" data-ng-attr-src="event.Image[0]" data-ng-attr-alt="event.Title">
             </article>
-            <article data-ng-if="(zoom === 0)" data-ng-repeat="event in centuries" data-ng-click="displayInfoPanel(centuries, mouseEventToPanelNo($event));obscure();" data-ng-style="{'background-color': getColor(event)}">
+            <article data-ng-if="(zoom === 0)&&(!bkonly||hasBookmark(filter,event.key))" data-ng-repeat="event in centuries | filter:getFilter()" data-ng-click="displayInfoPanel(centuries, mouseEventToPanelNo($event));obscure();" data-ng-style="{'background-color': getColor(event)}">
                 <h2 data-ng-bind="event.Year"></h2>
                 <p data-ng-if="!event.Image" data-ng-bind-html="renderHtml(getText(event.Content))"></p>
                 <img class="bookmark" data-ng-if="hasBookmark(filter, event.key)" src="icon/bookmarkimg.png">
@@ -121,11 +125,11 @@
         <div id="infopanel_wrap" class=formpanel>
             <div class="bar">
                 <h2 id="iptitle" style="float:left"></h2>
-                <img src="icon/pclose.png" data-ng-mouseup="barAct('close');">
-                <img src="icon/pright.png" data-ng-mouseup="barAct('next');">
-                <img src="icon/pleft.png" data-ng-mouseup="barAct('last');">
-                <img src="icon/bookmark.png" onmouseup="popsticky();">
-                <img src="icon/flag.png" data-ng-if="auth" id="flagbutton">
+                <img src="icon/pclose.png" data-ng-mouseup="barAct('close');" title="Chiudere l&#8217;evento">
+                <img src="icon/pright.png" data-ng-mouseup="barAct('next');" title="Andare al prossimo evento">
+                <img src="icon/pleft.png" data-ng-mouseup="barAct('last');" title="Andare allo scorso evento">
+                <img src="icon/bookmark.png" onmouseup="popsticky();" title="Lasciare un segnalibro qua">
+                <img src="icon/flag.png" data-ng-if="auth" id="flagbutton" title="Indicare un problema con quest&#8217;evento">
             </div>
             <div id="infopanel">
             </div>
@@ -135,7 +139,7 @@
         <!--BEGIN STICKY COMPONENT-->
         <div class=formpanel id="sticky_wrap">
             <div class="bar">
-                <img src="icon/pclose.png" onmouseup="closeSticky();">
+                <img src="icon/pclose.png" onmouseup="closeSticky();" title="Chiudere">
             </div>
             <div id="stick">
             </div>
@@ -146,7 +150,7 @@
         <div id="encycl_wrap" class="formpanel">
             <div class="bar">
                 <h2 id="encycltitle" style="float:left"></h2>
-                <img src="icon/pclose.png" onmouseup="enclanim();">
+                <img src="icon/pclose.png" onmouseup="enclanim();" title="Chiudere l&#8217;enciclopedia">
             </div>
             <div id="encycl">
             </div>
@@ -156,7 +160,7 @@
         <!--BEGIN FORMPANEL COMPONENTS-->
         <div class="formpanel" id="loginform">
             <div class="bar_small">
-                <img src="icon/pclose.png" onmouseup="closeLogin();">
+                <img src="icon/pclose.png" onmouseup="closeLogin();" title="Chiudere">
             </div>
             <div>
                 <form id="login">
@@ -169,23 +173,68 @@
             </div>
         </div>
         
-        <div class="formpanel" id=addeventform>
+        <div class="formpanel" id=addeventform_wrap>
             <div class=bar>
-                <img src="icon/pclose.png" onmouseup="closeAEF();">
+                <img src="icon/pclose.png" onmouseup="closeAEF();" title="Chiudere questo forma">
             </div>
-            <div>
+            <div id="addeventform">
                 <h2>Aggiungere un nuovo evento</h2>
                 <form id=addevent>
+                    <!--
+                    Year | label: Anno | type: number | name: Year | id:ae_Year | required
+                    Month | Mese | text | Month | ae_Month
+                    Date | Data | number | Date | ae_Date
+                    Text | Testo | textarea 6x50 | Content | ae_Content | required
+                    Citation | Citazione | text | Citation | ae_Citation | required
+                    Image | Immagine | file | Image | ae_Image
+                    Links | ___ | textarea 6x50 | Links | ae_Links
+-->
                     <table>
-                        <tr><td>*Anno:</td><td><input type="number" value=2015 name="Year" id="ae_Year" required></td></tr>
-                        <tr><td>Mese:</td><td><input type="text" value="Gennaio" name=Month id=ae_Month></td></tr>
-                        <tr><td>Data:</td><td><input type=number value=21 name=Date id=ae_Date></td></tr>
-                        <tr><td>*Testo:</td><td><textarea rows=6 cols=50 name=Content id=ae_Content required></textarea></td></tr>
-                        <tr><td>*Citazione:</td><td><input type=text name=Citation id=ae_Citation required></td></tr>
-                        <tr><td>Immagine:</td><td><input type=file name=Image id=ae_Image></td></tr>
-                        <tr><td>Collegamenti:</td><td><textarea rows=6 cols=50 name=Links id=ae_Links>Uno per linea</textarea></td></tr>
-                    </table>
-                    <input type=submit onclick="addEvent();">
+                        <tbody>
+                            <tr>
+                                <td><span class="red">*</span>Anno</td><td>Mese</td><td>Data</td>
+                            </tr>
+                            <tr>
+                                <td><input type="number" name="Year" id="ae_Year" value="2015" onfocus="document.getElementById('ae_Year').value = '';" required></td>
+                                <td>
+                                    <select name="Month" id="ae_Month" onchange="calcdates();">
+                                        <option value="" selected>Mese sconosciuto / Nessun mese</option>
+                                        <option value="gennaio">Gennaio</option>
+                                        <option value="febbraio">Febbraio</option>
+                                        <option value="marzo">Marzo</option>
+                                        <option value="aprile">Aprile</option>
+                                        <option value="maggio">Maggio</option>
+                                        <option value="giugno">Giugno</option>
+                                        <option value="luglio">Luglio</option>
+                                        <option value="agosto">Agosto</option>
+                                        <option value="settembre">Settembre</option>
+                                        <option value="ottobre">Ottobre</option>
+                                        <option value="novembre">Novembre</option>
+                                        <option value="dicembre">Dicembre</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="Date" id="ae_Date" disabled>
+                                        <option value="" selected>Data sconosciuta / Nessuna data</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table><br>
+                    Titolo:<br>
+                    <input type="text" name="Title" id="ae_Title"><br><br>
+                    <span class="red">*</span>Testo dell&#8217;evento:<br>
+                    <textarea rows="6" name="Content" id="ae_Content" required></textarea><br><br>
+                    <span class="red">*</span>Citazione (<a href="http://www.chicagomanualofstyle.org/tools_citationguide.html">Chicago format</a>):<br>
+                    <input type="text" name="Citation" id="ae_Citation" required><br><br>
+                    Luogo dell&#8217;evento:<br>
+                    <input type="text" name="Location" id="ae_Location"><br><br>
+                    <!--Immagine:<br>
+                    <input type="file" name="Image" id="ae_Image"><br><br>-->
+                    URL delle letture suplementari on-line (uno per linea):<br>
+                    <textarea rows="6" name="Links" id="ae_Links"></textarea><br><br>
+                    <input id="submitae" type=submit onclick="addEvent();"><br><br>
+                    <span class="red">*I campi contrassegnati con l&#8217;asterisco sono richiesti.</span>
                 </form>
             </div>
         </div>
@@ -212,7 +261,7 @@
         For the function responsible for sizing the canvas, see size.js::size().
         -->
         <div id=timeAxis class=fadein>
-            <canvas id="axis" width="100" height="90"></canvas>
+            <canvas id="axis" width="100" height="100"></canvas>
         </div>
         <!--END TIME AXIS COMPONENT-->
         
@@ -232,10 +281,10 @@
             For the function that handles the unhover animation, see animations.js::unhover().
             -->
             <button data-ng-click="zoomOut()" onmouseover="hover('zoom_out');" onmouseout="unhover('zoom_out');" id="zoom_out"></button>
-            <button data-ng-click="zoomTo(0);" onmouseover="hover('zoom_0');" onmouseout="unhover('zoom_0');" id="zoom_0"></button>
-            <button data-ng-click="zoomTo(1);" onmouseover="hover('zoom_1');" onmouseout="unhover('zoom_1');" id="zoom_1"></button>
-            <button data-ng-click="zoomTo(2);" onmouseover="hover('zoom_2');" onmouseout="unhover('zoom_2');" id="zoom_2"></button>
-            <button data-ng-click="zoomTo(3);" onmouseover="hover('zoom_3');" onmouseout="unhover('zoom_3');" id="zoom_3"></button>
+            <button data-ng-click="zoomTo(0);" onmouseover="hover('zoom_0');" onmouseout="unhover('zoom_0');" id="zoom_0" title="Mostra i secoli"></button>
+            <button data-ng-click="zoomTo(1);" onmouseover="hover('zoom_1');" onmouseout="unhover('zoom_1');" id="zoom_1" title="Mostra gli eventi importantissimi"></button>
+            <button data-ng-click="zoomTo(2);" onmouseover="hover('zoom_2');" onmouseout="unhover('zoom_2');" id="zoom_2" title="Mostra gli eventi importanti"></button>
+            <button data-ng-click="zoomTo(3);" onmouseover="hover('zoom_3');" onmouseout="unhover('zoom_3');" id="zoom_3" title="Mostra tutti gli eventi"></button>
             <button data-ng-click="zoomIn()" onmouseover="hover('zoom_in');" onmouseout="unhover('zoom_in');" id="zoom_in"></button>
             <!--END ZOOM BUTTONS-->
         </div>
@@ -279,10 +328,7 @@
         <script src="js/sticky2.js"></script>
         <script src="js/fbc.js"></script>
         <script src="js/flag.js"></script>
-        <!--
-        <script src="js/min.js"></script>
-        -->
-        
+        <script src="js/dates.js"></script>
         <script src="js/controller.js"></script>
     </body>
 </html>

@@ -54,17 +54,17 @@ window.onresize = function () {
 
 window.onscroll = function () {
     'use strict';
-    var time, events,
-        npos = yearToSliderPos(realSliderPosToSliderPos(parseInt(window.$scope.events[getFirstEventShown()].Year, 10)));
+    var time, events, npos;
+    
+    events = window.$scope.zoom === 3 ? window.$scope.events : (window.$scope.zoom === 2 ? window.$scope.events2 : (window.$scope.zoom === 1 ? window.$scope.events1 : window.$scope.centuries));
+    events = window.$scope.search ? window.$filter('filter')(events, window.$scope.getFilter()) : events;
+    npos = yearToSliderPos(realSliderPosToSliderPos(parseInt(events[getFirstEventShown()].Year, 10)));
     
     // Move the slider to npos.
     if (relocate) {
         document.getElementById("axis").canvasState.slider.x = npos;
         document.getElementById("axis").canvasState.valid = false;
     }
-    
-    events = window.$scope.events;
-    events = window.$scope.search ? window.$filter('filter')(events, window.$scope.getFilter()) : events;
     
     time = getTimePeriodFromYear(events[getFirstEventShown()].Year);
     if (window.$scope.tp !== time) {
@@ -92,7 +92,7 @@ window.handleParams = function () {
                         window.$scope.zoom = 3;
                         window.scrollTo(panelNoToXPos(x + 1), 0);
                         window.$scope.$apply();
-                        window.$scope.displayInfoPanel(x + 1);
+                        window.$scope.displayInfoPanel(window.$scope.events, x + 1);
                         break;
                     }
                 }

@@ -23,7 +23,7 @@ MONTH = {
 }
 
 SRC = "https://venicedata.firebaseio.com/"
-KEY = "gG1wZ2oyUxca6Rro3XYsXaKH9ODG7nrKEUqVujWm"
+KEY = ENV["FB_KEY"]
 FB = Firebase::Client.new(SRC, KEY); nil
 #This is where we delette the old data
 FB.delete('history')
