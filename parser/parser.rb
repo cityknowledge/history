@@ -231,7 +231,7 @@ $events << $current_event
 
 
 #now print the result of parsing
-out_file = File.new('data.txt', 'w:utf-8')
+out_file = File.new('data.json', 'w:utf-8')
 num = 0
 out_file.print "{\n"
 out_file.print '  "events" : [' + "\n"

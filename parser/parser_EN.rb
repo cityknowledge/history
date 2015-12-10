@@ -8,6 +8,7 @@ class Entry
     @caption = ''
     @content = ''
     @page = ''
+    @duplicate = 0    
     @id = 0
     end
 
@@ -23,6 +24,7 @@ class Entry
   attr_accessor :content
   attr_accessor :page
   attr_accessor :id
+  attr_accessor :duplicate
 
 end
 
@@ -92,9 +94,10 @@ File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
     #other wise we just have a regula caption
     else
       $current_entry.caption = data[:caption]
-    end
-
-    $current_entry.page = $current_page
+    end #end special entries
+     
+        
+        $current_entry.page = $current_page
 
     #if the line contains more information than just the tag it is content.
     if(line.length - (data[:caption].length + 3) > 0)
@@ -104,8 +107,33 @@ File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
 
     else
       $current_entry.content = ''
-    end
+    end #end first content
 
+        
+            #check for duplicate
+    $entries.each do |old|
+
+        #if we have a duplicate
+        if(old.caption == $current_entry.caption)
+
+            tmp =  old
+            $entries.delete(old)
+            if(tmp.duplicate == 0)
+                tmp.content = '1.<br>' + tmp.content + 
+                '<br><br>2.<br>' + $current_entry.content
+                tmp.duplicate += 1
+                $current_entry = tmp
+
+            else
+                tmp.content = tmp.content + '<br><br>' + (tmp.duplicate + 2).to_s + ".<br>" + $current_entry.content
+                tmp.duplicate += 1
+                $current_entry = tmp
+            end #end if first duplicate
+            
+    end #end if duplicateend #end loop
+        
+  end #end caption match
+        
   else
 
     $current_entry.content = $current_entry.content + line[0, line.length - 1] + ' '
@@ -118,7 +146,7 @@ end
 $entries << $current_entry
 
 #now print the result of parsing
-out_file = File.new('JSON_EN.txt', 'w:utf-8')
+    out_file = File.new('data_EN.json', 'w:utf-8')
 link_file = File.new('Link_File.txt', 'w:utf-8')
 num = 0
 out_file.print "{\n"

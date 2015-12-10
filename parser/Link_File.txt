@@ -1,4 +1,4 @@
-﻿    0:
+    0:
     1:Alvar Aalto
     2:Abbacinatura
     3:Antonio Abbondi
@@ -29,7 +29,6 @@
    28:Accademia dei Filareti
    29:Accademia dei Generosi
    30:Accademia dei Granelleschi
-   31:Accademia dei Nobili
    32:Accademia dei Pacifici di Venezia
    33:Accademia dei Pazzi Amorosi
    34:Accademia dei Pellegrini
@@ -65,7 +64,6 @@
    64:Acotanto famiglia
    65:Pietro Acotanto
    66:Acqua alta
-   67:Acqua di Melissa
    68:Acqua potabile
    69:Acquavitai
    70:Acquedotto
@@ -102,7 +100,6 @@
   101:Francesco Aglietti
   102:Agnadello
   103:Battista Agnese
-  104:Agnese
   105:Agnusdei famiglia
   106:Gualtiero Agnusdei
   107:Agostini famiglia
@@ -116,7 +113,6 @@
   115:Agostino d’Ancona
   116:Agostino da Traù
   117:Agostino della Bargella
-  118:Agostino di Duccio
   119:Agostino Veneziano
   120:Agrimal famiglia
   121:Aguzzini
@@ -129,7 +125,6 @@
   128:Alfredo Albanese
   129:Giovanni Battista Albanese
   130:Albani famiglia
-  131:Albani famiglia
   132:Bonaiuto Albani
   133:Gianfrancesco Albani
   134:Albania Veneta
@@ -137,9 +132,8 @@
   136:Alberegno famiglia
   137:Giacomo Albarelli
   138:Alberenghi famiglia
-  139:Alberghetti
   140:Giusto Emilio Alberghetti
-  141:Alberghetti
+  139:Alberghetti
   142:Maria Alberghetti
   143:Sigismondo Alberghetti
   144:Albero della Libertà
@@ -162,7 +156,6 @@
   161:Pietro Alborghetti
   162:Francesco Albotto
   163:Albrizzi famiglia
-  164:Albrizzi famiglia
   165:Albrizzi
   166:Elsa Albrizzi
   167:Giovanni Battista Albrizzi
@@ -254,7 +247,6 @@
   253:Ancelle di Gesù Bambino
   254:Ancelle Missionarie del SS. Sacramento
   255:Ancona
-  256:Anconeta
   257:Andrea Bresciano
   258:Andrea da Formigine
   259:Andrea da Murano
@@ -286,7 +278,6 @@
   285:Deifobo dell’ Anguillara
   286:Anguissola famiglia
   287:Aniano
-  288:Via Annia
   289:Annone Veneto
   290:Anselmi famiglia
   291:Anselmo Anselmi
@@ -305,8 +296,6 @@
   304:Itinerario Antonini
   305:Giacomo Antonini
   306:Franzoi Antonio
-  307:Antonio
-  308:Antonio
   309:Antonio da Firenze
   310:Antonio da Murano
   311:Antonio da Negroponte
@@ -320,14 +309,12 @@
   319:Giuseppe Apollonio
   320:Umbro Apollonio
   321:Apostolato della preghiera
-  322:Via Appia
   323:Andrea Appiani
   324:Approbatio
   325:Appuntadori
   326:Aqua
   327:Aqua granda
   328:Aquileia
-  329:Via Aquileiense
   330:Aquilo
   331:Aratore
   332:Isola di Arbe
@@ -339,10 +326,8 @@
   338:Archivio Luigi Nono
   339:Archivio Storico del Comune di Venezia
   340:Archivio Storico del Patriarcato di Venezia
-  341:Misericordia
   342:Arciconfraternita di S. Rocco
   343:Arciconfraternite
-  344:Arco
   345:Arco Foscari
   346:Ardizon famiglia
   347:Cesare Ardolino
@@ -394,7 +379,6 @@
   393:Arsili
   394:Arte della lana
   395:Arte vetraria
-  396:Arti
   397:Artigianelli
   398:Artiglieri
   399:Artiglieria
@@ -408,7 +392,6 @@
   407:Asci
   408:Asolo
   409:Tiziano Aspetti
-  410:Tiziano Aspetti
   411:Roberto Assagioli
   412:Assistenza pubblica
   413:Asso di picche
@@ -475,7 +458,6 @@
   474:Giovanni Andrea Avogadro
   475:Luigi Avogadro
   476:Pietro Avogadro
-  477:Avogaria
   478:Avonal famiglia
   479:Nicolò Avonal
   480:Avventurina
@@ -514,8 +496,6 @@
   513:Giacomo Badoer
   514:Giannandrea Badoer
   515:Giovanni Badoer
-  516:Giovanni Badoer
-  517:Giovanni Badoer
   518:Orsola Badoer
   519:Pietro Badoer
   520:Pietro Badoer
@@ -609,7 +589,6 @@
   608:Barbacani
   609:Barbani famiglia
   610:Eugenio Barbantini
-  611:Barbara
   612:Barbaran famiglia
   613:Barbarella
   614:Barbareschi
@@ -618,21 +597,16 @@
   617:Barbariche
   618:Barbarigo famiglia
   619:Agostino Barbarigo
-  620:Agostino Barbarigo
   621:Andrea Barbarigo
-  622:Andrea Barbarigo
   623:Bernardo Barbarigo
   624:Giorgio Barbarigo
   625:Giovanni Barbarigo
-  626:Giovanni Barbarigo
-  627:Barbarigo
-  628:Barbarigo
   629:Jacopo Barbarigo
   630:Marcantonio Barbarigo
   631:Marco Barbarigo
   632:Niccolò Barbarigo
   633:Nicolò Barbarigo
-  634:Barbarigo
+  627:Barbarigo
   635:Pietro Barbarigo
   636:Villa Barbarigo
   637:Ida Barbarigo Cadorin
@@ -642,11 +616,7 @@
   641:Cornelia Barbaro
   642:Daniele Matteo Alvise Barbaro
   643:Ermolao Barbaro
-  644:Ermolao Barbaro
-  645:Ermolao Barbaro
-  646:Ermolao Barbaro
   647:Francesco Barbaro
-  648:Francesco Barbaro
   649:Giosafat Barbaro
   650:Jacopo Barbaro
   651:Marcantonio Barbaro
@@ -655,7 +625,6 @@
   654:Paolo Barbaro
   655:Saverio Barbaro
   656:Barbarossa
-  657:Barbarossa
   658:Alberto Barbera
   659:Arnaldo Barbera
   660:Barberini famiglia
@@ -730,7 +699,6 @@
   729:Paul François Barras
   730:Maurice Barrès
   731:Melchiorre Barthel
-  732:Nanni di Bartolo
   733:Bartolomeo di Domenico
   734:Maestro Bartolomeo
   735:Pietro Bartolotti
@@ -766,7 +734,6 @@
   765:Basilio II
   766:Basilisco
   767:Bassano
-  768:Bassano
   769:Francesco Bassano
   770:Gerolamo Bassano
   771:Giovanni Bassano
@@ -790,7 +757,6 @@
   789:Battaglia di Agnadello Agnadello
   790:Battaglia di Alghero Alghero
   791:Battaglia di Anzio Anzio
-  792:Arco
   793:Battaglia di Argenta Argenta
   794:Battaglia della Bicocca Bicocca
   795:Battaglia del Bosforo Bosforo
@@ -903,7 +869,6 @@
   902:Cornelia Bembo
   903:Dardi Bembo
   904:Francesco Bembo
-  905:Francesco Bembo
   906:Giovanni Bembo
   907:Illuminata Bembo
   908:Leone Bembo
@@ -967,7 +932,6 @@
   966:Pietro Berna
   967:Franco Bernabè
   968:Giuseppe Bernardi
-  969:Giuseppe Bernardi
   970:Jacopo Bernardi
   971:Paola Bernardi
   972:Bernardino da Feltre
@@ -1033,7 +997,6 @@
  1032:Giovanni Antonio Bianchini
  1033:Giovanni Battista Bianchini
  1034:Vincenzo Bianchini
- 1035:Vincenzo Bianchini
  1036:Bianco famiglia
  1037:Andrea Bianco
  1038:Giovanni Bianco
@@ -1132,23 +1095,18 @@
  1131:Bolpe
  1132:Urbano Bolzani
  1133:Bombarda
- 1134:Bombardieri
  1135:Bombaseri
  1136:Sebastiano Bombelli
  1137:Daniel Bomberg
  1138:Bombisti
  1139:Bon
  1140:Alessandro Bon
- 1141:Alessandro Bon
  1142:Alvise Bon
  1143:Anna Bon
  1144:Antonio Bon
- 1145:Antonio Bon
  1146:Bartolomeo Bon
- 1147:Bartolomeo Bon
  1148:Filippo Bon
  1149:Francesco Bon
- 1150:Francesco Bon
  1151:Francesco Augusto Bon
  1152:Giovanni Bon
  1153:Marcello Bon
@@ -1156,9 +1114,7 @@
  1155:Nicolò Bon
  1156:Ottaviano Bon
  1157:Pacifico Bon
- 1158:Palazzo Bon
  1159:Pietro Bon
- 1160:Pietro Bon
  1161:Bona Tartara
  1162:Bonaccia
  1163:Bonaldo famiglia
@@ -1266,7 +1222,6 @@
  1265:Alvise Bragadin
  1266:Ambrogio Bragadin
  1267:Andrea Bragadin
- 1268:Andrea Bragadin
  1269:Angelo Bragadin
  1270:Antonio Bragadin
  1271:Bon Bragadin
@@ -1276,7 +1231,6 @@
  1275:Giovanni Bragadin
  1276:Gio. Battista Bragadin
  1277:Marcantonio Bragadin
- 1278:Marcantonio Bragadin
  1279:Marco Bragadin
  1280:Tomaso di Donato Bragadin
  1281:Bragosso
@@ -1302,7 +1256,6 @@
  1301:Bregonzi
  1302:Brenna
  1303:Brenta
- 1304:Brenta
  1305:Vittore Brentano
  1306:Brentella
  1307:Brescia
@@ -1416,18 +1369,15 @@
  1415:Antonio Buzzolla
  1416:George Gordon Byron
  1417:Ca’
- 1418:Ca’ di Dio
  1419:Ca’ Foscari Esposizioni
  1420:Ca’ Foscari Università
  1421:Ca’ Porto
  1422:Cabianca
- 1423:Caboto
  1424:Luigi Caburlotto
  1425:Caccia ai tori
  1426:Caccia all’orso
  1427:Massimo Cacciari
  1428:Paolo Cacciari
- 1429:Marco Caco
  1430:Alvise Cadamosto
  1431:Cadore
  1432:Battaglia di Cadore
@@ -1438,7 +1388,6 @@
  1437:Domenico Caenazzo
  1438:Tommaso Caffarini
  1439:Caffè a Venezia
- 1440:Caffè Florian
  1441:Caffè Lavena
  1442:Caffè Quadri
  1443:Ippolito Caffi
@@ -1453,7 +1402,6 @@
  1452:Uri Caine
  1453:Caiselli famiglia
  1454:Piotr Ilic Cajkovskij
- 1455:Ponte di Calatrava
  1456:Santiago Calatrava
  1457:Calbo famiglia
  1458:Filippo Calbo
@@ -1484,7 +1432,6 @@
  1483:Dario Calimani
  1484:Riccardo Calimani
  1485:Calimero
- 1486:Maria Callas
  1487:Calle
  1488:Giuseppe Callegari
  1489:Callegheri
@@ -1529,43 +1476,32 @@
  1528:Domenico Campagnola
  1529:Giulio Campagnola
  1530:Umberto Campagnolo
- 1531:Campalto
- 1532:Campalto
- 1533:Campana
  1534:Campanato
  1535:Campanile di S. Marco
  1536:Matteo Campano
  1537:Campanon di Candia
  1538:Campatico
- 1539:Campazzo
  1540:Campiello
- 1541:Campiello
  1542:Campigo
  1543:Luca Campigotto
  1544:Enrico Camplani
  1545:Giuseppe Camploy
- 1546:Campo
  1547:Trattato di Campoformido
  1548:Campolo
- 1549:Campolo
  1550:Camponogara
  1551:Camposampiero
  1552:Campostrini
  1553:Campsores
  1554:Canabri famiglia
- 1555:Canal
  1556:Agostino Canal
  1557:Antonio Canal
- 1558:Antonio Canal
  1559:Bernardo Canal
- 1560:Bernardo Canal
  1561:Cristoforo Canal
- 1562:Daniele Canal
  1563:Fabio Canal
  1564:Gabrio Canal
  1565:Giambattista Canal
  1566:Giovanni Antonio Canal
- 1567:Canal
+ 1555:Canal
  1568:Guido Canal
  1569:Martino Canal
  1570:Nicolò Canal
@@ -1593,19 +1529,16 @@
  1592:Giovanni Candi
  1593:Candia
  1594:Assedio di Candia
- 1595:Centro Culturale Candiani
  1596:Candiani famiglia
  1597:Luigi Candiani
- 1598:Candiano
  1599:Giovanni Candiano
  1600:Marina Candiano
  1601:Pietro Candiano
- 1602:Candiano
+ 1598:Candiano
  1603:Pietro II Candiano
  1604:Pietro III Candiano
  1605:Pietro IV Candiano
  1606:Vitale Candiano
- 1607:Vitale Candiano
  1608:Thomas Candianus
  1609:Luigi Candida
  1610:Candidiano di Rimini
@@ -1615,19 +1548,16 @@
  1614:Antonio Canetti
  1615:Caneva
  1616:Bruno Canino
- 1617:Cannaregio
  1618:Salvatore Cannarozzo
  1619:Cannaruoli
  1620:Cannocchiale di Galileo
  1621:Cannoniera
  1622:Pietro Canonica
- 1623:Canossiane
  1624:Congregazione dei Figli della Carità Canossiani
  1625:Antonio Canova
  1626:Cansiglio
  1627:Nino Cantalamessa
  1628:Cantanti lirici
- 1629:Cantieri De Poli
  1630:Eugenio Cantoni
  1631:Canzianella
  1632:Canziano
@@ -1639,7 +1569,6 @@
  1638:Francesco Capacelli Albergati
  1639:Capanici
  1640:Capaoni famiglia
- 1641:Caparozzolo
  1642:Aldo Capasso
  1643:Capella
  1644:Febo Capella
@@ -1661,21 +1590,17 @@
  1660:Pollo Capoan
  1661:Capodilista
  1662:Capodistria
- 1663:Capodistria
  1664:Capon
  1665:Capovilla
  1666:Cappella Musicale di San Marco
  1667:Cappelletti
  1668:Antonio Cappelletto
- 1669:Cappello
  1670:Antonio Cappello
  1671:Bernardo Cappello
  1672:Bianca Cappello
- 1673:Cappello
  1674:Giovanni Cappello
  1675:Marin Antonio Cappello
- 1676:Cappello
- 1677:Cappello
+ 1669:Cappello
  1678:Vittore Cappello
  1679:Ordine dei Frati Minori Cappuccini
  1680:Capriola
@@ -1687,7 +1612,6 @@
  1686:Carafa famiglia
  1687:Giovanni Pietro Carafa
  1688:Angelo Caramel
- 1689:Carampane
  1690:Giovanni Carandente
  1691:Caranto
  1692:Caravella
@@ -1743,7 +1667,6 @@
  1742:Pietro Giovanni Carminati
  1743:Carmini
  1744:Francesco Carnelutti
- 1745:Francesco Carnelutti
  1746:Mattia Carnero
  1747:Carnevale
  1748:Felice Carnicola
@@ -1758,11 +1681,8 @@
  1757:Carpenedo
  1758:Giulio Carpioni
  1759:Giacomo Carracozza
- 1760:Carrara
- 1761:Carrara
- 1762:Carrara
  1763:Marsilio Carrara
- 1764:Carrara
+ 1760:Carrara
  1765:Carraresi
  1766:Carlo Carraro
  1767:Umberto Carraro
@@ -1814,17 +1734,14 @@
  1813:Casolo famiglia
  1814:Filippo Casolo
  1815:Marco Casolo
- 1816:Cason
  1817:Giovanni Casoni
  1818:Felice Casorati
  1819:Cassa del Conservator del Deposito
  1820:Cassa di Risparmio
- 1821:Cassa Peota
  1822:Niccolò Cassana
  1823:Cassano d’Adda
  1824:Casse di Colmata
  1825:Casseler
- 1826:Casseleria
  1827:Sebastiano Casser
  1828:Cassetti famiglia
  1829:Marino Cassianico
@@ -1840,12 +1757,10 @@
  1839:Castelfidardo
  1840:Castelfranco Veneto
  1841:Castellani
- 1842:Castellani
  1843:Alberto Castellani
  1844:Carlo Castellani
  1845:Emilio Castellani
  1846:Giovanni Castellani
- 1847:Giovanni Castellani
  1848:Leonilde Castellani
  1849:Castelletto
  1850:Castelli famiglia
@@ -1853,8 +1768,6 @@
  1852:Francesco Castelli
  1853:Jacopo Castelli
  1854:Liliana Castelli Minelli
- 1855:Castello
- 1856:Castello
  1857:Bernardo Castello
  1858:Castello d’Amore
  1859:Castello di Marcarino
@@ -1879,9 +1792,6 @@
  1878:Cataver
  1879:Vincenzo Catena
  1880:Catene
- 1881:Caterina
- 1882:Caterina
- 1883:Caterina
  1884:Danese Cattaneo
  1885:Cattedra di san Marco
  1886:Cattedrale
@@ -1897,7 +1807,6 @@
  1896:Cavalieri di Rodi
  1897:Cavalieri di San Giovanni
  1898:Cavalieri di San Marco
- 1899:Cavalieri Gerosolimitani
  1900:Alberto Cavallari
  1901:Aristide Cavallari
  1902:Nerino Cavallari
@@ -1961,15 +1870,13 @@
  1960:Centranico
  1961:Pietro Centranico
  1962:Centro Carlo Scarpa
- 1963:Centro Culturale Candiani
+ 1595:Centro Culturale Candiani
  1964:Centro Culturale di S.M. delle Grazie
  1965:Centro di Studi Teatrali
  1966:Centro Donna
  1967:Centro Internazionale Città d’Acqua
- 1968:Costume
- 1969:Punta della Dogana
  1970:Centro Previsioni e Segnalazioni Maree
- 1971:Costume
+ 1968:Costume
  1972:Centro Studi Storici di Mestre
  1973:di Murano
  1974:Centro Teatrale di Ricerca
@@ -2033,29 +1940,23 @@
  2032:Chiesa di S. Agnese
  2033:Chiesa di S. Agostin
  2034:Chiesa di S. Alvise
- 2035:Anconeta
  2036:Andrea
  2037:Chiesa di S. Andrea
  2038:Chiesa di S. Andrea de la Zirada
  2039:Chiesa di S. Angelo
- 2040:Chiesa di S. Angelo
- 2041:Chiesa di S. Angelo
  2042:Chiesa di S. Angelo Raffaele
  2043:Anglicana
  2044:Chiesa di S. Anna
  2045:Annunziata
  2046:Antonin Martire
  2047:Chiesa di S. Antonio
- 2048:Chiesa di S. Antonio
- 2049:Chiesa di S. Antonio
- 2050:Chiesa di S. Antonio
  2051:Chiesa di S. Antonio Abate
  2052:Chiesa di S. Aponal
  2053:Chiesa dei Santi Apostoli
  2054:Santuario dell’ Apparizione
  2055:Ascensione
  2056:Assunta
- 2057:Barbara
+  611:Barbara
  2058:Chiesa di S. Barbara
  2059:Chiesa di S. Barnaba
  2060:Bartolomeo
@@ -2070,14 +1971,11 @@
  2069:Chiesa di S. Boldo
  2070:Chiesa di S. Bonaventura
  2071:Chiesa di S. Bortolomio
- 2072:Bragora
- 2073:Ca’ di Dio
  2074:Chiesa di S. Camillo
  2075:Chiesa di S. Canciano
- 2076:Chiesa delle Cappuccine
  2077:Carmelitani Scalzi
  2078:Chiesa dei Carmini
- 2079:Chiesa delle Cappuccine
+ 2076:Chiesa delle Cappuccine
  2080:Chiesa della Carità
  2081:Chiesa di S. Cassiano Vescovo e Martire
  2082:Chiesa dei Catecumeni
@@ -2095,21 +1993,17 @@
  2094:Chiesa dei Ss. Cosma e Damiano
  2095:Crisostomo
  2096:Chiesa di Cristo Re
- 2097:Chiesa di Cristo Re
  2098:Chiesa di S. Cristoforo della Pace
  2099:Chiesa della Croce
  2100:Chiesa della Santa Croce
  2101:Chiesa di S. Croce degli Armeni
- 2102:Crociferi
  2103:Chiesa di S. Daniele
  2104:Demetrio
  2105:Chiesa di S. Domenico
  2106:Chiesa di S. Donato
  2107:Chiesa di S. Elena Imperatrice
- 2108:Elisabetta
  2109:Chiesa delle Eremite
  2110:Ermagora e Fortunato
- 2111:Eufemia
  2112:Chiesa di S. Eufemia
  2113:Chiesa di S. Eurosia
  2114:Eustachio
@@ -2122,7 +2016,6 @@
  2121:Oratorio di S. Filippo Neri
  2122:Chiesa di S. Maria Formosa
  2123:Chiesa di S. Fosca
- 2124:Chiesa di S. Fosca
  2125:Chiesa di S. Francesco del Deserto
  2126:Chiesa di S. Francesco della Vigna
  2127:Chiesa di S. Francesco di Paola
@@ -2150,7 +2043,6 @@
  2149:Chiesa di S. Giorgio dei Greci
  2150:Chiesa di S. Giorgio in Alga
  2151:Chiesa di S. Giorgio Maggiore
- 2152:Giovanni Battista
  2153:Chiesa di S. Giovanni Battista
  2154:Giovanni Battista dei Cavalieri di Malta
  2155:Giovanni Battista Decollato
@@ -2161,9 +2053,8 @@
  2160:Giovanni di Malta
  2161:Chiesa di S. Giovanni e Paolo
  2162:Chiesa di S. Giovanni Elemosinario
- 2163:Chiesa di S. Giovanni Evangelista
  2164:Giovanni Evangelista
- 2165:Chiesa di S. Giovanni Evangelista
+ 2163:Chiesa di S. Giovanni Evangelista
  2166:Chiesa di S. Giovanni in Bragora
  2167:Chiesa di S. Giovanni in Oleo
  2168:Chiesa di S. Giovanni Laterano
@@ -2174,11 +2065,9 @@
  2173:Oratorio di S. Giuseppe
  2174:Chiesa di S. Giuseppe e S. Teresa
  2175:Chiesa di S. Giustina
- 2176:Chiesa di S. Giustina
  2177:Grazia
  2178:Chiesa di S. Gregorio
  2179:Chiesa di S. Ignazio di Loyola
- 2180:Incurabili
  2181:Chiesa di S. Lazzaro degli Armeni
  2182:Chiesa di S. Lazzaro dei Mendicanti
  2183:Chiesa di S. Leonardo
@@ -2193,7 +2082,6 @@
  2192:Madonna della Salute
  2193:Madonna di Punta Marina
  2194:Maffio
- 2195:Marcilian
  2196:Chiesa di S. Marco
  2197:Chiesa di S. Marco e Andrea
  2198:Oratorio di S. Marco Evangelista
@@ -2201,7 +2089,6 @@
  2200:Chiesa di S. Marcuola
  2201:Chiesa di S. Margherita
  2202:Chiesa di S. Maria Assunta
- 2203:Chiesa di S. Maria Assunta
  2204:Maria Assunta
  2205:Maria Assunta dei Crociferi
  2206:Chiesa di S. Maria Assunta dei Derelitti
@@ -2230,7 +2117,6 @@
  2229:Chiesa di S. Maria della Visitazione
  2230:Maria della Vittoria
  2231:Chiesa di S. Maria delle Grazie
- 2232:Chiesa di S. Maria delle Grazie
  2233:Maria delle Penitenti
  2234:Chiesa di S. Maria delle Vergini
  2235:Maria di Nazareth
@@ -2241,11 +2127,9 @@
  2240:Maria Gloriosa dei Frari
  2241:Maria in Broglio
  2242:Maria Maddalena
- 2243:Maria Maddalena
  2244:Maria Madre del Redentore
  2245:Maria Madre di Dio
  2246:Chiesa di S. Maria Maggiore
- 2247:Maria Mater Domini
  2248:Chiesa di S. Maria Nascente
  2249:Maria Nascente
  2250:Chiesa di S. Maria Nova
@@ -2253,21 +2137,17 @@
  2252:Chiesa di S. Marina
  2253:Chiesa di S. Marta
  2254:Chiesa di S. Martino
- 2255:Chiesa di S. Martino
  2256:Chiesa di S. Martino Vescovo
  2257:Chiesa di S. Marziale
  2258:Chiesa di S. Matteo
- 2259:Chiesa di S. Matteo
  2260:Chiesa di S. Mattia
  2261:Chiesa di S. Mattio di Rialto
  2262:Chiesa di S. Maurizio
  2263:Chiesa di S. Mauro
  2264:Chiesa di S. Maria Miracoli
- 2265:Mendicoli
  2266:Chiesa di S. Michele Arcangelo
  2267:Chiesa di S. Maria della Misericordia
  2268:Chiesa di S. Moisè
- 2269:Moro
  2270:Chiesa di S. Nicoletto della Lattuga
  2271:Chiesa di S. Nicolò
  2272:Nicolò dei Frari
@@ -2276,17 +2156,13 @@
  2275:Chiesa di S. Nicolò di Bari
  2276:Chiesa del Nome di Gesù
  2277:Chiesa di Ognissanti
- 2278:Chiesa di Ognissanti
  2279:Chiesa di S. Paternian
  2280:Patrocinio della SS. Vergine
  2281:Penitenti
- 2282:Ospedaletto
- 2283:Ospedaletto
  2284:Chiesa di S. Pantalon
  2285:Chiesa di S.M. del Pianto
  2286:Chiesa di S.M. della Pietà
  2287:Chiesa di S. Pietro
- 2288:Chiesa di S. Pietro
  2289:Chiesa di S. Pietro di Castello
  2290:Chiesa di S. Pietro Martire
  2291:Chiesa di S. Polo
@@ -2324,27 +2200,19 @@
  2323:Chiesa dello Spirito Santo
  2324:Chiesa di S. Stae
  2325:Chiesa di S. Stefano
- 2326:Chiesa di S. Stefano
- 2327:Chiesa di S. Stefano
- 2328:Chiesa di S. Stefano
  2329:Stefano Confessore
  2330:Stefano Protomartire
  2331:Oratorio Stella Maris
  2332:Chiesa di S. Stin
- 2333:Tempio Votivo
- 2334:Teodoro
- 2335:Terese
  2336:Chiesa della S. Ternita
  2337:Chiesa di S. Todaro
  2338:Chiesa dei Tolentini
  2339:Chiesa di S. Tomà
  2340:Tommaso dei Borgognoni
- 2341:Torcello
  2342:Chiesa della Trinità
  2343:Chiesa della SS. Trinità
  2344:Trinità
  2345:Chiesa di S. Trovaso
- 2346:Umiltà
  2347:Chiesa di S. Vidal
  2348:Chiesa di S. Vio
  2349:Chiesa di S. Vitale
@@ -2514,7 +2382,6 @@
  2513:Collaltino di Collalto
  2514:Collalto famiglia
  2515:Collalto
- 2516:Collalto
  2517:Colleganza
  2518:Colleganza Locale
  2519:Collegio alla Milizia da Mar
@@ -2532,7 +2399,6 @@
  2531:Collegio dei Somaschi
  2532:Collegio dei X
  2533:Collegio dei XII
- 2534:Collegio dei XII
  2535:Collegio dei XX Savi del Corpo dei XL
  2536:Collegio dei XX Savi del Corpo del Senato
  2537:Collegio delle Arti
@@ -2583,7 +2449,6 @@
  2582:Comini famiglia
  2583:Francesco Comino
  2584:Comitati Privati
- 2585:Giovanni e Paolo
  2586:Comitato de la Sensa
  2587:di difesa di Venezia
  2588:Comitatone
@@ -2593,12 +2458,10 @@
  2592:Commissione Camerale
  2593:Commune Veneciarum
  2594:Comneni famiglia
- 2595:Comneno
  2596:Alessio II Comneno
  2597:Alessio III Comneno
  2598:Alessio IV Comneno
- 2599:Comneno
- 2600:Comneno
+ 2595:Comneno
  2601:Giovanni II Comneno
  2602:Isacco Angelo II Comneno
  2603:Manuele Comneno
@@ -2652,7 +2515,6 @@
  2651:Congregazione Mariana
  2652:Congregazioni del Clero
  2653:Congresso di Bassano
- 2654:Congresso di Venezia
  2655:Congresso di Vienna
  2656:Spiridion Conomo
  2657:Consalvo di Cordova
@@ -2686,47 +2548,33 @@
  2685:Contarini famiglia
  2686:Alessandro Contarini
  2687:Alvise Contarini
- 2688:Alvise Contarini
- 2689:Alvise Contarini
- 2690:Alvise Contarini
- 2691:Alvise Contarini
  2692:Ambrogio Contarini
  2693:Andrea Contarini
- 2694:Andrea Contarini
  2695:Andriana Contarini
  2696:Angelo Contarini
  2697:Antonio Contarini
  2698:Bartolomeo Contarini
  2699:Bertucci Contarini
  2700:Carlo Contarini
- 2701:Carlo Contarini
  2702:Cecilia Contarini
  2703:Contarina Contarini
  2704:Domenico Contarini
- 2705:Contarini
  2706:Domenico II Contarini
  2707:Domenico VII Contarini
  2708:Elisabetta Contarini
  2709:Enrico Contarini
  2710:Federico Contarini
- 2711:Contarini
  2712:Francesco Contarini
- 2713:Francesco Contarini
- 2714:Francesco Contarini
- 2715:Contarini
  2716:Giacomo Contarini
  2717:Giovanni Contarini
- 2718:Giovanni Contarini
- 2719:Giovanni Contarini
  2720:Giovanni Battista Contarini
  2721:Giovanni Marino Contarini
  2722:Girolamo Contarini
- 2723:Contarini
  2724:Lucia Contarini
  2725:Lucrezia Contarini
  2726:Ludovico Contarini
  2727:Luigi Contarini
- 2728:Contarini
+ 2705:Contarini
  2729:Marino Contarini
  2730:Nicolò Contarini
  2731:Paolo Contarini
@@ -2749,7 +2597,6 @@
  2748:Niccolò dei Conti
  2749:Niccolò Conti
  2750:Tommaso Conti
- 2751:Tommaso Conti
  2752:Conti del Nord
  2753:Contin famiglia
  2754:Antonio Contin
@@ -2761,7 +2608,6 @@
  2760:Convegno di Poesia
  2761:Conventi
  2762:Ordine dei Frati Minori Conventuali
- 2763:Convertite
  2764:Convitto Francesco Biancotto
  2765:James Fenimore Cooper
  2766:Copano
@@ -2785,12 +2631,7 @@
  2784:Corinto
  2785:Corlo
  2786:Cormons
- 2787:Corner
- 2788:Corner
  2789:Andrea Corner
- 2790:Andrea Corner
- 2791:Andrea Corner
- 2792:Andrea Corner
  2793:Bernardo Corner
  2794:Caterina Corner
  2795:Cattarin Corner
@@ -2802,22 +2643,17 @@
  2801:Flaminio Corner
  2802:Francesca Corner
  2803:Francesco Corner
- 2804:Francesco Corner
- 2805:Giorgio Corner
  2806:Giorgio Corner
- 2807:Giorgio Corner
+ 2805:Giorgio Corner
  2808:Giovanni Corner
- 2809:Corner
- 2810:Corner
+ 2788:Corner
  2811:Giovanni II Corner
  2812:Laura Corner
  2813:Marco Corner
  2814:Marco Corner
- 2815:Marco Corner
- 2816:Corner
+ 2787:Corner
  2817:Pisana Corner
  2818:Pietro Corner
- 2819:Pietro Corner
  2820:Zan Battista Corner
  2821:Elena Lucrezia Corner Piscopia
  2822:Corno d’Oro
@@ -2836,12 +2672,10 @@
  2835:Gianni Corradini
  2836:Corrado II
  2837:Corregio famiglia
- 2838:Correr
  2839:Angelo Correr
  2840:Antonio Correr
  2841:Francesco Antonio Correr
  2842:Giovanni Correr
- 2843:Giovanni Correr
  2844:Gregorio Correr
  2845:Leonardo Correr
  2846:Marc’Antonio Correr
@@ -2855,7 +2689,6 @@
  2854:Girolamo Corsaro
  2855:Corsini famiglia
  2856:Lorenzo Corsini
- 2857:Corte
  2858:Corte Bandita
  2859:Corte della Seta
  2860:Cortesani
@@ -2888,7 +2721,6 @@
  2887:Costantino XI
  2888:Costantinopoli
  2889:Caduta di Costantinopoli
- 2890:Patriarchi Latini di Costantinopoli
  2891:Costanza
  2892:Costanza d’Altavilla
  2893:Costanziaco
@@ -2924,8 +2756,6 @@
  2923:Cristiano di Magonza
  2924:Cristina
  2925:Cristoforo Cristofoli
- 2926:Cristoforo
- 2927:Cristoforo
  2928:Cristoforo I
  2929:Cristoforo II
  2930:Benedetto Crivelli
@@ -2935,7 +2765,7 @@
  2934:Giovanni Croce
  2935:Crociata dei Pezzenti
  2936:Crociate
- 2937:Crociferi
+ 2102:Crociferi
  2938:Davide Croff
  2939:Giambattista Crosato
  2940:Crosera
@@ -3053,25 +2883,19 @@
  3052:Aldo Damo
  3053:Dana
  3054:Francesco Dana
- 3055:Dandolo
  3056:Andrea Dandolo
- 3057:Andrea Dandolo
  3058:Anna Dandolo
  3059:Casa Dandolo
  3060:Domenico Dandolo
  3061:Enrico Dandolo
- 3062:Enrico Dandolo
  3063:Fantino Dandolo
  3064:Francesco Dandolo
- 3065:Dandolo
  3066:Giovanna Dandolo
  3067:Giovanni Dandolo
- 3068:Dandolo
- 3069:Dandolo
  3070:Marco Dandolo
  3071:Marino Dandolo
  3072:Niccolò Dandolo
- 3073:Dandolo
+ 3055:Dandolo
  3074:Vinciguerra Dandolo
  3075:Vitale Dandolo
  3076:Zilia Dandolo
@@ -3146,7 +2970,7 @@
  3145:Paolo De Pilastri Gualducci
  3146:Antonio De Piombazzi
  3147:Filippo De Pisis
- 3148:Cantieri De Poli
+ 1629:Cantieri De Poli
  3149:Henri De Régnier
  3150:Luca De Rico
  3151:Cipriano De Rore
@@ -3239,7 +3063,6 @@
  3238:Deputazione di Storia Patria per le Venezie
  3239:Desiaspinal famiglia
  3240:Desiderio
- 3241:Desiderio
  3242:delle Arti
  3243:Derelitti
  3244:Hotel Des Bains
@@ -3326,12 +3149,9 @@
  3325:Angelo Dolfin
  3326:Caterina Dolfin
  3327:Daniele Dolfin
- 3328:Daniele Dolfin
- 3329:Daniele Dolfin
  3330:Daniello Marco Dolfin
  3331:Gerolamo Dolfin
  3332:Giovanni Dolfin
- 3333:Giovanni Dolfin
  3334:Iseppo Dolfin
  3335:Leonardo Dolfin
  3336:Orso Dolfin
@@ -3342,12 +3162,9 @@
  3341:Domenicane Imeldine
  3342:Domenicani
  3343:Lodovico Domenichi
- 3344:Domenico
- 3345:Domenico
  3346:Domenico da Firenze
  3347:Domenico di Benintendi
  3348:Domenico di Guzmán
- 3349:Domenico Veneziano
  3350:Domenico I
  3351:Domenico II
  3352:Domenico III
@@ -3359,15 +3176,12 @@
  3358:Giovanni Dominici
  3359:Dominio
  3360:Dominus
- 3361:Donà
  3362:Almorò Donà
  3363:Francesco Donà
- 3364:Francesco Donà
  3365:Francesco Donà
- 3366:Francesco Donà
  3367:Gerolamo Donà
  3368:Iseppo Donà
- 3369:Donà
+ 3361:Donà
  3370:Leonardo Donà
  3371:Massimo Donà
  3372:Nicolò Donà
@@ -3380,11 +3194,8 @@
  3379:Baldassarre Donato
  3380:Bartolomeo Donato
  3381:Nicolò Donato
- 3382:Nicolò Donato
- 3383:Donato
  3384:Pietro Donato
- 3385:Donato
- 3386:Donato
+ 3383:Donato
  3387:Donato Veneziano
  3388:Dondiorologio famiglia
  3389:Dondolo famiglia
@@ -3416,7 +3227,6 @@
  3415:Henrico Doro
  3416:Mino Doro
  3417:Dorotee di Venezia
- 3418:Dorsoduro
  3419:Dossi
  3420:Dossoduro famiglia
  3421:Luigi Dottesio
@@ -3442,7 +3252,7 @@
  3441:Ducato d’oro
  3442:Ducato dell’Arcipelago
  3443:Ducato di Venezia
- 3444:Agostino di Duccio
+  118:Agostino di Duccio
  3445:Ducissa
  3446:Duodo
  3447:Durazzo
@@ -3479,9 +3289,8 @@
  3478:Eletti
  3479:Elezione del doge
  3480:Elia
- 3481:Elia
  3482:Eliodoro
- 3483:Elisabetta
+ 2108:Elisabetta
  3484:Elisabetta di Baviera
  3485:Elisabettine
  3486:Roberto Ellero
@@ -3493,17 +3302,14 @@
  3492:Emo famiglia
  3493:Angelo Emo
  3494:Gabriele Emo
- 3495:Gabriele Emo
  3496:Emo Capodilista
  3497:Enetoi
  3498:Engilberga
  3499:Enrico di Fiandra
  3500:Enrico il Navigatore
  3501:Enrico II
- 3502:Enrico II
  3503:Enrico III
  3504:Enrico IV
- 3505:Enrico IV
  3506:Enrico V
  3507:Enrico VI
  3508:Enrico VIII
@@ -3519,15 +3325,12 @@
  3518:Erasmo da Rotterdam
  3519:Erbaria
  3520:Eremitani
- 3521:Erizzo
  3522:Anna Erizzo
  3523:Francesco Erizzo
  3524:Gasparo Erizzo
  3525:Nicolò Andrea Erizzo
- 3526:Erizzo
- 3527:Erizzo
+ 3521:Erizzo
  3528:Paolo Erizzo
- 3529:Paolo Erizzo
  3530:Pietro Erizzo
  3531:Sebastiano Erizzo
  3532:Ermagora
@@ -3545,28 +3348,24 @@
  3544:Esercito veneziano
  3545:Esodo
  3546:Esposti
- 3547:Este
  3548:Este famiglia
  3549:Alberto D’Este
- 3550:Este
  3551:Almerigo D’Este
  3552:Azzo VIII D’Este
  3553:Beatrice D’Este
  3554:Bertoldo D’Este
  3555:Borso D’Este
- 3556:Este
  3557:Folco D’Este
  3558:Francesco III D’Este
  3559:Fresco D’Este
  3560:Gea D’Este
  3561:Ida D’Este
- 3562:Este
+ 3547:Este
  3563:Maria Luisa D’Este
  3564:Niccolò II D’Este
  3565:Niccolò III D’Este
  3566:Taddeo D’Este
  3567:Estensi
- 3568:Estensi
  3569:Estimo generale
  3570:Estuario
  3571:Compagnia della Calza Eterni
@@ -3633,9 +3432,8 @@
  3632:Famiglie popolari
  3633:Famiglie tribunizie
  3634:Agostino Fangi da Biella
- 3635:Fano
  3636:Fano famiglia
- 3637:Fano
+ 3635:Fano
  3638:Fante
  3639:Fanti dei Cai
  3640:Fanti da mar
@@ -3697,7 +3495,6 @@
  3696:Federico II
  3697:Federico IV di Danimarca
  3698:Sverre Fehn
- 3699:Felice
  3700:Felice da Prato
  3701:Felice e Fortunato
  3702:Felice Maria
@@ -3722,7 +3519,6 @@
  3721:Renzo Ferraguzzi
  3722:Ferramosca famiglia
  3723:Luigi Ferrante
- 3724:Ferrara
  3725:Francesco Ferrara
  3726:Guerra di Ferrara
  3727:Ferrari famiglia
@@ -3734,10 +3530,8 @@
  3733:Giorgio Emanuele Ferrari
  3734:Giovanni Ferrari
  3735:Giuseppe Ferrari
- 3736:Giuseppe Ferrari
  3737:Lucia Ferrari
  3738:Luigi Ferrari
- 3739:Luigi Ferrari
  3740:Mario Ferrari Bravo
  3741:Casa Ferratini
  3742:Giuseppe Ferratini
@@ -3745,13 +3539,11 @@
  3744:Erminio Ferretto
  3745:Lazzaro Ferri
  3746:Ferro famiglia
- 3747:Ferro famiglia
  3748:Egidio Ferro
  3749:Giovanni Ferro
  3750:Giuseppe Ferro
  3751:Vittorio Ferro
  3752:Roberto Ferruzzi
- 3753:Roberto Ferruzzi
  3754:Festa de la Sensa
  3755:Festa del Popolo Veneto
  3756:Festa del Redentore
@@ -3777,7 +3569,6 @@
  3776:Tomaso Filippi
  3777:Filippo di Domenico
  3778:Filippo II
- 3779:Filippo II
  3780:Filippo III
  3781:Filippo IV
  3782:Filippo di Piero
@@ -3795,7 +3586,6 @@
  3794:Bartolomeo Fioravanti
  3795:Leonardo Fioravanti
  3796:Fiore famiglia
- 3797:Jacobello del Fiore
  3798:Gaetano Fiorentini
  3799:Fisolera
  3800:Fisolo
@@ -3810,9 +3600,8 @@
  3809:Costantino Flangini
  3810:Lodovico Flangini
  3811:Luigi Flangini
- 3812:Via Flavia
  3813:Batta Florian
- 3814:Caffè Florian
+ 1440:Caffè Florian
  3815:Flut
  3816:Fredrik Fogh
  3817:Fogliani famiglia
@@ -3823,7 +3612,6 @@
  3822:Fondaco
  3823:Fondai famiglia
  3824:Fondamenta
- 3825:Fondamente Nove
  3826:Fondanisi famiglia
  3827:Fondation Bru
  3828:Fondazione Archivio Luigi Nono Onlus
@@ -3857,7 +3645,6 @@
  3856:Francesco Fontebasso
  3857:Fontego dei Cuoiami
  3858:Fontego dei Persiani
- 3859:Fontego dei Tedeschi
  3860:Fontego dei Turchi
  3861:Fontego del Megio
  3862:Fonticaro
@@ -3888,7 +3675,6 @@
  3887:Forte di Castel Nuovo
  3888:Forte di Castel Vecchio
  3889:Forte di San Nicolò
- 3890:Forte di Sant’Andrea
  3891:Forte di Treporti
  3892:Forte Gazzera
  3893:Forte Manin
@@ -3901,33 +3687,26 @@
  3900:Forte Sirtori
  3901:Forte Tron
  3902:Fortunato
- 3903:Fortunato
- 3904:Fortunato
  3905:Henriette Fortuny
  3906:Mariano Fortuny y Madrazo
  3907:Giordano Forzaté
  3908:Forze d’Ercole
  3909:Fosca
  3910:Foscari famiglia
- 3911:Foscari
  3912:Antonio Foscari
  3913:Francesco Foscari
- 3914:Foscari
+ 3911:Foscari
  3915:Ludovico Foscari
  3916:Paolo Foscari
- 3917:Paolo Foscari
  3918:Piero Foscari
  3919:Pietro Foscari
- 3920:Pietro Foscari
  3921:Teresa Foscari
- 3922:Foscarini
  3923:Antonio Foscarini
  3924:Foscarina Foscarini
- 3925:Foscarini
+ 3922:Foscarini
  3926:Giovanni Foscarini
  3927:Jacopo Vincenzo Foscarini
  3928:Marco Foscarini
- 3929:Marco Foscarini
  3930:Michele Foscarini
  3931:Nicolò Foscarini
  3932:Foscolo famiglia
@@ -3955,7 +3734,6 @@
  3954:Fragia
  3955:Pietro Fragiacomo
  3956:Fraglia
- 3957:Fra’ Mauro
  3958:Framassoni
  3959:Francesca di Pianiga
  3960:Francescane di Cristo Re
@@ -3976,7 +3754,6 @@
  3975:Alberto Franchetti
  3976:Giorgio Franchetti
  3977:Raimondo Franchetti
- 3978:Raimondo Franchetti
  3979:Franchi
  3980:Carlo Franchini
  3981:Franco
@@ -3995,7 +3772,6 @@
  3994:Frari
  3995:Frascada famiglia
  3996:Lunardo Fratello
- 3997:Fraterna
  3998:Fraterna Grande dei Poveri
  3999:Carlo Frati
  4000:Frati Minori Cappuccini
@@ -4031,7 +3807,6 @@
  4030:Mara Fullin
  4031:Giovanni Antonio Fumiani
  4032:Fuoco greco
- 4033:Furatola
  4034:Furlan
  4035:Anna Luisa Furlan
  4036:Walter Furlan
@@ -4081,7 +3856,6 @@
  4080:Galea
  4081:Galea lunga
  4082:Galea sottile
- 4083:Galeazza
  4084:Galeazza da guerra
  4085:Galeazza da mercanzia
  4086:Galeone veneziano
@@ -4112,7 +3886,6 @@
  4111:Stefano Gallini
  4112:Tommaso Gallino
  4113:Gallipoli
- 4114:Gallipoli
  4115:Gallo famiglia
  4116:Alessandro Gallo
  4117:Giovanni Gallo
@@ -4198,7 +3971,6 @@
  4197:Alcide Gazzotto
  4198:Silvio Geat
  4199:Frank O. Gehry
- 4200:Via Gemina
  4201:Gemini
  4202:Geminiano
  4203:Marco Gemmani
@@ -4214,10 +3986,9 @@
  4213:Gerolamini
  4214:Gerolamo
  4215:Tedesco Gerolamo
- 4216:Cavalieri Gerosolimitani
+ 1899:Cavalieri Gerosolimitani
  4217:Gerusalemme
  4218:Gervasio
- 4219:Gesuati
  4220:Compagnia di Gesù Gesuiti
  4221:Ghebi
  4222:Ghedini famiglia
@@ -4267,9 +4038,7 @@
  4266:Giobbe
  4267:Natale Cristoforo Giocca
  4268:Giochi a Venezia
- 4269:Gioco del Lotto
  4270:Giocondo
- 4271:Giocondo
  4272:Paolo Gioli
  4273:Giolito De Ferrari famiglia
  4274:Gabriel Giolito De Ferrari
@@ -4282,7 +4051,6 @@
  4281:Francesco Giorgi
  4282:Francesco Giorgio
  4283:Giorgio
- 4284:Giorgio
  4285:Giorgio da Sebenico
  4286:Giorgio di Venezia
  4287:Giorgione
@@ -4298,18 +4066,12 @@
  4297:Andrea Giovanelli
  4298:Federico Maria Giovanelli
  4299:Giuseppe Giovanelli
- 4300:Giuseppe Giovanelli
  4301:Iseppo Giovanelli
  4302:Giovanna
  4303:Giovanna II di Napoli
- 4304:Giovanni
- 4305:Giovanni
- 4306:Giovanni
- 4307:Giovanni
  4308:Giovanni Agostino da Lodi
- 4309:Giovanni Battista
+ 2152:Giovanni Battista
  4310:Giovanni Battista d’Austria
- 4311:San Giovanni d’Acri
  4312:Giovanni d’Austria
  4313:Giovanni da Bologna
  4314:Giovanni da Capestrano
@@ -4317,7 +4079,6 @@
  4316:Giovanni da Chiaramonte
  4317:Giovanni da Como
  4318:Giovanni da Parma
- 4319:Giovanni da Parma
  4320:Giovanni da Pavia
  4321:Giovanni di Aquileia
  4322:Giovanni di Beltramino
@@ -4332,7 +4093,6 @@
  4331:Giovanni XIX
  4332:Giovanni XXII
  4333:Giovanni XXIII
- 4334:Giovanni XXIII
  4335:Giovanni Paolo I
  4336:Giovanni Paolo II
  4337:Giovedì grasso
@@ -4340,7 +4100,6 @@
  4339:Girardi famiglia
  4340:Francesco Girardi
  4341:Maffeo Girardi
- 4342:Girolamo
  4343:Girolamo da Assiano
  4344:Girolamo degli Atti da Foligno
  4345:Giroldi
@@ -4348,7 +4107,6 @@
  4347:Gisulfo
  4348:Claudio Giua
  4349:Giubileo
- 4350:Giudecca
  4351:Giudici al Forestier
  4352:Giudici all’Esaminador
  4353:Giudici del Mobile
@@ -4357,7 +4115,6 @@
  4356:Giudici del Proprio
  4357:Giudici di Palazzo
  4358:Giudici di Petizion
- 4359:Giuffa
  4360:Giulia famiglia
  4361:Giulia
  4362:Giulian
@@ -4375,8 +4132,6 @@
  4374:Suore Giuseppine
  4375:Giuseppine del Caburlotto
  4376:Giuseppini
- 4377:Giustina
- 4378:Giustinian
  4379:Alvise Giustinian
  4380:Antonio Giustinian
  4381:Ascanio Giustinian
@@ -4392,22 +4147,19 @@
  4391:Lorenzo Giustinian
  4392:Lorenzo Giustinian
  4393:Marcantonio Giustinian
- 4394:Marcantonio Giustinian
- 4395:Giustinian
  4396:Marco Giustinian
  4397:Nicolò Giustinian
- 4398:Giustinian
+ 4395:Giustinian
  4399:Onfrè Giustinian
- 4400:Giustinian
+ 4378:Giustinian
  4401:Paolo Giustinian
  4402:Piero Giustinian
  4403:Pietro Giustinian
  4404:Pietro Giustinian
  4405:Sebastiano Giulio Giustinian
  4406:Stefano Giustinian
- 4407:Giustinian Lolin
  4408:Almorò Giustinian Lolin
- 4409:Giustinian Lolin
+ 4407:Giustinian Lolin
  4410:Giustiniana
  4411:Giulio Giustiniani
  4412:Pantaleone Giustiniani
@@ -4479,32 +4231,22 @@
  4478:Gozzi
  4479:Ettore Gracis
  4480:Gradelon famiglia
- 4481:Gradenigo
  4482:Bartolomeo Gradenigo
- 4483:Bartolomeo Gradenigo
  4484:Domenico Gradenigo
- 4485:Gradenigo
+ 4481:Gradenigo
  4486:Domenico VI Gradenigo
  4487:Elisabetta Gradenigo
  4488:Giacomo Gradenigo
  4489:Giampaolo Gradenigo
  4490:Giannagostino Gradenigo
  4491:Giovanni Gradenigo
- 4492:Giovanni Gradenigo
- 4493:Giovanni Gradenigo
- 4494:Giovanni Gradenigo
- 4495:Giovanni Gradenigo
- 4496:Giovanni Gradenigo
  4497:Giuseppe Gradenigo
  4498:Jacopo Gradenigo
  4499:Ludovica Gradenigo
  4500:Marco Gradenigo
  4501:Pietro Gradenigo
- 4502:Pietro Gradenigo
- 4503:Pietro Gradenigo
  4504:Regina Gradenigo
  4505:Grado
- 4506:Patriarchi di Grado
  4507:Jacopo Graffano
  4508:Grambusa
  4509:Daniel Gran
@@ -4591,7 +4333,6 @@
  4590:Alvise Gritti
  4591:Andrea Gritti
  4592:Francesco Gritti
- 4593:Francesco Gritti
  4594:Hotel Gritti Palace
  4595:Ernesto Grondoni
  4596:Groppelli famiglia
@@ -4600,7 +4341,6 @@
  4599:Paolo Groppelli
  4600:Grosio
  4601:Pietro Grossi
- 4602:Pietro Grossi
  4603:Giacomo Grosso
  4604:Grosso d’argento
  4605:Luigi Groto
@@ -4631,7 +4371,6 @@
  4630:Guatardo famiglia
  4631:Guberto famiglia
  4632:Guerra famiglia
- 4633:Guerra
  4634:Guerra dei pugni
  4635:Guerra dei Trent’anni
  4636:Guerra di Corsa
@@ -4647,7 +4386,6 @@
  4646:Virgilio Guidi
  4647:Flavia Guidin
  4648:Guido
- 4649:Guido
  4650:Guido da Polenta
  4651:Francesco Guidolin
  4652:Marc Guignon
@@ -4672,7 +4410,7 @@
  4671:Guerra di Cipro Cipro
  4672:Guerra di Comacchio Comacchio
  4673:Guerra di Ferrara Ferrara
- 4674:Ferrara
+ 3724:Ferrara
  4675:Guerra di Gradisca Gradisca
  4676:Guerra di Morea Morea
  4677:Guerra di Padova Padova
@@ -4680,7 +4418,6 @@
  4679:Guerra di Siria Siria
  4680:Sociale
  4681:Guerra di Trieste Trieste
- 4682:Guerra di Trieste Trieste
  4683:Guerra di Zara Zara
  4684:Haifa
  4685:Ernst Haiger
@@ -4737,7 +4474,6 @@
  4736:Impiraresse
  4737:Incendi
  4738:Incipienti
- 4739:Incurabili
  4740:Francesco India
  4741:Francesco Indovina
  4742:Informazione Arti Visive
@@ -4752,7 +4488,7 @@
  4751:Inquisitore alle Arti
  4752:Inquisitore alle Pompe
  4753:Inquisitore sopra Dazi
- 4754:Arti
+  396:Arti
  4755:Inquisitore sopra le Appuntadure
  4756:Inquisitore sopra Ori e Monete
  4757:Inquisitori all’Armar
@@ -4782,10 +4518,9 @@
  4781:Inzaghi
  4782:Ioaldo famiglia
  4783:Nicolae Iorga
- 4784:Ipato
  4785:Giuliano Ipato
  4786:Orso Ipato
- 4787:Ipato
+ 4784:Ipato
  4788:Ippagogo
  4789:Ipab
  4790:Istituto di Ricovero e di Educazione Ire
@@ -4794,7 +4529,6 @@
  4793:Isacco
  4794:Leone III Isaurico
  4795:Ismar
- 4796:Isola
  4797:Isola dei Laghi
  4798:Isola delle Statue
  4799:Abbondia Isole della Laguna di Venezia
@@ -4812,7 +4546,6 @@
  4811:Istituto di Biologia del Mare
  4812:Istituto di Studi Militari Marittimi
  4813:Istituto Ellenico di Studi Bizantini e Postbizantini
- 4814:Istituto Manin
  4815:Istituto Nazionale della Repubblica Cisalpina
  4816:Istituto Provinciale Santa Maria della Pietà
  4817:Umanistiche
@@ -4832,7 +4565,7 @@
  4831:Iuav
  4832:Ismael Ivo
  4833:Enrico Jacchia
- 4834:Jacobello del Fiore
+ 3797:Jacobello del Fiore
  4835:Jacobello di Bonomo
  4836:Jacobina
  4837:Jacopo da Sant’Andrea
@@ -4901,7 +4634,6 @@
  4900:Ludovico Lamberti
  4901:Nicolò di Pietro Lamberti
  4902:Pietro Lamberti
- 4903:Pietro Lamberti
  4904:Lambertini famiglia
  4905:Lambeschi famiglia
  4906:Giovanni Battista Lambranzi
@@ -5106,7 +4838,6 @@
  5105:Maddalena Lombardini
  5106:Lombardo famiglia
  5107:Antonio Lombardo
- 5108:Antonio Lombardo
  5109:Aurelio Lombardo
  5110:Gerolamo Lombardo
  5111:Pietro Lombardo
@@ -5117,7 +4848,6 @@
  5116:Emilio Lonero
  5117:Baldassarre Longhena
  5118:Longhi
- 5119:Longhi
  5120:Pietro Longhi
  5121:Flavio Longino
  5122:Longo famiglia
@@ -5131,21 +4861,15 @@
  5130:Pietro Lorandini
  5131:Loredan famiglia
  5132:Alvise Loredan
- 5133:Alvise Loredan
  5134:Andrea Loredan
  5135:Antonio Loredan
- 5136:Antonio Loredan
- 5137:Antonio Loredan
  5138:Bernardo Loredan
  5139:Francesco Loredan
- 5140:Francesco Loredan
  5141:Giovan Francesco Loredan
  5142:Giovanni Loredan
- 5143:Giovanni Loredan
- 5144:Loredan
  5145:Marco Loredan
  5146:Paolina Loredan
- 5147:Loredan
+ 5144:Loredan
  5148:Pietro Loredan
  5149:Loredana
  5150:Lorena famiglia
@@ -5153,15 +4877,10 @@
  5152:Giulio Lorenzetti
  5153:Francesco Lorenzi
  5154:Lorenzo famiglia
- 5155:Lorenzo
- 5156:Lorenzo
- 5157:Lorenzo
- 5158:Lorenzo
  5159:Lorenzo I
  5160:Lorenzo II
  5161:Lorenzo da Brindisi
  5162:Lorenzo di Gian Francesco
- 5163:Lorenzo Veneziano
  5164:Loreo
  5165:Giocondo Pio Lorgna
  5166:Buonaiuto Lorini
@@ -5171,7 +4890,7 @@
  5170:Lotta con le canne d’India
  5171:Lotteria
  5172:Antonio Lotti
- 5173:Gioco del Lotto
+ 4269:Gioco del Lotto
  5174:Lorenzo Lotto
  5175:Matteo Lovat
  5176:Domenico Lovisa
@@ -5207,7 +4926,6 @@
  5206:Luigi IX
  5207:Luigi XII
  5208:Luigi XVIII
- 5209:Luisa di Savoia
  5210:Auguste e Louis-Jean Lumière
  5211:Luna Baglioni
  5212:Luni del Lio
@@ -5239,7 +4957,6 @@
  5238:Ferruccio Macola
  5239:Alessandro Knips Macoppe
  5240:Henrietta Macy
- 5241:Maddalena
  5242:Maddalena di Canossa
  5243:Madeo famiglia
  5244:Bruno Maderna
@@ -5251,7 +4968,6 @@
  5250:Maffeti famiglia
  5251:Gian Maria Maffioletti
  5252:Maganesi famiglia
- 5253:Magazen
  5254:Magazzini del Sale
  5255:Girolamo Maggi
  5256:Maggior Consiglio
@@ -5286,7 +5002,6 @@
  5285:Celio Magno
  5286:Magno
  5287:Pietro Magri
- 5288:Pietro Magri
  5289:René Maheu
  5290:Maillot
  5291:Mainan famiglia
@@ -5299,7 +5014,6 @@
  5298:Malamocco
  5299:Malatesta famiglia
  5300:Carlo Malatesta
- 5301:Carlo Malatesta
  5302:Malatesta Malatesta
  5303:Pandolfo III Malatesta
  5304:Pandolfo IV Malatesta
@@ -5321,7 +5035,6 @@
  5320:Domenico Malipiero
  5321:Felicita Malipiero
  5322:Francesco Malipiero
- 5323:Francesco Malipiero
  5324:Gasparo Malipiero
  5325:Gian Francesco Malipiero
  5326:Maddalena Malipiero
@@ -5362,7 +5075,7 @@
  5361:Cecilia Manin
  5362:Daniele Manin
  5363:Giorgio Manin
- 5364:Istituto Manin
+ 4814:Istituto Manin
  5365:Leonardo Manin
  5366:Manin
  5367:Thomas Mann
@@ -5382,7 +5095,6 @@
  5381:Paolo Manuzio
  5382:Nicolò Manuzzi
  5383:Manzera
- 5384:Manzini
  5385:Manzoni famiglia
  5386:Alessandro Manzoni
  5387:Antonio Manzoni
@@ -5392,7 +5104,6 @@
  5391:Maona
  5392:Mappamondo di Andrea Bianco
  5393:Mappamondo di fra’ Mauro
- 5394:Studio Mar
  5395:Antonio Maraini
  5396:Marana
  5397:Marangon famiglia
@@ -5411,8 +5122,6 @@
  5410:Marcelliano
  5411:Marcello famiglia
  5412:Alessandro Marcello
- 5413:Alessandro Marcello
- 5414:Alessandro Marcello
  5415:Andriana Marcello
  5416:Antonio Marcello
  5417:Bartolomeo Marcello
@@ -5436,14 +5145,13 @@
  5435:Marcimano famiglia
  5436:Flavio Marciano
  5437:Marcigliana
- 5438:Marcilian
+ 2195:Marcilian
  5439:Marciliana
  5440:Palio della Marciliana
  5441:Marcipagni famiglia
- 5442:Marco Caco
+ 1429:Marco Caco
  5443:Marco d’Aviano
  5444:Marco Evangelista
- 5445:Marco Polo
  5446:Francesco Marcolini
  5447:Giulio Marcon
  5448:Marconi
@@ -5461,7 +5169,6 @@
  5460:Marghera
  5461:Margherita d’Austria
  5462:Margherita di Ferrara
- 5463:Margherita di Savoia
  5464:Margot
  5465:Margot Hollis
  5466:Domenico Margutti
@@ -5517,7 +5224,6 @@
  5516:Marsiglia
  5517:Emilio Marsili
  5518:Sagra di S. Marta
- 5519:Marta
  5520:Martedì grasso
  5521:Martellago
  5522:Raffaello Martelli
@@ -5538,10 +5244,8 @@
  5537:Egidio Martini
  5538:Michela Martini
  5539:Renzo Martini
- 5540:Martino
- 5541:Martino
  5542:Bernardino Martino
- 5543:Martino
+ 5540:Martino
  5544:Martino da Canal
  5545:Martino IV
  5546:Martino V
@@ -5549,7 +5253,6 @@
  5548:Napoleone Martinuzzi
  5549:Marturio famiglia
  5550:Pietro Marturio
- 5551:Pietro Marturio
  5552:Matteo Maruffo
  5553:Guido Marussig
  5554:Antonio Marzari
@@ -5566,7 +5269,6 @@
  5565:Carlo Maschietto
  5566:Antonio Maschio
  5567:Masegni
- 5568:Masena
  5569:Lauretta Masiero
  5570:Gianni Masin Crovato
  5571:Raoul Masin Crovato
@@ -5595,10 +5297,9 @@
  5594:Vittore di Matteo
  5595:Matteo da Bascio
  5596:Maurizio
- 5597:Maurizio
  5598:Mauro famiglia
  5599:Alessandro Mauro
- 5600:Fra’ Mauro
+ 3957:Fra’ Mauro
  5601:Gaetano Mauro
  5602:Gaspare Mauro
  5603:Romualdo Mauro
@@ -5634,11 +5335,6 @@
  5633:Mechitaristi
  5634:Medici famiglia
  5635:Medici
- 5636:Medici
- 5637:Medici
- 5638:Medici
- 5639:Medici
- 5640:Medici
  5641:Medin famiglia
  5642:Antonio Medin
  5643:Dataico Medin
@@ -5652,7 +5348,7 @@
  5651:Meli famiglia
  5652:Meli Lupi
  5653:Melidissa
- 5654:Acqua di Melissa
+   67:Acqua di Melissa
  5655:Meloria
  5656:Herman Melville
  5657:Giovanni di Memel
@@ -5718,7 +5414,6 @@
  5717:Roberto Micconi
  5718:Michelangelo
  5719:Isola di S. Michele
- 5720:Michele
  5721:Michele I
  5722:Michele II
  5723:Michele III
@@ -5733,11 +5428,8 @@
  5732:Bartolomeo Michiel
  5733:Cecilia Michiel
  5734:Domenico Michiel
- 5735:Domenico Michiel
- 5736:Domenico Michiel
  5737:Elisabetta Michiel
  5738:Giovanni Michiel
- 5739:Giovanni Michiel
  5740:Jacopo Michiel
  5741:Luigi Michiel
  5742:Marcantonio Michiel
@@ -5745,11 +5437,8 @@
  5744:Nicolò Michiel
  5745:Sabello Michiel
  5746:Taddea Michiel
- 5747:Teatro Michiel
  5748:Michiel
- 5749:Michiel
  5750:Vitale II Michiel
- 5751:Vitale II Michiel
  5752:Parrasio Michieli
  5753:Andrea Michieli
  5754:Micono
@@ -5760,7 +5449,6 @@
  5759:Alessandro Milesi
  5760:Francesco Maria Milesi
  5761:Milesio famiglia
- 5762:Milion
  5763:Milizia da Mar
  5764:Elia Millosevich
  5765:Enzo Milner
@@ -5787,8 +5475,6 @@
  5786:Minotto famiglia
  5787:Giacomo Minotto
  5788:Giovanni Minotto
- 5789:Giovanni Minotto
- 5790:Giovanni Minotto
  5791:Girolamo Minotto
  5792:Marco Minotto
  5793:Giovanni Minotto Ottoboni
@@ -5813,9 +5499,7 @@
  5812:Giambenedetto Mittarelli
  5813:Ladislao Mittner
  5814:Mocenigo famiglia
- 5815:Mocenigo
  5816:Alvise Mocenigo
- 5817:Mocenigo
  5818:Alvise II Mocenigo
  5819:Alvise III Mocenigo
  5820:Alvise IV Mocenigo
@@ -5823,11 +5507,9 @@
  5822:Andrea Mocenigo
  5823:Domenico Mocenigo
  5824:Giovanni Mocenigo
- 5825:Mocenigo
  5826:Lazzaro Mocenigo
- 5827:Lazzaro Mocenigo
  5828:Leonardo Mocenigo
- 5829:Mocenigo
+ 5815:Mocenigo
  5830:Tommaso Mocenigo
  5831:Girolamo Mocetto
  5832:Gustavo Modena
@@ -5852,8 +5534,6 @@
  5851:Gerolamo Ascanio Molin
  5852:Giovanni Molin
  5853:Marco Molin
- 5854:Marco Molin
- 5855:Marco Molin
  5856:Antonio Molinari
  5857:Francesco Molini
  5858:Antonio Molino
@@ -5922,7 +5602,6 @@
  5921:Eugenio Moretti Larese
  5922:Giovanni Battista Morgagni
  5923:Maria Morganti
- 5924:Mori
  5925:Neno Mori
  5926:Morion
  5927:Morlaiter famiglia
@@ -5930,7 +5609,7 @@
  5929:Gregorio Morlaiter
  5930:Michelangelo Morlaiter
  5931:Moro famiglia
- 5932:Moro
+ 2269:Moro
  5933:Cristoforo Moro
  5934:Daniele Moro
  5935:Domenico Moro
@@ -5952,17 +5631,13 @@
  5951:Costanza Morosini
  5952:Dea Morosini
  5953:Domenico Morosini
- 5954:Domenico Morosini
  5955:Fortunato Morosini
  5956:Francesca Morosini
  5957:Francesco Morosini
- 5958:Francesco Morosini
  5959:Gerolamo Morosini
- 5960:Morosini
  5961:Gianfrancesco Morosini
  5962:Giorgio Morosini
  5963:Giovanni Morosini
- 5964:Giovanni Morosini
  5965:Giovanni Battista Morosini
  5966:Gio. Francesco Morosini
  5967:Marc’Antonio Morosini
@@ -5974,13 +5649,12 @@
  5973:Morosina Morosini
  5974:Niccolò Morosini
  5975:Nicolò Morosini
- 5976:Morosini
  5977:Nicolò II Morosini
  5978:Nicolò IV Morosini
  5979:Paolo Morosini
  5980:Ruggero Morosini
  5981:Silvestro Morosini
- 5982:Morosini
+ 5960:Morosini
  5983:Tomasina Morosini
  5984:Tommaso Morosini
  5985:Vincenzo Morosini
@@ -6029,14 +5703,12 @@
  6028:Mugici famiglia
  6029:Mula famiglia
  6030:Agostino Mula
- 6031:Agostino Mula
  6032:Mula
  6033:Marcantonio Mula
  6034:Mulete
  6035:Mulini a vento
  6036:Mulini mobili
  6037:Marco Müller
- 6038:Muneghe
  6039:Municipalità
  6040:Municipalità Provvisoria
  6041:Murâd II
@@ -6101,18 +5773,15 @@
  6100:Agostino Nani
  6101:Ermolao Nani
  6102:Nani
- 6103:Nani
  6104:Giovanni Nani
  6105:Marina Nani
  6106:Napoleone Nani
  6107:Paolo Nani
  6108:Filippo Nani Mocenigo
- 6109:Nanni di Bartolo
+  732:Nanni di Bartolo
  6110:Napoleone
  6111:Napoleone III
- 6112:Statua di Napoleone
  6113:Napoli di Romània
- 6114:Naranzeria
  6115:Pietro Naratovich
  6116:Giuseppe Nardin
  6117:Narenta
@@ -6132,7 +5801,6 @@
  6131:Navarino
  6132:Navazoso
  6133:Nave famiglia
- 6134:Nave
  6135:Nave lunga
  6136:Nave quadra
  6137:Nave selleria
@@ -6196,7 +5864,6 @@
  6195:Nomi veneziani
  6196:Nona
  6197:Luigi Nono
- 6198:Luigi Nono
  6199:Mario Nono
  6200:Rina Nono
  6201:Serena Nono
@@ -6243,7 +5910,6 @@
  6242:Officine Battaglia
  6243:Officium de navigantibus
  6244:Paolo Ojetti
- 6245:Ole
  6246:Ercole Olgeni
  6247:Oligarchia
  6248:Ogniben famiglia
@@ -6255,7 +5921,6 @@
  6254:Olivieri famiglia
  6255:Maffeo Olivieri
  6256:Olivolo
- 6257:Vescovi di Olivolo
  6258:Germano Olivotto
  6259:Oltremarini
  6260:Ombra
@@ -6274,15 +5939,12 @@
  6273:Opera dei Congressi
  6274:Opera Pia Zuanne Contarini
  6275:Ubaldo Oppi
- 6276:Oratorio
  6277:Orcalli
  6278:Vito Orcalli
  6279:Signori di Forlì Ordelaffi
  6280:Ordine dei Frati Minori
  6281:Ordine dei Poveri Cavalieri di Cristo
- 6282:Ordine dei Servi di Maria
  6283:Ordine della Stola d’Oro
- 6284:Ordine di San Marco
  6285:Ordini cavallereschi
  6286:Ordini religiosi cattolici a Venezia
  6287:Moda degli Orecchini
@@ -6317,7 +5979,6 @@
  6316:Pietro Francesco Orsini
  6317:Vicino Orsini
  6318:Orso famiglia
- 6319:Orso
  6320:Orsolino degli Ubbriachi
  6321:Orsoni smalti veneziani
  6322:Giorgio Orsoni
@@ -6349,8 +6010,7 @@
  6348:Ospedale San Giovanni Battista
  6349:Ospedale San Lazzaro dei Mendicanti
  6350:Ospedale Santa Caterina
- 6351:Ospedaletto
- 6352:Ospedaletto
+ 2282:Ospedaletto
  6353:Ospedaletto Avanzo
  6354:Ospedaletto Bonzio
  6355:Ospedalieri
@@ -6397,7 +6057,6 @@
  6396:Ospizio delle Pizzochere
  6397:Ospizio delle Pizzochere Agostiniane
  6398:Ospizio delle Terziarie Francescane
- 6399:Ospizio delle Zitelle
  6400:Ospizio di Corte Borella
  6401:Ospizio di Messer Gesù Cristo
  6402:Ospizio di San Boldo
@@ -6419,8 +6078,6 @@
  6418:Ospizio Morion
  6419:Ospizio Moro
  6420:Ospizio Morosini
- 6421:Ospizio Morosini
- 6422:Ospizio Morosini
  6423:Ospizio Novello
  6424:Ospizio Orio
  6425:Ospizio Orseolo
@@ -6452,7 +6109,6 @@
  6451:Antonio Ottoboni
  6452:Ettore Ottoboni
  6453:Ottoboni
- 6454:Ottoboni
  6455:Marco Ottoboni
  6456:Nicolò Ottoboni
  6457:Pietro Ottoboni
@@ -6466,7 +6122,6 @@
  6465:Ottone III
  6466:Thomas Otway
  6467:Nino Ovan
- 6468:Pace
  6469:Pace famiglia
  6470:Giulio Pace
  6471:Pace delle due dame
@@ -6500,7 +6155,6 @@
  6499:Pala feriale
  6500:Joaquín Vaquero Palacios
  6501:Palacium
- 6502:Palada
  6503:Giannantonio Paladini
  6504:Palandaria
  6505:Palandra
@@ -6514,7 +6168,6 @@
  6513:Ca’ Dario
  6514:Ca’ d’Oro
  6515:Ca’ del Duca Sforza
- 6516:Ca’ di Dio
  6517:Ca’ Farsetti
  6518:Ca’ Foscari
  6519:Ca’ Giustinian
@@ -6543,13 +6196,10 @@
  6542:Palazzo Balbi
  6543:Palazzo Balbi Valier
  6544:Palazzo Barbarigo
- 6545:Palazzo Barbarigo
  6546:Palazzo Barbarigo della Terrazza
  6547:Palazzo Barbaro
  6548:Palazzo Barocci
  6549:Palazzo Barozzi
- 6550:Palazzo Barozzi
- 6551:Palazzo Barozzi
  6552:Palazzo Barozzi Emo
  6553:Palazzo Battagia
  6554:Palazzo Belloni
@@ -6559,7 +6209,7 @@
  6558:Palazzo Bollani Erizzo
  6559:Palazzo Bollani a San Trovaso
  6560:Palazzo Bollini
- 6561:Palazzo Bon
+ 1158:Palazzo Bon
  6562:Palazzo Bonfadini Vivante
  6563:Palazzo Bragadin
  6564:Palazzo Calbo Crotta
@@ -6569,10 +6219,8 @@
  6568:Palazzo Civran
  6569:Palazzo Coccina
  6570:Palazzo Contarini
- 6571:Palazzo Contarini
  6572:Palazzo Contarini dai Scrigni
  6573:Palazzo Contarini dal Zaffo
- 6574:Palazzo Contarini dal Zaffo
  6575:Palazzo Contarini dalle Figure
  6576:Palazzo Contarini del Bovolo
  6577:Palazzo Contarini Fasan
@@ -6605,7 +6253,6 @@
  6604:Palazzo Ducale
  6605:Palazzo Duodo
  6606:Palazzo Emo
- 6607:Palazzo Emo
  6608:Palazzo Emo Diedo
  6609:Palazzo Enel
  6610:Palazzo Erizzo
@@ -6616,14 +6263,11 @@
  6615:Palazzo Fontana
  6616:Palazzo Fortuny
  6617:Palazzo Foscari
- 6618:Palazzo Foscari
- 6619:Palazzo Foscari
  6620:Palazzo Foscari Contarini
  6621:Palazzo Franchetti
  6622:Palazzo Genovese
  6623:Palazzo Giovanelli
  6624:Palazzo Giustinian
- 6625:Palazzo Giustinian
  6626:Palazzo Giustinian Lolin
  6627:Palazzo Giustiniani
  6628:Palazzo Giustiniani Faccanon
@@ -6635,8 +6279,6 @@
  6634:Palazzo Grimani a S.M. Formosa
  6635:Palazzo Grimani a S. Polo
  6636:Palazzo Gritti
- 6637:Palazzo Gritti
- 6638:Palazzo Gritti
  6639:Palazzo Gussoni
  6640:Palazzo in Bacino Orseolo
  6641:Palazzo Inail
@@ -6646,7 +6288,6 @@
  6645:Palazzo Lezze
  6646:Palazzo Linetti
  6647:Palazzo Loredan
- 6648:Palazzo Loredan
  6649:Palazzo Loredan dell'Ambasciatore
  6650:Palazzo Maffetti
  6651:Palazzo Malipiero
@@ -6656,7 +6297,6 @@
  6655:Palazzo Manolesso Ferro
  6656:Palazzo Manzoni
  6657:Palazzo Marcello
- 6658:Palazzo Marcello
  6659:Palazzo Marcello Ricchetti
  6660:Palazzo Martinengo
  6661:Palazzo Mastelli
@@ -6665,24 +6305,19 @@
  6664:Palazzo Michiel dal Brusà
  6665:Palazzo Michiel dalle Colonne
  6666:Palazzo Mocenigo
- 6667:Palazzo Mocenigo
- 6668:Palazzo Mocenigo
  6669:Palazzo Mocenigo Gambara
  6670:Palazzo Molin
- 6671:Palazzo Molin
  6672:Palazzo Molini Balbi Valier
  6673:Palazzo Moretta
  6674:Palazzo Moro Lin
  6675:Palazzo Morosini
  6676:Palazzo Morosini Peloponnesiaco
  6677:Palazzo Nani
- 6678:Palazzo Nani
  6679:Palazzo Paguri
  6680:Palazzo Papadopoli
  6681:Palazzo Partecipazio
  6682:Palazzo Patriarcale
  6683:Palazzo Pesaro
- 6684:Palazzo Pesaro
  6685:Palazzo Pindemonte
  6686:Palazzo Pisani
  6687:Palazzo Pisani Gritti
@@ -6701,8 +6336,6 @@
  6700:Palazzo Smith
  6701:Palazzo Società Adriatica di Navigazione
  6702:Palazzo Soranzo
- 6703:Palazzo Soranzo
- 6704:Palazzo Soranzo
  6705:Palazzo Soranzo Calbo Crotta
  6706:Palazzo Soranzo Vanaxel
  6707:Palazzo Spinelli
@@ -6710,10 +6343,8 @@
  6709:Palazzo Surian Bellotto
  6710:Palazzo Testa
  6711:Palazzo Tiepolo
- 6712:Palazzo Tiepolo
  6713:Palazzo Treves de Bonfili
  6714:Palazzo Trevisan
- 6715:Palazzo Trevisan
  6716:Palazzo Tron
  6717:Palazzo Valier
  6718:Palazzo Valmarana
@@ -6721,8 +6352,6 @@
  6720:Palazzo Venier Manfrin
  6721:Palazzo Zaguri
  6722:Palazzo Zen
- 6723:Palazzo Zen
- 6724:Palazzo Zen
  6725:Palazzo Zenobio
  6726:Palazzo Zorzi
  6727:Pietro Paleocapa
@@ -6745,7 +6374,6 @@
  6744:Palma
  6745:Antonio Palma
  6746:Jacopo Palma
- 6747:Jacopo Palma
  6748:Palmanova
  6749:Paluo
  6750:Pamphili
@@ -6753,7 +6381,6 @@
  6752:Pan biscotto
  6753:Pan francese
  6754:Pan traverso
- 6755:Panada
  6756:Panciera
  6757:Panfilla
  6758:Pantaleone famiglia
@@ -6765,10 +6392,7 @@
  6764:Paolino
  6765:Paolino da Venezia
  6766:Paolo
- 6767:Paolo
- 6768:Paolo
  6769:Paolo da Campo di Catania
- 6770:Paolo Veneziano
  6771:Paolo I
  6772:Paolo II
  6773:Paolo III
@@ -6791,7 +6415,6 @@
  6790:Gerolamo Parabosco
  6791:Paradiso famiglia
  6792:Paradiso
- 6793:Parangon
  6794:Paranza
  6795:Dominique Paravel
  6796:Parco di S. Giuliano
@@ -6809,25 +6432,18 @@
  6808:Parrocchia
  6809:Parrucca
  6810:Parte
- 6811:Partecipazio
- 6812:Partecipazio
- 6813:Partecipazio
  6814:Badoario Partecipazio
  6815:Felicia Partecipazio
  6816:Giorgio Partecipazio
  6817:Giovanna Partecipazio
- 6818:Partecipazio
  6819:Giovanni II Partecipazio
  6820:Giustiniano Partecipazio
  6821:Orso Partecipazio
- 6822:Partecipazio
- 6823:Partecipazio
+ 6811:Partecipazio
  6824:Orso II Partecipazio
  6825:Pietro Partecipazio
- 6826:Pietro Partecipazio
  6827:Teodato Partecipazio
  6828:Vitale Partecipazio
- 6829:Vitale Partecipazio
  6830:Vittore Partecipazio
  6831:Partenone
  6832:Partigiana
@@ -6843,14 +6459,13 @@
  6842:Pasquale II
  6843:Giambattista Pasquali
  6844:Pasqualigo famiglia
- 6845:Pasqualigo
  6846:Angela e Lucia Pasqualigo
  6847:Antonio Pasqualigo
  6848:Domenico Pasqualigo
  6849:Filippo Pasqualigo
  6850:Giovanni Pasqualigo
  6851:Marcantonio Pasqualigo
- 6852:Pasqualigo
+ 6845:Pasqualigo
  6853:Niccolò Antonio Pasqualigo
  6854:Pietro Pasqualigo
  6855:Vincenzo Pasqualigo
@@ -6883,9 +6498,8 @@
  6882:Patriarcato di Aquileia
  6883:Patriarcato di Venezia
  6884:Patriarchi di Aquileia
- 6885:Patriarchi di Grado
- 6886:Patriarchi di Venezia
- 6887:Patriarchi Latini di Costantinopoli
+ 4506:Patriarchi di Grado
+ 2890:Patriarchi Latini di Costantinopoli
  6888:Patrizi veneziani
  6889:Patriziato
  6890:Patrizio
@@ -6912,7 +6526,6 @@
  6911:Peggy
  6912:Peggy Guggenheim Collection
  6913:Carlo Peghin
- 6914:Pegola
  6915:Maurizio Pellegrin
  6916:Pellegrin del Doxe
  6917:Domenico Pellegrini
@@ -6945,7 +6558,7 @@
  6944:Pierluigi Penzo
  6945:People Mover
  6946:Peota
- 6947:Cassa Peota
+ 1821:Cassa Peota
  6948:Guglielmo Pepe
  6949:Pepoli famiglia
  6950:Pepoli
@@ -6981,7 +6594,6 @@
  6980:Paolo Peruzza
  6981:Giuseppe Maria Peruzzi
  6982:Pesaro
- 6983:Pesaro
  6984:Benedetto Pesaro
  6985:Francesco Pesaro
  6986:Giacomo Pesaro
@@ -6989,7 +6601,6 @@
  6988:Leonardo Pesaro
  6989:Isacco Pesaro Maurogonato
  6990:Zuanne Pesaro
- 6991:Pescaria
  6992:Enrico Pescatore
  6993:Pescetti famiglia
  6994:Giovanni Battista Pescetti
@@ -6998,7 +6609,6 @@
  6997:Pescivendoli
  6998:Gianluigi Pescolderung
  6999:Peste
- 7000:Pestrin
  7001:Pestrineri
  7002:Renato Pestriniero
  7003:Peta di Bo
@@ -7027,7 +6637,6 @@
  7026:Piatta
  7027:Sante Piatti
  7028:Piattoni
- 7029:Piave
  7030:Francesco Maria Piave
  7031:Piave Vecchia
  7032:Piavola
@@ -7035,12 +6644,8 @@
  7034:Antonio Piazza
  7035:Marco Piazza
  7036:Paolo Piazza
- 7037:Piazza San Marco
  7038:Carlo Piazzesi
  7039:Piazzetta
- 7040:Piazzetta
- 7041:Piazzetta
- 7042:Piazzetta dei Leoni
  7043:Vittorio Pica
  7044:Luigi Picchini
  7045:Piccini famiglia
@@ -7073,7 +6678,6 @@
  7072:Pigafetta
  7073:Giovanni Alvise Pigazzi
  7074:Pigli famiglia
- 7075:Pignate
  7076:Sandro Pignatti
  7077:Terisio Pignatti
  7078:Pilastri
@@ -7111,11 +6715,9 @@
  7110:Almorò Pisani
  7111:Alvise Pisani
  7112:Andrea Pisani
- 7113:Andrea Pisani
  7114:Fantin Pisani
  7115:Francesco Pisani
  7116:Giorgio Pisani
- 7117:Giorgio Pisani
  7118:Luigi Pisani
  7119:Marcantonio Pisani
  7120:Niccolò Pisani
@@ -7123,11 +6725,9 @@
  7122:Pisani
  7123:Antonio Pisano
  7124:Nino Pisano
- 7125:Piscina
  7126:Piscine
  7127:Piscopia Cornaro
  7128:Domenico Pisoni
- 7129:Pistor
  7130:Nicolò Pistorino
  7131:Pitigliano
  7132:Pitima
@@ -7193,7 +6793,7 @@
  7192:Pollini famiglia
  7193:Giovanni Pollini
  7194:Polo famiglia
- 7195:Marco Polo
+ 5445:Marco Polo
  7196:Polo
  7197:Nicolò Polo
  7198:Ramberto Polo
@@ -7204,23 +6804,17 @@
  7203:Pietro Pomponazzi
  7204:Giuseppe Ponga
  7205:Ponte famiglia
- 7206:Ponte famiglia
  7207:Agostino Ponte
  7208:Alice Ponte
  7209:Antonio Ponte
  7210:Lorenzo Ponte
  7211:Nicolò Ponte
- 7212:Ponte Chiodo
  7213:Ponte de le Guglie
  7214:Ponte dei Scalzi
  7215:Ponte dei Sospiri
- 7216:Ponte dei Tre Archi
  7217:Ponte del Diavolo
  7218:Ponte dell’Accademia
- 7219:Ponte della Costituzione
- 7220:Ponte della Libertà
  7221:Ponte della Paglia
- 7222:Ponte di Rialto
  7223:Ponte translagunare ferroviario
  7224:Anna Ponti
  7225:Carlo Ponti
@@ -7234,7 +6828,6 @@
  7233:Matteo Ponzone
  7234:Pietro Ponzoni
  7235:Pope
- 7236:Pope
  7237:Publio Lenate Popilio
  7238:Poppone
  7239:Porcellana di Venezia
@@ -7259,7 +6852,6 @@
  7258:Porto Fossone
  7259:Porto Franco
  7260:Porto Marghera
- 7261:Taglio di Porto Viro
  7262:Paolo Portoghesi
  7263:Portogruaro
  7264:Portolano
@@ -7273,7 +6865,6 @@
  7272:Ezra Pound
  7273:Poveglia
  7274:Pozzetto
- 7275:Pozzi
  7276:Pozzi pubblici
  7277:Pozzo
  7278:Pozzoferrato
@@ -7313,11 +6904,9 @@
  7312:Antonio Priuli
  7313:Antonio Maria Priuli
  7314:Francesco Priuli
- 7315:Priuli
  7316:Iseppo Priuli
  7317:Lodovico Priuli
  7318:Lorenzo Priuli
- 7319:Lorenzo Priuli
  7320:Nicolò Priuli
  7321:Orsatto Priuli
  7322:Pietro Priuli
@@ -7369,7 +6958,6 @@
  7368:Provveditori all’Adige
  7369:Provveditori all’Armar
  7370:Provveditori all’Arsenal
- 7371:Rialto
  7372:Provveditori alla Giustizia Vecchia
  7373:Provveditori alla Sanità
  7374:Provveditori alle Artiglierie
@@ -7384,7 +6972,6 @@
  7383:Pubblico
  7384:Provveditori e Revisori sopra i Beni Comuni
  7385:e Regolazione delle Spese Superflue
- 7386:Banchi
  7387:Provveditori Generali
  7388:Provveditori in Zecca
  7389:Provveditori per la Quiete dello Stato
@@ -7417,7 +7004,7 @@
  7416:Provveditori sopra Ori e Monete
  7417:Provveditori sopra Ori in Zecca
  7418:Provveditori sopra Ospedali
- 7419:Banchi
+ 7386:Banchi
  7420:Provveditori
  7421:alle Biave
  7422:Bernardino Prudenti
@@ -7425,7 +7012,7 @@
  7424:Anton Puchner
  7425:Giuseppe Pugliese
  7426:Camillo Puglisi Allegra
- 7427:Punta della Dogana
+ 1969:Punta della Dogana
  7428:Giuseppe Pupillo
  7429:Paolo Puppa
  7430:Pupparin
@@ -7457,39 +7044,31 @@
  7456:Agneta Querini
  7457:Alvise Querini
  7458:Andrea Querini
- 7459:Andrea Querini
  7460:Angelo Querini
  7461:Angelo Maria Querini
  7462:Bartolomeo Querini
  7463:Elisabetta Querini
- 7464:Elisabetta Querini
  7465:Francesco Querini
- 7466:Francesco Querini
  7467:Gerolamo Querini
  7468:Giovanni Querini
  7469:Giovanni Antonio Querini
  7470:Giovanni Battista Querini
  7471:Girolamo Querini
- 7472:Girolamo Querini
  7473:Jacopo Querini
  7474:Lauro Querini
  7475:Leonardo Querini
  7476:Leonardo Querini
  7477:Marco Querini
- 7478:Marco Querini
  7479:Niccolò Querini
  7480:Nicolò Querini
  7481:Pietro Querini
  7482:Querini
  7483:Marina Querini Benzon
- 7484:Querini Stampalia
  7485:Elisabetta Querini Stampalia
- 7486:Querini Stampalia
  7487:Questione Veneta
  7488:Questo mondo
  7489:Quinquereme Faustina
  7490:Quintavalle famiglia
- 7491:Quintavalle
  7492:Ponte Quintavalle
  7493:Quintello
  7494:Quirizio da Murano
@@ -7553,7 +7132,6 @@
  7552:Giuseppe Reali
  7553:Danilo Reato
  7554:Recanati
- 7555:Recanati
  7556:Zeev Rechter
  7557:Emmerico Rectinger
  7558:Redecima
@@ -7580,7 +7158,6 @@
  7579:Religiosi
  7580:Reliquiario della Croce
  7581:Reliquie veneziane
- 7582:Remer
  7583:L. Remigio
  7584:Giovanni Battista Remondini
  7585:Renata di Francia
@@ -7628,8 +7205,8 @@
  7627:Carlo Rezzonico
  7628:Giambattista Rezzonico
  7629:Rialtina
- 7630:Rialto
- 7631:Ponte di Rialto
+ 7371:Rialto
+ 7222:Ponte di Rialto
  7632:Riario famiglia
  7633:Girolamo Riario
  7634:Jacopo Francesco Riccati
@@ -7649,8 +7226,6 @@
  7648:Pietro Ridolfi da Tossignano
  7649:Ridotti
  7650:Ridotto
- 7651:Ridotto
- 7652:Rielo
  7653:Gerrit Thomas Rietveld
  7654:Riferte
  7655:Riformati
@@ -7663,9 +7238,7 @@
  7662:Vincenzo Rinaldo
  7663:Rinascimento
  7664:Rio
- 7665:Rio Terà
  7666:Rioba
- 7667:Rioba
  7668:Andrea Rioda
  7669:Giuliano Rioda
  7670:Girolamo Ripa
@@ -7743,7 +7316,6 @@
  7742:Domenico Rossi
  7743:Filippo Rossi
  7744:Gino Rossi
- 7745:Gino Rossi
  7746:Giustina Rossi
  7747:Lorenzo Rossi
  7748:Luigino Rossi
@@ -7777,7 +7349,6 @@
  7776:Clodovaldo Ruffato
  7777:Ruffiani/e
  7778:Tito Annio Rufo
- 7779:Ruga
  7780:Ileana Ruggeri
  7781:Ugo Ruggeri
  7782:Spartaco Rumor
@@ -7883,16 +7454,14 @@
  7882:San Giacomo in Paludo
  7883:San Giorgio in Alga
  7884:San Giorgio Maggiore
- 7885:San Giovanni d’Acri
+ 4311:San Giovanni d’Acri
  7886:San Giuliano
  7887:San Lazzaro degli Armeni
- 7888:San Marco
- 7889:Ordine di San Marco
+ 6284:Ordine di San Marco
  7890:San Marco in Boccalama
  7891:San Michele in Isola
  7892:San Nicolò
  7893:San Pietro in Volta
- 7894:San Polo
  7895:San Secondo
  7896:San Servolo
  7897:San Stino di Livenza
@@ -7920,14 +7489,13 @@
  7919:Francesco Sansovino
  7920:Jacopo Sansovino
  7921:Sant’Andrea
- 7922:Forte di Sant’Andrea
+ 3890:Forte di Sant’Andrea
  7923:Sant’Angelo della Polvere
  7924:Sant’Ariano
  7925:Isola di Sant’Elena
  7926:Sant’Elena
  7927:Sant’Erasmo
  7928:Santa Cristina
- 7929:Santa Croce
  7930:Santa Maria di Sala
  7931:Santa Maura
  7932:Santa Soffia famiglia
@@ -7944,11 +7512,10 @@
  7943:Santo Spirito
  7944:Giuseppe Santomaso
  7945:Santorini
- 7946:Francesco Santorini
  7947:Giandomenico Santorini
  7948:Santorio Santorio
  7949:Sanudo famiglia
- 7950:Francesco Santorini
+ 7946:Francesco Santorini
  7951:Andrea Sanudo
  7952:Angela Sanudo
  7953:Cristina Sanudo
@@ -7956,7 +7523,6 @@
  7955:Livio Sanudo
  7956:Marco Sanudo
  7957:Marin Sanudo
- 7958:Marin Sanudo
  7959:Nino Sanzogno
  7960:Saoner
  7961:Sapientes
@@ -8003,13 +7569,12 @@
  8002:Amedeo di Savoia
  8003:Carlo Emanuele di Savoia
  8004:Emanuele Filiberto di Savoia
- 8005:Emanuele Filiberto di Savoia
  8006:Eugenio di Savoia
  8007:Filippo di Savoia
  8008:Ludovico di Savoia
  8009:Luigi di Savoia
- 8010:Luisa di Savoia
- 8011:Margherita di Savoia
+ 5209:Luisa di Savoia
+ 5463:Margherita di Savoia
  8012:Tommaso di Savoia
  8013:Vittorio Amedeo II di Savoia
  8014:Giovanni Girolamo Savoldo
@@ -8036,7 +7601,6 @@
  8035:Giuseppe Scalfarotto
  8036:Tommaso Scalfarotto
  8037:Scaligeri
- 8038:Scaligeri
  8039:Vincenzo Scamozzi
  8040:Mischa Scandella
  8041:Scandoler famiglia
@@ -8075,7 +7639,6 @@
  8074:Schiavone
  8075:Andrea Schiavone
  8076:Sebastiano Schiavone
- 8077:Schiavoni
  8078:Felice Schiavoni
  8079:Natale Schiavoni
  8080:Schierazzo
@@ -8098,7 +7661,6 @@
  8097:Scisma d’Oriente
  8098:Scisma dei tre capitoli
  8099:Sclavo famiglia
- 8100:Scoazzera
  8101:Angelo Scola
  8102:Scommesse
  8103:Scomunica
@@ -8128,7 +7690,6 @@
  8127:Scuola Pubblica di Filosofia
  8128:Scuola Pubblica di Medicina
  8129:Scuola Superiore di Disegno Industriale
- 8130:Scuole
  8131:Scuola di S. Maria della Carità
  8132:Scuola di S. Marco
  8133:Scuola della Misericordia
@@ -8143,7 +7704,6 @@
  8142:Difesa di Scutari
  8143:Pietro Scutarini
  8144:Maria Letizia Sebastiani
- 8145:Sebastiano
  8146:Sebastiano del Piombo
  8147:Sebastiano Viniziano
  8148:Sebenico
@@ -8184,7 +7744,6 @@
  8183:Semitecolo famiglia
  8184:Angelo Semitecolo
  8185:Niccolò Semitecolo
- 8186:Niccolò Semitecolo
  8187:Compagnia della Calza Sempiterni
  8188:Senato
  8189:Senatori famiglia
@@ -8192,7 +7751,6 @@
  8191:Senigaglia
  8192:Senigallia
  8193:Otello Seno
- 8194:Sensa
  8195:Sensali
  8196:Teresa Sensi
  8197:Marina e Susanna Sent
@@ -8219,7 +7777,7 @@
  8218:Serra dei Giardini
  8219:Serrata del Maggior Consiglio
  8220:Serravalle
- 8221:Ordine dei Servi di Maria
+ 6282:Ordine dei Servi di Maria
  8222:Serviti
  8223:Servizio postale a Venezia
  8224:Servolo
@@ -8227,7 +7785,6 @@
  8226:Sessa famiglia
  8227:Melchiorre Sessa
  8228:Sessola
- 8229:Sessola
  8230:Sestieri
  8231:SESTIERI
  8232:CANNAREGIO
@@ -8238,7 +7795,6 @@
  8237:SANTA CROCE
  8238:Sette antiaustriache
  8239:Sette mari
- 8240:Sette Martiri
  8241:Arnaldo Settembrini
  8242:Fulgenzio Setti
  8243:Sevella
@@ -8270,7 +7826,6 @@
  8269:Sifilide
  8270:Sigillum dominii
  8271:Sigismondo
- 8272:Sigismondo
  8273:Giovanni Signole
  8274:Signolo famiglia
  8275:Romània
@@ -8307,7 +7862,6 @@
  8306:Giuseppe Sinopoli
  8307:Siocolo famiglia
  8308:Sior Antonio Rioba
- 8309:Sior Antonio Rioba
  8310:Sior Tonin Bonagrazia
  8311:Lodovico Sirmen
  8312:Siro
@@ -8403,7 +7957,6 @@
  8402:Gerolamo Speciale
  8403:Giovanni Battista Speciali
  8404:Spezie
- 8405:Spezier
  8406:Spiera famiglia
  8407:Spina
  8408:Maria Grazia Spina
@@ -8414,7 +7967,6 @@
  8413:Spineda famiglia
  8414:Spinelli famiglia
  8415:Spira
- 8416:Spira
  8417:Giambattista Spolverini
  8418:Sporadi
  8419:Sposalizio del Mare
@@ -8444,7 +7996,7 @@
  8443:Stati Barbareschi
  8444:Stato da Mar
  8445:Stato da Terra
- 8446:Statua di Napoleone
+ 6112:Statua di Napoleone
  8447:Statuario Pubblico
  8448:navibus et aliis lignis
  8449:Statuti Civili di Venezia
@@ -8463,11 +8015,8 @@
  8462:Mario Stefani
  8463:Stefano
  8464:Stefano II
- 8465:Stefano II
- 8466:Stefano II
  8467:Stefano IV
  8468:Stefano V
- 8469:Stefano V
  8470:Antonio Stella
  8471:Giampietro Stella
  8472:Guglielmo Stella
@@ -8511,10 +8060,9 @@
  8510:Bernardo Strozzi
  8511:Giulio Strozzi
  8512:Lucio Strumendo
- 8513:Stua
  8514:Giancarlo Stucky
  8515:Giovanni Stucky
- 8516:Studio Mar
+ 5394:Studio Mar
  8517:Studium Cattolico Veneziano
  8518:Stueri
  8519:Stufe
@@ -8552,7 +8100,6 @@
  8551:Tabacchine
  8552:Tabacco
  8553:Tabaro
- 8554:Tabaro
  8555:Tabula Peutingeriana
  8556:Publio Tacito
  8557:Francesco Tacconi
@@ -8562,12 +8109,11 @@
  8561:Tagliamento
  8562:Taglia ducale
  8563:Tagliapietra famiglia
- 8564:Tagliapietra famiglia
  8565:Contessa Tagliapietra
  8566:Lino Tagliapietra
  8567:Sara Tagliapietra
  8568:Sergio Tagliapietra
- 8569:Taglio di Porto Viro
+ 7261:Taglio di Porto Viro
  8570:Taiamonte famiglia
  8571:Domenico Taiamonte
  8572:Luca Taiamonte
@@ -8582,7 +8128,6 @@
  8581:Domenico IV Talonico
  8582:Giovanni Talonico
  8583:Achille Tamburlini
- 8584:Tana
  8585:Tancredi
  8586:Tanoligo famiglia
  8587:Tansa
@@ -8679,7 +8224,7 @@
  8678:Teatro Labia
  8679:Teatro Malibran
  8680:Teatro Marinoni
- 8681:Teatro Michiel
+ 5747:Teatro Michiel
  8682:Teatro Minerva
  8683:Teatro Momo
  8684:Teatro Mondo
@@ -8729,24 +8274,21 @@
  8728:Teia
  8729:Pedro Teles Giron
  8730:Tommaso Temanza
- 8731:Tempio Votivo
+ 2333:Tempio Votivo
  8732:Templari
  8733:Tenedo
  8734:Teneri famiglia
  8735:Teodato
  8736:Teodolinda
  8737:Teodora
- 8738:Teodora
  8739:Teodorico
- 8740:Teodorico
- 8741:Teodoro
+ 2334:Teodoro
  8742:Maria Teodorovna
  8743:Teodosio
  8744:Teodosio II
  8745:Teofilo
  8746:Isabella Teotochi Albrizzi
  8747:Terà
- 8748:Terese
  8749:Teriaca
  8750:Francesco Terilli
  8751:Ternaria
@@ -8762,27 +8304,21 @@
  8761:Tespi
  8762:Tessalonica
  8763:Tessera
- 8764:Testori
  8765:Thetis
  8766:Tetrarchi
  8767:Tetrarchia
  8768:Genova Giovanni Thaon di Revel
  8769:The Venice International Foundation
  8770:Tiepolo famiglia
- 8771:Tiepolo
  8772:Antonio Tiepolo
  8773:Bajamonte Tiepolo
  8774:Giambattista Tiepolo
  8775:Giandomenico Tiepolo
  8776:Giovanni Tiepolo
- 8777:Tiepolo
  8778:Lorenzo Tiepolo
- 8779:Lorenzo Tiepolo
- 8780:Lorenzo Tiepolo
- 8781:Tiepolo
  8782:Maria Francesca Tiepolo
  8783:Nicolò Tiepolo
- 8784:Tiepolo
+ 8771:Tiepolo
  8785:Stefano Tiepolo
  8786:Tifo
  8787:Tiberio Tinelli
@@ -8790,7 +8326,6 @@
  8789:Tinto famiglia
  8790:Tintoretta
  8791:Tintoretto
- 8792:Tintoretto
  8793:Paolo Tiozzo
  8794:Tipografia Pepoliana
  8795:Andrea Tirali
@@ -8806,8 +8341,6 @@
  8805:Ettore Tito
  8806:Luigi Tito
  8807:Tito Livio
- 8808:Tiziano
- 8809:Tiziano
  8810:Giuseppe Toaldo
  8811:Leonardo del Tocco
  8812:Todaro
@@ -8822,7 +8355,6 @@
  8821:Lorenzo Tomasin
  8822:Angelo Tomelleri
  8823:Bernardino Tomitano
- 8824:Bernardino Tomitano
  8825:Tommaseo
  8826:Pietro Tommasi
  8827:Attilio Tommasini
@@ -8841,7 +8373,7 @@
  8840:Topo Gigio
  8841:Toponomastica
  8842:Torbido
- 8843:Torcello
+ 2341:Torcello
  8844:Gaspare Torelli
  8845:Jacopo Torelli
  8846:Sir Richard Torkington
@@ -8884,7 +8416,6 @@
  8883:Pietro Tradonico
  8884:Tommaso, Traetta
  8885:Traffico acqueo
- 8886:Traghetto
  8887:Trainanti
  8888:Giancarlo Franco Tramontin
  8889:Silvio Tramontin
@@ -8900,7 +8431,6 @@
  8899:Trebisonda
  8900:Tre Capitoli
  8901:Tre sulle Galee dei Condannati
- 8902:Tredici Martiri
  8903:Treffen Wolfgang von
  8904:Alessandro Tremignon
  8905:Trentacie
@@ -8910,10 +8440,9 @@
  8909:Trento famiglia
  8910:Treporti
  8911:Tresse
- 8912:Trevisan
  8913:Angelo Trevisan
  8914:Bernardo Trevisan
- 8915:Trevisan
+ 8912:Trevisan
  8916:Francesco Trevisan
  8917:Gabriele Trevisan
  8918:Giovanni Trevisan
@@ -8945,7 +8474,6 @@
  8944:Tribuno famiglia
  8945:Domenico Tribuno
  8946:Pietro Tribuno
- 8947:Pietro Tribuno
  8948:Trifone
  8949:Egle Renata Trincanato
  8950:Vittore Trincavelli
@@ -8958,7 +8486,6 @@
  8957:Giovanni Battista Trojani
  8958:Tron famiglia
  8959:Andrea Tron
- 8960:Andrea Tron
  8961:Cecilia Tron
  8962:Daniele Tron
  8963:Ettore Tron
@@ -8967,8 +8494,6 @@
  8966:Giovanni Tron
  8967:Girolamo Tron
  8968:Nicolò Tron
- 8969:Nicolò Tron
- 8970:Isola Nuova del Tronchetto
  8971:Trottiera
  8972:Sandra Truccolo
  8973:Ferruccio Truffi
@@ -9143,16 +8668,13 @@
  9142:Venetia et Histria
  9143:Venetiarum ocellae
  9144:Venexiana
- 9145:Venezia
- 9146:Venezia
  9147:Attacco di Venezia
  9148:Blocco di Venezia
  9149:Conferenza di Venezia
- 9150:Congresso di Venezia
- 9151:Venezia
- 9152:Venezia
+ 2654:Congresso di Venezia
+ 9145:Venezia
  9153:Fortificazioni di Venezia
- 9154:Patriarchi di Venezia
+ 6886:Patriarchi di Venezia
  9155:Summit di Venezia
  9156:Trattato di Venezia
  9157:Venezia e Bisanzio
@@ -9168,13 +8690,13 @@
  9167:Veneto
  9168:Veneto bizantino
  9169:Veneziano
- 9170:Domenico Veneziano
+ 3349:Domenico Veneziano
  9171:Giovanni Veneziano
- 9172:Lorenzo Veneziano
+ 5163:Lorenzo Veneziano
  9173:Luca Veneziano
  9174:Marco Veneziano
  9175:Natale Veneziano
- 9176:Paolo Veneziano
+ 6770:Paolo Veneziano
  9177:Polidoro Veneziano
  9178:Venice card
  9179:Venice Connected
@@ -9190,19 +8712,15 @@
  9189:Ermolao Venier
  9190:Francesco Venier
  9191:Girolamo Venier
- 9192:Girolamo Venier
  9193:Lorenzo Venier
- 9194:Lorenzo Venier
  9195:Maffio Venier
  9196:Mara Venier
  9197:Marco Venier
- 9198:Marco Venier
  9199:Moisè Venier
  9200:Piero Venier
  9201:Pietro Venier
  9202:Sebastian Venier
  9203:Sebastiano Venier
- 9204:Sebastiano Venier
  9205:Vetreria Venini
  9206:Paolo Venini
  9207:Ventio famiglia
@@ -9227,7 +8745,6 @@
  9226:Veritas
  9227:Verme
  9228:Vero famiglia
- 9229:Verona
  9230:Maffeo Verona
  9231:Veronese famiglia
  9232:Bonifacio Veronese
@@ -9236,24 +8753,24 @@
  9235:Verrocchio
  9236:Francis Vervloet
  9237:Andrea Vesalio
- 9238:Vescovi di Olivolo
+ 6257:Vescovi di Olivolo
  9239:Vesta
  9240:Angela Vettese
  9241:Vetro
  9242:Vezzi famiglia
  9243:Giovanni Vezzi
  9244:Via
- 9245:Via Annia
- 9246:Via Appia
- 9247:Via Aquileiense
+  288:Via Annia
+  322:Via Appia
+  329:Via Aquileiense
  9248:Via Claudia Augusta
  9249:Via della seta
  9250:Via Egnatia
  9251:Via Emilia Altinate
  9252:Via Endolagunare
  9253:Via Flaminia
- 9254:Via Flavia
- 9255:Via Gemina
+ 3812:Via Flavia
+ 4200:Via Gemina
  9256:Via Popilia
  9257:Via Postumia
  9258:Via Romea
@@ -9274,7 +8791,6 @@
  9273:Giacomo Viaro
  9274:Giorgio Viaro
  9275:Vicenzo Viaro
- 9276:Vicenza
  9277:Victa
  9278:Pietro Vida
  9279:Vidal famiglia
@@ -9375,7 +8891,6 @@
  9374:Giuseppe Volpi
  9375:Volta
  9376:F.M. Arouet Voltaire
- 9377:Volto
  9378:Luigi Voltolina
  9379:Vonizza
  9380:Evmania Voria
@@ -9468,7 +8983,6 @@
  9467:Alessandro Zanetti
  9468:Antonio Zanetti
  9469:Anton Maria Zanetti
- 9470:Anton Maria Zanetti
  9471:Camillo Zanetti
  9472:Vincenzo Zanetti
  9473:Zanetti Zilla
@@ -9484,7 +8998,6 @@
  9483:Agostino Zanon Dal Bo
  9484:Francesco Zanotto
  9485:Zantani
- 9486:Zantani
  9487:Zante
  9488:Francesco Zantedeschi
  9489:Zanzara
@@ -9497,7 +9010,6 @@
  9496:Zarlino
  9497:Zatta famiglia
  9498:Giovanni Zattera
- 9499:Zattere
  9500:Ugo Zatterin
  9501:Zavater
  9502:Zecca
@@ -9506,9 +9018,7 @@
  9505:Zecchino
  9506:Zelarino
  9507:Giambattista Zelotti
- 9508:Zen
  9509:Antonio Zen
- 9510:Antonio Zen
  9511:Apostolo Zen
  9512:Carlo Zen
  9513:Carlo Zen
@@ -9520,12 +9030,10 @@
  9519:Marco Zen
  9520:Marino Zen
  9521:Nicolò Zen
- 9522:Nicolò Zen
  9523:Pier Caterino Zen
  9524:Pier Francesco Zen
- 9525:Zen
+ 9508:Zen
  9526:Ranieri Zen
- 9527:Ranieri Zen
  9528:Rinieri Zen
  9529:Bernardino Zendrini
  9530:Giorgio Zennaro
@@ -9552,11 +9060,10 @@
  9551:Zino famiglia
  9552:Zio famiglia
  9553:Zio
- 9554:Ospizio delle Zitelle
+ 6399:Ospizio delle Zitelle
  9555:Zuanne Zittio
  9556:Giuseppe Zocchi
  9557:Davide Zoggia
- 9558:Zogia
  9559:Zolio famiglia
  9560:Gaetano Zompini
  9561:Zon famiglia
@@ -9581,7 +9088,6 @@
  9580:Zorzi famiglia
  9581:Alessandro Zorzi
  9582:Alvise Zorzi
- 9583:Alvise Zorzi
  9584:Bartolomeo Zorzi
  9585:Elio Zorzi
  9586:Ettore Zorzi
@@ -9590,8 +9096,6 @@
  9589:Manolesso Zorzi
  9590:Marco Zorzi
  9591:Marino Zorzi
- 9592:Marino Zorzi
- 9593:Marino Zorzi
  9594:Marino Giovanni Zorzi
  9595:Paola Zorzi
  9596:Pietro Antonio Zorzi
@@ -9630,13 +9134,13 @@
  9629:Zuanne Zusto
  9630:Abate
  9631:Abazia
- 9632:Accademia dei Nobili
+   31:Accademia dei Nobili
  9633:Accademia dei Pittori
  9634:Acqua dolce
  9635:Acquavita
  9636:Acque
  9637:Agnello
- 9638:Agnese
+  104:Agnese
  9639:Agostin
  9640:Calle/Campiello/Ramo dei Albanesi
  9641:Calle Alberegno
@@ -9655,14 +9159,14 @@
  9654:Calle Amor dei Amici
  9655:Anatomia
  9656:Corte/Sotoportego Ancillotto
- 9657:Anconeta
+  256:Anconeta
  9658:Ancore
  9659:Fondamenta/Ponte Sant’ Andrea
  9660:Campiello Angaran
  9661:Anguria
  9662:Anna
  9663:Ponte/Salizada Sant’ Antonin
- 9664:Antonio
+  307:Antonio
  9665:Anunziatura
  9666:Anzolo
  9667:Anzolo Raffaele
@@ -9672,7 +9176,7 @@
  9671:Aquila Nera
  9672:Archi
  9673:Archivio
- 9674:Arco
+  344:Arco
  9675:Arco Celeste
  9676:Arco detta Bon
  9677:Calle Ariani
@@ -9692,7 +9196,7 @@
  9691:Ramo Astori
  9692:Astrologo
  9693:Augusto Picutti già del Magazen
- 9694:Avogaria
+  477:Avogaria
  9695:Calle dei Avvocati
  9696:Fondamenta del Baccalà
  9697:Corte/Ramo/Sotoportego Badoer
@@ -9702,7 +9206,6 @@
  9701:Baglioni
  9702:Calle Bainsizza
  9703:Calle/Corte Bajamonte Tiepolo
- 9704:Fondamenta/Ponte Ca’ Balà
  9705:Balastro
  9706:Calle/Corte/Ponte/Sotoportego Balbi
  9707:Calle Balbi dai Colori
@@ -9772,7 +9275,7 @@
  9771:Calle Boldù
  9772:Corte/Ramo Corte/Sotoportego Bollani
  9773:Bolza
- 9774:Bombardieri
+ 1134:Bombardieri
  9775:Calle/Ramo/Sotoportego dei Bombaseri
  9776:Ramo Secondo Bon
  9777:Ponte San Bonaventura
@@ -9793,7 +9296,7 @@
  9792:Calle/Corte/Sotoportego Bragadin
  9793:Ramo Bragadin o Carabba
  9794:Calle Bragadin o Pinelli
- 9795:Bragora
+ 2072:Bragora
  9796:Calle/Ponte/Sotoportego Brazzo
  9797:Brazzo Nudo
  9798:Calle/Sotoportego Brentana
@@ -9808,18 +9311,18 @@
  9807:Calle/Sotoportego del Buratello
  9808:Burchiele
  9809:Calle/Fondamenta Businello
- 9810:Fondamenta/Ponte Ca’ Balà
+ 9704:Fondamenta/Ponte Ca’ Balà
  9811:Calle/Ramo Ca’ d’Oro
- 9812:Ca’ di Dio
+ 1418:Ca’ di Dio
  9813:Calle Larga Ca’ Matta
  9814:Ca’ Memo
  9815:Campiello/Corte Ca’ Pesaro
- 9816:Caboto
+ 1423:Caboto
  9817:Cadene
  9818:Cadonici
  9819:Calle del Cafetier
  9820:Calle del Cagnoletto
- 9821:Ponte di Calatrava
+ 1455:Ponte di Calatrava
  9822:Campiello Calbo
  9823:Calcina
  9824:Calle Calderer
@@ -9828,8 +9331,8 @@
  9827:Calle/Corte/Sotoportego Calle Calice
  9828:Callesella
  9829:Sotoportego Camerale
- 9830:Campalto
- 9831:Campana
+ 1531:Campalto
+ 1533:Campana
  9832:Ramo dei Campanati
  9833:Campane
  9834:Campaniel
@@ -9837,19 +9340,19 @@
  9836:Ramo del Campanile
  9837:Calle del Campanile detta dei Preti
  9838:Camposanto
- 9839:Campazzo
- 9840:Campo
+ 1539:Campazzo
+ 1546:Campo
  9841:Fondamenta Daniele Canal
  9842:Candele
- 9843:Cannaregio
+ 1617:Cannaregio
  9844:Canne
  9845:Canonica
- 9846:Canossiane
+ 1623:Canossiane
  9847:Calle Generale Antonio Cantore
  9848:Campo/Ponte/Salizada San Canzian
  9849:Calle Caotorta
  9850:Fossa Capara
- 9851:Caparozzolo
+ 1641:Caparozzolo
  9852:Cape
  9853:Calle del Capeler
  9854:Corte/Ramo Capelera
@@ -9862,7 +9365,7 @@
  9861:Calle Capuzzi
  9862:Capuzzine
  9863:Carabba
- 9864:Carampane
+ 1689:Carampane
  9865:Carbon
  9866:Cariole
  9867:Corte/Ramo Carità
@@ -9876,8 +9379,8 @@
  9875:Campiello Casaria
  9876:Case Nove
  9877:Sotoportego del Casin dei Nobili
- 9878:Cason
- 9879:Casseleria
+ 1816:Cason
+ 1826:Casseleria
  9880:Ramo Cassetti
  9881:Campo San Cassiano
  9882:Calle Castagna
@@ -9885,10 +9388,10 @@
  9884:Castel Olivolo
  9885:Castelforte
  9886:Calle/Corte/Ramo Castelli
- 9887:Castello
+ 1855:Castello
  9888:Calle Catapan
  9889:Ramo/Sotoportego dei Catecumeni
- 9890:Caterina
+ 1881:Caterina
  9891:Calle/Sotoportego Catullo
  9892:Caustico
  9893:Cavalletto
@@ -9915,7 +9418,7 @@
  9914:Chiesa
  9915:Calle Generale Antonio Chinotto
  9916:Calle Chiodi
- 9917:Ponte Chiodo
+ 7212:Ponte Chiodo
  9918:Campiello/Ramo Chiovere
  9919:Chiovere de San Girolamo
  9920:Chioverete
@@ -9952,7 +9455,7 @@
  9951:Calle Contarini Contarina
  9952:Calle/Sotoportego Contarini Corfù
  9953:Calle/Corte Contarini dal Bovolo
- 9954:Convertite
+ 2763:Convertite
  9955:Calle dei Conza Curame
  9956:Cooperativa
  9957:Coppo
@@ -9970,9 +9473,9 @@
  9969:Sotoportego Cornera
  9970:Corona
  9971:Calle/Ponte Corrente
- 9972:Correr
+ 2838:Correr
  9973:Calle Correra
- 9974:Corte
+ 2857:Corte
  9975:Corte Vechia
  9976:Calle/Ponte dei Cortellotti
  9977:Corte Cortese
@@ -9980,12 +9483,12 @@
  9979:Calle/Campazzo/Campo San Cosmo
  9980:Fondamenta/Ramo Cossetti
  9981:Calle/Sotoportego Costantina
- 9982:Ponte della Costituzione
+ 7219:Ponte della Costituzione
  9983:Crea
  9984:Calle Cremonese
  9985:Calle dei Cristi
  9986:Cristo
- 9987:Cristoforo
+ 2926:Cristoforo
  9988:Croce
  9989:Calle/Ramo dei Crociferi
  9990:Calle Crosera
@@ -10000,7 +9503,7 @@
  9999:Fondamenta Dandolo
 10000:Calle Dandolo o Civran
 10001:Ponte/Ramo San Daniele
-10002:Daniele Canal
+ 1562:Daniele Canal
 10003:Ramo Dario
 10004:Largo Decorati al Valor Civile
 10005:Calle del Degolin
@@ -10019,12 +9522,12 @@
 10018:Dogana da Tera
 10019:Calle/Sotoportego Dolera
 10020:Calle/Sotoportego Dolfin
-10021:Domenico
+ 3344:Domenico
 10022:Calle/Corte Donà
 10023:Ramo Donà dalle Rose
 10024:Dona Onesta
 10025:Donzela
-10026:Dorsoduro
+ 3418:Dorsoduro
 10027:Calle/Fondamenta del Dose
 10028:Calle/Ramo/Sotoportego Dragan
 10029:Calle/Sotoportego Drasi
@@ -10039,7 +9542,7 @@
 10038:Eremite
 10039:Calle/Corte/Ramo Erizzo
 10040:Erizzo o delle Belle Donne
-10041:Eufemia
+ 2111:Eufemia
 10042:Eufemia Giustinian
 10043:Via Eugenia
 10044:Calle dei Fabbri
@@ -10052,7 +9555,7 @@
 10051:Calle dei Fari
 10052:Rio Terà Farsetti
 10053:Fava
-10054:Felice
+ 3699:Felice
 10055:Feltrina
 10056:Campiello/FondamentaRamo dei Felzi
 10057:Calle/Sotoportego del Fenester
@@ -10076,12 +9579,11 @@
 10075:Calle/Sotoportego Fiubera
 10076:Calle/Campiello/Ramo Flangini
 10077:Fondamenta de Cannaregio
-10078:Fondamente Nove
 10079:Fonderia
 10080:Corte/Ramo Fontana
 10081:Calle Fonte
 10082:Calle/Ponte del Fontego
-10083:Fontego dei Tedeschi
+ 3859:Fontego dei Tedeschi
 10084:Salizada del Fontego dei Turchi
 10085:Formager
 10086:Formenti
@@ -10101,20 +9603,20 @@
 10100:Calle dei Franchi
 10101:Calle Franco Passarella
 10102:Calle dei Frari
-10103:Fraterna
+ 3997:Fraterna
 10104:Frati
 10105:Frescada
 10106:Frezzaria
 10107:Calle/Campiello/Sotoportego Frizier
 10108:Frutarol
 10109:Calle del Fumo
-10110:Furatola
+ 4033:Furatola
 10111:Furlane
 10112:Calle/Fondamenta/Rielo dei Furlani
 10113:Calle/Ponte/Ramo dei Fuseri
 10114:Corte San Gaetano
 10115:Fondamenta/Ponte del Gaffaro
-10116:Galeazza
+ 4083:Galeazza
 10117:Galion
 10118:Ponte Galliccioli
 10119:Calle Larga Giacinto Gallina
@@ -10133,7 +9635,7 @@
 10132:Campo/Fondamenta San Gerardo
 10133:Campo/Salizada San Geremia
 10134:Calle del Gesù e Maria
-10135:Gesuati
+ 4219:Gesuati
 10136:Campo/Ponte Gesuiti
 10137:Gheto Novissimo
 10138:Gheto Novo
@@ -10149,21 +9651,20 @@
 10148:Giorgio dei Schiavoni
 10149:Corte/Ponte/Sotoportego Giovanelli
 10150:Ruga Vechia San Giovanni
-10151:Giovanni
-10152:Corte San Giovanni di Malta
-10153:Giovanni e Paolo
+ 4304:Giovanni
+ 2585:Giovanni e Paolo
 10154:Giovanni Grisostomo
 10155:Campo San Giovanni in Bragora
 10156:Giovanni Laterano
 10157:Campo Giovanni Novo
 10158:Fondamenta Girardini
-10159:Girolamo
-10160:Giudecca
-10161:Giuffa
+ 4342:Girolamo
+ 4350:Giudecca
+ 4359:Giuffa
 10162:Ruga Giuffa Sant’Apollonia
 10163:Fondamenta Beata Giuliana di Collalto
 10164:Giuriati
-10165:Giustina
+ 4377:Giustina
 10166:Corte/Ponte Giustinian
 10167:Goldoni
 10168:Calle/Corte/Sotopotego Gonella
@@ -10187,15 +9688,15 @@
 10186:Calle/Sotoportego Groppi
 10187:Grue
 10188:Guardiani
-10189:Guerra
+ 4633:Guerra
 10190:Guglie
 10191:Gustavo Modena già Civran
 10192:Hermada
 10193:Impero
-10194:Incurabili
+ 2180:Incurabili
 10195:Indorador
 10196:Isepo
-10197:Isola
+ 4796:Isola
 10198:La Fenice
 10199:Fondamenta Labia
 10200:Calle del Laboratorio
@@ -10214,9 +9715,8 @@
 10213:Calle dei Legnami
 10214:Leon Bianco
 10215:Campo/Rio Terà San Leonardo
-10216:Piazzetta dei Leoni
 10217:Calle/Calle Larga/Sotoportego Lezze
-10218:Ponte della Libertà
+ 7220:Ponte della Libertà
 10219:Rio Terà del Librer
 10220:Corte/Ramo/Sotoportego Licini
 10221:Campo/Salizada San Lio
@@ -10233,7 +9733,7 @@
 10232:Calle Longhi
 10233:Calle Longo
 10234:Calle/Corte/Ponte Loredan
-10235:Lorenzo
+ 5155:Lorenzo
 10236:Lotto
 10237:Corte Lovisella
 10238:Corte/Sotoportego Lovo
@@ -10247,13 +9747,13 @@
 10246:Calle Luigi Luzzatti
 10247:Luigi Torelli detta de la Cavallerizza
 10248:Ponte/Sotoportego Lustraferi
-10249:Maddalena
+ 5241:Maddalena
 10250:Madona
 10251:Madona de l’Orto
 10252:Madoneta
 10253:Madonna
 10254:Corte/Ramo Maffioletti
-10255:Magazen
+ 5253:Magazen
 10256:Ramo del Magazen Vechio
 10257:Calla Larga del Magazeneto
 10258:Magazeni
@@ -10266,7 +9766,7 @@
 10265:Callesela/Fondamenta del Malcanton
 10266:Corte Malipiero
 10267:Calle/Ponte del Malpaga
-10268:Corte San Giovanni di Malta
+10152:Corte San Giovanni di Malta
 10269:Calle/Corte/Ponte Malvasia
 10270:Mandola
 10271:Calle del Mandoler
@@ -10275,7 +9775,7 @@
 10274:Calle Manganer
 10275:Campo Manin
 10276:Ponte/Sotoportego Manin
-10277:Manzini
+ 5384:Manzini
 10278:Calle Maraffoni
 10279:Calle/Sotoportego del Marangon
 10280:Maravegie
@@ -10286,17 +9786,15 @@
 10285:Campo San Marcuola
 10286:Corte Margareta
 10287:Campo/Ponte Santa Margherita
-10288:Maria Callas
+ 1486:Maria Callas
 10289:Ponte Santa Maria Maggiore
-10290:Maria Mater Domini
+ 2247:Maria Mater Domini
 10291:Maria Nova
 10292:Corte/Sotoportego Mariani
 10293:Fondamenta Rio Marin
-10294:Calle Seco Marina
 10295:Largo Marinai d’Italia
-10296:Marta
+ 5519:Marta
 10297:Campo/Piscina San Martin
-10298:Corte Martin Novello
 10299:Martinengo
 10300:Calle Martinengo dalle Palle
 10301:Ponte/Riva dei Sette Martiri
@@ -10304,7 +9802,7 @@
 10303:Marzaria
 10304:Calle/Sotoportego del Marzer
 10305:Campiello/Campo/Ponte San Marzial
-10306:Masena
+ 5568:Masena
 10307:Calle Maseran
 10308:Calle/Sotoportego Nicolò Massa
 10309:Matta
@@ -10316,21 +9814,21 @@
 10315:Memo
 10316:Calle/Sotoportego Mende
 10317:Fondamenta/Ponte dei Mendicanti
-10318:Mendicoli
+ 2265:Mendicoli
 10319:Calle dei Mercanti
 10320:Merceria
 10321:Calle/Sotoportego del Mettivia
 10322:Mezo
 10323:Corte/Sotoportego Miani
 10324:Calle Michelangelo
-10325:Michele
+ 5720:Michele
 10326:Ramo Michiel
-10327:Milion
+ 5762:Milion
 10328:Calle/Corte/Ramo/Sotoportego Minelli
 10329:Calle Minio
 10330:Ramo Primo/Ramo Secondo Minotto
 10331:Calle/Campiello/Campo Miracoli
-10332:Misericordia
+  341:Misericordia
 10333:Mistra
 10334:Fondamenta/Ramo Rimpetto Mocenigo
 10335:Calle del Modena
@@ -10348,7 +9846,7 @@
 10347:Calle/Corte Moretta
 10348:Ramo Moretti
 10349:Calle Moretto
-10350:Mori
+ 5924:Mori
 10351:Calle/Sotoportego del Morion
 10352:Fondamenta/Ponte/Sotoportego Moro
 10353:Fondamenta Moro o Coletti
@@ -10360,19 +9858,19 @@
 10359:Moschete
 10360:Corte Mosto
 10361:Calle Muazzo
-10362:Muneghe
+ 6038:Muneghe
 10363:Muneghete
 10364:Corte del Murer
 10365:Calle del Muschier
 10366:Calle Mussato o Tasca
 10367:Calle/Corte/Ponte/Ramo dei Muti
 10368:Calle Larga/Fondamenta Nani
-10369:Naranzeria
+ 6114:Naranzeria
 10370:Fondamenta/Ramo/Sotoportego Narisi
 10371:Calle/Ramo Nasolin
 10372:Corte Navagera
 10373:Calle del Navaro
-10374:Nave
+ 6134:Nave
 10375:Campo Nazario Sauro
 10376:Campiello Nerini
 10377:Calle Nervesa
@@ -10386,8 +9884,8 @@
 10385:Calle/Sotoportego del Nonzolo
 10386:Calle/Ponte Noris
 10387:Nova
-10388:Fondamente Nove
-10389:Corte Martin Novello
+ 3825:Fondamente Nove
+10298:Corte Martin Novello
 10390:Novo
 10391:Campiello Novo o dei Morti
 10392:Calle del Nuovo Commercio
@@ -10399,10 +9897,10 @@
 10398:Ogio detta Rugheta
 10399:Ogio o del Cafetier
 10400:Ognissanti
-10401:Ole
+ 6245:Ole
 10402:Calle dei Olivi
 10403:Fondamenta Olivolo
-10404:Oratorio
+ 6276:Oratorio
 10405:Orbi
 10406:Ruga/Sotoportego dei Oresi
 10407:Corte/Ramo/Sotoportego dei Orfei
@@ -10410,7 +9908,7 @@
 10409:Orologio
 10410:Fondamenta Orseolo
 10411:Campiello/Ramo Orsetti
-10412:Orso
+ 6319:Orso
 10413:Orsoline
 10414:Calle dei Orti
 10415:Orto
@@ -10420,22 +9918,22 @@
 10419:Ospitaletto
 10420:Osteria de la Campana
 10421:Ostreghe
-10422:Pace
+ 6468:Pace
 10423:Calle Padiglion
 10424:Ramo dei Padovani
 10425:Fondamenta/Ponte Pagan
 10426:Pagia
 10427:Ponte della Paglia Paglia
-10428:Palada
+ 6502:Palada
 10429:Calle/Corte dei Pali o Testori
 10430:Corte del Paludo
-10431:Panada
+ 6755:Panada
 10432:Panataria
 10433:Calle/Campo/Crosera San Pantalon
 10434:Corte/Sotoportego del Papa
 10435:Calle del Papadopoli
 10436:Paradiso
-10437:Parangon
+ 6793:Parangon
 10438:Riva dei Partigiani
 10439:Ponte/Rio Terà Primo del Parucheta
 10440:Corte del Paruchier
@@ -10448,7 +9946,7 @@
 10447:Pazienza
 10448:Pazienze
 10449:Calle Pedrocchi
-10450:Pegola
+ 6914:Pegola
 10451:Campiello/Sotoportego del Pegoloto
 10452:Pelle
 10453:Calle del Pellegrin
@@ -10459,26 +9957,26 @@
 10458:Calle dei Perleri
 10459:Calle dei Persegheri
 10460:Calle/Campiello/Corte Ca’ Pesaro
-10461:Pescaria
+ 6991:Pescaria
 10462:Pescaria de Cannaregio
 10463:Pescaria San Bortolomio
 10464:Corte Peschiera
-10465:Pestrin
+ 7000:Pestrin
 10466:Corte/Sotoportego Petriana
 10467:Calle Pezzana
 10468:Calle Pianton
 10469:Calle Piasentini
-10470:Piave
-10471:Piazza San Marco
+ 7029:Piave
+ 7037:Piazza San Marco
 10472:Piazzale Roma
-10473:Piazzetta dei Leoni
+ 7042:Piazzetta dei Leoni
 10474:Fondamenta del Ponte/Ponte Picolo
 10475:Piere Vive o Bognolo
 10476:Corte Piero da Liesina
 10477:Calle Piero Favretti già Colombina
 10478:Calle/Campiello Pietà
 10479:Campo/Ponte San Pietro
-10480:Pignate
+ 7075:Pignate
 10481:Calle del Pignater
 10482:Ponte dei Pignoli
 10483:Corte dei Pii
@@ -10493,9 +9991,9 @@
 10492:Sotoportego del Pirieta
 10493:Calle Pisani
 10494:Ramo Pisani e Barbarigo
-10495:Piscina
+ 7125:Piscina
 10496:Corte Pisciutta
-10497:Pistor
+ 7129:Pistor
 10498:Pizzochere
 10499:Calle del Podgora
 10500:Corte Polacca
@@ -10518,7 +10016,7 @@
 10517:Calle/Corte del Pozzeto
 10518:Corte del Pozzeto d’oro
 10519:Ramo del Pozzetto Pozzetto
-10520:Pozzi
+ 7275:Pozzi
 10521:Campiello/Ramo/Sotoportego del Pozzo
 10522:Corte/Sotoportego del Pozzo d’Oro
 10523:Pozzo Longo
@@ -10529,7 +10027,7 @@
 10528:Preti
 10529:Prigioni
 10530:Calle Prioli
-10531:Priuli
+ 7315:Priuli
 10532:Calle/Fondamenta Priuli ai Cavaleti
 10533:Procuratie
 10534:Ramo Propria
@@ -10542,8 +10040,8 @@
 10541:Calle/Corte/Sotoportego Quartier
 10542:Viale Quattro Novembre
 10543:Calle Querini
-10544:Querini Stampalia
-10545:Quintavalle
+ 7484:Querini Stampalia
+ 7491:Quintavalle
 10546:Calle/Campiello Rabbia
 10547:Racheta
 10548:Raffineria
@@ -10554,7 +10052,7 @@
 10553:Campo del Santissimo Redentor
 10554:Calle/Ramo Calle Regina
 10555:Regina d’Ungheria
-10556:Remer
+ 7582:Remer
 10557:Calle dei Remurchianti
 10558:Calle/Ponte/Sotoportego Calle Renier
 10559:Fondamenta Rezzonico
@@ -10562,11 +10060,11 @@
 10561:Rialto Novo
 10562:Calle Richetti
 10563:Calle/Sotoportego del Ridotto
-10564:Rielo
+ 7652:Rielo
 10565:Calle/Fondamenta Riformati
 10566:Calle/Fondamenta/Ponte del Rimedio
 10567:Rio Novo
-10568:Rio Terà
+ 7665:Rio Terà
 10569:Rioda
 10570:Corte/Sotoportego Riva
 10571:Rivetta
@@ -10585,7 +10083,7 @@
 10584:Calle Rovereto
 10585:Corte/Sotoportego Rubbi
 10586:Calle Rubini
-10587:Ruga
+ 7779:Ruga
 10588:Ruga Bela
 10589:Ruga Giuffa
 10590:Ruga Vechia
@@ -10609,12 +10107,12 @@
 10608:Fondamenta del Banco Salviati
 10609:Ramo/Sotoportego Salvioni
 10610:Campo/Piscina/Salizada San Samuele
-10611:San Marco
-10612:San Polo
+ 7888:San Marco
+ 7894:San Polo
 10613:Sangiantoffetti
 10614:Calle del Sangue o del Brocheta
 10615:Calle/Campiello del Sansoni
-10616:Santa Croce
+ 7929:Santa Croce
 10617:Calle/Corte/Sotoportego dei Santi
 10618:Corte/Sotoportego e Corte del Santissimo
 10619:Campiello Santo
@@ -10639,32 +10137,32 @@
 10638:Schiavine
 10639:Calle Schiavolina
 10640:Calle/Ramo/Ramo Seconda Schiavona
-10641:Schiavoni
+ 8077:Schiavoni
 10642:Calle dei Scoacamini
-10643:Scoazzera
+ 8100:Scoazzera
 10644:Scolastica
 10645:Corte Scotti
 10646:Scrimia
 10647:Scudi
 10648:Scuola
 10649:Scuola dei Boteri
-10650:Scuole
+ 8130:Scuole
 10651:Corte/Ramo Corte Scura
 10652:Scuro
-10653:Sebastiano
+ 8145:Sebastiano
 10654:Calle Sechera
 10655:Sechere
 10656:Calle/Campo/Ramo/Rio Terà Sechi
-10657:Calle Seco Marina
+10294:Calle Seco Marina
 10658:Seda
 10659:Calle dei Segretari
 10660:Campiello Riccardo Selvatico
 10661:Corte/Sotoportego Semenzi
-10662:Sensa
+ 8194:Sensa
 10663:Salizada Seriman
 10664:Sernagiotto
 10665:Corte/Sotoportego Servo
-10666:Sette Martiri
+ 8240:Sette Martiri
 10667:Campo/Fondamenta/Ponte San Severo
 10668:Corte/Sotoportego del Duca Sforza
 10669:Sicurtà
@@ -10686,7 +10184,7 @@
 10685:Specchiera
 10686:Salizada dei Spechieri
 10687:Ruga dei Speziali
-10688:Spezier
+ 8405:Spezier
 10689:Calle dei Spini
 10690:Calle/Corte dei Spiriti
 10691:Campiello del Spirito Santo
@@ -10717,7 +10215,7 @@
 10716:Campo Marco Stringari
 10717:Corte/Sotoportego del Strologo
 10718:Strope
-10719:Stua
+ 8513:Stua
 10720:Corte Stupenda
 10721:Calle/Ramo Calle/Sotoportego del Sturion
 10722:Suffragio
@@ -10728,7 +10226,7 @@
 10727:Calle/Corte del Tagiacalse
 10728:Tagiapiera
 10729:Calle/Ramo/Sotoportego Tamossi
-10730:Tana
+ 8584:Tana
 10731:Tasca
 10732:Teatro
 10733:Calle/Corte del Teatro San Moisè
@@ -10739,11 +10237,11 @@
 10738:Terazza
 10739:Calle/Corte Terazzera
 10740:Calle/Campiello del Terco
-10741:Terese
+ 2335:Terese
 10742:Campo Santa Ternita
 10743:Campiello del Terren
 10744:Testa
-10745:Testori
+ 8764:Testori
 10746:Tete
 10747:Tetta
 10748:Calle Gian Battista Tiepolo
@@ -10752,7 +10250,7 @@
 10751:Calle Tintoria
 10752:Calle/Corte/Ramo/Sotoportego Tiozzi
 10753:Calle dei Tiracana
-10754:Tiziano
+ 8808:Tiziano
 10755:Calle/Corte/Sotoportego Todeschini
 10756:Fondamenta Toffetti
 10757:Tolentini
@@ -10764,22 +10262,22 @@
 10763:Torrette
 10764:Calle/Ramo Calle Toscana
 10765:Calle del Tragheto o Garzoni
-10766:Traghetto
+ 8886:Traghetto
 10767:Fondamenta del Traghetto del Buso
 10768:Traghetto San Maurizio
 10769:Calle/Corte/Sotoportego Tramezina
 10770:Corte Tramontin o Basadonna
 10771:Corte/Fondamenta/Sotoportego Trapolin
-10772:Ponte dei Tre Archi
+ 7216:Ponte dei Tre Archi
 10773:Tre Crose
 10774:Ponte dei Tre Ponti
-10775:Tredici Martiri
+ 8902:Tredici Martiri
 10776:Viale Trento
 10777:Treponti
 10778:Campiello Trevisan
 10779:Viale Trieste
 10780:Calle/Corte/Ponte Tron
-10781:Isola Nuova del Tronchetto
+ 8970:Isola Nuova del Tronchetto
 10782:Campo/Ponte San Trovaso
 10783:Ramo del Turchese
 10784:Turchete
@@ -10788,7 +10286,7 @@
 10787:Ponte Ubaldo Belli
 10788:Ufficio de la Seda
 10789:Campo Ugo Foscolo
-10790:Umiltà
+ 2346:Umiltà
 10791:Campiello Regina D’Ungheria
 10792:Uva
 10793:Calle Vallaresso
@@ -10814,10 +10312,10 @@
 10813:Calle Verdi
 10814:Calle del Vergola
 10815:Corte/Sotoportego Verier
-10816:Verona
+ 9229:Verona
 10817:Calle/Sotoportego del Verrocchio
 10818:Veste
-10819:Vicenza
+ 9276:Vicenza
 10820:Vida
 10821:Campo/Campiello San Vidal
 10822:Vigna
@@ -10832,7 +10330,7 @@
 10831:Calle/Ponte Vitturi
 10832:Calle/Sotoportego Vitturi o Falier
 10833:Calle/Ramo Calle dei Volti
-10834:Volto
+ 9377:Volto
 10835:Sotoportego Volto Santo
 10836:Calle/Fondamenta/Sotoportego Widmann
 10837:Calle/Campo/Sotoportego San Zaccaria
@@ -10846,7 +10344,7 @@
 10845:Calle/Sotoportego Zane
 10846:Campo/Salizada Zanipolo
 10847:Corte Zappa
-10848:Zattere
+ 9499:Zattere
 10849:Calle del Zavater
 10850:Fondamenta Zen
 10851:Calle Zinelli
@@ -10856,7 +10354,7 @@
 10855:Corte/Sotoportego Zocchi
 10856:Calle/Sotoportego del Zoccolo
 10857:Ramo del Zocolo
-10858:Zogia
+ 9558:Zogia
 10859:Calle/Ramo del Zolfo
 10860:Calle/Corte/Sotoportego Zon
 10861:Zorzi
