@@ -186,7 +186,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             content = content.substr(pos + 1);
             pos = content.indexOf("#");
             val = content.substr(0, pos);
-            content2 += "<a style='cursor: pointer' onclick=\"openEncycl(&quot;" + val + "&quot;)\">" + val + "</a>";
+            content2 += "<a style='cursor: pointer' onclick=\"openEncycl(&quot;" + val.replace(/ /g, "_") + "&quot;)\">" + val + "</a>";
             content = content.substr(pos + 1);
         }
         

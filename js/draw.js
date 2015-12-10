@@ -6,7 +6,7 @@ var drawTick, drawTicks;
 function draw(canvasState) {
     'use strict';
     
-    var x, rect, start, events, lastYear,
+    var x, y, rect, start, events, lastYear,
         canvas = document.getElementById('axis'),
         ctx = canvas.getContext("2d"),
         w = window,
@@ -35,20 +35,22 @@ function draw(canvasState) {
     events = window.$scope.getEvents();
     events = window.$scope.search ? window.$filter('filter')(events, window.$scope.getFilter()) : events;
     
-    try {
-        for (x = 0; x < events.length; x++) {
-            if (events[x].Year < canvasState.leftSide) {
-                continue;
-            } else if (events[x].Year > canvasState.rightSide) {
-                break;
-            }
-            if (lastYear === events[x].Year) {
-                continue;
-            }
-            drawTick(yearToSliderPos(realSliderPosToSliderPos(events[x].Year)), "", ctx, top, bottom);
-            lastYear = events[x].Year;
-        }
-    } catch (err) {
+	if (window.$scope.zoom !== 3) {
+		try {
+			for (x = 0, y = 0; x < events.length; x++) {
+				if (events[x].Year < canvasState.leftSide) {
+					continue;
+				} else if (events[x].Year > canvasState.rightSide) {
+					break;
+				}
+				if (lastYear === events[x].Year) {
+					continue;
+				}
+				drawTick(yearToSliderPos(realSliderPosToSliderPos(events[x].Year)), "", ctx, top, bottom);
+				y++;
+				lastYear = events[x].Year;
+			}
+		} catch (err) {}
     }
     
     // Start drawing the second bar.
