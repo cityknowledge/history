@@ -234,7 +234,9 @@
                     <input type="text" name="Citation" id="ae_Citation" required><br><br>
                     Luogo dell&#8217;evento:<br>
                     <input type="text" name="Location" id="ae_Location"><br><br>
-                    <!--Immagine:<br>
+                    <!--
+					UNCOMMENT THIS TEXT IN ORDER TO RE-ADD THE IMAGE FIELD TO THE ADD EVENT FORM
+					Immagine:<br>
                     <input type="file" name="Image" id="ae_Image"><br><br>-->
                     URL delle letture suplementari on-line (uno per linea):<br>
                     <textarea rows="6" name="Links" id="ae_Links"></textarea><br><br>
@@ -315,6 +317,7 @@
         <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
         
         <!--OUR SCRIPTS | I NOSTRI SCRIPT-->
+		<!--UNCOMMENT THIS TO USE THE UNMINIFIED SCRIPTS-->
         <script src="js/util.js"></script>
         <script src="js/TimePeriod.js"></script>
 		<script src="js/interceptWheel.js"></script>
@@ -336,5 +339,8 @@
         <script src="js/dates.js"></script>
 		<script src="js/random.js"></script>
         <script src="js/controller.js"></script>
+		<!--
+		<script src="js/min.js"></script>
+		-->
     </body>
 </html>
