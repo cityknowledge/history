@@ -42,7 +42,7 @@ end
 $info = File.new('link_process_info.txt', 'w:utf-8')
 
 #file to output JSON with links
-$linked_data = File.new('linked_data.txt', 'w:utf-8')
+$linked_data = File.new('linked_data.json', 'w:utf-8')
 
 #array to contain regular expressions
 $regex_link_array = Array.new
