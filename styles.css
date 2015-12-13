@@ -79,6 +79,85 @@
 
 /* END UNHOVER ANIMATION */
 
+/* BEGIN SELECTED HOVER ANIMATION FOR BUTTONS */
+@-webkit-keyframes hoverSel {
+    from {
+        background-color: rgba(100, 100, 100, 1);
+    }
+    to {
+        background-color: rgba(120, 120, 120, 1);
+    }
+}
+
+@-moz-keyframes hoverSel {
+    from {
+        background-color: rgba(100, 100, 100, 1);
+    }
+    to {
+        background-color: rgba(120, 120, 120, 1);
+    }
+}
+
+@-o-keyframes hoverSel {
+    from {
+        background-color: rgba(100, 100, 100, 1);
+    }
+    to {
+        background-color: rgba(120, 120, 120, 1);
+    }
+}
+
+@keyframes hoverSel {
+    from {
+        background-color: rgba(100, 100, 100, 1);
+    }
+    to {
+        background-color: rgba(120, 120, 120, 1);
+    }
+}
+
+/* END HOVER ANIMATION */
+
+/* BEGIN UNHOVER ANIMATION */
+
+@-webkit-keyframes unhoverSel {
+    from {
+        background-color: rgba(120, 120, 120, 1);
+    }
+    to {
+        background-color: rgba(100, 100, 100, 1);
+    }
+}
+
+@-moz-keyframes unhoverSel {
+    from {
+        background-color: rgba(120, 120, 120, 1);
+    }
+    to {
+        background-color: rgba(100, 100, 100, 1);
+    }
+}
+
+@-o-keyframes unhoverSel {
+    from {
+        background-color: rgba(120, 120, 120, 1);
+    }
+    to {
+        background-color: rgba(100, 100, 100, 1);
+    }
+}
+
+@keyframes unhoverSel {
+    from {
+        background-color: rgba(120, 120, 120, 1);
+    }
+    to {
+        background-color: rgba(100, 100, 100, 1);
+    }
+}
+
+/* END SELECTED UNHOVER ANIMATION*/
+
 /* BEGIN FADEIN ANIMATION */
 
 @-webkit-keyframes fadein {

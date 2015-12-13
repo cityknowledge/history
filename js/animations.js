@@ -1,24 +1,42 @@
 /*jshint browser: true*/
 /*global $, shouldScroll: true*/
 
-function hover(id) {
+function hover(id, selected) {
     'use strict';
-    $('#' + id)
-        .css("-webkit-animation-name", "hover")
-        .css("-moz-animation-name", "hover")
-        .css("-o-animation-name", "hover")
-        .css('animation-name', 'hover')
-        .css('background-color', 'rgba(120, 120, 120, 1)');
+	if (selected) {
+		$('#' + id)
+			.css("-webkit-animation-name", "hoverSel")
+			.css("-moz-animation-name", "hoverSel")
+			.css("-o-animation-name", "hoverSel")
+			.css("animation-name", "hoverSel")
+			.css("background-color", "rgba(120, 120, 120, 1)");
+	} else {
+		$('#' + id)
+			.css("-webkit-animation-name", "hover")
+			.css("-moz-animation-name", "hover")
+			.css("-o-animation-name", "hover")
+			.css('animation-name', 'hover')
+			.css('background-color', 'rgba(120, 120, 120, 1)');
+	}
 }
 
-function unhover(id) {
+function unhover(id, selected) {
     'use strict';
-    $('#' + id)
-        .css("-webkit-animation-name", "unhover")
-        .css("-moz-animation-name", "unhover")
-        .css("-o-animation-name", "unhover")
-        .css('animation-name', 'unhover')
-        .css('background-color', 'rgba(0, 0, 0, 0)');
+	if (selected) {
+		$("#" + id)
+			.css("-webkit-animation-name", "unhoverSel")
+			.css("-moz-animation-name", "unhoverSel")
+			.css("-o-animation-name", "unhoverSel")
+			.css("animation-name", "unhoverSel")
+			.css("background-color", "rgba(100, 100, 100, 1)");
+	} else {
+		$('#' + id)
+			.css("-webkit-animation-name", "unhover")
+			.css("-moz-animation-name", "unhover")
+			.css("-o-animation-name", "unhover")
+			.css('animation-name', 'unhover')
+			.css('background-color', 'rgba(0, 0, 0, 0)');
+	}
 }
 
 function unobscure() {

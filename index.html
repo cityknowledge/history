@@ -287,12 +287,12 @@
             For the function that handles the hover animation, see animations.js::hover().
             For the function that handles the unhover animation, see animations.js::unhover().
             -->
-            <button data-ng-click="zoomOut()" onmouseover="hover('zoom_out');" onmouseout="unhover('zoom_out');" id="zoom_out"></button>
-            <button data-ng-click="zoomTo(0);" onmouseover="hover('zoom_0');" onmouseout="unhover('zoom_0');" id="zoom_0" title="Mostra i secoli"></button>
-            <button data-ng-click="zoomTo(1);" onmouseover="hover('zoom_1');" onmouseout="unhover('zoom_1');" id="zoom_1" title="Mostra gli eventi importantissimi"></button>
-            <button data-ng-click="zoomTo(2);" onmouseover="hover('zoom_2');" onmouseout="unhover('zoom_2');" id="zoom_2" title="Mostra gli eventi importanti"></button>
-            <button data-ng-click="zoomTo(3);" onmouseover="hover('zoom_3');" onmouseout="unhover('zoom_3');" id="zoom_3" title="Mostra tutti gli eventi"></button>
-            <button data-ng-click="zoomIn()" onmouseover="hover('zoom_in');" onmouseout="unhover('zoom_in');" id="zoom_in"></button>
+            <button data-ng-click="zoomOut()" onmouseover="hover('zoom_out', false);" onmouseout="unhover('zoom_out', false);" id="zoom_out"></button>
+            <button data-ng-click="zoomTo(0);" data-ng-style="{'background-color': zoom !== 0 ? 'rgba(0, 0, 0, 0)' : 'rgba(100, 100, 100, 1)'}" onmouseover="hover('zoom_0', window.$scope.zoom === 0);" onmouseout="unhover('zoom_0', window.$scope.zoom === 0);" id="zoom_0" title="Mostra i secoli"></button>
+            <button data-ng-click="zoomTo(1);" data-ng-style="{'background-color': zoom !== 1 ? 'rgba(0, 0, 0, 0)' : 'rgba(100, 100, 100, 1)'}" onmouseover="hover('zoom_1', window.$scope.zoom === 1);" onmouseout="unhover('zoom_1', window.$scope.zoom === 1);" id="zoom_1" title="Mostra gli eventi importantissimi"></button>
+            <button data-ng-click="zoomTo(2);" data-ng-style="{'background-color': zoom !== 2 ? 'rgba(0, 0, 0, 0)' : 'rgba(100, 100, 100, 1)'}" onmouseover="hover('zoom_2', window.$scope.zoom === 2);" onmouseout="unhover('zoom_2', window.$scope.zoom === 2);" id="zoom_2" title="Mostra gli eventi importanti"></button>
+            <button data-ng-click="zoomTo(3);" data-ng-style="{'background-color': zoom !== 3 ? 'rgba(0, 0, 0, 0)' : 'rgba(100, 100, 100, 1)'}" onmouseover="hover('zoom_3', window.$scope.zoom === 3);" onmouseout="unhover('zoom_3', window.$scope.zoom === 3);" id="zoom_3" title="Mostra tutti gli eventi"></button>
+            <button data-ng-click="zoomIn()" onmouseover="hover('zoom_in', false);" onmouseout="unhover('zoom_in', false);" id="zoom_in"></button>
             <!--END ZOOM BUTTONS-->
         </div>
         <!--END CONTROL BUTTONS COMPONENT-->
