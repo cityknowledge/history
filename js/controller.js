@@ -168,7 +168,7 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             .css("-o-animation-name", "fadein")
             .css("animation-name", "fadein");
         
-        if (event.Image || event.Location) {
+        if (event.Image) {
             string += "<div style=\"float:right;width:50%;display:block;\">";
             if (event.Image) {
                 for (i = 0; i < event.Image.length; i++) {

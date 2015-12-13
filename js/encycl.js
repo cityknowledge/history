@@ -6,8 +6,12 @@ function openEncycl(artname) {
         FB = new Firebase("https://venicedata.firebaseio.com/history_encycl/");
     
     FB.child(artname).on("value", function (snapshot) {
-        document.getElementById("encycltitle").innerHTML = snapshot.Title;
-        document.getElementById("encycl").innerHTML = "<p>" + snapshot.Text + "</p>";
+		var obj = {};
+		snapshot.forEach(function (value) {
+			obj[value.key()] = value.val();
+		})
+        document.getElementById("encycltitle").innerHTML = obj.Caption;
+        document.getElementById("encycl").innerHTML = "<p>" + obj.Content + "</p>";
     });
     
     if ($("div#encycl_wrap").css("display") === "none") {

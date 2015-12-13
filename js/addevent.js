@@ -32,7 +32,6 @@ function addEvent() {
         Date = document.getElementById("ae_Date").value, // Get the date value
         Content = document.getElementById("ae_Content").value, // Get the content value
         Citation = document.getElementById("ae_Citation").value, // Get the citation value
-        Image = document.getElementById("ae_Image").value, // Get the image
         Links = document.getElementById("ae_Links").value.split("\n"), // Generate the links
         Location = document.getElementById("ae_Location"), // Get the location value
         Title = document.getElementById("ae_Title"), // Get the title value
