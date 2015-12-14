@@ -81,7 +81,7 @@ end
 #if(false)
 $link_hit_groups = Array.new
 
-infos = JSON.parse(File.open("data.json", 'r:utf-8').read ); nil
+infos = JSON.parse(File.open("data_img.json", 'r:utf-8').read ); nil
 
 #iterate through the content of each event to search for links
 infos['events'].each{|e|

@@ -250,7 +250,6 @@ $events.each do |event|
   cur_content = event.content.gsub(/- /, '')
   out_file.print '      "Content" : "' + cur_content  + %Q[",\n]
   out_file.print '      "Location" : "' + event.location + %Q[",\n]
-  out_file.print '      "Filter" : "' + %Q[",\n]
   out_file.print '      "UID" : "' + num.to_s + %Q[",\n]
   count_print = '      "Count" : 0,' + %Q[\n]
     if(num < 150)
