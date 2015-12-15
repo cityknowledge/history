@@ -1089,3 +1089,7 @@ form#addevent table td {
 	left: calc(50vw - 330px);
 	z-index: 0;
 }
+
+#searchcomp {
+	top: 10px;
+}
