@@ -37,19 +37,22 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
     FB.createUser({email: 'test@xx.com', password: '123'}, function(e){alert('ok');})
     */
     FB.child('history').on('value', function (snapshot) {
-        var lcent = 0;
+        var item, key,
+			lcent = 0;
         $scope.events = [];
         $scope.centuries = [];
         snapshot.forEach(function (value) {
-            var item = value.val(),
-                key = value.key();
+            item = value.val();
+            key = value.key();
             item.key = key;
             $scope.events.push(item);
             if (item.Year % 100 === 0 && item.Year != lcent) {
                 lcent = item.Year;
                 $scope.centuries.push(item);
             }
+			$scope.firstYear = $scope.firstYear || item.Year;
         });
+		$scope.lastYear = item.Year;
         state = new CanvasState($('canvas')[0]); // a new canvas state based on the newly resized canvas.
         state.drawState();
         document.getElementById("axis").canvasState = state;

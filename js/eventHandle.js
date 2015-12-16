@@ -333,7 +333,13 @@ function CanvasState(canvas) {
             this.clear();
             
             //draw the timeline
-            draw(myState);
+            try {
+				draw(myState);
+			} catch (e) {
+				console.log(e);
+				window.setTimeout(this.drawState, 100);
+				return;
+			}
             
             //draw the schroller
             shape.drawRect(ctx);
