@@ -19,7 +19,9 @@ class Link
     #their start and end
     def overlap(compare)
         if((@start <= compare.end && @start >= compare.start) ||
-                (@end <= compare.end && @end >= compare.start))
+                (@end <= compare.end && @end >= compare.start) ||
+                    (compare.end  <= @end  && compare.end >= @start) ||
+                        (compare.start  <= @end  && compare.start >= @start))
             return true
         else
             return false
@@ -129,7 +131,7 @@ $link_hit_groups.each do |group|
             #if there are already links in this non-overlapping link array 
             #check to see if they overlapp with the new link
             if(link_array.length > 0)
-                #iterate accross eacj link that is already in the non overlapping group
+                #iterate accross each link that is already in the non overlapping group
                 link_array.each do |link_in_group|
                     #if the new link overlaps determine to insert or not
                     if(link.overlap(link_in_group))
@@ -140,7 +142,7 @@ $link_hit_groups.each do |group|
                         else
                             link_array.delete(link_in_group)
                         end
-                    end   
+                    end #end if overlap  
                 end #end link overlap iteration
                 
                 #if the new link is not a junk link(short overlapp) insert it
@@ -148,10 +150,12 @@ $link_hit_groups.each do |group|
                     link_array << link
                 end
                 $junk_flip = false
+                
             #there are no links in this link array so just add the first one
             else
                 link_array << link        
-            end
+            end#end if link_array contains links
+            
         end #end link insertion iteration
         $clean_link_hit_groups << link_array
         $ID += 1
@@ -160,7 +164,7 @@ $link_hit_groups.each do |group|
     else
         $clean_link_hit_groups << link_array
         $ID += 1
-    end
+    end #end if group.length > 0
     
 end #end group array iteration
 
@@ -219,11 +223,28 @@ $info.close
 #test_link5.start = 4
 #test_link5.end = 8
 #
+#test_link6 = Link.new
+#test_link6.start = 5
+#test_link6.end = 6
+#
+#test_link7 = Link.new
+#test_link7.start = 3
+#test_link7.end = 9
+#
+#test_link8 = Link.new
+#test_link8.start = 9
+#test_link8.end = 10
+#
 #puts test_link1.overlap(test_link2)
 #puts test_link1.overlap(test_link3)
 #puts test_link1.overlap(test_link4)
+#puts test_link1.overlap(test_link8)
 #puts test_link1.overlap(test_link5)
 #puts test_link3.overlap(test_link1)
+#
+#puts test_link1.overlap(test_link6)
+#puts test_link1.overlap(test_link7)
+
 
 
 #concat capture test

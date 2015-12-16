@@ -11576,7 +11576,6 @@ Partecipazio[353:365]
 Chiesa di S. Giorgio in Alga[220:248]
 Chiesa di S. Giorgio Maggiore[155:184]
 Giovanni Evangelista[43:63]
-Giorgio[15:22]
 San Giorgio Maggiore[11:31]
 Chiesa[1:7]
 End block #117###################################
@@ -13499,7 +13498,6 @@ Basilica[29:37]
 End block #340###################################
 Begin block #341###################################
 Domenico Selvo[2913:2927]
-Giorgio[1902:1909]
 Leone Giorgio Paleologo[1896:1919]
 Durazzo[1561:1568]
 Valona[1531:1537]
@@ -13830,7 +13828,6 @@ Gerusalemme[119:130]
 Baldovino[102:111]
 End block #377###################################
 Begin block #378###################################
-Piccolo[30720:30727]
 Teatro Piccolo Arsenale[30713:30736]
 Teatro La Fenice[30584:30600]
 Valentino Mazzola[30422:30439]
@@ -15782,7 +15779,6 @@ di Murano[702:711]
 Provveditori alle Biave[608:631]
 Collegio alle Biave[580:599]
 Giustizia Nuova[469:484]
-Beccarie[433:441]
 Ufficiali alle Beccarie e Pubblici Macelli[418:460]
 Legge annonaria[297:312]
 Tiepolo[21:28]
@@ -16476,7 +16472,6 @@ Visdomini al Fontico dei Tedeschi[18:51]
 End block #685###################################
 Begin block #686###################################
 Dogado[72:78]
-Dazio[33:38]
 Ufficiali al Dazio del Vin[20:46]
 End block #686###################################
 Begin block #687###################################
@@ -17630,7 +17625,6 @@ Corfù[231:236]
 Zara[180:184]
 End block #889###################################
 Begin block #890###################################
-Magno[20:25]
 Matteo Magno Visconti[13:34]
 End block #890###################################
 Begin block #891###################################
@@ -20328,7 +20322,6 @@ End block #1390###################################
 Begin block #1391###################################
 End block #1391###################################
 Begin block #1392###################################
-Dieci[551:556]
 Ufficiali sopra i Dieci Uffici[533:563]
 Camera dell’Armamento[96:117]
 Provveditori[67:79]
@@ -20506,7 +20499,6 @@ Polo[44:48]
 Campo[35:40]
 End block #1429###################################
 Begin block #1430###################################
-Maria[31:36]
 Filippo Maria Visconti[23:45]
 End block #1430###################################
 Begin block #1431###################################
@@ -20732,7 +20724,6 @@ Carmagnola[479:489]
 Ravenna[399:406]
 Ferrara[380:387]
 Venezia[345:352]
-Maria[181:186]
 Filippo Maria Visconti[173:195]
 Lodi[139:143]
 Pace[131:135]
@@ -20909,7 +20900,6 @@ Begin block #1524###################################
 Rialto[38:44]
 End block #1524###################################
 Begin block #1525###################################
-Maria[52:57]
 Filippo Maria Visconti[44:66]
 Consiglio dei X[3:18]
 End block #1525###################################
@@ -20957,7 +20947,6 @@ Camerlenghi[1071:1082]
 Senato[878:884]
 Giustizia Nuova[308:323]
 Provveditori[290:302]
-Dazio[272:277]
 Ufficiali al Dazio del Vin[259:285]
 Beccarie[245:253]
 Governatori delle Entrate[84:109]
@@ -21015,7 +21004,6 @@ L[527:528]
 Nicolò[410:416]
 Ancona[304:310]
 Francesco Sforza[272:288]
-Maria[126:131]
 Filippo Maria Visconti[118:140]
 Venezia[89:96]
 End block #1547###################################
@@ -21175,7 +21163,6 @@ Begin block #1582###################################
 End block #1582###################################
 Begin block #1583###################################
 Renier[3035:3041]
-Maria[1820:1825]
 Filippo Maria Visconti[1812:1834]
 Pier[1774:1778]
 Cristoforo[1609:1619]
@@ -21320,7 +21307,6 @@ End block #1611###################################
 Begin block #1612###################################
 Francesco Sforza[678:694]
 di Venezia[172:182]
-Maria[125:130]
 Filippo Maria Visconti[117:139]
 Carmagnola[95:105]
 End block #1612###################################
@@ -21527,7 +21513,6 @@ Crema[626:631]
 Lodi[620:624]
 Repubblica di Venezia[543:564]
 Francesco Sforza[167:183]
-Maria[47:52]
 Filippo Maria Visconti[39:61]
 End block #1661###################################
 Begin block #1662###################################
@@ -21940,7 +21925,6 @@ Contarini[10:19]
 End block #1751###################################
 Begin block #1752###################################
 George Gordon Byron[3340:3359]
-Maria[3242:3247]
 Francesco Maria Piave[3232:3253]
 Giuseppe Verdi[3160:3174]
 Promissione[2793:2804]
@@ -22750,7 +22734,6 @@ End block #1922###################################
 Begin block #1923###################################
 Moro[162:166]
 Ludovico Maria Sforza[130:151]
-Maria[15:20]
 Galeazzo Maria Sforza[6:27]
 End block #1923###################################
 Begin block #1924###################################
@@ -23543,7 +23526,6 @@ End block #2072###################################
 Begin block #2073###################################
 di Venezia[592:602]
 Venezia[44:51]
-Bartolomeo[14:24]
 Luca Bartolomeo Pacioli[9:32]
 End block #2073###################################
 Begin block #2074###################################
@@ -24405,7 +24387,6 @@ Venezia[35:42]
 Lega di Cambrai[12:27]
 End block #2246###################################
 Begin block #2247###################################
-Bartolomeo[35:45]
 Luca Bartolomeo Pacioli[30:53]
 End block #2247###################################
 Begin block #2248###################################
@@ -24413,7 +24394,6 @@ End block #2248###################################
 Begin block #2249###################################
 End block #2249###################################
 Begin block #2250###################################
-Canziano[56:64]
 Teatro di San Canziano ai Biri[42:72]
 Rio Terà[15:23]
 Castello[2:10]
@@ -26476,7 +26456,6 @@ Provveditori in Zecca[896:917]
 Venezia[615:622]
 Senato[264:270]
 Zecca[230:235]
-Ori[196:199]
 Provveditori sopra Ori e Monete[177:208]
 End block #2680###################################
 Begin block #2681###################################
@@ -29785,13 +29764,11 @@ Begin block #3401###################################
 Mestre[502:508]
 Agostiniane[454:465]
 Cannaregio[343:353]
-Gesù[317:321]
 Chiesa di Gesù e Maria[307:329]
 Lana[249:253]
 Campo[237:242]
 Antonio[83:90]
 Candia[59:65]
-Lucia[20:25]
 Angela e Lucia Pasqualigo[11:36]
 End block #3401###################################
 Begin block #3402###################################
@@ -31736,7 +31713,6 @@ End block #3828###################################
 Begin block #3829###################################
 End block #3829###################################
 Begin block #3830###################################
-Calle[109:114]
 Teatro di Calle de l’Oca[99:123]
 Cannaregio[37:47]
 End block #3830###################################
@@ -31779,7 +31755,6 @@ Begin block #3841###################################
 Campanile di S. Marco[27:48]
 End block #3841###################################
 Begin block #3842###################################
-Ca’ Pesaro[26:36]
 di Ca’ Pesaro[23:36]
 End block #3842###################################
 Begin block #3843###################################
@@ -32257,7 +32232,6 @@ Biennale[237:245]
 Domenico Rossi[101:115]
 Canal Grande[78:90]
 Polo[67:71]
-Corner[31:37]
 Ca’ Corner della Regina[27:50]
 End block #3936###################################
 Begin block #3937###################################
@@ -32483,7 +32457,6 @@ Massimiliano d’Austria[1123:1145]
 Eugenio Beauharnais[960:979]
 Napoleone[882:891]
 Palazzo Ducale[814:828]
-Maria[595:600]
 Francesco Maria Preti[585:606]
 Stra[449:453]
 Villa Pisani[418:430]
@@ -32562,7 +32535,6 @@ Begin block #4013###################################
 End block #4013###################################
 Begin block #4014###################################
 Chiesa dei Gesuiti[277:295]
-Corner[235:241]
 Ca’ Corner della Regina[231:254]
 Chiesa di S. Stae[205:222]
 Domenico Rossi[38:52]
@@ -32844,7 +32816,6 @@ End block #4076###################################
 Begin block #4077###################################
 End block #4077###################################
 Begin block #4078###################################
-Dalmazia[40:48]
 Sindici Inquisitori in Dalmazia e Albania[17:58]
 End block #4078###################################
 Begin block #4079###################################
@@ -34039,7 +34010,6 @@ Marco[44:49]
 Memmo[7:12]
 End block #4392###################################
 Begin block #4393###################################
-di Venezia[69:79]
 Mercantili di Venezia e della Terraferma[58:98]
 End block #4393###################################
 Begin block #4394###################################
@@ -34428,7 +34398,6 @@ Francesco Battagia[4316:4334]
 Senato[3953:3959]
 Maggior Consiglio[3760:3777]
 L[2938:2939]
-Giorgio[1592:1599]
 San Giorgio in Alga[1588:1607]
 San Secondo[1573:1584]
 Portosecco[1261:1271]
@@ -36429,7 +36398,6 @@ Begin block #4718###################################
 Venezia[92:99]
 End block #4718###################################
 Begin block #4719###################################
-Maria[67:72]
 Francesco Maria Milesi[57:79]
 di Venezia[29:39]
 End block #4719###################################
@@ -36541,7 +36509,6 @@ Malamocco[4256:4265]
 Don[3820:3823]
 Tomà[3349:3353]
 L[2745:2746]
-Querini[2421:2428]
 Marina Querini Benzon[2414:2435]
 Giordano Bruno[2133:2147]
 Canal Grande[2092:2104]
@@ -37193,7 +37160,6 @@ Giustina Renier[483:498]
 Moisè[347:352]
 Corfù[287:292]
 Isabella Teotochi Albrizzi[215:241]
-Querini[13:20]
 Marina Querini Benzon[6:27]
 End block #4831###################################
 Begin block #4832###################################
@@ -37581,7 +37547,6 @@ End block #4893###################################
 Begin block #4894###################################
 End block #4894###################################
 Begin block #4895###################################
-Pesaro[1115:1121]
 Isacco Pesaro Maurogonato[1108:1133]
 Giuseppe Colucci[1051:1067]
 Giovanni Battista Cavedalis[999:1026]
@@ -37992,7 +37957,6 @@ Sarpi[184:189]
 Paolo Sarpi[178:189]
 Servi[128:133]
 Chiesa[102:108]
-Maria[44:49]
 Anna Maria Marovich[39:58]
 Daniele Canal[23:36]
 End block #4971###################################
@@ -38235,7 +38199,6 @@ Murano[2:8]
 End block #5011###################################
 Begin block #5012###################################
 Daniele Manin[1645:1658]
-Pesaro[1594:1600]
 Isacco Pesaro Maurogonato[1587:1612]
 Gazzettino[1158:1168]
 Veneto[1017:1023]
@@ -38260,7 +38223,6 @@ Attila[531:537]
 Giuseppe Verdi[451:465]
 La Fenice[226:235]
 Venezia[173:180]
-Maria[37:42]
 Francesco Maria Piave[27:48]
 End block #5015###################################
 Begin block #5016###################################
@@ -38502,7 +38464,6 @@ Madonna[403:410]
 Calle[391:396]
 Greci[367:372]
 Salizada[354:362]
-Moro[283:287]
 Marianna Moro Lin[274:291]
 Angelo[265:271]
 Goldoni[158:165]
@@ -38673,7 +38634,6 @@ Guglielmo Pepe[695:709]
 Venezia[686:693]
 Domenico Moro[592:605]
 Alessandro Poerio[518:535]
-Pesaro[491:497]
 Isacco Pesaro Maurogonato[484:509]
 Jacopo Castelli[414:429]
 Giovanni[389:397]
@@ -38683,7 +38643,6 @@ Calle[24:29]
 End block #5081###################################
 Begin block #5082###################################
 Domenico Agostini[92:109]
-Luigi[47:52]
 Giuseppe Luigi Trevisanato[38:64]
 End block #5082###################################
 Begin block #5083###################################
@@ -38728,7 +38687,6 @@ Begin block #5092###################################
 Marco[13:18]
 End block #5092###################################
 Begin block #5093###################################
-Ca’ Pesaro[220:230]
 di Ca’ Pesaro[217:230]
 Venezia[50:57]
 End block #5093###################################
@@ -39158,7 +39116,6 @@ Begin block #5175###################################
 Filippo Calendario[304:322]
 L[291:292]
 Motta di Livenza[57:73]
-Marino[23:29]
 Pompeo Marino Molmenti[16:38]
 Venezia[8:15]
 End block #5175###################################
@@ -39243,7 +39200,6 @@ Marco[993:998]
 Frezzeria[978:987]
 Piscina[970:977]
 Biennale[946:954]
-Piccolo[923:930]
 Teatro Piccolo Arsenale[916:939]
 Gianfranco Spinazzi[818:837]
 Teatro Rossini[543:557]
@@ -39281,7 +39237,6 @@ Giosuè Carducci[1007:1022]
 Ferruccio Macola[552:568]
 Via[312:315]
 Mestre[304:310]
-Carlo[244:249]
 Felice Carlo Emanuele Cavallotti[237:269]
 Stefano[186:193]
 Campo[177:182]
@@ -39481,7 +39436,6 @@ Giuseppe Verdi[28:42]
 End block #5214###################################
 Begin block #5215###################################
 Ca’ Foscari[121:132]
-Ca’ Pesaro[91:101]
 di Ca’ Pesaro[88:101]
 End block #5215###################################
 Begin block #5216###################################
@@ -39863,7 +39817,6 @@ Begin block #5273###################################
 di Venezia[345:355]
 Biennale[336:344]
 Ugo Valeri[39:49]
-Ca’ Pesaro[27:37]
 di Ca’ Pesaro[24:37]
 End block #5273###################################
 Begin block #5274###################################
@@ -40591,7 +40544,6 @@ Celestia[1867:1875]
 Palazzo del Cinema[1823:1841]
 Ca’ Giustinian[1807:1821]
 Canal Grande[1704:1716]
-Corner[1646:1652]
 Ca’ Corner della Regina[1642:1665]
 Wladimiro Dorigo[1575:1591]
 di Venezia[1219:1229]
@@ -40912,7 +40864,7 @@ Museo Correr[45:57]
 Museo del Risorgimento[11:33]
 End block #5465###################################
 Begin block #5466###################################
-Luigi[265:270]
+Pier[260:264]
 Pier Luigi Sopelsa[260:278]
 L[216:217]
 Virgilio Vallot[199:214]
@@ -42677,7 +42629,6 @@ Barba[881:886]
 L[833:834]
 Giambellino[797:808]
 Chiesa di S. Giovanni e Paolo[610:639]
-Luigi[156:161]
 Gian Luigi Rondi[151:167]
 Filippo Longo[94:107]
 Biennale[83:91]
@@ -42749,7 +42700,6 @@ End block #5808###################################
 Begin block #5809###################################
 Biennale[474:482]
 Italiani[303:311]
-Luigi[104:109]
 Gian Luigi Rondi[99:115]
 End block #5809###################################
 Begin block #5810###################################
@@ -43371,7 +43321,6 @@ End block #5930###################################
 Begin block #5931###################################
 Sisto Dalla Palma[231:248]
 Paolo Portoghesi[97:113]
-Luigi[74:79]
 Gian Luigi Rondi[69:85]
 End block #5931###################################
 Begin block #5932###################################
@@ -43430,7 +43379,6 @@ Caserma Pepe[98:110]
 Lagunari[51:59]
 End block #5943###################################
 Begin block #5944###################################
-Luigi[48:53]
 Gian Luigi Rondi[43:59]
 End block #5944###################################
 Begin block #5945###################################
@@ -43483,7 +43431,6 @@ Begin block #5953###################################
 Laguna di Venezia[78:95]
 End block #5953###################################
 Begin block #5954###################################
-Luigi[72:77]
 Gian Luigi Rondi[67:83]
 End block #5954###################################
 Begin block #5955###################################
@@ -43523,7 +43470,6 @@ Begin block #5963###################################
 Aldo Rossi[56:66]
 End block #5963###################################
 Begin block #5964###################################
-Luigi[73:78]
 Gian Luigi Rondi[68:84]
 End block #5964###################################
 Begin block #5965###################################
@@ -43996,7 +43942,6 @@ Palazzo Ducale[579:593]
 Venezia[536:543]
 Achille Bonito Oliva[150:170]
 Raffaello Martelli[120:138]
-Luigi[86:91]
 Gian Luigi Rondi[81:97]
 Biennale d’Arte[4:19]
 End block #6061###################################
@@ -44328,7 +44273,6 @@ End block #6129###################################
 Begin block #6130###################################
 Mostra del Cinema[1928:1945]
 Lido di Venezia[1869:1884]
-Piccolo[1632:1639]
 Teatro Piccolo Arsenale[1625:1648]
 Teatro Verde[1503:1515]
 Arti[883:887]
@@ -44394,7 +44338,6 @@ End block #6138###################################
 Begin block #6139###################################
 Michele[241:248]
 Fondamente Nove[209:224]
-Fondamenta[118:128]
 Teatro Fondamenta Nuove[111:134]
 Vortice[25:32]
 End block #6139###################################
@@ -45096,7 +45039,6 @@ End block #6284###################################
 Begin block #6285###################################
 Venezia[167:174]
 Francesco[120:129]
-Maria[22:27]
 Pier Maria Pasinetti[17:37]
 End block #6285###################################
 Begin block #6286###################################

@@ -17,6 +17,10 @@ infos = JSON.parse( File.open("data_EN.json", 'r:utf-8').read ); nil
 
 infos['entries'].each{|e|
     tag = e['Caption']
+    tag = tag.gsub(/\s\(.+\)/, '')
+    tag = tag.gsub(/\*/, '')  
+    tag = tag.gsub(/d’ /, 'D’')
+    
     tag = tag.gsub(/ /, "_")
     tag = tag.gsub(/[^0-9a-zA-Z_]/, "")
     
