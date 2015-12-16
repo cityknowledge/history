@@ -10,7 +10,7 @@ fs.readFile("../data.json", "utf-8", function (error, data) {
 		while (data.indexOf("\"Count\":1,") >= 0) {
 			data = data.replace("\"Count\":1,", "\"Count\":0,");
 		}
-		while (data.indexOf("\"Count\": 2,") >= 0) {
+		while (data.indexOf("\"Count\":2,") >= 0) {
 			data = data.replace("\"Count\":2,", "\"Count\":0,");
 		}
 		while (data.indexOf("\"Count\":0,") >= 0) {
