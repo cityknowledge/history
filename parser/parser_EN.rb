@@ -1,4 +1,5 @@
 #File which defines the Encyclopedia Parsing Algorithm
+#This algorithm does not create links for articles with "Vedi" another name in them
 #Author: August Beers
 
 #look for Bembo, error with name and content
@@ -155,18 +156,21 @@ out_file.print '  "entries" : [' + "\n"
 $entries.each do |entry|
   out_file.print "    {\n"
   out_file.print '      "Caption" : "' + entry.caption + %Q[",\n]
-  if(entry.id < 10)
-      link_file.print  '    ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
-  elsif(entry.id < 100)
-      link_file.print  '   ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
-  elsif(entry.id < 1000)
-    link_file.print  '  ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
-  elsif(entry.id < 10000)
-    link_file.print  ' ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
-  else
-    link_file.print  entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
-  end
-
+    
+    if(!/( vedi|\Avedi| Vedi|\AVedi)/.match(entry.content[0, 60]))
+      if(entry.id < 10)
+          link_file.print  '    ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
+      elsif(entry.id < 100)
+          link_file.print  '   ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
+      elsif(entry.id < 1000)
+        link_file.print  '  ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
+      elsif(entry.id < 10000)
+        link_file.print  ' ' + entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
+      else
+        link_file.print  entry.id.to_s + ':' + entry.getcleanlink + %Q[\n]
+      end
+    end
+        
   out_file.print '      "Content" : "' + entry.content + %Q[",\n]
   out_file.print %q[    "Citation" : "Distefano, Giovanni. Enciclopedia storica di Venezia. Venice, Italy: Supernova Edizioni srl, 2011. ] + entry.page + %Q["\n]
   out_file.print "    },\n"
