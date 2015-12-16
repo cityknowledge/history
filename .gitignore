@@ -9,7 +9,7 @@
 *.bat
 
 # Minified JavaScript Files
-/js/*min.js
+/js/minjs/*
 
 
 # Word Documents, Except for the todo list
