@@ -41,14 +41,6 @@ function Rectangle(x, y, w, h, fill, img) {
     
 }
 
-
-
-
-function onAxisClick() {
-    'use strict';
-}
-
-
 /*
 Class which difines the current state of a canvas
 */
@@ -63,8 +55,8 @@ function CanvasState(canvas) {
     //the ctx of the canvas
     this.ctx = canvas.getContext('2d');
     
-    this.leftSide = 421;
-    this.rightSide = 2015;
+    this.leftSide = 400;
+    this.rightSide = new Date().getFullYear();
     
     //account for doc padding
     var w = window,
@@ -110,10 +102,10 @@ function CanvasState(canvas) {
     this.slider = new Rectangle(0, 5, 10, 40, "rgba(256, 256, 256, 1)", img);
     var img2 = new Image();
     img2.src = "icon/sla.png";
-    this.left = new Rectangle(0, 60, 10, 40, "rgba(256, 256, 256, 1)", img2);
+    this.left = new Rectangle(22, 60, 10, 40, "rgba(256, 256, 256, 1)", img2);
     var img3 = new Image();
     img3.src = "icon/sra.png";
-    this.right = new Rectangle(t - 22, 60, 10, 40, "rgba(256, 256, 256, 1)", img3);
+    this.right = new Rectangle(t - 44, 60, 10, 40, "rgba(256, 256, 256, 1)", img3);
     //keep trac of if something is being dragged
     this.dragging = false;
     this.dragleft = false;
