@@ -177,6 +177,10 @@ app.controller("controllerTimeline", function ($scope, $http, $filter, $interpol
             }
             string += "</div>";
         }
+		
+		if (event.Location) {
+			string += "<a href=\"http://cartography.veniceprojectcenter.org/?feature=" + encodeURIComponent(event.Location) + "\" target=\"_blank\">" + event.Location + "</a><br>";
+		}
         
         document.getElementById("iptitle").innerHTML = (event.Date + " " + event.Year) + (event.Title ? (": " + event.Title) : "");
         
