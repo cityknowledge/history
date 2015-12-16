@@ -70,8 +70,12 @@ function draw(canvasState, mx, my) {
     }
     
     ctx.fillStyle = "#ffffff";
+	
+	if (window.$scope.firstYear === undefined || window.$scope.lastYear === undefined) {
+		throw new Exception("Too early to call.")
+	}
     
-    for (x = 400; x <= 2015; x += 100) {
+    for (x = parseInt(window.$scope.firstYear, 10); x <= parseInt(window.$scope.lastYear, 10); x += 100) {
         if (x % 200) {
             drawTick(yearToSliderPos(x), "", ctx, top, bottom + 10);
         } else {
