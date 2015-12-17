@@ -22,7 +22,7 @@
     Allows for the population of the page with imported data later on.
     -->
     <body data-ng-app="appTimeline" data-ng-controller="controllerTimeline">
-        <noscript>Questa pagina utilizza JavaScript. Il suo browser non supporta JavaScript, oppure JavaScript è disabilitato. Si preghiamo di permetterlo od usare un altro browser.</noscript>
+        <noscript>Questa pagina utilizza JavaScript. Il tuo browser non supporta JavaScript, oppure JavaScript è disabilitato. Ti preghiamo di attivarlo od usare un altro browser.</noscript>
         <!--BEGIN GOOGLE TRANSLATE COMPONENT
         Includes the Google Translate component on the page.
         Specifies the layout of the component as well as its specific settings.
@@ -45,7 +45,7 @@
                 Segnalibri:
                 <select data-ng-model="filter" onchange="if($('#bkmk')[0].value==='new'){newGroup();}if(document.getElementById('bkmk').value===''){document.getElementById('ppb').disabled=true;}else{document.getElementById('ppb').disabled=false;}" id="bkmk">
                     <option value="" selected>Nessun segnalibro</option>
-                    <option value="all" selected>Tutti i segnalibri</option>
+                    <option value="all" selected>Tutti i tuoi segnalibri</option>
                     <option data-ng-repeat="groups in getGroups()" data-ng-bind="groups" data-ng-attr-value="groups"></option>
                     <option value="new">Nuovo...</option>
                 </select>
@@ -53,7 +53,7 @@
                 Mostra solo i segnalibri: <input type="checkbox" data-ng-model="bkonly">
                 <button type="button" onclick="presentPage();" id=ppb disabled>Scaricare i segnalibri</button>
             </span>
-            <a onclick="toggleAdvSearch();" id=togglebutton title="Mostra o nasconde le opzioni di segnalibri">Segnalibri ></a>
+            <a onclick="toggleAdvSearch();" id=togglebutton title="Mostra o nascondi le opzioni di segnalibri">Segnalibri ></a>
         </div>
         <!--END SEARCH COMPONENT-->
 
@@ -73,17 +73,17 @@
             <!--WPI-->                  <a href="http://wpi.edu" target="_blank" id="wpilink" title="Worcester Polytechnic Institute"></a>
             <!--VPC-->                  <a href="http://veniceprojectcenter.org" target="_blank" id="vpclink" title="Venice Project Center"></a>
             <!--Supernova Edizioni-->   <a href="http://www.supernovaedizioni.it" target="_blank" id="selink" title="Supernova Edizioni srl"></a>
-            <!--Our Team-->             <a href="https://sites.google.com/site/ve15chron/" target="_blank" id="teamlink" title="Website del nostro team"></a>
+            <!--Our Team-->             <a href="https://sites.google.com/site/ve15chron/" target="_blank" id="teamlink" title="Il sito del nostro team"></a>
         </div>
         <!--END NAVBAR COMPONENT-->
 
         <!--BEGIN FUNCTIONBAR COMPONENT-->
         <div id=func class=fadein>
             <!--Login-->                <a id="loginb" onclick="openLogin();" onmouseover="hover('loginb');" onmouseout="unhover('loginb')" title="Effetuare login"></a>
-            <!--Add event-->            <a id="addeventb" onclick="openAEF();" title="Aggiungere un nuovo evento" onmouseover="hover('addeventb');" onmouseout="unhover('addeventb')"></a>
+            <!--Add event-->            <a id="addeventb" onclick="openAEF();" title="Aggiungi un nuovo evento" onmouseover="hover('addeventb');" onmouseout="unhover('addeventb')"></a>
             <!--Logout-->               <a id="logoutb" onclick="logout();" title="Uscire" onmouseover="hover('logoutb');" onmouseout="unhover('logoutb');"></a>
-			<!--Random-->				<a id="random" onclick="random();" title="Andare a un evento casuale" onmouseover="hover('random');" onmouseout="unhover('random');"></a>
-            <!--Credits/Help-->         <a href="crediti.html" target="_blank" id="credlink" title="Crediti ed Informazione" onmouseover="hover('credlink');" onmouseout="unhover('credlink');"></a>
+			<!--Random-->				<a id="random" onclick="random();" title="Evento casuale" onmouseover="hover('random');" onmouseout="unhover('random');"></a>
+            <!--Credits/Help-->         <a href="crediti.html" target="_blank" id="credlink" title="Crediti ed Informazioni" onmouseover="hover('credlink');" onmouseout="unhover('credlink');"></a>
         </div>
         <!--END FUNCTIONBAR COMPONENT-->
         
@@ -133,12 +133,12 @@
         <div id="infopanel_wrap" class=formpanel>
             <div class="bar">
                 <h2 id="iptitle" style="float:left"></h2>
-                <img src="icon/pclose.png" data-ng-mouseup="barAct('close');" title="Chiudere l&#8217;evento">
-                <img src="icon/pright.png" data-ng-mouseup="barAct('next');" title="Andare al prossimo evento">
-                <img src="icon/pleft.png" data-ng-mouseup="barAct('last');" title="Andare allo scorso evento">
-                <img src="icon/bookmark.png" onmouseup="popsticky();" title="Lasciare un segnalibro qua">
+                <img src="icon/pclose.png" data-ng-mouseup="barAct('close');" title="Chiudi l&#8217;evento">
+                <img src="icon/pright.png" data-ng-mouseup="barAct('next');" title="Vai al prossimo evento">
+                <img src="icon/pleft.png" data-ng-mouseup="barAct('last');" title="Vai all&#8217;evento precedente">
+                <img src="icon/bookmark.png" onmouseup="popsticky();" title="Metti un segnalibro">
 				<img src="icon/randomb.png" onmouseup="random();" title="Andare ad un evento casuale">
-                <img src="icon/flag.png" data-ng-if="auth" id="flagbutton" title="Indicare un problema con quest&#8217;evento">
+                <img src="icon/flag.png" data-ng-if="auth" id="flagbutton" title="Indica un problema con quest&#8217;evento">
             </div>
             <div id="infopanel">
             </div>
@@ -148,7 +148,7 @@
         <!--BEGIN STICKY COMPONENT-->
         <div class=formpanel id="sticky_wrap">
             <div class="bar">
-                <img src="icon/pclose.png" onmouseup="closeSticky();" title="Chiudere">
+                <img src="icon/pclose.png" onmouseup="closeSticky();" title="Chiudi">
             </div>
             <div id="stick">
             </div>
@@ -159,7 +159,7 @@
         <div id="encycl_wrap" class="formpanel">
             <div class="bar">
                 <h2 id="encycltitle" style="float:left"></h2>
-                <img src="icon/pclose.png" onmouseup="enclanim();" title="Chiudere l&#8217;enciclopedia">
+                <img src="icon/pclose.png" onmouseup="enclanim();" title="Chiudi l&#8217;enciclopedia">
             </div>
             <div id="encycl">
             </div>
@@ -169,7 +169,7 @@
         <!--BEGIN FORMPANEL COMPONENTS-->
         <div class="formpanel" id="loginform">
             <div class="bar_small">
-                <img src="icon/pclose.png" onmouseup="closeLogin();" title="Chiudere">
+                <img src="icon/pclose.png" onmouseup="closeLogin();" title="Chiudi">
             </div>
             <div>
                 <form id="login">
@@ -184,10 +184,10 @@
         
         <div class="formpanel" id=addeventform_wrap>
             <div class=bar>
-                <img src="icon/pclose.png" onmouseup="closeAEF();" title="Chiudere questo forma">
+                <img src="icon/pclose.png" onmouseup="closeAEF();" title="Chiudi questa pagina">
             </div>
             <div id="addeventform">
-                <h2>Aggiungere un nuovo evento</h2>
+                <h2>Aggiungi un nuovo evento</h2>
                 <form id=addevent>
                     <!--
                     Year | label: Anno | type: number | name: Year | id:ae_Year | required
@@ -242,10 +242,10 @@
 					UNCOMMENT THIS TEXT IN ORDER TO RE-ADD THE IMAGE FIELD TO THE ADD EVENT FORM
 					Immagine:<br>
                     <input type="file" name="Image" id="ae_Image"><br><br>-->
-                    URL delle letture suplementari on-line (uno per linea):<br>
+                    URL per letture suplementari on-line (uno per linea):<br>
                     <textarea rows="6" name="Links" id="ae_Links"></textarea><br><br>
                     <input id="submitae" type=submit onclick="addEvent();"><br><br>
-                    <span class="red">*I campi contrassegnati con l&#8217;asterisco sono richiesti.</span>
+                    <span class="red">*I campi contrassegnati con l&#8217;asterisco sono obbligatori.</span>
                 </form>
             </div>
         </div>
@@ -293,7 +293,7 @@
             -->
             <button data-ng-click="zoomOut()" onmouseover="hover('zoom_out', false);" onmouseout="unhover('zoom_out', false);" id="zoom_out"></button>
             <button data-ng-click="zoomTo(0);" data-ng-style="{'background-color': zoom !== 0 ? 'rgba(0, 0, 0, 0)' : 'rgba(100, 100, 100, 1)'}" onmouseover="hover('zoom_0', window.$scope.zoom === 0);" onmouseout="unhover('zoom_0', window.$scope.zoom === 0);" id="zoom_0" title="Mostra i secoli"></button>
-            <button data-ng-click="zoomTo(1);" data-ng-style="{'background-color': zoom !== 1 ? 'rgba(0, 0, 0, 0)' : 'rgba(100, 100, 100, 1)'}" onmouseover="hover('zoom_1', window.$scope.zoom === 1);" onmouseout="unhover('zoom_1', window.$scope.zoom === 1);" id="zoom_1" title="Mostra gli eventi importantissimi"></button>
+            <button data-ng-click="zoomTo(1);" data-ng-style="{'background-color': zoom !== 1 ? 'rgba(0, 0, 0, 0)' : 'rgba(100, 100, 100, 1)'}" onmouseover="hover('zoom_1', window.$scope.zoom === 1);" onmouseout="unhover('zoom_1', window.$scope.zoom === 1);" id="zoom_1" title="Mostra gli eventi pi&ugrave; importanti"></button>
             <button data-ng-click="zoomTo(2);" data-ng-style="{'background-color': zoom !== 2 ? 'rgba(0, 0, 0, 0)' : 'rgba(100, 100, 100, 1)'}" onmouseover="hover('zoom_2', window.$scope.zoom === 2);" onmouseout="unhover('zoom_2', window.$scope.zoom === 2);" id="zoom_2" title="Mostra gli eventi importanti"></button>
             <button data-ng-click="zoomTo(3);" data-ng-style="{'background-color': zoom !== 3 ? 'rgba(0, 0, 0, 0)' : 'rgba(100, 100, 100, 1)'}" onmouseover="hover('zoom_3', window.$scope.zoom === 3);" onmouseout="unhover('zoom_3', window.$scope.zoom === 3);" id="zoom_3" title="Mostra tutti gli eventi"></button>
             <button data-ng-click="zoomIn()" onmouseover="hover('zoom_in', false);" onmouseout="unhover('zoom_in', false);" id="zoom_in"></button>

@@ -34,7 +34,7 @@ function getTimePeriodFromYear(year) {
 
 var ri = new TimePeriod("L’Impero Romano", 400, 538, {r: 50, g: 30, b: 30}),
     ib = new TimePeriod("L’Impero Bizantino", 539, 727, {r: 89, g: 0, b: 0}),
-    tr = new TimePeriod("Transizione al Autogoverno", 728, 811, {r: 130, g: 0, b: 0}),
+    tr = new TimePeriod("Transizione all’Autogoverno", 728, 811, {r: 130, g: 0, b: 0}),
     br = new TimePeriod("La nascita della Repubblica", 812, 1095, {r: 178, g: 10, b: 10}),
     rr = new TimePeriod("L’ascesa della Repubblica", 1096, 1405, {r: 124, g: 94, b: 14}),
     ga = new TimePeriod("L’epoca d’oro", 1406, 1516, {r: 218, g: 167, b: 30}),

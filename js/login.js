@@ -22,9 +22,9 @@ function login() {
     
     FB.authWithPassword({email: user, password: pass}, function (error, authData) {
         if (error) {
-            window.alert("C'era un errore. Si preghiamo di controllare il suo username e password.");
+            window.alert("C’è un errore. Ti preghiamo di controllare il tuo username e password.");
         } else {
-            window.alert("Il suo login è effettuato con successo.");
+            window.alert("Il tuo login è effettuato con successo.");
             loggedIn();
         }
     });
@@ -34,7 +34,7 @@ function login() {
 function logout() {
     'use strict';
     FB.unauth();
-    window.alert("Lei s'è uscito/a con successo.");
+    window.alert("Sei uscito/a con successo.");
     loggedOut();
     window.$scope.auth = false;
 }

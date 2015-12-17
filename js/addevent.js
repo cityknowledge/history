@@ -39,37 +39,37 @@ function addEvent() {
     
     if (!Year) {
         // Year is empty
-        window.alert("C'era un errore. L'anno è richiesto.");
+        window.alert("C’è un errore. L’anno è obbligatorio.");
         return false;
     }
     if (!Content) {
         // Content is empty
-        window.alert("C'era un errore. Il testo è richiesto.");
+        window.alert("C’è un errore. Il testo è obbligatorio.");
         return false;
     }
     if (!Citation) {
         // Citation is empty
-        window.alert("C'era un errore. La citazione è richiesta.");
+        window.alert("C’è un errore. La citazione è obbligatoria.");
         return false;
     }
     if (Month && months.indexOf(Month.toLowerCase()) < 0) {
         // Month is present, but invalid
-        window.alert("C'era un errore. Il mese non è valido. Deve essere scritto utilizando il suo nome. Per esempio, gennaio, febbraio, etc.");
+        window.alert("C’è un errore. Il mese non è valido. Deve essere scritto utilizando il nome. Per esempio, gennaio, febbraio, etc.");
         return false;
     }
     if (isNaN(Year) || Year < 0) {
         // Year is not a number, or is negative
-        window.alert("C'era un errore. L'anno non è valido. Deve essere un numero positivo.");
+        window.alert("C’è un errore. L’anno non è valido. Deve essere un numero positivo.");
         return false;
     }
     if (Date && (isNaN(Date) || Date <= 0 || Date > 31)) {
         // Date is not a number, or is out of range (1 - 31)
-        window.alert("C'era un errore. La data non è valida. Deve essere una data valida, ovvero un numero tra 0 e 31.");
+        window.alert("C’è un errore. La data non è valida. Deve essere una data valida, oppure un numero tra 0 e 31.");
         return false;
     }
     if (Date && !Month) {
         // Date is present, but month is not
-        window.alert("C'era un errore. Se c'è una data, il mese è richiesto. Lei ha dato una data senz'un mese.");
+        window.alert("C’è un errore. Se c’è una data, il mese è obbligatorio. Hai digitato una data senza un mese.");
         return false;
     }
     
@@ -96,12 +96,12 @@ function addEvent() {
     FB = new Firebase("https://venicedata.firebaseio.com/history");
     FB.push(event, function (error) {
         if (error) {
-            window.alert("C'era un errore. Firebase non poteva aggiungere l'evento. Ha dito questo:\n" + error);
+            window.alert("C’è un errore. Firebase non può aggiungere l’evento. Firebase dice:\n" + error);
             return false;
         }
     });
     
-    window.alert("Il suo evento è aggiungiato.");
+    window.alert("Il tuo evento è aggiunto.");
     
     closeAEF();
     return true;

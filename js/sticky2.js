@@ -8,10 +8,10 @@ function stickyText(text) {
 function stickyButtons(exists, group, key) {
     if (exists) {
         document.getElementById("stickybuttons").innerHTML =
-            "<button onclick=\"addBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;, document.getElementById(&quot;stickytext&quot;).value);closeSticky();\">Aggiornare</button><button onclick=\"closeSticky()\">Annulare</button><button onclick=\"remBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;);closeSticky();\">Cancellare</button>";
+            "<button onclick=\"addBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;, document.getElementById(&quot;stickytext&quot;).value);closeSticky();\">Aggiorna</button><button onclick=\"closeSticky()\">Annula</button><button onclick=\"remBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;);closeSticky();\">Cancella</button>";
     } else {
         document.getElementById("stickybuttons").innerHTML =
-            "<button onclick=\"addBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;,document.getElementById(&quot;stickytext&quot;).value);closeSticky();\">Aggiungere</button><button onclick=\"closeSticky();\">Annulare</button>";
+            "<button onclick=\"addBookmark(&quot;" + group + "&quot;,&quot;" + key + "&quot;,document.getElementById(&quot;stickytext&quot;).value);closeSticky();\">Aggiungi</button><button onclick=\"closeSticky();\">Annula</button>";
     }
 }
 
@@ -45,7 +45,7 @@ function popsticky() {
     text = ls[key] || "";
     
     document.getElementById("stick").innerHTML = 
-        "<h3>Le sue note su quest’evento</h3><p>Potrà leggere queste note dopo; non saranno disponibili al pubblico.</p>Gruppo di segnalibri: <select id=bkgr onchange=\"if(document.getElementById(&quot;bkgr&quot;).value===&quot;new&quot;){newGroup();stickySelect();}else{updateSticky(document.getElementById(&quot;bkgr&quot;).value,&quot;" + key + "&quot;)}\"></select><br><textarea id=stickytext cols=70 rows=15>" + text + "</textarea><br><div id=stickybuttons></div>";
+        "<h3>Le tue note su quest’evento</h3><p>Potrai leggere queste note dopo; non saranno rese pubbliche.</p>Gruppo di segnalibri: <select id=bkgr onchange=\"if(document.getElementById(&quot;bkgr&quot;).value===&quot;new&quot;){newGroup();stickySelect();}else{updateSticky(document.getElementById(&quot;bkgr&quot;).value,&quot;" + key + "&quot;)}\"></select><br><textarea id=stickytext cols=70 rows=15>" + text + "</textarea><br><div id=stickybuttons></div>";
     
     stickySelect();
     
