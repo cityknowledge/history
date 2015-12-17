@@ -51,7 +51,7 @@ $current_id = 0
 
 #begin parse algorithm which populates the entries array
 #Iterate accross each link of the encyclopedia text file
-File.open('EN_with_@.txt', 'r:utf-8').each_line do |line|
+File.open('Encyclopedia_Text_File.txt', 'r:utf-8').each_line do |line|
 
   #if a number that is the only text on a line
     #look for page num ers

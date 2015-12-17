@@ -129,7 +129,7 @@ $flip = true
 
 #begin parse algorithm
 #Read trough each link of the atlas text file
-File.open('AD_no_image_text.txt', 'r:utf-8').each_line do |line|
+File.open('Atlas_Text_File.txt', 'r:utf-8').each_line do |line|
 
     #if a number is the only text on a line we have found either a year or a page
   if(/\A\d+\Z/.match(line))
