@@ -28,7 +28,7 @@ function main2() {
     event.Content = event.Content.slice(0, event.Content.indexOf("<br /><br /><br />"));
     event.Content = event.Content.replace(/<[^>]+>/g, " ");
     console.log(event);
-    FB.child("history_testing").child(feed.items[0].date.toString().replace(/ |\.|#|$|\[|\]/g, "")).update(event, function (error) {
+    FB.child("history").child(feed.items[0].date.toString().replace(/ |\.|#|$|\[|\]/g, "")).update(event, function (error) {
         if (error) {
             console.log(error);
         } else {
