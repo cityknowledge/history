@@ -1,4 +1,6 @@
 #.tif remover
+#a utility script that removes links to .tiff files from json data
+#Author: August Beers
 
 require 'json'
 

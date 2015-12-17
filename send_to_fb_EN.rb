@@ -13,7 +13,7 @@ KEY = ENV["FB_KEY"]
 FB = Firebase::Client.new(SRC, KEY); nil
 #This is where we delette the old data
 #FB.delete('history')
-infos = JSON.parse( File.open("data_EN.json", 'r:utf-8').read ); nil
+infos = JSON.parse( File.open("encyclopedia_data.json", 'r:utf-8').read ); nil
 
 infos['entries'].each{|e|
     tag = e['Caption']

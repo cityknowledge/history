@@ -1,11 +1,13 @@
 #File which reads the Json data produced by the atlas parser,
-#compares it to the link file and then produces no data with
+#compares it to the link file produced by the encyclopedia parser and then produces 
+#new json with links inserted into the content of the events
 #to Encyclopedia events
 #Author: August Beers
 
 require 'json'
 
 
+#The link class stores all of the information about each link inserted in the atlas
 class Link
   def initialize()
       @reg_ex = nil
