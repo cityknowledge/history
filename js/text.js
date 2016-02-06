@@ -13,7 +13,11 @@ function genFile(joiner) {
            if (event.key === mark) {
                list.push(event.Date + event.Year);
                list.push(event.Content.replace(/@|#/g, ""));
-               list.push("Note: " + getBookmarkText(window.$scope.filter, mark));
+               var text = getBookmarkText(window.$scope.filter, mark);
+               if (joiner === "<br>") {
+                   text = text.replace(/\&/g, "&amp;").replace(/</g, "&lt;");
+               }
+               list.push("Note: " + text);
                list.push("Citazione: " + event.Citation);
                list.push("");
                list.push("");
